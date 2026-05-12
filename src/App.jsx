@@ -13,29 +13,88 @@ function shuffleArray(array) {
 
 export default function App() {
   const [words, setWords] = useState([]);
+  const [verbs, setVerbs] = useState([]);
+  const [mode, setMode] = useState("words");
+
   const [index, setIndex] = useState(0);
   const [show, setShow] = useState(false);
+
   const [selectedArticle, setSelectedArticle] = useState("all");
 
   useEffect(() => {
     fetch("/words.json")
       .then((res) => res.json())
       .then((data) => setWords(shuffleArray(data)));
-  }, []);
 
-  if (words.length === 0) {
-    return <div style={styles.loading}>Загрузка...</div>;
-  }
+    fetch("/verbs.json")
+      .then((res) => res.json())
+      .then((data) => setVerbs(shuffleArray(data)));
+  }, []);
 
   const filteredWords = words.filter((word) => {
     return selectedArticle === "all" || word.article === selectedArticle;
   });
 
-  if (filteredWords.length === 0) {
-    return (
-      <div style={styles.page}>
+  const currentList =
+    mode === "words" ? filteredWords : verbs;
+
+  if (currentList.length === 0) {
+    return <div style={styles.loading}>Загрузка...</div>;
+  }
+
+  const item = currentList[index];
+
+  function next() {
+    setShow(false);
+    setIndex((prev) => (prev + 1) % currentList.length);
+  }
+
+  function prev() {
+    setShow(false);
+    setIndex((prev) => (prev - 1 + currentList.length) % currentList.length);
+  }
+
+  function changeMode(newMode) {
+    setMode(newMode);
+    setIndex(0);
+    setShow(false);
+  }
+
+  return (
+    <div style={styles.page}>
+      <div style={styles.header}>
         <h1 style={styles.title}>Deutsch Trainer</h1>
 
+        <p style={styles.counter}>
+          {index + 1} / {currentList.length}
+        </p>
+      </div>
+
+      <div style={styles.modeButtons}>
+        <button
+          style={
+            mode === "words"
+              ? styles.activeModeButton
+              : styles.modeButton
+          }
+          onClick={() => changeMode("words")}
+        >
+          Слова
+        </button>
+
+        <button
+          style={
+            mode === "verbs"
+              ? styles.activeModeButton
+              : styles.modeButton
+          }
+          onClick={() => changeMode("verbs")}
+        >
+          Глаголы
+        </button>
+      </div>
+
+      {mode === "words" && (
         <div style={styles.articleButtons}>
           {["all", "der", "die", "das"].map((article) => (
             <button
@@ -55,101 +114,130 @@ export default function App() {
             </button>
           ))}
         </div>
-
-        <p style={{ textAlign: "center", fontSize: 24 }}>
-          Нет слов с таким артиклем.
-        </p>
-      </div>
-    );
-  }
-
-  const word = filteredWords[index];
-
-  function next() {
-    setShow(false);
-    setIndex((prev) => (prev + 1) % filteredWords.length);
-  }
-
-  function prev() {
-    setShow(false);
-    setIndex((prev) => (prev - 1 + filteredWords.length) % filteredWords.length);
-  }
-
-  return (
-    <div style={styles.page}>
-      <div style={styles.header}>
-        <h1 style={styles.title}>Deutsch Trainer</h1>
-        <p style={styles.counter}>
-          {index + 1} / {filteredWords.length}
-        </p>
-      </div>
-
-      <div style={styles.articleButtons}>
-        {["all", "der", "die", "das"].map((article) => (
-          <button
-            key={article}
-            style={
-              selectedArticle === article
-                ? styles.activeArticleButton
-                : styles.articleButton
-            }
-            onClick={() => {
-              setSelectedArticle(article);
-              setIndex(0);
-              setShow(false);
-            }}
-          >
-            {article === "all" ? "Все" : article}
-          </button>
-        ))}
-      </div>
+      )}
 
       <div style={styles.progressOuter}>
         <div
           style={{
             ...styles.progressInner,
-            width: `${((index + 1) / filteredWords.length) * 100}%`,
+            width: `${((index + 1) / currentList.length) * 100}%`,
           }}
         />
       </div>
 
-      <div style={styles.card} onClick={() => setShow(!show)}>
+      <div
+        style={styles.card}
+        onClick={() => setShow(!show)}
+      >
         {!show ? (
           <>
-            <p style={styles.label}>Немецкий</p>
-            <div style={styles.mainWord}>{word.de}</div>
-            <p style={styles.hint}>Нажми, чтобы увидеть перевод</p>
+            <p style={styles.label}>
+              {mode === "words"
+                ? "Немецкое слово"
+                : "Немецкий глагол"}
+            </p>
+
+            <div style={styles.mainWord}>
+              {mode === "words"
+                ? item.de
+                : item.infinitive}
+            </div>
+
+            <p style={styles.hint}>
+              Нажми, чтобы увидеть перевод
+            </p>
           </>
-        ) : (
+        ) : mode === "words" ? (
           <>
             <p style={styles.label}>Русский</p>
-            <div style={styles.mainWord}>{word.ru}</div>
+
+            <div style={styles.mainWord}>
+              {item.ru}
+            </div>
 
             <div style={styles.infoBox}>
               <div>
-                <p style={styles.smallLabel}>Артикль</p>
-                <p style={styles.infoText}>{word.article}</p>
+                <p style={styles.smallLabel}>
+                  Артикль
+                </p>
+
+                <p style={styles.infoText}>
+                  {item.article}
+                </p>
               </div>
 
               <div>
-                <p style={styles.smallLabel}>Мн. число</p>
-                <p style={styles.infoText}>{word.plural}</p>
+                <p style={styles.smallLabel}>
+                  Мн. число
+                </p>
+
+                <p style={styles.infoText}>
+                  {item.plural}
+                </p>
               </div>
+            </div>
+          </>
+        ) : (
+          <>
+            <p style={styles.label}>
+              Русский перевод
+            </p>
+
+            <div style={styles.mainWord}>
+              {item.ru}
+            </div>
+
+            <div style={styles.verbBox}>
+              {Object.entries(item.conjugation).map(
+                ([person, form]) => (
+                  <div
+                    key={person}
+                    style={styles.verbRow}
+                  >
+                    <span style={styles.person}>
+                      {person}
+                    </span>
+
+                    <span style={styles.form}>
+                      {form}
+                    </span>
+                  </div>
+                )
+              )}
+            </div>
+
+            <div style={styles.exampleBox}>
+              <p style={styles.exampleDe}>
+                {item.example_de}
+              </p>
+
+              <p style={styles.exampleRu}>
+                {item.example_ru}
+              </p>
             </div>
           </>
         )}
       </div>
 
       <div style={styles.buttons}>
-        <button style={styles.secondaryButton} onClick={prev}>
+        <button
+          style={styles.secondaryButton}
+          onClick={prev}
+        >
           Назад
         </button>
 
-        <button style={styles.mainButton} onClick={() => setShow(!show)}>
+        <button
+          style={styles.mainButton}
+          onClick={() => setShow(!show)}
+        >
           Перевернуть
         </button>
 
-        <button style={styles.secondaryButton} onClick={next}>
+        <button
+          style={styles.secondaryButton}
+          onClick={next}
+        >
           Дальше
         </button>
       </div>
@@ -197,6 +285,36 @@ const styles = {
     margin: 0,
   },
 
+  modeButtons: {
+    maxWidth: 700,
+    margin: "0 auto 16px",
+    display: "grid",
+    gridTemplateColumns: "1fr 1fr",
+    gap: 10,
+  },
+
+  modeButton: {
+    padding: "12px 16px",
+    borderRadius: 18,
+    border: "1px solid #cbd5e1",
+    background: "white",
+    color: "#111",
+    fontSize: 18,
+    fontWeight: 700,
+    cursor: "pointer",
+  },
+
+  activeModeButton: {
+    padding: "12px 16px",
+    borderRadius: 18,
+    border: "1px solid #38bdf8",
+    background: "#38bdf8",
+    color: "#0f172a",
+    fontSize: 18,
+    fontWeight: 700,
+    cursor: "pointer",
+  },
+
   articleButtons: {
     maxWidth: 700,
     margin: "0 auto 24px",
@@ -223,107 +341,6 @@ const styles = {
     background: "#38bdf8",
     color: "#0f172a",
     fontSize: 16,
-    fontWeight: 700,
-    cursor: "pointer",
-  },
-
-  progressOuter: {
-    maxWidth: 700,
-    height: 10,
-    background: "#334155",
-    borderRadius: 999,
-    margin: "0 auto 32px",
-    overflow: "hidden",
-  },
-
-  progressInner: {
-    height: "100%",
-    background: "#38bdf8",
-    borderRadius: 999,
-    transition: "width 0.3s ease",
-  },
-
-  card: {
-    maxWidth: 700,
-    minHeight: 420,
-    margin: "0 auto",
-    background: "#78aee1",
-    borderRadius: 28,
-    boxShadow: "0 20px 60px rgba(0,0,0,0.35)",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-    textAlign: "center",
-    padding: 32,
-    cursor: "pointer",
-    boxSizing: "border-box",
-  },
-
-  label: {
-    fontSize: 20,
-    color: "#2e343d",
-    marginBottom: 24,
-  },
-
-  mainWord: {
-    fontSize: 44,
-    fontWeight: 800,
-    lineHeight: 1.1,
-  },
-
-  hint: {
-    marginTop: 14,
-    fontSize: 20,
-    color: "#4b515a",
-  },
-
-  infoBox: {
-    marginTop: 40,
-    display: "grid",
-    gridTemplateColumns: "1fr 1fr",
-    gap: 20,
-    width: "100%",
-  },
-
-  smallLabel: {
-    color: "#2e343d",
-    fontSize: 16,
-    marginBottom: 8,
-  },
-
-  infoText: {
-    fontSize: 30,
-    fontWeight: 700,
-    margin: 0,
-  },
-
-  buttons: {
-    maxWidth: 700,
-    margin: "32px auto 0",
-    display: "grid",
-    gridTemplateColumns: "1fr 1.4fr 1fr",
-    gap: 12,
-  },
-
-  mainButton: {
-    padding: "14px 14px",
-    borderRadius: 18,
-    border: "none",
-    background: "#38bdf8",
-    color: "#0f172a",
-    fontSize: 20,
-    fontWeight: 700,
-    cursor: "pointer",
-  },
-
-  secondaryButton: {
-    padding: "10px 10px",
-    borderRadius: 18,
-    border: "1px solid #475569",
-    background: "#1e293b",
-    color: "white",
-    fontSize: 20,
     fontWeight: 700,
     cursor: "pointer",
   },
