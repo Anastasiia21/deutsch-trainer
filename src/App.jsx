@@ -344,4 +344,139 @@ const styles = {
     fontWeight: 700,
     cursor: "pointer",
   },
+  card: {
+  maxWidth: 700,
+  minHeight: 480,
+  margin: "0 auto",
+  background: "#78aee1",
+  borderRadius: 28,
+  boxShadow: "0 20px 60px rgba(0,0,0,0.35)",
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "center",
+  alignItems: "center",
+  textAlign: "center",
+  padding: 32,
+  cursor: "pointer",
+  boxSizing: "border-box",
+},
+
+label: {
+  fontSize: 20,
+  color: "#2e343d",
+  marginBottom: 24,
+},
+
+mainWord: {
+  fontSize: 44,
+  fontWeight: 800,
+  lineHeight: 1.1,
+  color: "white",
+},
+
+hint: {
+  marginTop: 14,
+  fontSize: 20,
+  color: "#4b515a",
+},
+
+infoBox: {
+  marginTop: 40,
+  display: "grid",
+  gridTemplateColumns: "1fr 1fr",
+  gap: 20,
+  width: "100%",
+},
+
+smallLabel: {
+  color: "#2e343d",
+  fontSize: 16,
+  marginBottom: 8,
+},
+
+infoText: {
+  fontSize: 30,
+  fontWeight: 700,
+  margin: 0,
+  color: "white",
+},
+
+verbBox: {
+  marginTop: 26,
+  width: "100%",
+  maxWidth: 420,
+  display: "grid",
+  gap: 8,
+},
+
+verbRow: {
+  display: "flex",
+  justifyContent: "space-between",
+  background: "rgba(255,255,255,0.35)",
+  borderRadius: 14,
+  padding: "8px 14px",
+  fontSize: 20,
+},
+
+person: {
+  fontWeight: 700,
+  color: "#1f2937",
+},
+
+form: {
+  fontWeight: 800,
+  color: "#0f172a",
+},
+
+exampleBox: {
+  marginTop: 24,
+  background: "rgba(255,255,255,0.35)",
+  borderRadius: 18,
+  padding: 16,
+  width: "100%",
+  maxWidth: 520,
+},
+
+exampleDe: {
+  fontSize: 22,
+  fontWeight: 800,
+  margin: "0 0 8px",
+  color: "#0f172a",
+},
+
+exampleRu: {
+  fontSize: 18,
+  margin: 0,
+  color: "#1f2937",
+},
+
+buttons: {
+  maxWidth: 700,
+  margin: "32px auto 0",
+  display: "grid",
+  gridTemplateColumns: "1fr 1.4fr 1fr",
+  gap: 12,
+},
+
+mainButton: {
+  padding: "14px 14px",
+  borderRadius: 18,
+  border: "none",
+  background: "#38bdf8",
+  color: "#0f172a",
+  fontSize: 20,
+  fontWeight: 700,
+  cursor: "pointer",
+},
+
+secondaryButton: {
+  padding: "10px 10px",
+  borderRadius: 18,
+  border: "1px solid #475569",
+  background: "#1e293b",
+  color: "white",
+  fontSize: 20,
+  fontWeight: 700,
+  cursor: "pointer",
+},
 };
