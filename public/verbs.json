@@ -1,0 +1,16 @@
+[
+  {
+    "de": "gehen",
+    "ru": "идти",
+    "conjugation": {
+      "ich": "gehe",
+      "du": "gehst",
+      "er/sie/es": "geht",
+      "wir": "gehen",
+      "ihr": "geht",
+      "sie/Sie": "gehen"
+    },
+    "example_de": "Ich gehe nach Hause.",
+    "example_ru": "Я иду домой."
+  }
+]
