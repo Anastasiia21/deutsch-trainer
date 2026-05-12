@@ -15,27 +15,64 @@ export default function App() {
   const [words, setWords] = useState([]);
   const [index, setIndex] = useState(0);
   const [show, setShow] = useState(false);
+  const [selectedArticle, setSelectedArticle] = useState("all");
 
   useEffect(() => {
-  fetch("/words.json")
-    .then((res) => res.json())
-    .then((data) => setWords(shuffleArray(data)));
+    fetch("/words.json")
+      .then((res) => res.json())
+      .then((data) => setWords(shuffleArray(data)));
   }, []);
 
   if (words.length === 0) {
     return <div style={styles.loading}>Загрузка...</div>;
   }
 
-  const word = words[index];
+  const filteredWords = words.filter((word) => {
+    return selectedArticle === "all" || word.article === selectedArticle;
+  });
+
+  if (filteredWords.length === 0) {
+    return (
+      <div style={styles.page}>
+        <h1 style={styles.title}>Deutsch Trainer</h1>
+
+        <div style={styles.articleButtons}>
+          {["all", "der", "die", "das"].map((article) => (
+            <button
+              key={article}
+              style={
+                selectedArticle === article
+                  ? styles.activeArticleButton
+                  : styles.articleButton
+              }
+              onClick={() => {
+                setSelectedArticle(article);
+                setIndex(0);
+                setShow(false);
+              }}
+            >
+              {article === "all" ? "Все" : article}
+            </button>
+          ))}
+        </div>
+
+        <p style={{ textAlign: "center", fontSize: 24 }}>
+          Нет слов с таким артиклем.
+        </p>
+      </div>
+    );
+  }
+
+  const word = filteredWords[index];
 
   function next() {
     setShow(false);
-    setIndex((prev) => (prev + 1) % words.length);
+    setIndex((prev) => (prev + 1) % filteredWords.length);
   }
 
   function prev() {
     setShow(false);
-    setIndex((prev) => (prev - 1 + words.length) % words.length);
+    setIndex((prev) => (prev - 1 + filteredWords.length) % filteredWords.length);
   }
 
   return (
@@ -43,15 +80,35 @@ export default function App() {
       <div style={styles.header}>
         <h1 style={styles.title}>Deutsch Trainer</h1>
         <p style={styles.counter}>
-          {index + 1} / {words.length}
+          {index + 1} / {filteredWords.length}
         </p>
+      </div>
+
+      <div style={styles.articleButtons}>
+        {["all", "der", "die", "das"].map((article) => (
+          <button
+            key={article}
+            style={
+              selectedArticle === article
+                ? styles.activeArticleButton
+                : styles.articleButton
+            }
+            onClick={() => {
+              setSelectedArticle(article);
+              setIndex(0);
+              setShow(false);
+            }}
+          >
+            {article === "all" ? "Все" : article}
+          </button>
+        ))}
       </div>
 
       <div style={styles.progressOuter}>
         <div
           style={{
             ...styles.progressInner,
-            width: `${((index + 1) / words.length) * 100}%`,
+            width: `${((index + 1) / filteredWords.length) * 100}%`,
           }}
         />
       </div>
@@ -112,9 +169,8 @@ const styles = {
 
   loading: {
     minHeight: "100vh",
-
     background: "#f5f5f7",
-    color: "white",
+    color: "#111",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
@@ -139,6 +195,36 @@ const styles = {
     fontSize: 20,
     color: "#cbd5e1",
     margin: 0,
+  },
+
+  articleButtons: {
+    maxWidth: 700,
+    margin: "0 auto 24px",
+    display: "flex",
+    gap: 10,
+    flexWrap: "wrap",
+    justifyContent: "center",
+  },
+
+  articleButton: {
+    padding: "10px 16px",
+    borderRadius: 999,
+    border: "1px solid #cbd5e1",
+    background: "white",
+    color: "#111",
+    fontSize: 16,
+    cursor: "pointer",
+  },
+
+  activeArticleButton: {
+    padding: "10px 16px",
+    borderRadius: 999,
+    border: "1px solid #38bdf8",
+    background: "#38bdf8",
+    color: "#0f172a",
+    fontSize: 16,
+    fontWeight: 700,
+    cursor: "pointer",
   },
 
   progressOuter: {
