@@ -151,5 +151,117 @@
 },
 "example_de": "Ich gehe nach Hause.",
 "example_ru": "Я иду домой."
+},
+{
+"de": "gehen",
+"ru": "идти / идти",
+"conjugation": {
+"ich": "gehe",
+"du": "gehst",
+"er/sie/es": "geht",
+"wir": "gehen",
+"ihr": "gehst",
+"sie/Sie": "gehen"
+},
+"example_de": "Er geht nach Hause.",
+"example_ru": "Он идет домой."
+},
+{
+"de": "hoffen",
+"ru": "ожидать / ждать",
+"conjugation": {
+"ich": "hoffe",
+"du": "hoffst",
+"er/sie/es": "hofft",
+"wir": "hoffen",
+"ihr": "hofft",
+"sie/Sie": "hOFFEN"
+},
+"example_de": "Sie hofft auf Erfolg.",
+"example_ru": "Она ждёт успеха."
+},
+{
+"de": "helfen",
+"ru": "помочь / помочь",
+"conjugation": {
+"ich": "helfe",
+"du": "hilfst",
+"er/sie/es": "hilft",
+"wir": "helfen",
+"ihr": "helft",
+"sie/Sie": "helfen"
+},
+"example_de": "Wir helfen dir mit der Hausarbeit.",
+"example_ru": "Мы помогаем тебе с домашним заданием."
+},
+{
+"de": "fahren",
+"ru": "ехать / ездить",
+"conjugation": {
+"ich": "fahre",
+"du": "fährst",
+"er/sie/es": "fährt",
+"wir": "fahren",
+"ihr": "fahrt",
+"sie/Sie": "fahren"
+},
+"example_de": "Sie fährt nach Berlin.",
+"example_ru": "Она едет в Берлин."
+},
+{
+"de": "essen",
+"ru": "есть / есть",
+"conjugation": {
+"ich": "esse",
+"du": "isst",
+"er/sie/es": "ist",
+"wir": "essen",
+"ihr": "isst",
+"sie/Sie": "essen"
+},
+"example_de": "Er isst Pizza.",
+"example_ru": "Он ест пиццу."
+},
+{
+"de": "trinken",
+"ru": "пить / пить",
+"conjugation": {
+"ich": "trinke",
+"du": "trinkst",
+"er/sie/es": "trinkt",
+"wir": "trinken",
+"ihr": "trinkt",
+"sie/Sie": "trinken"
+},
+"example_de": "Sie trinkt Wasser.",
+"example_ru": "Она пьёт воду."
+},
+{
+"de": "leben",
+"ru": "жить / жить",
+"conjugation": {
+"ich": "lebe",
+"du": "lebst",
+"er/sie/es": "lebt",
+"wir": "leben",
+"ihr": "lebt",
+"sie/Sie": "leben"
+},
+"example_de": "Wir leben in Berlin.",
+"example_ru": "Мы живём в Берлине."
+},
+{
+"de": "lieben",
+"ru": "любить / любить",
+"conjugation": {
+"ich": "liebe",
+"du": "liebst",
+"er/sie/es": "liebt",
+"wir": "lieben",
+"ihr": "liebt",
+"sie/Sie": "lieben"
+},
+"example_de": "Er liebt seine Frau.",
+"example_ru": "Он любит свою жену."
 }
 ]
