@@ -12,5 +12,19 @@
     },
     "example_de": "Ich gehe nach Hause.",
     "example_ru": "Я иду домой."
-  }
+  },
+  {
+    "de": "bleiben",
+    "ru": "оставаться / оставаться",
+    "conjugation": {
+     "ich": "bleibe",
+     "du": "bleibst",
+     "er/sie/es": "bleibt",
+     "wir": "bleiben",
+     "ihr": "bleibt", 
+     "sie/Sie": "bleiben"
+},
+    "example_de": "Ich bleibe hier.",
+    "example_ru": "Я остаюсь здесь."
+}
 ]
