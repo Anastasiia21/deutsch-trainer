@@ -138,9 +138,7 @@ export default function App() {
             </p>
 
             <div style={styles.mainWord}>
-              {mode === "words"
-                ? item.de
-                : item.infinitive}
+              {mode === "words" ? item.de : item.infinitive || item.de}
             </div>
 
             <p style={styles.hint}>
