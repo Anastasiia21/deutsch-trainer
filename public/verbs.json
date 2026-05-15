@@ -26,5 +26,130 @@
 },
     "example_de": "Ich bleibe hier.",
     "example_ru": "Я остаюсь здесь."
+},
+  {
+    "de": "bleiben",
+    "ru": "оставаться / оставаться",
+    "conjugation": {
+     "ich": "bleibe",
+     "du": "bleibst",
+     "er/sie/es": "bleibt",
+     "wir": "bleiben",
+     "ihr": "bleibt", 
+     "sie/Sie": "bleiben"
+},
+    "example_de": "Ich bleibe hier.",
+    "example_ru": "Я остаюсь здесь."
+},
+{
+"de": "essen",
+"ru": "есть / есть",
+"conjugation": {
+"ich": "esse",
+"du": "isst",
+"er/sie/es": "isst",
+"wir": "essen",
+"ihr": "esst",
+"sie/Sie": "essen"
+},
+"example_de": "Ich esse gerne.",
+"example_ru": "Я ем с удовольствием."
+},
+{
+"de": "trinken",
+"ru": "пить / пить",
+"conjugation": {
+"ich": "trinke",
+"du": "trinkst",
+"er/sie/es": "trinkt",
+"wir": "trinken",
+"ihr": "trinkt",
+"sie/Sie": "trinken"
+},
+"example_de": "Wir trinken Wasser.",
+"example_ru": "Мы пьем воду."
+},
+{
+"de": "leben",
+"ru": "жить / жить",
+"conjugation": {
+"ich": "lebe",
+"du": "lebst",
+"er/sie/es": "lebt",
+"wir": "leben",
+"ihr": "lebt",
+"sie/Sie": "leben"
+},
+"example_de": "Ich lebe in Berlin.",
+"example_ru": "Я живу в Берлине."
+},
+{
+"de": "lieben",
+"ru": "любить / любить",
+"conjugation": {
+"ich": "liebe",
+"du": "liebst",
+"er/sie/es": "liebt",
+"wir": "lieben",
+"ihr": "liebt",
+"sie/Sie": "lieben"
+},
+"example_de": "Sie liebt ihren Mann.",
+"example_ru": "Она любит своего мужа."
+},
+{
+"de": "fahren",
+"ru": "ехать / ездить",
+"conjugation": {
+"ich": "fahre",
+"du": "fährst",
+"er/sie/es": "fährt",
+"wir": "fahren",
+"ihr": "fahrt",
+"sie/Sie": "fahren"
+},
+"example_de": "Ich fahre nach Berlin.",
+"example_ru": "Я еду в Берлин."
+},{
+"de": "hoffen",
+"ru": "ожидать / ждать",
+"conjugation": {
+"ich": "hoffe",
+"du": "hoffst",
+"er/sie/es": "hofft",
+"wir": "hoffen",
+"ihr": "hofft",
+"sie/Sie": "hOFFEN"
+},
+"example_de": "Ich hoffe auf Erfolg.",
+"example_ru": "Я жду успеха."
+},
+{
+"de": "helfen",
+"ru": "помочь / помочь",
+"conjugation": {
+"ich": "helfe",
+"du": "hilfst",
+"er/sie/es": "hilft",
+"wir": "helfen",
+"ihr": "helft",
+"sie/Sie": "helfen"
+},
+"example_de": "Ich helfe dir mit der Hausarbeit.",
+"example_ru": "Я помогаю тебе с домашним заданием."
+},
+{
+"de": "gehen",
+"ru": "идти / идти",
+"conjugation": {
+"ich": "gehe",
+"du": "gehst",
+"er/sie/es": "geht",
+"wir": "gehen",
+"ihr": "gehst",
+"sie/Sie": "gehen"
+},
+"example_de": "Ich gehe nach Hause.",
+"example_ru": "Я иду домой."
 }
 ]
