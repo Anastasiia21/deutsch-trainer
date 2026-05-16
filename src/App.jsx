@@ -131,11 +131,7 @@ export default function App() {
       >
         {!show ? (
           <>
-            <p style={styles.label}>
-              {mode === "words"
-                ? "Немецкое слово"
-                : "Немецкий глагол"}
-            </p>
+        
 
             <div style={styles.mainWord}>
               {mode === "words" ? item.de : item.infinitive || item.de}
@@ -147,7 +143,7 @@ export default function App() {
           </>
         ) : mode === "words" ? (
           <>
-            <p style={styles.label}>Русский</p>
+           
 
             <div style={styles.mainWord}>
               {item.ru}
@@ -177,9 +173,7 @@ export default function App() {
           </>
         ) : (
           <>
-            <p style={styles.label}>
-              Русский перевод
-            </p>
+        
 
             <div style={styles.mainWord}>
               {item.ru}
