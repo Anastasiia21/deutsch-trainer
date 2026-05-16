@@ -287,7 +287,7 @@ const styles = {
   },
 
   modeButtons: {
-  width: "90%",
+  width: "50%",
   maxWidth: 700,
   margin: "0 auto 16px",
   display: "grid",
@@ -296,7 +296,7 @@ const styles = {
 },
 
 modeButton: {
-  padding: "16px 18px",
+   padding: "16px 18px",
   borderRadius: 18,
   border: "1px solid #cbd5e1",
   background: "white",
