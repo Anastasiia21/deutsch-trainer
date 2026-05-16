@@ -239,14 +239,13 @@ export default function App() {
 const styles = {
   page: {
     minHeight: "100vh",
-    background: "#8888ab",
-    color: "white",
-    fontFamily: "Arial, sans-serif",
-    padding: "16px",
-    boxSizing: "border-box",
-    
-    display: "flex",
-    flexDirection: "column",      
+  background: "#8888ab",
+  color: "white",
+  fontFamily: "Arial, sans-serif",
+  padding: "40px 16px 24px",
+  boxSizing: "border-box",
+  display: "flex",
+  flexDirection: "column",    
   },
 
   content: {
@@ -268,11 +267,12 @@ const styles = {
   },
 
   header: {
-    maxWidth: 700,
-    margin: "0 auto 16px",
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
+   width: "100%",
+  maxWidth: 700,
+  margin: "0 auto 32px",
+  display: "flex",
+  justifyContent: "space-between",
+  alignItems: "center",
   },
 
   title: {
@@ -448,36 +448,35 @@ exampleRu: {
 },
 
 buttons: {
+  width: "90%",
   maxWidth: 700,
-  margin: "24px auto 0",
-  display: "flex",
-  flexWrap: "wrap",
-  gap: 12,
+  margin: "32px auto 0",
+  display: "grid",
+  gridTemplateColumns: "1fr 1.6fr 1fr",
+  gap: 16,
 },
 
 mainButton: {
-  flex: 1,
-  minWidth: 120,
-  padding: "14px 14px",
+  padding: "16px 18px",
   borderRadius: 18,
   border: "none",
   background: "#38bdf8",
   color: "#0f172a",
-  fontSize: 20,
+  fontSize: "clamp(18px, 3vw, 22px)",
   fontWeight: 700,
   cursor: "pointer",
+  whiteSpace: "nowrap",
 },
 
 secondaryButton: {
-  flex: 1,
-  minWidth: 120,
-  padding: "10px 10px",
+  padding: "16px 18px",
   borderRadius: 18,
   border: "1px solid #475569",
   background: "#1e293b",
   color: "white",
-  fontSize: 20,
+  fontSize: "clamp(18px, 3vw, 22px)",
   fontWeight: 700,
   cursor: "pointer",
+  whiteSpace: "nowrap",
 },
 }
