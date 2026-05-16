@@ -70,6 +70,7 @@ export default function App() {
         </p>
       </div>
 
+<div style={styles.content}>
       <div style={styles.modeButtons}>
         <button
           style={
@@ -230,6 +231,7 @@ export default function App() {
           Дальше
         </button>
       </div>
+      </div>
     </div>
   );
 }
@@ -242,6 +244,16 @@ const styles = {
     fontFamily: "Arial, sans-serif",
     padding: "16px",
     boxSizing: "border-box",
+    
+    display: "flex",
+    flexDirection: "column",      
+  },
+
+  content: {
+  flex: 1,
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "center",
   },
 
   loading: {
