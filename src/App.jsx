@@ -287,46 +287,37 @@ const styles = {
   },
 
   modeButtons: {
-  width: "100%",
+  width: "90%",
   maxWidth: 700,
   margin: "0 auto 16px",
   display: "grid",
   gridTemplateColumns: "1fr 1fr",
-  gap: 12,
+  gap: 16,
 },
 
 modeButton: {
-  padding: "14px 16px",
+  padding: "16px 18px",
   borderRadius: 18,
   border: "1px solid #cbd5e1",
   background: "white",
   color: "#111",
-  fontSize: "clamp(16px, 2.4vw, 22px)",
+  fontSize: "clamp(18px, 3vw, 22px)",
   fontWeight: 700,
   cursor: "pointer",
+  whiteSpace: "nowrap",
 },
 
 activeModeButton: {
-  padding: "14px 16px",
+  padding: "16px 18px",
   borderRadius: 18,
   border: "1px solid #38bdf8",
   background: "#38bdf8",
   color: "#0f172a",
-  fontSize: "clamp(16px, 2.4vw, 22px)",
+  fontSize: "clamp(18px, 3vw, 22px)",
   fontWeight: 700,
   cursor: "pointer",
+  whiteSpace: "nowrap",
 },
-
-  activeModeButton: {
-  padding: "18px 20px",
-  borderRadius: 22,
-  border: "1px solid #38bdf8",
-  background: "#38bdf8",
-  color: "#0f172a",
-  fontSize: "clamp(20px, 3vw, 26px)",
-  fontWeight: 700,
-  cursor: "pointer",
-  },
 
   articleButton: {
     padding: "10px 16px",
