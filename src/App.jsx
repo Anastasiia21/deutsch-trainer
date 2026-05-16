@@ -249,7 +249,7 @@ const styles = {
     background: "#8888ab",
     color: "white",
     fontFamily: "Arial, sans-serif",
-    padding: "24px",
+    padding: "16px",
     boxSizing: "border-box",
   },
 
@@ -273,12 +273,12 @@ const styles = {
   },
 
   title: {
-    fontSize: 34,
+    fontSize: "clamp(28px, 5vw, 52px)",
     margin: 0,
   },
 
   counter: {
-    fontSize: 20,
+    fontSize: 18,
     color: "#cbd5e1",
     margin: 0,
   },
@@ -343,8 +343,9 @@ const styles = {
     cursor: "pointer",
   },
   card: {
+  width: "100%",
   maxWidth: 700,
-  minHeight: 480,
+  minHeight: 360,
   margin: "0 auto",
   background: "#78aee1",
   borderRadius: 28,
@@ -354,7 +355,7 @@ const styles = {
   justifyContent: "center",
   alignItems: "center",
   textAlign: "center",
-  padding: 32,
+  padding: 20,
   cursor: "pointer",
   boxSizing: "border-box",
 },
@@ -366,7 +367,7 @@ label: {
 },
 
 mainWord: {
-  fontSize: 44,
+  fontSize: "clamp(32px, 6vw, 44px)",
   fontWeight: 800,
   lineHeight: 1.1,
   color: "white",
@@ -450,13 +451,15 @@ exampleRu: {
 
 buttons: {
   maxWidth: 700,
-  margin: "32px auto 0",
-  display: "grid",
-  gridTemplateColumns: "1fr 1.4fr 1fr",
+  margin: "24px auto 0",
+  display: "flex",
+  flexWrap: "wrap",
   gap: 12,
 },
 
 mainButton: {
+  flex: 1,
+  minWidth: 120,
   padding: "14px 14px",
   borderRadius: 18,
   border: "none",
@@ -468,6 +471,8 @@ mainButton: {
 },
 
 secondaryButton: {
+  flex: 1,
+  minWidth: 120,
   padding: "10px 10px",
   borderRadius: 18,
   border: "1px solid #475569",
@@ -477,4 +482,4 @@ secondaryButton: {
   fontWeight: 700,
   cursor: "pointer",
 },
-};
+}
