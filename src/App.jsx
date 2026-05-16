@@ -264,7 +264,7 @@ const styles = {
   },
 
   title: {
-    fontSize: "clamp(28px, 5vw, 52px)",
+    fontSize: "clamp(24px, 5vw, 52px)",
     margin: 0,
   },
 
@@ -351,11 +351,6 @@ const styles = {
   boxSizing: "border-box",
 },
 
-label: {
-  fontSize: 20,
-  color: "#2e343d",
-  marginBottom: 24,
-},
 
 mainWord: {
   fontSize: "clamp(32px, 6vw, 44px)",
