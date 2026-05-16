@@ -137,9 +137,6 @@ export default function App() {
               {mode === "words" ? item.de : item.infinitive || item.de}
             </div>
 
-            <p style={styles.hint}>
-              Нажми, чтобы увидеть перевод
-            </p>
           </>
         ) : mode === "words" ? (
           <>
