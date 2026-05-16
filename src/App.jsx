@@ -14,7 +14,9 @@ function shuffleArray(array) {
 export default function App() {
   const [words, setWords] = useState([]);
   const [verbs, setVerbs] = useState([]);
+  const [phrases, setPhrases] = useState([]);
   const [mode, setMode] = useState("words");
+  
 
   const [index, setIndex] = useState(0);
   const [show, setShow] = useState(false);
@@ -29,6 +31,10 @@ export default function App() {
     fetch("/verbs.json")
       .then((res) => res.json())
       .then((data) => setVerbs(shuffleArray(data)));
+
+    fetch("/phrases.json")
+      .then((res) => res.json())
+      .then((data) => setPhrases(shuffleArray(data))); 
   }, []);
 
   const filteredWords = words.filter((word) => {
@@ -36,7 +42,11 @@ export default function App() {
   });
 
   const currentList =
-    mode === "words" ? filteredWords : verbs;
+  mode === "words"
+    ? filteredWords
+    : mode === "verbs"
+    ? verbs
+    : phrases; 
 
   if (currentList.length === 0) {
     return <div style={styles.loading}>Загрузка...</div>;
@@ -93,7 +103,19 @@ export default function App() {
         >
           Глаголы
         </button>
-      </div>
+    
+
+        <button
+         style={
+          mode === "phrases"
+           ? styles.activeModeButton
+           : styles.modeButton
+          }
+          onClick={() => changeMode("phrases")}
+        >
+         Фразы
+        </button>
+          </div>
 
       {mode === "words" && (
         <div style={styles.articleButtons}>
@@ -126,115 +148,80 @@ export default function App() {
         />
       </div>
 
-      <div
-        style={styles.card}
-        onClick={() => setShow(!show)}
-      >
-        {!show ? (
-          <>
-        
-
+      
+        <div style={styles.card} onClick={() => setShow(!show)}>
+          {!show ? (
             <div style={styles.mainWord}>
-              {mode === "words" ? item.de : item.infinitive || item.de}
+              {mode === "words"
+                ? item.de
+                : mode === "verbs"
+                ? item.infinitive || item.de
+                : item.ru}
             </div>
+          ) : mode === "words" ? (
+            <>
+              <div style={styles.mainWord}>{item.ru}</div>
 
-          </>
-        ) : mode === "words" ? (
-          <>
-           
+              <div style={styles.infoBox}>
+                <div>
+                  <p style={styles.smallLabel}>Артикль</p>
+                  <p style={styles.infoText}>{item.article}</p>
+                </div>
 
-            <div style={styles.mainWord}>
-              {item.ru}
-            </div>
-
-            <div style={styles.infoBox}>
-              <div>
-                <p style={styles.smallLabel}>
-                  Артикль
-                </p>
-
-                <p style={styles.infoText}>
-                  {item.article}
-                </p>
+                <div>
+                  <p style={styles.smallLabel}>Мн. число</p>
+                  <p style={styles.infoText}>{item.plural}</p>
+                </div>
               </div>
+            </>
+          ) : mode === "verbs" ? (
+            <>
+              <div style={styles.mainWord}>{item.ru}</div>
 
-              <div>
-                <p style={styles.smallLabel}>
-                  Мн. число
-                </p>
-
-                <p style={styles.infoText}>
-                  {item.plural}
-                </p>
-              </div>
-            </div>
-          </>
-        ) : (
-          <>
-        
-
-            <div style={styles.mainWord}>
-              {item.ru}
-            </div>
-
-            <div style={styles.verbBox}>
-              {Object.entries(item.conjugation).map(
-                ([person, form]) => (
-                  <div
-                    key={person}
-                    style={styles.verbRow}
-                  >
-                    <span style={styles.person}>
-                      {person}
-                    </span>
-
-                    <span style={styles.form}>
-                      {form}
-                    </span>
+              <div style={styles.verbBox}>
+                {Object.entries(item.conjugation).map(([person, form]) => (
+                  <div key={person} style={styles.verbRow}>
+                    <span style={styles.person}>{person}</span>
+                    <span style={styles.form}>{form}</span>
                   </div>
-                )
-              )}
-            </div>
+                ))}
+              </div>
 
-            <div style={styles.exampleBox}>
-              <p style={styles.exampleDe}>
-                {item.example_de}
-              </p>
+              <div style={styles.exampleBox}>
+                <p style={styles.exampleDe}>{item.example_de}</p>
+                <p style={styles.exampleRu}>{item.example_ru}</p>
+              </div>
+            </>
+          ) : (
+            <>
+              <div style={styles.mainWord}>{item.de}</div>
 
-              <p style={styles.exampleRu}>
-                {item.example_ru}
-              </p>
-            </div>
-          </>
-        )}
-      </div>
+              <div style={styles.exampleBox}>
+                <p style={styles.exampleDe}>{item.example_de}</p>
+                <p style={styles.exampleRu}>{item.example_ru}</p>
+              </div>
+            </>
+          )}
+        </div>
 
-      <div style={styles.buttons}>
-        <button
-          style={styles.secondaryButton}
-          onClick={prev}
-        >
-          Назад
-        </button>
+        <div style={styles.buttons}>
+          <button style={styles.secondaryButton} onClick={prev}>
+            Назад
+          </button>
 
-        <button
-          style={styles.mainButton}
-          onClick={() => setShow(!show)}
-        >
-          Перевернуть
-        </button>
+          <button style={styles.mainButton} onClick={() => setShow(!show)}>
+            Перевернуть
+          </button>
 
-        <button
-          style={styles.secondaryButton}
-          onClick={next}
-        >
-          Дальше
-        </button>
-      </div>
+          <button style={styles.secondaryButton} onClick={next}>
+            Дальше
+          </button>
+        </div>
       </div>
     </div>
   );
 }
+
 
 const styles = {
   page: {
@@ -291,7 +278,7 @@ const styles = {
   maxWidth: 700,
   margin: "0 auto 24px",
   display: "grid",
-  gridTemplateColumns: "1fr 1fr",
+  gridTemplateColumns: "1fr 1fr 1fr",
   gap: 16,
 },
 
