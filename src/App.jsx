@@ -287,32 +287,35 @@ const styles = {
   },
 
   modeButtons: {
-    maxWidth: 700,
-    margin: "0 auto 16px",
-    display: "grid",
-    gridTemplateColumns: "1fr 1fr",
-    gap: 10,
-  },
-
-  modeButtons: {
   width: "100%",
-  maxWidth: 760,
-  margin: "0 auto 20px",
+  maxWidth: 700,
+  margin: "0 auto 16px",
   display: "grid",
   gridTemplateColumns: "1fr 1fr",
-  gap: 14,
-  },
+  gap: 12,
+},
 
-  modeButton: {
-  padding: "18px 20px",
-  borderRadius: 22,
+modeButton: {
+  padding: "14px 16px",
+  borderRadius: 18,
   border: "1px solid #cbd5e1",
   background: "white",
   color: "#111",
-  fontSize: "clamp(20px, 3vw, 26px)",
+  fontSize: "clamp(16px, 2.4vw, 22px)",
   fontWeight: 700,
   cursor: "pointer",
-  },
+},
+
+activeModeButton: {
+  padding: "14px 16px",
+  borderRadius: 18,
+  border: "1px solid #38bdf8",
+  background: "#38bdf8",
+  color: "#0f172a",
+  fontSize: "clamp(16px, 2.4vw, 22px)",
+  fontWeight: 700,
+  cursor: "pointer",
+},
 
   activeModeButton: {
   padding: "18px 20px",
