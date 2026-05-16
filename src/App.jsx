@@ -287,9 +287,9 @@ const styles = {
   },
 
   modeButtons: {
-  width: "50%",
+  width: "90%",
   maxWidth: 700,
-  margin: "0 auto 16px",
+  margin: "0 auto 24px",
   display: "grid",
   gridTemplateColumns: "1fr 1fr",
   gap: 16,
@@ -319,26 +319,38 @@ activeModeButton: {
   whiteSpace: "nowrap",
 },
 
-  articleButton: {
-    padding: "10px 16px",
-    borderRadius: 999,
-    border: "1px solid #cbd5e1",
-    background: "white",
-    color: "#111",
-    fontSize: 16,
-    cursor: "pointer",
-  },
-
-  activeArticleButton: {
-   width: "90%",
+ articleButtons: {
+  width: "90%",
   maxWidth: 700,
   margin: "0 auto 48px",
   display: "flex",
-  gap: 10,
+  gap: 12,
   flexWrap: "wrap",
   justifyContent: "center",
-  },
-  
+},
+
+articleButton: {
+  padding: "10px 18px",
+  borderRadius: 999,
+  border: "1px solid #cbd5e1",
+  background: "white",
+  color: "#111",
+  fontSize: 16,
+  fontWeight: 500,
+  cursor: "pointer",
+},
+
+activeArticleButton: {
+  padding: "10px 18px",
+  borderRadius: 999,
+  border: "1px solid #38bdf8",
+  background: "#38bdf8",
+  color: "#0f172a",
+  fontSize: 16,
+  fontWeight: 700,
+  cursor: "pointer",
+},
+
   card: {
   width: "100%",
   maxWidth: 700,
