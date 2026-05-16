@@ -330,15 +330,15 @@ activeModeButton: {
   },
 
   activeArticleButton: {
-    padding: "10px 16px",
-    borderRadius: 999,
-    border: "1px solid #38bdf8",
-    background: "#38bdf8",
-    color: "#0f172a",
-    fontSize: 16,
-    fontWeight: 700,
-    cursor: "pointer",
+   width: "90%",
+  maxWidth: 700,
+  margin: "0 auto 48px",
+  display: "flex",
+  gap: 10,
+  flexWrap: "wrap",
+  justifyContent: "center",
   },
+  
   card: {
   width: "100%",
   maxWidth: 700,
