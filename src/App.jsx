@@ -265,7 +265,7 @@ content: {
   header: {
   width: "100%",
   maxWidth: 700,
-  margin: "0 auto 30px",
+  margin: "0 auto 20px",
   display: "flex",
   justifyContent: "space-between",
   alignItems: "center",
