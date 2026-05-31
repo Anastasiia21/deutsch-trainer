@@ -1,7 +1,12 @@
 [
   {
     "de": "abfahren",
+    "infinitive": "abfahren",
     "ru": "уезжать",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
     "conjugation": {
       "ich": "fahre ab",
       "du": "fährst ab",
@@ -11,15 +16,16 @@
       "sie/Sie": "fahren ab"
     },
     "example_de": "Der Zug fährt um 10 Uhr ab.",
-    "example_ru": "Поезд уезжает в 10 часов.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A2"
+    "example_ru": "Поезд уезжает в 10 часов."
   },
   {
     "de": "abholen",
+    "infinitive": "abholen",
     "ru": "встречать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
     "conjugation": {
       "ich": "hole ab",
       "du": "holst ab",
@@ -29,15 +35,16 @@
       "sie/Sie": "holen ab"
     },
     "example_de": "Ich hole dich vom Bahnhof ab.",
-    "example_ru": "Я встречу тебя на вокзале.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A2"
+    "example_ru": "Я встречу тебя на вокзале."
   },
   {
     "de": "ankommen",
+    "infinitive": "ankommen",
     "ru": "приезжать",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "komme an",
       "du": "kommst an",
@@ -47,15 +54,16 @@
       "sie/Sie": "kommen an"
     },
     "example_de": "Wir kommen um 8 Uhr an.",
-    "example_ru": "Мы приезжаем в 8 часов.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Мы приезжаем в 8 часов."
   },
   {
     "de": "arbeiten",
+    "infinitive": "arbeiten",
     "ru": "работать",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "arbeite",
       "du": "arbeitest",
@@ -65,15 +73,16 @@
       "sie/Sie": "arbeiten"
     },
     "example_de": "Sie arbeitet im Büro.",
-    "example_ru": "Она работает в офисе.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Она работает в офисе."
   },
   {
     "de": "aufräumen",
+    "infinitive": "aufräumen",
     "ru": "убирать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "räume auf",
       "du": "räumst auf",
@@ -83,15 +92,16 @@
       "sie/Sie": "räumen auf"
     },
     "example_de": "Ich räume mein Zimmer auf.",
-    "example_ru": "Я убираю свою комнату.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "Я убираю свою комнату."
   },
   {
     "de": "begleiten",
+    "infinitive": "begleiten",
     "ru": "провожать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "B1",
     "conjugation": {
       "ich": "begleite",
       "du": "begleitest",
@@ -101,15 +111,16 @@
       "sie/Sie": "begleiten"
     },
     "example_de": "Ich begleite dich nach Hause.",
-    "example_ru": "Я провожу тебя домой.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "B1"
+    "example_ru": "Я провожу тебя домой."
   },
   {
     "de": "benutzen",
+    "infinitive": "benutzen",
     "ru": "использовать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
     "conjugation": {
       "ich": "benutze",
       "du": "benutzt",
@@ -119,15 +130,16 @@
       "sie/Sie": "benutzen"
     },
     "example_de": "Ich benutze einen Computer.",
-    "example_ru": "Я использую компьютер.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A2"
+    "example_ru": "Я использую компьютер."
   },
   {
     "de": "besuchen",
+    "infinitive": "besuchen",
     "ru": "посещать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "besuche",
       "du": "besuchst",
@@ -137,15 +149,16 @@
       "sie/Sie": "besuchen"
     },
     "example_de": "Sie besucht ihre Freundin.",
-    "example_ru": "Она посещает свою подругу.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "Она посещает свою подругу."
   },
   {
     "de": "bleiben",
+    "infinitive": "bleiben",
     "ru": "оставаться",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
     "conjugation": {
       "ich": "bleibe",
       "du": "bleibst",
@@ -155,15 +168,17 @@
       "sie/Sie": "bleiben"
     },
     "example_de": "Ich bleibe hier.",
-    "example_ru": "Я остаюсь здесь.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A2"
+    "example_ru": "Я остаюсь здесь."
   },
   {
     "de": "bringen",
+    "infinitive": "bringen",
     "ru": "приносить",
+    "cases": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "bringe",
       "du": "bringst",
@@ -173,16 +188,16 @@
       "sie/Sie": "bringen"
     },
     "example_de": "Er bringt mir Blumen.",
-    "example_ru": "Он мне приносит цветы.",
-    "cases": [
-      "Akkusativ",
-      "Dativ"
-    ],
-    "level": "A1"
+    "example_ru": "Он мне приносит цветы."
   },
   {
     "de": "denken",
+    "infinitive": "denken",
     "ru": "думать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "denke",
       "du": "denkst",
@@ -192,15 +207,16 @@
       "sie/Sie": "denken"
     },
     "example_de": "Ich denke an das Buch.",
-    "example_ru": "Я думаю о книге.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "Я думаю о книге."
   },
   {
     "de": "dürfen",
+    "infinitive": "dürfen",
     "ru": "иметь разрешение",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "darf",
       "du": "darfst",
@@ -210,15 +226,16 @@
       "sie/Sie": "dürfen"
     },
     "example_de": "Wir dürfen hier bleiben.",
-    "example_ru": "Нам разрешено здесь оставаться.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Нам разрешено здесь оставаться."
   },
   {
     "de": "empfangen",
+    "infinitive": "empfangen",
     "ru": "встречать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "B1",
     "conjugation": {
       "ich": "empfange",
       "du": "empfängst",
@@ -228,15 +245,16 @@
       "sie/Sie": "empfangen"
     },
     "example_de": "Wir empfangen unsere Gäste herzlich.",
-    "example_ru": "Мы встречаем наших гостей сердечно.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "B1"
+    "example_ru": "Мы встречаем наших гостей сердечно."
   },
   {
     "de": "energiegeladen sein",
+    "infinitive": "energiegeladen sein",
     "ru": "быть энергичным",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "B1",
     "conjugation": {
       "ich": "bin energiegeladen",
       "du": "bist energiegeladen",
@@ -246,15 +264,17 @@
       "sie/Sie": "sind energiegeladen"
     },
     "example_de": "Die Kinder sind energiegeladen.",
-    "example_ru": "Дети энергичны.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "B1"
+    "example_ru": "Дети энергичны."
   },
   {
     "de": "erzählen",
+    "infinitive": "erzählen",
     "ru": "рассказывать",
+    "cases": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "level": "A2",
     "conjugation": {
       "ich": "erzähle",
       "du": "erzählst",
@@ -264,16 +284,16 @@
       "sie/Sie": "erzählen"
     },
     "example_de": "Sie erzählt eine Geschichte.",
-    "example_ru": "Она рассказывает историю.",
-    "cases": [
-      "Akkusativ",
-      "Dativ"
-    ],
-    "level": "A2"
+    "example_ru": "Она рассказывает историю."
   },
   {
     "de": "essen",
+    "infinitive": "essen",
     "ru": "есть",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "esse",
       "du": "isst",
@@ -283,15 +303,16 @@
       "sie/Sie": "essen"
     },
     "example_de": "Er isst Pizza.",
-    "example_ru": "Он ест пиццу.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "Он ест пиццу."
   },
   {
     "de": "fahren",
+    "infinitive": "fahren",
     "ru": "ехать",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "fahre",
       "du": "fährst",
@@ -301,15 +322,16 @@
       "sie/Sie": "fahren"
     },
     "example_de": "Ich fahre nach Berlin.",
-    "example_ru": "Я еду в Берлин.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Я еду в Берлин."
   },
   {
     "de": "finden",
+    "infinitive": "finden",
     "ru": "находить, считать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "finde",
       "du": "findest",
@@ -319,15 +341,16 @@
       "sie/Sie": "finden"
     },
     "example_de": "Wir finden den Schlüssel.",
-    "example_ru": "Мы находим ключ.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "Мы находим ключ."
   },
   {
     "de": "fliegen",
+    "infinitive": "fliegen",
     "ru": "летать",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "fliege",
       "du": "fliegst",
@@ -337,15 +360,16 @@
       "sie/Sie": "fliegen"
     },
     "example_de": "Der Vogel fliegt hoch.",
-    "example_ru": "Птица летит высоко.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Птица летит высоко."
   },
   {
     "de": "frei sein",
+    "infinitive": "frei sein",
     "ru": "быть свободным",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
     "conjugation": {
       "ich": "bin frei",
       "du": "bist frei",
@@ -355,15 +379,17 @@
       "sie/Sie": "sind frei"
     },
     "example_de": "Ich bin endlich frei.",
-    "example_ru": "Я наконец свободен.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A2"
+    "example_ru": "Я наконец свободен."
   },
   {
     "de": "geben",
+    "infinitive": "geben",
     "ru": "давать",
+    "cases": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "gebe",
       "du": "gibst",
@@ -373,16 +399,16 @@
       "sie/Sie": "geben"
     },
     "example_de": "Er gibt dem Kind ein Buch.",
-    "example_ru": "Он дает ребенку книгу.",
-    "cases": [
-      "Akkusativ",
-      "Dativ"
-    ],
-    "level": "A1"
+    "example_ru": "Он дает ребенку книгу."
   },
   {
     "de": "gehen",
+    "infinitive": "gehen",
     "ru": "идти",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "gehe",
       "du": "gehst",
@@ -392,15 +418,16 @@
       "sie/Sie": "gehen"
     },
     "example_de": "Ich gehe nach Hause.",
-    "example_ru": "Я иду домой.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Я иду домой."
   },
   {
     "de": "geliebt werden",
+    "infinitive": "geliebt werden",
     "ru": "быть любимым",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "B1",
     "conjugation": {
       "ich": "werde geliebt",
       "du": "wirst geliebt",
@@ -410,15 +437,16 @@
       "sie/Sie": "werden geliebt"
     },
     "example_de": "Ich werde von meiner Familie geliebt.",
-    "example_ru": "Я любим своей семьей.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "B1"
+    "example_ru": "Я любим своей семьей."
   },
   {
     "de": "glücklich sein",
+    "infinitive": "glücklich sein",
     "ru": "быть счастливым",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "bin glücklich",
       "du": "bist glücklich",
@@ -428,15 +456,16 @@
       "sie/Sie": "sind glücklich"
     },
     "example_de": "Wir sind sehr glücklich.",
-    "example_ru": "Мы очень счастливы.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Мы очень счастливы."
   },
   {
     "de": "haben",
+    "infinitive": "haben",
     "ru": "иметь",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "habe",
       "du": "hast",
@@ -446,15 +475,16 @@
       "sie/Sie": "haben"
     },
     "example_de": "Ich habe einen Stift.",
-    "example_ru": "У меня есть ручка.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "У меня есть ручка."
   },
   {
     "de": "heißen",
+    "infinitive": "heißen",
     "ru": "называться",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "heiße",
       "du": "heißt",
@@ -464,15 +494,16 @@
       "sie/Sie": "heißen"
     },
     "example_de": "Ich heiße Anna.",
-    "example_ru": "Меня зовут Анна.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Меня зовут Анна."
   },
   {
     "de": "helfen",
+    "infinitive": "helfen",
     "ru": "помогать",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "helfe",
       "du": "hilfst",
@@ -482,15 +513,16 @@
       "sie/Sie": "helfen"
     },
     "example_de": "Ich helfe dir mit der Hausarbeit.",
-    "example_ru": "Я помогаю тебе с домашним заданием.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Я помогаю тебе с домашним заданием."
   },
   {
     "de": "hoffen",
+    "infinitive": "hoffen",
     "ru": "ожидать",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
     "conjugation": {
       "ich": "hoffe",
       "du": "hoffst",
@@ -500,15 +532,16 @@
       "sie/Sie": "hoffen"
     },
     "example_de": "Ich hoffe auf Erfolg.",
-    "example_ru": "Я надеюсь на успех.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A2"
+    "example_ru": "Я надеюсь на успех."
   },
   {
     "de": "hören",
+    "infinitive": "hören",
     "ru": "слышать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "höre",
       "du": "hörst",
@@ -518,15 +551,16 @@
       "sie/Sie": "hören"
     },
     "example_de": "Wir hören das Radio.",
-    "example_ru": "Мы слушаем радио.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "Мы слушаем радио."
   },
   {
     "de": "kaufen",
+    "infinitive": "kaufen",
     "ru": "покупать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "kaufe",
       "du": "kaufst",
@@ -536,15 +570,16 @@
       "sie/Sie": "kaufen"
     },
     "example_de": "Ich kaufe Brot im Supermarkt.",
-    "example_ru": "Я покупаю хлеб в супермаркете.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "Я покупаю хлеб в супермаркете."
   },
   {
     "de": "kennen",
+    "infinitive": "kennen",
     "ru": "знать (человека)",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "kenne",
       "du": "kennst",
@@ -554,15 +589,16 @@
       "sie/Sie": "kennen"
     },
     "example_de": "Ich kenne diesen Mann.",
-    "example_ru": "Я знаю этого человека.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "Я знаю этого человека."
   },
   {
     "de": "kommen",
+    "infinitive": "kommen",
     "ru": "приходить",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "komme",
       "du": "kommst",
@@ -572,15 +608,16 @@
       "sie/Sie": "kommen"
     },
     "example_de": "Wir kommen aus der Stadt.",
-    "example_ru": "Мы приходим из города.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Мы приходим из города."
   },
   {
     "de": "können",
+    "infinitive": "können",
     "ru": "мочь, уметь",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "kann",
       "du": "kannst",
@@ -590,15 +627,16 @@
       "sie/Sie": "können"
     },
     "example_de": "Ich kann schon schwimmen.",
-    "example_ru": "Я уже могу плавать.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Я уже могу плавать."
   },
   {
     "de": "küssen",
+    "infinitive": "küssen",
     "ru": "целовать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
     "conjugation": {
       "ich": "küsse",
       "du": "küsst",
@@ -608,15 +646,16 @@
       "sie/Sie": "küssen"
     },
     "example_de": "Ich küsse meine Mutter.",
-    "example_ru": "Я целую свою маму.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A2"
+    "example_ru": "Я целую свою маму."
   },
   {
     "de": "lachen",
+    "infinitive": "lachen",
     "ru": "смеяться",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "lache",
       "du": "lachst",
@@ -626,15 +665,16 @@
       "sie/Sie": "lachen"
     },
     "example_de": "Sie lachen über den Witz.",
-    "example_ru": "Они смеются над шуткой.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Они смеются над шуткой."
   },
   {
     "de": "langweilig sein",
+    "infinitive": "langweilig sein",
     "ru": "быть скучным",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
     "conjugation": {
       "ich": "bin langweilig",
       "du": "bist langweilig",
@@ -644,15 +684,16 @@
       "sie/Sie": "sind langweilig"
     },
     "example_de": "Das Film ist langweilig.",
-    "example_ru": "Фильм скучный.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A2"
+    "example_ru": "Фильм скучный."
   },
   {
     "de": "leben",
+    "infinitive": "leben",
     "ru": "жить",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "lebe",
       "du": "lebst",
@@ -662,15 +703,16 @@
       "sie/Sie": "leben"
     },
     "example_de": "Ich lebe in Berlin.",
-    "example_ru": "Я живу в Берлине.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Я живу в Берлине."
   },
   {
     "de": "leiden",
+    "infinitive": "leiden",
     "ru": "страдать",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "B1",
     "conjugation": {
       "ich": "leide",
       "du": "leidest",
@@ -680,15 +722,16 @@
       "sie/Sie": "leiden"
     },
     "example_de": "Er leidet unter Kopfschmerzen.",
-    "example_ru": "Он страдает от головной боли.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "B1"
+    "example_ru": "Он страдает от головной боли."
   },
   {
     "de": "lernen",
+    "infinitive": "lernen",
     "ru": "учить",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
     "conjugation": {
       "ich": "lerne",
       "du": "lernst",
@@ -698,15 +741,16 @@
       "sie/Sie": "lernen"
     },
     "example_de": "Er lernt neue Wörter.",
-    "example_ru": "Он учит новые слова.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A2"
+    "example_ru": "Он учит новые слова."
   },
   {
     "de": "lesen",
+    "infinitive": "lesen",
     "ru": "читать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "lese",
       "du": "liest",
@@ -716,15 +760,16 @@
       "sie/Sie": "lesen"
     },
     "example_de": "Du liest ein Buch.",
-    "example_ru": "Ты читаешь книгу.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "Ты читаешь книгу."
   },
   {
     "de": "lieben",
+    "infinitive": "lieben",
     "ru": "любить",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "liebe",
       "du": "liebst",
@@ -734,15 +779,16 @@
       "sie/Sie": "lieben"
     },
     "example_de": "Sie liebt ihren Mann.",
-    "example_ru": "Она любит своего мужа.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "Она любит своего мужа."
   },
   {
     "de": "machen",
+    "infinitive": "machen",
     "ru": "делать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "mache",
       "du": "machst",
@@ -752,15 +798,16 @@
       "sie/Sie": "machen"
     },
     "example_de": "Ich mache einen Kuchen.",
-    "example_ru": "Я делаю пирог.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "Я делаю пирог."
   },
   {
     "de": "mögen",
+    "infinitive": "mögen",
     "ru": "нравиться",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "mag",
       "du": "magst",
@@ -770,15 +817,16 @@
       "sie/Sie": "mögen"
     },
     "example_de": "Ich mag diese Musik.",
-    "example_ru": "Мне нравится эта музыка.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "Мне нравится эта музыка."
   },
   {
     "de": "müssen",
+    "infinitive": "müssen",
     "ru": "долженствовать",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "muss",
       "du": "musst",
@@ -788,15 +836,16 @@
       "sie/Sie": "müssen"
     },
     "example_de": "Er muss heute arbeiten.",
-    "example_ru": "Он должен сегодня работать.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Он должен сегодня работать."
   },
   {
     "de": "nehmen",
+    "infinitive": "nehmen",
     "ru": "брать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "nehme",
       "du": "nimmst",
@@ -806,15 +855,16 @@
       "sie/Sie": "nehmen"
     },
     "example_de": "Sie nimmt das Glas.",
-    "example_ru": "Она берет стакан.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "Она берет стакан."
   },
   {
     "de": "niedergeschlagen sein",
+    "infinitive": "niedergeschlagen sein",
     "ru": "быть подавленным",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "B1",
     "conjugation": {
       "ich": "bin niedergeschlagen",
       "du": "bist niedergeschlagen",
@@ -824,15 +874,16 @@
       "sie/Sie": "sind niedergeschlagen"
     },
     "example_de": "Sie ist niedergeschlagen.",
-    "example_ru": "Она подавлена.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "B1"
+    "example_ru": "Она подавлена."
   },
   {
     "de": "reisen",
+    "infinitive": "reisen",
     "ru": "путешествовать",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "reise",
       "du": "reist",
@@ -842,15 +893,16 @@
       "sie/Sie": "reisen"
     },
     "example_de": "Wir reisen nach Italien.",
-    "example_ru": "Мы путешествуем в Италию.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Мы путешествуем в Италию."
   },
   {
     "de": "rufen",
+    "infinitive": "rufen",
     "ru": "кричать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
     "conjugation": {
       "ich": "rufe",
       "du": "rufst",
@@ -860,15 +912,16 @@
       "sie/Sie": "rufen"
     },
     "example_de": "Ich rufe nach Hilfe.",
-    "example_ru": "Я кричу о помощи.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A2"
+    "example_ru": "Я кричу о помощи."
   },
   {
     "de": "schauen",
+    "infinitive": "schauen",
     "ru": "смотреть",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "schaue",
       "du": "schaust",
@@ -878,15 +931,16 @@
       "sie/Sie": "schauen"
     },
     "example_de": "Ich schaue einen Film.",
-    "example_ru": "Я смотрю фильм.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "Я смотрю фильм."
   },
   {
     "de": "scherzen",
+    "infinitive": "scherzen",
     "ru": "шутить",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "B1",
     "conjugation": {
       "ich": "scherze",
       "du": "scherzst",
@@ -896,15 +950,16 @@
       "sie/Sie": "scherzen"
     },
     "example_de": "Ich scherze mit meinen Freunden.",
-    "example_ru": "Я шучу с моими друзьями.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "B1"
+    "example_ru": "Я шучу с моими друзьями."
   },
   {
     "de": "schreiben",
+    "infinitive": "schreiben",
     "ru": "писать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "schreibe",
       "du": "schreibst",
@@ -914,15 +969,16 @@
       "sie/Sie": "schreiben"
     },
     "example_de": "Sie schreibt einen Brief.",
-    "example_ru": "Она пишет письмо.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "Она пишет письмо."
   },
   {
     "de": "schreien",
+    "infinitive": "schreien",
     "ru": "кричать",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
     "conjugation": {
       "ich": "schreie",
       "du": "schreist",
@@ -932,15 +988,16 @@
       "sie/Sie": "schreien"
     },
     "example_de": "Das Baby schreit laut.",
-    "example_ru": "Малыш громко кричит.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A2"
+    "example_ru": "Малыш громко кричит."
   },
   {
     "de": "schwach sein",
+    "infinitive": "schwach sein",
     "ru": "быть слабым",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
     "conjugation": {
       "ich": "bin schwach",
       "du": "bist schwach",
@@ -950,15 +1007,16 @@
       "sie/Sie": "sind schwach"
     },
     "example_de": "Ich bin schwach nach der Krankheit.",
-    "example_ru": "Я слаб после болезни.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A2"
+    "example_ru": "Я слаб после болезни."
   },
   {
     "de": "sehen",
+    "infinitive": "sehen",
     "ru": "видеть",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "sehe",
       "du": "siehst",
@@ -968,15 +1026,16 @@
       "sie/Sie": "sehen"
     },
     "example_de": "Ich sehe den roten Bus.",
-    "example_ru": "Я вижу красный автобус.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "Я вижу красный автобус."
   },
   {
     "de": "sein",
+    "infinitive": "sein",
     "ru": "быть",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
     "conjugation": {
       "ich": "bin",
       "du": "bist",
@@ -986,15 +1045,16 @@
       "sie/Sie": "sind"
     },
     "example_de": "Er ist Lehrer.",
-    "example_ru": "Он учитель.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A2"
+    "example_ru": "Он учитель."
   },
   {
     "de": "sich freuen",
+    "infinitive": "sich freuen",
     "ru": "радоваться",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "freue mich",
       "du": "freust dich",
@@ -1004,15 +1064,16 @@
       "sie/Sie": "freuen sich"
     },
     "example_de": "Ich freue mich auf den Besuch.",
-    "example_ru": "Я рад приходу гостей.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "Я рад приходу гостей."
   },
   {
     "de": "sich quälen",
+    "infinitive": "sich quälen",
     "ru": "мучиться",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "B2",
     "conjugation": {
       "ich": "quäle mich",
       "du": "quälst dich",
@@ -1022,15 +1083,16 @@
       "sie/Sie": "quälen sich"
     },
     "example_de": "Ich quäle mich mit Gedanken.",
-    "example_ru": "Я мучусь мыслями.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "B2"
+    "example_ru": "Я мучусь мыслями."
   },
   {
     "de": "sich streiten",
+    "infinitive": "sich streiten",
     "ru": "ссориться",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
     "conjugation": {
       "ich": "streite mich",
       "du": "streitest dich",
@@ -1040,15 +1102,16 @@
       "sie/Sie": "streiten sich"
     },
     "example_de": "Wir streiten uns nie.",
-    "example_ru": "Мы никогда не ссоримся.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A2"
+    "example_ru": "Мы никогда не ссоримся."
   },
   {
     "de": "sich treffen",
+    "infinitive": "sich treffen",
     "ru": "встречаться",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "treffe mich",
       "du": "triffst dich",
@@ -1058,15 +1121,17 @@
       "sie/Sie": "treffen sich"
     },
     "example_de": "Wir treffen uns im Park.",
-    "example_ru": "Мы встречаемся в парке.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Мы встречаемся в парке."
   },
   {
     "de": "singen",
+    "infinitive": "singen",
     "ru": "петь",
+    "cases": [
+      "Akkusativ",
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "singe",
       "du": "singst",
@@ -1076,16 +1141,16 @@
       "sie/Sie": "singen"
     },
     "example_de": "Die Kinder singen im Chor.",
-    "example_ru": "Дети поют в хоре.",
-    "cases": [
-      "Akkusativ",
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Дети поют в хоре."
   },
   {
     "de": "sollen",
+    "infinitive": "sollen",
     "ru": "должен",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "soll",
       "du": "sollst",
@@ -1095,15 +1160,17 @@
       "sie/Sie": "sollen"
     },
     "example_de": "Du sollst das Buch lesen.",
-    "example_ru": "Ты должен читать книгу.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Ты должен читать книгу."
   },
   {
     "de": "spielen",
+    "infinitive": "spielen",
     "ru": "играть",
+    "cases": [
+      "Akkusativ",
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "spiele",
       "du": "spielst",
@@ -1113,16 +1180,16 @@
       "sie/Sie": "spielen"
     },
     "example_de": "Die Kinder spielen draußen.",
-    "example_ru": "Дети играют на улице.",
-    "cases": [
-      "Akkusativ",
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Дети играют на улице."
   },
   {
     "de": "sprechen",
+    "infinitive": "sprechen",
     "ru": "говорить",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "spreche",
       "du": "sprichst",
@@ -1132,15 +1199,16 @@
       "sie/Sie": "sprechen"
     },
     "example_de": "Wir sprechen mit dem Lehrer.",
-    "example_ru": "Мы говорим с учителем.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "Мы говорим с учителем."
   },
   {
     "de": "stark sein",
+    "infinitive": "stark sein",
     "ru": "быть сильным",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "bin stark",
       "du": "bist stark",
@@ -1150,18 +1218,16 @@
       "sie/Sie": "sind stark"
     },
     "example_de": "Er ist sehr stark.",
-    "example_ru": "Он очень сильный.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Он очень сильный."
   },
   {
     "de": "stehen",
+    "infinitive": "stehen",
     "ru": "стоять",
     "cases": [
       "Nominativ"
     ],
+    "level": "A1",
     "conjugation": {
       "ich": "stehe",
       "du": "stehst",
@@ -1171,12 +1237,16 @@
       "sie/Sie": "stehen"
     },
     "example_de": "Ich stehe am Fenster.",
-    "example_ru": "Я стою у окна.",
-    "level": "A1"
+    "example_ru": "Я стою у окна."
   },
   {
     "de": "streicheln",
+    "infinitive": "streicheln",
     "ru": "гладить",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
     "conjugation": {
       "ich": "streichele",
       "du": "streichelst",
@@ -1186,15 +1256,16 @@
       "sie/Sie": "streicheln"
     },
     "example_de": "Ich streichele die Katze.",
-    "example_ru": "Я глажу кошку.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A2"
+    "example_ru": "Я глажу кошку."
   },
   {
     "de": "studieren",
+    "infinitive": "studieren",
     "ru": "учиться",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
     "conjugation": {
       "ich": "studiere",
       "du": "studierst",
@@ -1204,15 +1275,16 @@
       "sie/Sie": "studieren"
     },
     "example_de": "Er studiert Medizin.",
-    "example_ru": "Он изучает медицину.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A2"
+    "example_ru": "Он изучает медицину."
   },
   {
     "de": "tanzen",
+    "infinitive": "tanzen",
     "ru": "танцевать",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "tanze",
       "du": "tanzt",
@@ -1222,15 +1294,16 @@
       "sie/Sie": "tanzen"
     },
     "example_de": "Er tanzt gerne.",
-    "example_ru": "Ему нравится танцевать.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Ему нравится танцевать."
   },
   {
     "de": "trauern",
+    "infinitive": "trauern",
     "ru": "печалиться",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "B1",
     "conjugation": {
       "ich": "traure",
       "du": "trauerst",
@@ -1240,15 +1313,16 @@
       "sie/Sie": "trauern"
     },
     "example_de": "Sie trauert um ihren Freund.",
-    "example_ru": "Она печалится о своем друге.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "B1"
+    "example_ru": "Она печалится о своем друге."
   },
   {
     "de": "traurig sein",
+    "infinitive": "traurig sein",
     "ru": "грустить",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "bin traurig",
       "du": "bist traurig",
@@ -1258,15 +1332,16 @@
       "sie/Sie": "sind traurig"
     },
     "example_de": "Er ist heute traurig.",
-    "example_ru": "Он сегодня грустит.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Он сегодня грустит."
   },
   {
     "de": "trinken",
+    "infinitive": "trinken",
     "ru": "пить",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "trinke",
       "du": "trinkst",
@@ -1276,15 +1351,16 @@
       "sie/Sie": "trinken"
     },
     "example_de": "Wir trinken Wasser.",
-    "example_ru": "Мы пьем воду.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "Мы пьем воду."
   },
   {
     "de": "träumen",
+    "infinitive": "träumen",
     "ru": "мечтать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "träume",
       "du": "träumst",
@@ -1294,15 +1370,16 @@
       "sie/Sie": "träumen"
     },
     "example_de": "Er träumt von Schnee.",
-    "example_ru": "Он мечтает о снеге.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "Он мечтает о снеге."
   },
   {
     "de": "umarmen",
+    "infinitive": "umarmen",
     "ru": "обнимать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
     "conjugation": {
       "ich": "umarme",
       "du": "umarmst",
@@ -1312,15 +1389,16 @@
       "sie/Sie": "umarmen"
     },
     "example_de": "Wir umarmen uns freudig.",
-    "example_ru": "Мы обнимаем друг друга радостно.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A2"
+    "example_ru": "Мы обнимаем друг друга радостно."
   },
   {
     "de": "verabschieden",
+    "infinitive": "verabschieden",
     "ru": "провожать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "B1",
     "conjugation": {
       "ich": "verabschiede",
       "du": "verabschiedest",
@@ -1330,15 +1408,16 @@
       "sie/Sie": "verabschieden"
     },
     "example_de": "Ich verabschiede meinen Freund am Flughafen.",
-    "example_ru": "Я прощаюсь со своим другом в аэропорту.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "B1"
+    "example_ru": "Я прощаюсь со своим другом в аэропорту."
   },
   {
     "de": "vermissen",
+    "infinitive": "vermissen",
     "ru": "скучать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
     "conjugation": {
       "ich": "vermisse",
       "du": "vermisst",
@@ -1348,15 +1427,16 @@
       "sie/Sie": "vermissen"
     },
     "example_de": "Ich vermisse dich sehr.",
-    "example_ru": "Я по тебе очень скучаю.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A2"
+    "example_ru": "Я по тебе очень скучаю."
   },
   {
     "de": "verstehen",
+    "infinitive": "verstehen",
     "ru": "понимать",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
     "conjugation": {
       "ich": "verstehe",
       "du": "verstehst",
@@ -1366,15 +1446,16 @@
       "sie/Sie": "verstehen"
     },
     "example_de": "Sie versteht die Frage.",
-    "example_ru": "Она понимает вопрос.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A2"
+    "example_ru": "Она понимает вопрос."
   },
   {
     "de": "waschen",
+    "infinitive": "waschen",
     "ru": "мыть",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "wasche",
       "du": "wäschst",
@@ -1384,15 +1465,16 @@
       "sie/Sie": "waschen"
     },
     "example_de": "Sie waschen die Hände.",
-    "example_ru": "Они моют руки.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "Они моют руки."
   },
   {
     "de": "werden",
+    "infinitive": "werden",
     "ru": "становиться, стать",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "werde",
       "du": "wirst",
@@ -1402,15 +1484,16 @@
       "sie/Sie": "werden"
     },
     "example_de": "Der Tag wird lang.",
-    "example_ru": "День становится длинным.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "День становится длинным."
   },
   {
     "de": "wissen",
+    "infinitive": "wissen",
     "ru": "знать (факт)",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "weiß",
       "du": "weißt",
@@ -1420,15 +1503,16 @@
       "sie/Sie": "wissen"
     },
     "example_de": "Du weißt die Antwort.",
-    "example_ru": "Ты знаешь ответ.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "Ты знаешь ответ."
   },
   {
     "de": "wohnen",
+    "infinitive": "wohnen",
     "ru": "жить, проживать",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "wohne",
       "du": "wohnst",
@@ -1438,15 +1522,16 @@
       "sie/Sie": "wohnen"
     },
     "example_de": "Sie wohnt in einer kleinen Wohnung.",
-    "example_ru": "Она живет в небольшой квартире.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Она живет в небольшой квартире."
   },
   {
     "de": "wollen",
+    "infinitive": "wollen",
     "ru": "хотеть",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
     "conjugation": {
       "ich": "will",
       "du": "willst",
@@ -1456,15 +1541,16 @@
       "sie/Sie": "wollen"
     },
     "example_de": "Wir wollen ins Kino gehen.",
-    "example_ru": "Мы хотим пойти в кино.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A2"
+    "example_ru": "Мы хотим пойти в кино."
   },
   {
     "de": "wütend sein",
+    "infinitive": "wütend sein",
     "ru": "злиться",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "bin wütend",
       "du": "bist wütend",
@@ -1474,15 +1560,16 @@
       "sie/Sie": "sind wütend"
     },
     "example_de": "Er ist wütend auf mich.",
-    "example_ru": "Он злится на меня.",
-    "cases": [
-      "Nominativ"
-    ],
-    "level": "A1"
+    "example_ru": "Он злится на меня."
   },
   {
     "de": "zeichnen",
+    "infinitive": "zeichnen",
     "ru": "рисовать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
     "conjugation": {
       "ich": "zeichne",
       "du": "zeichnest",
@@ -1492,10 +1579,6 @@
       "sie/Sie": "zeichnen"
     },
     "example_de": "Das Kind zeichnet Blumen.",
-    "example_ru": "Ребенок рисует цветы.",
-    "cases": [
-      "Akkusativ"
-    ],
-    "level": "A1"
+    "example_ru": "Ребенок рисует цветы."
   }
 ]
