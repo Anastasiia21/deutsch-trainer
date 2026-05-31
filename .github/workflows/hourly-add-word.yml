@@ -29,14 +29,17 @@ jobs:
         run: python hourly_add_word.py
 
       - name: Commit and push if changed
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+  run: |
+    git config user.name "github-actions[bot]"
+    git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          if [ -n "$(git status --porcelain)" ]; then
-            git add public/verbs.json
-            git commit -m "Hourly add daily word"
-            git push
-          else
-            echo "No changes to commit"
-          fi
+    if [ -n "$(git status --porcelain)" ]; then
+      git add public/verbs.json
+      git commit -m "Hourly add daily word"
+
+      git pull --rebase origin main
+
+      git push
+    else
+      echo "No changes to commit"
+    fi
