@@ -48,9 +48,11 @@ export default function App() {
 
 
   const currentList =
-  mode === "words" ? filteredWords : filteredVerbs;
-    ? verbs
-    : phrases; 
+  mode === "words"
+    ? filteredWords
+    : mode === "verbs"
+    ? filteredVerbs
+    : phrases;
 
   if (currentList.length === 0) {
     return <div style={styles.loading}>Загрузка...</div>;
