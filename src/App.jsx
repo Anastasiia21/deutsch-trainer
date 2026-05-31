@@ -151,13 +151,21 @@ export default function App() {
       
         <div style={styles.card} onClick={() => setShow(!show)}>
           {!show ? (
-            <div style={styles.mainWord}>
-              {mode === "words"
-                ? item.de
-                : mode === "verbs"
-                ? item.infinitive || item.de
-                : item.ru}
-            </div>
+           <>
+  <div style={styles.mainWord}>
+    {mode === "words"
+      ? item.de
+      : mode === "verbs"
+      ? item.infinitive || item.de
+      : item.ru}
+  </div>
+
+  {mode === "verbs" && item.cases && (
+    <div style={styles.caseBox}>
+      Падеж: {Array.isArray(item.cases) ? item.cases.join(", ") : item.cases}
+    </div>
+  )}
+</>
           ) : mode === "words" ? (
             <>
               <div style={styles.mainWord}>{item.ru}</div>
@@ -472,4 +480,14 @@ secondaryButton: {
   cursor: "pointer",
   whiteSpace: "nowrap",
 },
-}
+
+caseBox: {
+  marginTop: 18,
+  padding: "10px 16px",
+  borderRadius: 999,
+  background: "rgba(255,255,255,0.35)",
+  color: "#0f172a",
+  fontSize: 20,
+  fontWeight: 700,
+},
+};
