@@ -233,22 +233,23 @@ export default function App() {
 
 const styles = {
   page: {
-    minHeight: "100vh",
+  minHeight: "100svh",
   background: "#8888ab",
   color: "white",
   fontFamily: "Arial, sans-serif",
-  padding: "40px 16px 24px",
+  padding: "18px 14px 18px",
   boxSizing: "border-box",
   display: "flex",
-  flexDirection: "column",    
-  },
+  flexDirection: "column",
+  overflow: "hidden",
+},
 
-  content: {
+content: {
   flex: 1,
   display: "flex",
   flexDirection: "column",
-  justifyContent: "center",
-  },
+  justifyContent: "flex-start",
+},
 
   loading: {
     minHeight: "100vh",
@@ -262,13 +263,13 @@ const styles = {
   },
 
   header: {
-   width: "100%",
+  width: "100%",
   maxWidth: 700,
-  margin: "0 auto 32px",
+  margin: "0 auto 18px",
   display: "flex",
   justifyContent: "space-between",
   alignItems: "center",
-  },
+},
 
   title: {
     fontSize: "clamp(24px, 5vw, 52px)",
@@ -282,12 +283,12 @@ const styles = {
   },
 
   modeButtons: {
-  width: "90%",
+  width: "100%",
   maxWidth: 700,
-  margin: "0 auto 24px",
+  margin: "0 auto 14px",
   display: "grid",
   gridTemplateColumns: "1fr 1fr 1fr",
-  gap: 16,
+  gap: 10,
 },
 
 modeButton: {
@@ -314,12 +315,12 @@ activeModeButton: {
   whiteSpace: "nowrap",
 },
 
- articleButtons: {
-  width: "90%",
+articleButtons: {
+  width: "100%",
   maxWidth: 700,
-  margin: "0 auto 48px",
+  margin: "0 auto 28px",
   display: "flex",
-  gap: 12,
+  gap: 10,
   flexWrap: "wrap",
   justifyContent: "center",
 },
@@ -347,9 +348,9 @@ activeArticleButton: {
 },
 
   card: {
-  width: "95%",
+  width: "100%",
   maxWidth: 700,
-  minHeight: 360,
+  minHeight: "42svh",
   margin: "0 auto",
   background: "#78aee1",
   borderRadius: 28,
@@ -451,31 +452,31 @@ exampleRu: {
 buttons: {
   width: "100%",
   maxWidth: 700,
-  margin: "32px auto 0",
+  margin: "22px auto 0",
   display: "grid",
-  gridTemplateColumns: "1fr 1.4fr 1fr",
+  gridTemplateColumns: "1fr 1.35fr 1fr",
   gap: 10,
 },
 
 mainButton: {
-  padding: "14px 10px",
+  padding: "13px 8px",
   borderRadius: 18,
   border: "none",
   background: "#38bdf8",
   color: "#0f172a",
-  fontSize: "clamp(14px, 2.5vw, 20px)",
+  fontSize: "clamp(14px, 3.5vw, 20px)",
   fontWeight: 700,
   cursor: "pointer",
   whiteSpace: "nowrap",
 },
 
 secondaryButton: {
-  padding: "14px 10px",
+  padding: "13px 8px",
   borderRadius: 18,
   border: "1px solid #475569",
   background: "#1e293b",
   color: "white",
-  fontSize: "clamp(14px, 2.5vw, 20px)",
+  fontSize: "clamp(14px, 3.5vw, 20px)",
   fontWeight: 700,
   cursor: "pointer",
   whiteSpace: "nowrap",
