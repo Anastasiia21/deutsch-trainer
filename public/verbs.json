@@ -11,7 +11,10 @@
       "sie/Sie": "fahren ab"
     },
     "example_de": "Der Zug fährt um 10 Uhr ab.",
-    "example_ru": "Поезд уезжает в 10 часов."
+    "example_ru": "Поезд уезжает в 10 часов.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "abholen",
@@ -25,7 +28,10 @@
       "sie/Sie": "holen ab"
     },
     "example_de": "Ich hole dich vom Bahnhof ab.",
-    "example_ru": "Я встречу тебя на вокзале."
+    "example_ru": "Я встречу тебя на вокзале.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "ankommen",
@@ -39,7 +45,10 @@
       "sie/Sie": "kommen an"
     },
     "example_de": "Wir kommen um 8 Uhr an.",
-    "example_ru": "Мы приезжаем в 8 часов."
+    "example_ru": "Мы приезжаем в 8 часов.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "arbeiten",
@@ -53,7 +62,10 @@
       "sie/Sie": "arbeiten"
     },
     "example_de": "Sie arbeitet im Büro.",
-    "example_ru": "Она работает в офисе."
+    "example_ru": "Она работает в офисе.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "aufräumen",
@@ -67,7 +79,10 @@
       "sie/Sie": "räumen auf"
     },
     "example_de": "Ich räume mein Zimmer auf.",
-    "example_ru": "Я убираю свою комнату."
+    "example_ru": "Я убираю свою комнату.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "begleiten",
@@ -81,7 +96,10 @@
       "sie/Sie": "begleiten"
     },
     "example_de": "Ich begleite dich nach Hause.",
-    "example_ru": "Я провожу тебя домой."
+    "example_ru": "Я провожу тебя домой.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "benutzen",
@@ -95,7 +113,10 @@
       "sie/Sie": "benutzen"
     },
     "example_de": "Ich benutze einen Computer.",
-    "example_ru": "Я использую компьютер."
+    "example_ru": "Я использую компьютер.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "besuchen",
@@ -109,7 +130,10 @@
       "sie/Sie": "besuchen"
     },
     "example_de": "Sie besucht ihre Freundin.",
-    "example_ru": "Она посещает свою подругу."
+    "example_ru": "Она посещает свою подругу.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "bleiben",
@@ -123,7 +147,10 @@
       "sie/Sie": "bleiben"
     },
     "example_de": "Ich bleibe hier.",
-    "example_ru": "Я остаюсь здесь."
+    "example_ru": "Я остаюсь здесь.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "bringen",
@@ -137,7 +164,11 @@
       "sie/Sie": "bringen"
     },
     "example_de": "Er bringt mir Blumen.",
-    "example_ru": "Он мне приносит цветы."
+    "example_ru": "Он мне приносит цветы.",
+    "cases": [
+      "Akkusativ",
+      "Dativ"
+    ]
   },
   {
     "de": "denken",
@@ -151,7 +182,10 @@
       "sie/Sie": "denken"
     },
     "example_de": "Ich denke an das Buch.",
-    "example_ru": "Я думаю о книге."
+    "example_ru": "Я думаю о книге.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "dürfen",
@@ -165,7 +199,10 @@
       "sie/Sie": "dürfen"
     },
     "example_de": "Wir dürfen hier bleiben.",
-    "example_ru": "Нам разрешено здесь оставаться."
+    "example_ru": "Нам разрешено здесь оставаться.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "empfangen",
@@ -179,7 +216,10 @@
       "sie/Sie": "empfangen"
     },
     "example_de": "Wir empfangen unsere Gäste herzlich.",
-    "example_ru": "Мы встречаем наших гостей сердечно."
+    "example_ru": "Мы встречаем наших гостей сердечно.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "energiegeladen sein",
@@ -193,7 +233,10 @@
       "sie/Sie": "sind energiegeladen"
     },
     "example_de": "Die Kinder sind energiegeladen.",
-    "example_ru": "Дети энергичны."
+    "example_ru": "Дети энергичны.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "erzählen",
@@ -207,7 +250,11 @@
       "sie/Sie": "erzählen"
     },
     "example_de": "Sie erzählt eine Geschichte.",
-    "example_ru": "Она рассказывает историю."
+    "example_ru": "Она рассказывает историю.",
+    "cases": [
+      "Akkusativ",
+      "Dativ"
+    ]
   },
   {
     "de": "essen",
@@ -221,7 +268,10 @@
       "sie/Sie": "essen"
     },
     "example_de": "Er isst Pizza.",
-    "example_ru": "Он ест пиццу."
+    "example_ru": "Он ест пиццу.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "fahren",
@@ -235,7 +285,10 @@
       "sie/Sie": "fahren"
     },
     "example_de": "Ich fahre nach Berlin.",
-    "example_ru": "Я еду в Берлин."
+    "example_ru": "Я еду в Берлин.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "finden",
@@ -249,7 +302,10 @@
       "sie/Sie": "finden"
     },
     "example_de": "Wir finden den Schlüssel.",
-    "example_ru": "Мы находим ключ."
+    "example_ru": "Мы находим ключ.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "fliegen",
@@ -263,7 +319,10 @@
       "sie/Sie": "fliegen"
     },
     "example_de": "Der Vogel fliegt hoch.",
-    "example_ru": "Птица летит высоко."
+    "example_ru": "Птица летит высоко.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "frei sein",
@@ -277,7 +336,10 @@
       "sie/Sie": "sind frei"
     },
     "example_de": "Ich bin endlich frei.",
-    "example_ru": "Я наконец свободен."
+    "example_ru": "Я наконец свободен.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "geben",
@@ -291,7 +353,11 @@
       "sie/Sie": "geben"
     },
     "example_de": "Er gibt dem Kind ein Buch.",
-    "example_ru": "Он дает ребенку книгу."
+    "example_ru": "Он дает ребенку книгу.",
+    "cases": [
+      "Akkusativ",
+      "Dativ"
+    ]
   },
   {
     "de": "gehen",
@@ -305,7 +371,10 @@
       "sie/Sie": "gehen"
     },
     "example_de": "Ich gehe nach Hause.",
-    "example_ru": "Я иду домой."
+    "example_ru": "Я иду домой.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "geliebt werden",
@@ -319,7 +388,10 @@
       "sie/Sie": "werden geliebt"
     },
     "example_de": "Ich werde von meiner Familie geliebt.",
-    "example_ru": "Я любим своей семьей."
+    "example_ru": "Я любим своей семьей.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "glücklich sein",
@@ -333,7 +405,10 @@
       "sie/Sie": "sind glücklich"
     },
     "example_de": "Wir sind sehr glücklich.",
-    "example_ru": "Мы очень счастливы."
+    "example_ru": "Мы очень счастливы.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "haben",
@@ -347,7 +422,10 @@
       "sie/Sie": "haben"
     },
     "example_de": "Ich habe einen Stift.",
-    "example_ru": "У меня есть ручка."
+    "example_ru": "У меня есть ручка.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "heißen",
@@ -361,7 +439,10 @@
       "sie/Sie": "heißen"
     },
     "example_de": "Ich heiße Anna.",
-    "example_ru": "Меня зовут Анна."
+    "example_ru": "Меня зовут Анна.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "helfen",
@@ -375,7 +456,10 @@
       "sie/Sie": "helfen"
     },
     "example_de": "Ich helfe dir mit der Hausarbeit.",
-    "example_ru": "Я помогаю тебе с домашним заданием."
+    "example_ru": "Я помогаю тебе с домашним заданием.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "hoffen",
@@ -389,7 +473,10 @@
       "sie/Sie": "hoffen"
     },
     "example_de": "Ich hoffe auf Erfolg.",
-    "example_ru": "Я надеюсь на успех."
+    "example_ru": "Я надеюсь на успех.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "hören",
@@ -403,7 +490,10 @@
       "sie/Sie": "hören"
     },
     "example_de": "Wir hören das Radio.",
-    "example_ru": "Мы слушаем радио."
+    "example_ru": "Мы слушаем радио.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "kaufen",
@@ -417,7 +507,10 @@
       "sie/Sie": "kaufen"
     },
     "example_de": "Ich kaufe Brot im Supermarkt.",
-    "example_ru": "Я покупаю хлеб в супермаркете."
+    "example_ru": "Я покупаю хлеб в супермаркете.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "kennen",
@@ -431,7 +524,10 @@
       "sie/Sie": "kennen"
     },
     "example_de": "Ich kenne diesen Mann.",
-    "example_ru": "Я знаю этого человека."
+    "example_ru": "Я знаю этого человека.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "kommen",
@@ -445,7 +541,10 @@
       "sie/Sie": "kommen"
     },
     "example_de": "Wir kommen aus der Stadt.",
-    "example_ru": "Мы приходим из города."
+    "example_ru": "Мы приходим из города.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "können",
@@ -459,7 +558,10 @@
       "sie/Sie": "können"
     },
     "example_de": "Ich kann schon schwimmen.",
-    "example_ru": "Я уже могу плавать."
+    "example_ru": "Я уже могу плавать.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "küssen",
@@ -473,7 +575,10 @@
       "sie/Sie": "küssen"
     },
     "example_de": "Ich küsse meine Mutter.",
-    "example_ru": "Я целую свою маму."
+    "example_ru": "Я целую свою маму.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "lachen",
@@ -487,7 +592,10 @@
       "sie/Sie": "lachen"
     },
     "example_de": "Sie lachen über den Witz.",
-    "example_ru": "Они смеются над шуткой."
+    "example_ru": "Они смеются над шуткой.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "langweilig sein",
@@ -501,7 +609,10 @@
       "sie/Sie": "sind langweilig"
     },
     "example_de": "Das Film ist langweilig.",
-    "example_ru": "Фильм скучный."
+    "example_ru": "Фильм скучный.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "leben",
@@ -515,7 +626,10 @@
       "sie/Sie": "leben"
     },
     "example_de": "Ich lebe in Berlin.",
-    "example_ru": "Я живу в Берлине."
+    "example_ru": "Я живу в Берлине.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "leiden",
@@ -529,7 +643,10 @@
       "sie/Sie": "leiden"
     },
     "example_de": "Er leidet unter Kopfschmerzen.",
-    "example_ru": "Он страдает от головной боли."
+    "example_ru": "Он страдает от головной боли.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "lernen",
@@ -543,7 +660,10 @@
       "sie/Sie": "lernen"
     },
     "example_de": "Er lernt neue Wörter.",
-    "example_ru": "Он учит новые слова."
+    "example_ru": "Он учит новые слова.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "lesen",
@@ -557,7 +677,10 @@
       "sie/Sie": "lesen"
     },
     "example_de": "Du liest ein Buch.",
-    "example_ru": "Ты читаешь книгу."
+    "example_ru": "Ты читаешь книгу.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "lieben",
@@ -571,7 +694,10 @@
       "sie/Sie": "lieben"
     },
     "example_de": "Sie liebt ihren Mann.",
-    "example_ru": "Она любит своего мужа."
+    "example_ru": "Она любит своего мужа.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "machen",
@@ -585,7 +711,10 @@
       "sie/Sie": "machen"
     },
     "example_de": "Ich mache einen Kuchen.",
-    "example_ru": "Я делаю пирог."
+    "example_ru": "Я делаю пирог.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "mögen",
@@ -599,7 +728,10 @@
       "sie/Sie": "mögen"
     },
     "example_de": "Ich mag diese Musik.",
-    "example_ru": "Мне нравится эта музыка."
+    "example_ru": "Мне нравится эта музыка.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "müssen",
@@ -613,7 +745,10 @@
       "sie/Sie": "müssen"
     },
     "example_de": "Er muss heute arbeiten.",
-    "example_ru": "Он должен сегодня работать."
+    "example_ru": "Он должен сегодня работать.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "nehmen",
@@ -627,7 +762,10 @@
       "sie/Sie": "nehmen"
     },
     "example_de": "Sie nimmt das Glas.",
-    "example_ru": "Она берет стакан."
+    "example_ru": "Она берет стакан.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "niedergeschlagen sein",
@@ -641,7 +779,10 @@
       "sie/Sie": "sind niedergeschlagen"
     },
     "example_de": "Sie ist niedergeschlagen.",
-    "example_ru": "Она подавлена."
+    "example_ru": "Она подавлена.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "reisen",
@@ -655,7 +796,10 @@
       "sie/Sie": "reisen"
     },
     "example_de": "Wir reisen nach Italien.",
-    "example_ru": "Мы путешествуем в Италию."
+    "example_ru": "Мы путешествуем в Италию.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "rufen",
@@ -669,7 +813,10 @@
       "sie/Sie": "rufen"
     },
     "example_de": "Ich rufe nach Hilfe.",
-    "example_ru": "Я кричу о помощи."
+    "example_ru": "Я кричу о помощи.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "schauen",
@@ -683,7 +830,10 @@
       "sie/Sie": "schauen"
     },
     "example_de": "Ich schaue einen Film.",
-    "example_ru": "Я смотрю фильм."
+    "example_ru": "Я смотрю фильм.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "scherzen",
@@ -697,7 +847,10 @@
       "sie/Sie": "scherzen"
     },
     "example_de": "Ich scherze mit meinen Freunden.",
-    "example_ru": "Я шучу с моими друзьями."
+    "example_ru": "Я шучу с моими друзьями.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "schreiben",
@@ -711,7 +864,10 @@
       "sie/Sie": "schreiben"
     },
     "example_de": "Sie schreibt einen Brief.",
-    "example_ru": "Она пишет письмо."
+    "example_ru": "Она пишет письмо.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "schreien",
@@ -725,7 +881,10 @@
       "sie/Sie": "schreien"
     },
     "example_de": "Das Baby schreit laut.",
-    "example_ru": "Малыш громко кричит."
+    "example_ru": "Малыш громко кричит.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "schwach sein",
@@ -739,7 +898,10 @@
       "sie/Sie": "sind schwach"
     },
     "example_de": "Ich bin schwach nach der Krankheit.",
-    "example_ru": "Я слаб после болезни."
+    "example_ru": "Я слаб после болезни.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "sehen",
@@ -753,7 +915,10 @@
       "sie/Sie": "sehen"
     },
     "example_de": "Ich sehe den roten Bus.",
-    "example_ru": "Я вижу красный автобус."
+    "example_ru": "Я вижу красный автобус.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "sein",
@@ -767,7 +932,10 @@
       "sie/Sie": "sind"
     },
     "example_de": "Er ist Lehrer.",
-    "example_ru": "Он учитель."
+    "example_ru": "Он учитель.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "sich freuen",
@@ -781,7 +949,10 @@
       "sie/Sie": "freuen sich"
     },
     "example_de": "Ich freue mich auf den Besuch.",
-    "example_ru": "Я рад приходу гостей."
+    "example_ru": "Я рад приходу гостей.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "sich quälen",
@@ -795,7 +966,10 @@
       "sie/Sie": "quälen sich"
     },
     "example_de": "Ich quäle mich mit Gedanken.",
-    "example_ru": "Я мучусь мыслями."
+    "example_ru": "Я мучусь мыслями.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "sich streiten",
@@ -809,7 +983,10 @@
       "sie/Sie": "streiten sich"
     },
     "example_de": "Wir streiten uns nie.",
-    "example_ru": "Мы никогда не ссоримся."
+    "example_ru": "Мы никогда не ссоримся.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "sich treffen",
@@ -823,7 +1000,10 @@
       "sie/Sie": "treffen sich"
     },
     "example_de": "Wir treffen uns im Park.",
-    "example_ru": "Мы встречаемся в парке."
+    "example_ru": "Мы встречаемся в парке.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "singen",
@@ -837,7 +1017,11 @@
       "sie/Sie": "singen"
     },
     "example_de": "Die Kinder singen im Chor.",
-    "example_ru": "Дети поют в хоре."
+    "example_ru": "Дети поют в хоре.",
+    "cases": [
+      "Akkusativ",
+      "Nominativ"
+    ]
   },
   {
     "de": "sollen",
@@ -851,7 +1035,10 @@
       "sie/Sie": "sollen"
     },
     "example_de": "Du sollst das Buch lesen.",
-    "example_ru": "Ты должен читать книгу."
+    "example_ru": "Ты должен читать книгу.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "spielen",
@@ -865,7 +1052,11 @@
       "sie/Sie": "spielen"
     },
     "example_de": "Die Kinder spielen draußen.",
-    "example_ru": "Дети играют на улице."
+    "example_ru": "Дети играют на улице.",
+    "cases": [
+      "Akkusativ",
+      "Nominativ"
+    ]
   },
   {
     "de": "sprechen",
@@ -879,7 +1070,10 @@
       "sie/Sie": "sprechen"
     },
     "example_de": "Wir sprechen mit dem Lehrer.",
-    "example_ru": "Мы говорим с учителем."
+    "example_ru": "Мы говорим с учителем.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "stark sein",
@@ -893,7 +1087,10 @@
       "sie/Sie": "sind stark"
     },
     "example_de": "Er ist sehr stark.",
-    "example_ru": "Он очень сильный."
+    "example_ru": "Он очень сильный.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "streicheln",
@@ -907,7 +1104,10 @@
       "sie/Sie": "streicheln"
     },
     "example_de": "Ich streichele die Katze.",
-    "example_ru": "Я глажу кошку."
+    "example_ru": "Я глажу кошку.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "studieren",
@@ -921,7 +1121,10 @@
       "sie/Sie": "studieren"
     },
     "example_de": "Er studiert Medizin.",
-    "example_ru": "Он изучает медицину."
+    "example_ru": "Он изучает медицину.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "tanzen",
@@ -935,7 +1138,10 @@
       "sie/Sie": "tanzen"
     },
     "example_de": "Er tanzt gerne.",
-    "example_ru": "Ему нравится танцевать."
+    "example_ru": "Ему нравится танцевать.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "trauern",
@@ -949,7 +1155,10 @@
       "sie/Sie": "trauern"
     },
     "example_de": "Sie trauert um ihren Freund.",
-    "example_ru": "Она печалится о своем друге."
+    "example_ru": "Она печалится о своем друге.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "traurig sein",
@@ -963,7 +1172,10 @@
       "sie/Sie": "sind traurig"
     },
     "example_de": "Er ist heute traurig.",
-    "example_ru": "Он сегодня грустит."
+    "example_ru": "Он сегодня грустит.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "trinken",
@@ -977,7 +1189,10 @@
       "sie/Sie": "trinken"
     },
     "example_de": "Wir trinken Wasser.",
-    "example_ru": "Мы пьем воду."
+    "example_ru": "Мы пьем воду.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "träumen",
@@ -991,7 +1206,10 @@
       "sie/Sie": "träumen"
     },
     "example_de": "Er träumt von Schnee.",
-    "example_ru": "Он мечтает о снеге."
+    "example_ru": "Он мечтает о снеге.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "umarmen",
@@ -1005,7 +1223,10 @@
       "sie/Sie": "umarmen"
     },
     "example_de": "Wir umarmen uns freudig.",
-    "example_ru": "Мы обнимаем друг друга радостно."
+    "example_ru": "Мы обнимаем друг друга радостно.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "verabschieden",
@@ -1019,7 +1240,10 @@
       "sie/Sie": "verabschieden"
     },
     "example_de": "Ich verabschiede meinen Freund am Flughafen.",
-    "example_ru": "Я прощаюсь со своим другом в аэропорту."
+    "example_ru": "Я прощаюсь со своим другом в аэропорту.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "vermissen",
@@ -1033,7 +1257,10 @@
       "sie/Sie": "vermissen"
     },
     "example_de": "Ich vermisse dich sehr.",
-    "example_ru": "Я по тебе очень скучаю."
+    "example_ru": "Я по тебе очень скучаю.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "verstehen",
@@ -1047,7 +1274,10 @@
       "sie/Sie": "verstehen"
     },
     "example_de": "Sie versteht die Frage.",
-    "example_ru": "Она понимает вопрос."
+    "example_ru": "Она понимает вопрос.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "waschen",
@@ -1061,7 +1291,10 @@
       "sie/Sie": "waschen"
     },
     "example_de": "Sie waschen die Hände.",
-    "example_ru": "Они моют руки."
+    "example_ru": "Они моют руки.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "werden",
@@ -1075,7 +1308,10 @@
       "sie/Sie": "werden"
     },
     "example_de": "Der Tag wird lang.",
-    "example_ru": "День становится длинным."
+    "example_ru": "День становится длинным.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "wissen",
@@ -1089,7 +1325,10 @@
       "sie/Sie": "wissen"
     },
     "example_de": "Du weißt die Antwort.",
-    "example_ru": "Ты знаешь ответ."
+    "example_ru": "Ты знаешь ответ.",
+    "cases": [
+      "Akkusativ"
+    ]
   },
   {
     "de": "wohnen",
@@ -1103,7 +1342,10 @@
       "sie/Sie": "wohnen"
     },
     "example_de": "Sie wohnt in einer kleinen Wohnung.",
-    "example_ru": "Она живет в небольшой квартире."
+    "example_ru": "Она живет в небольшой квартире.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "wollen",
@@ -1117,7 +1359,10 @@
       "sie/Sie": "wollen"
     },
     "example_de": "Wir wollen ins Kino gehen.",
-    "example_ru": "Мы хотим пойти в кино."
+    "example_ru": "Мы хотим пойти в кино.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "wütend sein",
@@ -1131,7 +1376,10 @@
       "sie/Sie": "sind wütend"
     },
     "example_de": "Er ist wütend auf mich.",
-    "example_ru": "Он злится на меня."
+    "example_ru": "Он злится на меня.",
+    "cases": [
+      "Nominativ"
+    ]
   },
   {
     "de": "zeichnen",
@@ -1145,6 +1393,9 @@
       "sie/Sie": "zeichnen"
     },
     "example_de": "Das Kind zeichnet Blumen.",
-    "example_ru": "Ребенок рисует цветы."
+    "example_ru": "Ребенок рисует цветы.",
+    "cases": [
+      "Akkusativ"
+    ]
   }
 ]
