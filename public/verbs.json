@@ -1164,6 +1164,23 @@
     "example_ru": "Дети поют в хоре."
   },
   {
+    "de": "sitzen",
+    "ru": "сидеть",
+    "cases": [
+      "Nominativ"
+    ],
+    "conjugation": {
+      "ich": "sitze",
+      "du": "sitzt",
+      "er/sie/es": "sitzt",
+      "wir": "sitzen",
+      "ihr": "sitzt",
+      "sie/Sie": "sitzen"
+    },
+    "example_de": "Wir sitzen im Wohnzimmer.",
+    "example_ru": "Мы сидим в гостиной."
+  },
+  {
     "de": "sollen",
     "infinitive": "sollen",
     "ru": "должен",
