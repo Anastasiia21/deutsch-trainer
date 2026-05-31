@@ -347,7 +347,7 @@ activeArticleButton: {
 },
 
   card: {
-  width: "100%",
+  width: "95%",
   maxWidth: 700,
   minHeight: 360,
   margin: "0 auto",
@@ -449,33 +449,33 @@ exampleRu: {
 },
 
 buttons: {
-  width: "90%",
+  width: "100%",
   maxWidth: 700,
   margin: "32px auto 0",
   display: "grid",
-  gridTemplateColumns: "1fr 1.6fr 1fr",
-  gap: 16,
+  gridTemplateColumns: "1fr 1.4fr 1fr",
+  gap: 10,
 },
 
 mainButton: {
-  padding: "16px 18px",
+  padding: "14px 10px",
   borderRadius: 18,
   border: "none",
   background: "#38bdf8",
   color: "#0f172a",
-  fontSize: "clamp(18px, 3vw, 22px)",
+  fontSize: "clamp(14px, 2.5vw, 20px)",
   fontWeight: 700,
   cursor: "pointer",
   whiteSpace: "nowrap",
 },
 
 secondaryButton: {
-  padding: "16px 18px",
+  padding: "14px 10px",
   borderRadius: 18,
   border: "1px solid #475569",
   background: "#1e293b",
   color: "white",
-  fontSize: "clamp(18px, 3vw, 22px)",
+  fontSize: "clamp(14px, 2.5vw, 20px)",
   fontWeight: 700,
   cursor: "pointer",
   whiteSpace: "nowrap",
