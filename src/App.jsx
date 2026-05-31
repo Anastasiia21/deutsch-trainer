@@ -487,7 +487,7 @@ caseBox: {
   borderRadius: 999,
   background: "rgba(255,255,255,0.35)",
   color: "#0f172a",
-  fontSize: 20,
+  fontSize: 16,
   fontWeight: 700,
 },
 };
