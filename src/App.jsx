@@ -285,7 +285,7 @@ content: {
   modeButtons: {
   width: "100%",
   maxWidth: 700,
-  margin: "0 auto 14px",
+  margin: "20px auto 24px",
   display: "grid",
   gridTemplateColumns: "1fr 1fr 1fr",
   gap: 10,
