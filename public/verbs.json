@@ -1,5 +1,299 @@
 [
   {
+    "de": "abfahren",
+    "ru": "уезжать",
+    "conjugation": {
+      "ich": "fahre ab",
+      "du": "fährst ab",
+      "er/sie/es": "fährt ab",
+      "wir": "fahren ab",
+      "ihr": "fahrt ab",
+      "sie/Sie": "fahren ab"
+    },
+    "example_de": "Der Zug fährt um 10 Uhr ab.",
+    "example_ru": "Поезд уезжает в 10 часов."
+  },
+  {
+    "de": "abholen",
+    "ru": "встречать",
+    "conjugation": {
+      "ich": "hole ab",
+      "du": "holst ab",
+      "er/sie/es": "holt ab",
+      "wir": "holen ab",
+      "ihr": "holt ab",
+      "sie/Sie": "holen ab"
+    },
+    "example_de": "Ich hole dich vom Bahnhof ab.",
+    "example_ru": "Я встречу тебя на вокзале."
+  },
+  {
+    "de": "ankommen",
+    "ru": "приезжать",
+    "conjugation": {
+      "ich": "komme an",
+      "du": "kommst an",
+      "er/sie/es": "kommt an",
+      "wir": "kommen an",
+      "ihr": "kommt an",
+      "sie/Sie": "kommen an"
+    },
+    "example_de": "Wir kommen um 8 Uhr an.",
+    "example_ru": "Мы приезжаем в 8 часов."
+  },
+  {
+    "de": "arbeiten",
+    "ru": "работать",
+    "conjugation": {
+      "ich": "arbeite",
+      "du": "arbeitest",
+      "er/sie/es": "arbeitet",
+      "wir": "arbeiten",
+      "ihr": "arbeitet",
+      "sie/Sie": "arbeiten"
+    },
+    "example_de": "Sie arbeitet im Büro.",
+    "example_ru": "Она работает в офисе."
+  },
+  {
+    "de": "aufräumen",
+    "ru": "убирать",
+    "conjugation": {
+      "ich": "räume auf",
+      "du": "räumst auf",
+      "er/sie/es": "räumt auf",
+      "wir": "räumen auf",
+      "ihr": "räumt auf",
+      "sie/Sie": "räumen auf"
+    },
+    "example_de": "Ich räume mein Zimmer auf.",
+    "example_ru": "Я убираю свою комнату."
+  },
+  {
+    "de": "begleiten",
+    "ru": "провожать",
+    "conjugation": {
+      "ich": "begleite",
+      "du": "begleitest",
+      "er/sie/es": "begleitet",
+      "wir": "begleiten",
+      "ihr": "begleitet",
+      "sie/Sie": "begleiten"
+    },
+    "example_de": "Ich begleite dich nach Hause.",
+    "example_ru": "Я провожу тебя домой."
+  },
+  {
+    "de": "benutzen",
+    "ru": "использовать",
+    "conjugation": {
+      "ich": "benutze",
+      "du": "benutzt",
+      "er/sie/es": "benutzt",
+      "wir": "benutzen",
+      "ihr": "benutzt",
+      "sie/Sie": "benutzen"
+    },
+    "example_de": "Ich benutze einen Computer.",
+    "example_ru": "Я использую компьютер."
+  },
+  {
+    "de": "besuchen",
+    "ru": "посещать",
+    "conjugation": {
+      "ich": "besuche",
+      "du": "besuchst",
+      "er/sie/es": "besucht",
+      "wir": "besuchen",
+      "ihr": "besucht",
+      "sie/Sie": "besuchen"
+    },
+    "example_de": "Sie besucht ihre Freundin.",
+    "example_ru": "Она посещает свою подругу."
+  },
+  {
+    "de": "bleiben",
+    "ru": "оставаться",
+    "conjugation": {
+      "ich": "bleibe",
+      "du": "bleibst",
+      "er/sie/es": "bleibt",
+      "wir": "bleiben",
+      "ihr": "bleibt",
+      "sie/Sie": "bleiben"
+    },
+    "example_de": "Ich bleibe hier.",
+    "example_ru": "Я остаюсь здесь."
+  },
+  {
+    "de": "bringen",
+    "ru": "приносить",
+    "conjugation": {
+      "ich": "bringe",
+      "du": "bringst",
+      "er/sie/es": "bringt",
+      "wir": "bringen",
+      "ihr": "bringt",
+      "sie/Sie": "bringen"
+    },
+    "example_de": "Er bringt mir Blumen.",
+    "example_ru": "Он мне приносит цветы."
+  },
+  {
+    "de": "denken",
+    "ru": "думать",
+    "conjugation": {
+      "ich": "denke",
+      "du": "denkst",
+      "er/sie/es": "denkt",
+      "wir": "denken",
+      "ihr": "denkt",
+      "sie/Sie": "denken"
+    },
+    "example_de": "Ich denke an das Buch.",
+    "example_ru": "Я думаю о книге."
+  },
+  {
+    "de": "dürfen",
+    "ru": "иметь разрешение",
+    "conjugation": {
+      "ich": "darf",
+      "du": "darfst",
+      "er/sie/es": "darf",
+      "wir": "dürfen",
+      "ihr": "dürft",
+      "sie/Sie": "dürfen"
+    },
+    "example_de": "Wir dürfen hier bleiben.",
+    "example_ru": "Нам разрешено здесь оставаться."
+  },
+  {
+    "de": "empfangen",
+    "ru": "встречать",
+    "conjugation": {
+      "ich": "empfange",
+      "du": "empfängst",
+      "er/sie/es": "empfängt",
+      "wir": "empfangen",
+      "ihr": "empfangt",
+      "sie/Sie": "empfangen"
+    },
+    "example_de": "Wir empfangen unsere Gäste herzlich.",
+    "example_ru": "Мы встречаем наших гостей сердечно."
+  },
+  {
+    "de": "energiegeladen sein",
+    "ru": "быть энергичным",
+    "conjugation": {
+      "ich": "bin energiegeladen",
+      "du": "bist energiegeladen",
+      "er/sie/es": "ist energiegeladen",
+      "wir": "sind energiegeladen",
+      "ihr": "seid energiegeladen",
+      "sie/Sie": "sind energiegeladen"
+    },
+    "example_de": "Die Kinder sind energiegeladen.",
+    "example_ru": "Дети энергичны."
+  },
+  {
+    "de": "erzählen",
+    "ru": "рассказывать",
+    "conjugation": {
+      "ich": "erzähle",
+      "du": "erzählst",
+      "er/sie/es": "erzählt",
+      "wir": "erzählen",
+      "ihr": "erzählt",
+      "sie/Sie": "erzählen"
+    },
+    "example_de": "Sie erzählt eine Geschichte.",
+    "example_ru": "Она рассказывает историю."
+  },
+  {
+    "de": "essen",
+    "ru": "есть",
+    "conjugation": {
+      "ich": "esse",
+      "du": "isst",
+      "er/sie/es": "isst",
+      "wir": "essen",
+      "ihr": "esst",
+      "sie/Sie": "essen"
+    },
+    "example_de": "Er isst Pizza.",
+    "example_ru": "Он ест пиццу."
+  },
+  {
+    "de": "fahren",
+    "ru": "ехать",
+    "conjugation": {
+      "ich": "fahre",
+      "du": "fährst",
+      "er/sie/es": "fährt",
+      "wir": "fahren",
+      "ihr": "fahrt",
+      "sie/Sie": "fahren"
+    },
+    "example_de": "Ich fahre nach Berlin.",
+    "example_ru": "Я еду в Берлин."
+  },
+  {
+    "de": "finden",
+    "ru": "находить, считать",
+    "conjugation": {
+      "ich": "finde",
+      "du": "findest",
+      "er/sie/es": "findet",
+      "wir": "finden",
+      "ihr": "findet",
+      "sie/Sie": "finden"
+    },
+    "example_de": "Wir finden den Schlüssel.",
+    "example_ru": "Мы находим ключ."
+  },
+  {
+    "de": "fliegen",
+    "ru": "летать",
+    "conjugation": {
+      "ich": "fliege",
+      "du": "fliegst",
+      "er/sie/es": "fliegt",
+      "wir": "fliegen",
+      "ihr": "fliegt",
+      "sie/Sie": "fliegen"
+    },
+    "example_de": "Der Vogel fliegt hoch.",
+    "example_ru": "Птица летит высоко."
+  },
+  {
+    "de": "frei sein",
+    "ru": "быть свободным",
+    "conjugation": {
+      "ich": "bin frei",
+      "du": "bist frei",
+      "er/sie/es": "ist frei",
+      "wir": "sind frei",
+      "ihr": "seid frei",
+      "sie/Sie": "sind frei"
+    },
+    "example_de": "Ich bin endlich frei.",
+    "example_ru": "Я наконец свободен."
+  },
+  {
+    "de": "geben",
+    "ru": "давать",
+    "conjugation": {
+      "ich": "gebe",
+      "du": "gibst",
+      "er/sie/es": "gibt",
+      "wir": "geben",
+      "ihr": "gebt",
+      "sie/Sie": "geben"
+    },
+    "example_de": "Er gibt dem Kind ein Buch.",
+    "example_ru": "Он дает ребенку книгу."
+  },
+  {
     "de": "gehen",
     "ru": "идти",
     "conjugation": {
@@ -14,254 +308,843 @@
     "example_ru": "Я иду домой."
   },
   {
-    "de": "bleiben",
-    "ru": "оставаться / оставаться",
+    "de": "geliebt werden",
+    "ru": "быть любимым",
     "conjugation": {
-     "ich": "bleibe",
-     "du": "bleibst",
-     "er/sie/es": "bleibt",
-     "wir": "bleiben",
-     "ihr": "bleibt", 
-     "sie/Sie": "bleiben"
-},
-    "example_de": "Ich bleibe hier.",
-    "example_ru": "Я остаюсь здесь."
-},
+      "ich": "werde geliebt",
+      "du": "wirst geliebt",
+      "er/sie/es": "wird geliebt",
+      "wir": "werden geliebt",
+      "ihr": "werdet geliebt",
+      "sie/Sie": "werden geliebt"
+    },
+    "example_de": "Ich werde von meiner Familie geliebt.",
+    "example_ru": "Я любим своей семьей."
+  },
   {
-    "de": "bleiben",
-    "ru": "оставаться / оставаться",
+    "de": "glücklich sein",
+    "ru": "быть счастливым",
     "conjugation": {
-     "ich": "bleibe",
-     "du": "bleibst",
-     "er/sie/es": "bleibt",
-     "wir": "bleiben",
-     "ihr": "bleibt", 
-     "sie/Sie": "bleiben"
-},
-    "example_de": "Ich bleibe hier.",
-    "example_ru": "Я остаюсь здесь."
-},
-{
-"de": "essen",
-"ru": "есть / есть",
-"conjugation": {
-"ich": "esse",
-"du": "isst",
-"er/sie/es": "isst",
-"wir": "essen",
-"ihr": "esst",
-"sie/Sie": "essen"
-},
-"example_de": "Ich esse gerne.",
-"example_ru": "Я ем с удовольствием."
-},
-{
-"de": "trinken",
-"ru": "пить / пить",
-"conjugation": {
-"ich": "trinke",
-"du": "trinkst",
-"er/sie/es": "trinkt",
-"wir": "trinken",
-"ihr": "trinkt",
-"sie/Sie": "trinken"
-},
-"example_de": "Wir trinken Wasser.",
-"example_ru": "Мы пьем воду."
-},
-{
-"de": "leben",
-"ru": "жить / жить",
-"conjugation": {
-"ich": "lebe",
-"du": "lebst",
-"er/sie/es": "lebt",
-"wir": "leben",
-"ihr": "lebt",
-"sie/Sie": "leben"
-},
-"example_de": "Ich lebe in Berlin.",
-"example_ru": "Я живу в Берлине."
-},
-{
-"de": "lieben",
-"ru": "любить / любить",
-"conjugation": {
-"ich": "liebe",
-"du": "liebst",
-"er/sie/es": "liebt",
-"wir": "lieben",
-"ihr": "liebt",
-"sie/Sie": "lieben"
-},
-"example_de": "Sie liebt ihren Mann.",
-"example_ru": "Она любит своего мужа."
-},
-{
-"de": "fahren",
-"ru": "ехать / ездить",
-"conjugation": {
-"ich": "fahre",
-"du": "fährst",
-"er/sie/es": "fährt",
-"wir": "fahren",
-"ihr": "fahrt",
-"sie/Sie": "fahren"
-},
-"example_de": "Ich fahre nach Berlin.",
-"example_ru": "Я еду в Берлин."
-},{
-"de": "hoffen",
-"ru": "ожидать / ждать",
-"conjugation": {
-"ich": "hoffe",
-"du": "hoffst",
-"er/sie/es": "hofft",
-"wir": "hoffen",
-"ihr": "hofft",
-"sie/Sie": "hOFFEN"
-},
-"example_de": "Ich hoffe auf Erfolg.",
-"example_ru": "Я жду успеха."
-},
-{
-"de": "helfen",
-"ru": "помочь / помочь",
-"conjugation": {
-"ich": "helfe",
-"du": "hilfst",
-"er/sie/es": "hilft",
-"wir": "helfen",
-"ihr": "helft",
-"sie/Sie": "helfen"
-},
-"example_de": "Ich helfe dir mit der Hausarbeit.",
-"example_ru": "Я помогаю тебе с домашним заданием."
-},
-{
-"de": "gehen",
-"ru": "идти / идти",
-"conjugation": {
-"ich": "gehe",
-"du": "gehst",
-"er/sie/es": "geht",
-"wir": "gehen",
-"ihr": "gehst",
-"sie/Sie": "gehen"
-},
-"example_de": "Ich gehe nach Hause.",
-"example_ru": "Я иду домой."
-},
-{
-"de": "gehen",
-"ru": "идти / идти",
-"conjugation": {
-"ich": "gehe",
-"du": "gehst",
-"er/sie/es": "geht",
-"wir": "gehen",
-"ihr": "gehst",
-"sie/Sie": "gehen"
-},
-"example_de": "Er geht nach Hause.",
-"example_ru": "Он идет домой."
-},
-{
-"de": "hoffen",
-"ru": "ожидать / ждать",
-"conjugation": {
-"ich": "hoffe",
-"du": "hoffst",
-"er/sie/es": "hofft",
-"wir": "hoffen",
-"ihr": "hofft",
-"sie/Sie": "hOFFEN"
-},
-"example_de": "Sie hofft auf Erfolg.",
-"example_ru": "Она ждёт успеха."
-},
-{
-"de": "helfen",
-"ru": "помочь / помочь",
-"conjugation": {
-"ich": "helfe",
-"du": "hilfst",
-"er/sie/es": "hilft",
-"wir": "helfen",
-"ihr": "helft",
-"sie/Sie": "helfen"
-},
-"example_de": "Wir helfen dir mit der Hausarbeit.",
-"example_ru": "Мы помогаем тебе с домашним заданием."
-},
-{
-"de": "fahren",
-"ru": "ехать / ездить",
-"conjugation": {
-"ich": "fahre",
-"du": "fährst",
-"er/sie/es": "fährt",
-"wir": "fahren",
-"ihr": "fahrt",
-"sie/Sie": "fahren"
-},
-"example_de": "Sie fährt nach Berlin.",
-"example_ru": "Она едет в Берлин."
-},
-{
-"de": "essen",
-"ru": "есть / есть",
-"conjugation": {
-"ich": "esse",
-"du": "isst",
-"er/sie/es": "ist",
-"wir": "essen",
-"ihr": "isst",
-"sie/Sie": "essen"
-},
-"example_de": "Er isst Pizza.",
-"example_ru": "Он ест пиццу."
-},
-{
-"de": "trinken",
-"ru": "пить / пить",
-"conjugation": {
-"ich": "trinke",
-"du": "trinkst",
-"er/sie/es": "trinkt",
-"wir": "trinken",
-"ihr": "trinkt",
-"sie/Sie": "trinken"
-},
-"example_de": "Sie trinkt Wasser.",
-"example_ru": "Она пьёт воду."
-},
-{
-"de": "leben",
-"ru": "жить / жить",
-"conjugation": {
-"ich": "lebe",
-"du": "lebst",
-"er/sie/es": "lebt",
-"wir": "leben",
-"ihr": "lebt",
-"sie/Sie": "leben"
-},
-"example_de": "Wir leben in Berlin.",
-"example_ru": "Мы живём в Берлине."
-},
-{
-"de": "lieben",
-"ru": "любить / любить",
-"conjugation": {
-"ich": "liebe",
-"du": "liebst",
-"er/sie/es": "liebt",
-"wir": "lieben",
-"ihr": "liebt",
-"sie/Sie": "lieben"
-},
-"example_de": "Er liebt seine Frau.",
-"example_ru": "Он любит свою жену."
-}
+      "ich": "bin glücklich",
+      "du": "bist glücklich",
+      "er/sie/es": "ist glücklich",
+      "wir": "sind glücklich",
+      "ihr": "seid glücklich",
+      "sie/Sie": "sind glücklich"
+    },
+    "example_de": "Wir sind sehr glücklich.",
+    "example_ru": "Мы очень счастливы."
+  },
+  {
+    "de": "haben",
+    "ru": "иметь",
+    "conjugation": {
+      "ich": "habe",
+      "du": "hast",
+      "er/sie/es": "hat",
+      "wir": "haben",
+      "ihr": "habt",
+      "sie/Sie": "haben"
+    },
+    "example_de": "Ich habe einen Stift.",
+    "example_ru": "У меня есть ручка."
+  },
+  {
+    "de": "heißen",
+    "ru": "называться",
+    "conjugation": {
+      "ich": "heiße",
+      "du": "heißt",
+      "er/sie/es": "heißt",
+      "wir": "heißen",
+      "ihr": "heißt",
+      "sie/Sie": "heißen"
+    },
+    "example_de": "Ich heiße Anna.",
+    "example_ru": "Меня зовут Анна."
+  },
+  {
+    "de": "helfen",
+    "ru": "помогать",
+    "conjugation": {
+      "ich": "helfe",
+      "du": "hilfst",
+      "er/sie/es": "hilft",
+      "wir": "helfen",
+      "ihr": "helft",
+      "sie/Sie": "helfen"
+    },
+    "example_de": "Ich helfe dir mit der Hausarbeit.",
+    "example_ru": "Я помогаю тебе с домашним заданием."
+  },
+  {
+    "de": "hoffen",
+    "ru": "ожидать",
+    "conjugation": {
+      "ich": "hoffe",
+      "du": "hoffst",
+      "er/sie/es": "hofft",
+      "wir": "hoffen",
+      "ihr": "hofft",
+      "sie/Sie": "hoffen"
+    },
+    "example_de": "Ich hoffe auf Erfolg.",
+    "example_ru": "Я надеюсь на успех."
+  },
+  {
+    "de": "hören",
+    "ru": "слышать",
+    "conjugation": {
+      "ich": "höre",
+      "du": "hörst",
+      "er/sie/es": "hört",
+      "wir": "hören",
+      "ihr": "hört",
+      "sie/Sie": "hören"
+    },
+    "example_de": "Wir hören das Radio.",
+    "example_ru": "Мы слушаем радио."
+  },
+  {
+    "de": "kaufen",
+    "ru": "покупать",
+    "conjugation": {
+      "ich": "kaufe",
+      "du": "kaufst",
+      "er/sie/es": "kauft",
+      "wir": "kaufen",
+      "ihr": "kauft",
+      "sie/Sie": "kaufen"
+    },
+    "example_de": "Ich kaufe Brot im Supermarkt.",
+    "example_ru": "Я покупаю хлеб в супермаркете."
+  },
+  {
+    "de": "kennen",
+    "ru": "знать (человека)",
+    "conjugation": {
+      "ich": "kenne",
+      "du": "kennst",
+      "er/sie/es": "kennt",
+      "wir": "kennen",
+      "ihr": "kennt",
+      "sie/Sie": "kennen"
+    },
+    "example_de": "Ich kenne diesen Mann.",
+    "example_ru": "Я знаю этого человека."
+  },
+  {
+    "de": "kommen",
+    "ru": "приходить",
+    "conjugation": {
+      "ich": "komme",
+      "du": "kommst",
+      "er/sie/es": "kommt",
+      "wir": "kommen",
+      "ihr": "kommt",
+      "sie/Sie": "kommen"
+    },
+    "example_de": "Wir kommen aus der Stadt.",
+    "example_ru": "Мы приходим из города."
+  },
+  {
+    "de": "können",
+    "ru": "мочь, уметь",
+    "conjugation": {
+      "ich": "kann",
+      "du": "kannst",
+      "er/sie/es": "kann",
+      "wir": "können",
+      "ihr": "könnt",
+      "sie/Sie": "können"
+    },
+    "example_de": "Ich kann schon schwimmen.",
+    "example_ru": "Я уже могу плавать."
+  },
+  {
+    "de": "küssen",
+    "ru": "целовать",
+    "conjugation": {
+      "ich": "küsse",
+      "du": "küsst",
+      "er/sie/es": "küsst",
+      "wir": "küssen",
+      "ihr": "küsst",
+      "sie/Sie": "küssen"
+    },
+    "example_de": "Ich küsse meine Mutter.",
+    "example_ru": "Я целую свою маму."
+  },
+  {
+    "de": "lachen",
+    "ru": "смеяться",
+    "conjugation": {
+      "ich": "lache",
+      "du": "lachst",
+      "er/sie/es": "lacht",
+      "wir": "lachen",
+      "ihr": "lacht",
+      "sie/Sie": "lachen"
+    },
+    "example_de": "Sie lachen über den Witz.",
+    "example_ru": "Они смеются над шуткой."
+  },
+  {
+    "de": "langweilig sein",
+    "ru": "быть скучным",
+    "conjugation": {
+      "ich": "bin langweilig",
+      "du": "bist langweilig",
+      "er/sie/es": "ist langweilig",
+      "wir": "sind langweilig",
+      "ihr": "seid langweilig",
+      "sie/Sie": "sind langweilig"
+    },
+    "example_de": "Das Film ist langweilig.",
+    "example_ru": "Фильм скучный."
+  },
+  {
+    "de": "leben",
+    "ru": "жить",
+    "conjugation": {
+      "ich": "lebe",
+      "du": "lebst",
+      "er/sie/es": "lebt",
+      "wir": "leben",
+      "ihr": "lebt",
+      "sie/Sie": "leben"
+    },
+    "example_de": "Ich lebe in Berlin.",
+    "example_ru": "Я живу в Берлине."
+  },
+  {
+    "de": "leiden",
+    "ru": "страдать",
+    "conjugation": {
+      "ich": "leide",
+      "du": "leidest",
+      "er/sie/es": "leidet",
+      "wir": "leiden",
+      "ihr": "leidet",
+      "sie/Sie": "leiden"
+    },
+    "example_de": "Er leidet unter Kopfschmerzen.",
+    "example_ru": "Он страдает от головной боли."
+  },
+  {
+    "de": "lernen",
+    "ru": "учить",
+    "conjugation": {
+      "ich": "lerne",
+      "du": "lernst",
+      "er/sie/es": "lernt",
+      "wir": "lernen",
+      "ihr": "lernt",
+      "sie/Sie": "lernen"
+    },
+    "example_de": "Er lernt neue Wörter.",
+    "example_ru": "Он учит новые слова."
+  },
+  {
+    "de": "lesen",
+    "ru": "читать",
+    "conjugation": {
+      "ich": "lese",
+      "du": "liest",
+      "er/sie/es": "liest",
+      "wir": "lesen",
+      "ihr": "lest",
+      "sie/Sie": "lesen"
+    },
+    "example_de": "Du liest ein Buch.",
+    "example_ru": "Ты читаешь книгу."
+  },
+  {
+    "de": "lieben",
+    "ru": "любить",
+    "conjugation": {
+      "ich": "liebe",
+      "du": "liebst",
+      "er/sie/es": "liebt",
+      "wir": "lieben",
+      "ihr": "liebt",
+      "sie/Sie": "lieben"
+    },
+    "example_de": "Sie liebt ihren Mann.",
+    "example_ru": "Она любит своего мужа."
+  },
+  {
+    "de": "machen",
+    "ru": "делать",
+    "conjugation": {
+      "ich": "mache",
+      "du": "machst",
+      "er/sie/es": "macht",
+      "wir": "machen",
+      "ihr": "macht",
+      "sie/Sie": "machen"
+    },
+    "example_de": "Ich mache einen Kuchen.",
+    "example_ru": "Я делаю пирог."
+  },
+  {
+    "de": "mögen",
+    "ru": "нравиться",
+    "conjugation": {
+      "ich": "mag",
+      "du": "magst",
+      "er/sie/es": "mag",
+      "wir": "mögen",
+      "ihr": "mögt",
+      "sie/Sie": "mögen"
+    },
+    "example_de": "Ich mag diese Musik.",
+    "example_ru": "Мне нравится эта музыка."
+  },
+  {
+    "de": "müssen",
+    "ru": "долженствовать",
+    "conjugation": {
+      "ich": "muss",
+      "du": "musst",
+      "er/sie/es": "muss",
+      "wir": "müssen",
+      "ihr": "müsst",
+      "sie/Sie": "müssen"
+    },
+    "example_de": "Er muss heute arbeiten.",
+    "example_ru": "Он должен сегодня работать."
+  },
+  {
+    "de": "nehmen",
+    "ru": "брать",
+    "conjugation": {
+      "ich": "nehme",
+      "du": "nimmst",
+      "er/sie/es": "nimmt",
+      "wir": "nehmen",
+      "ihr": "nehmt",
+      "sie/Sie": "nehmen"
+    },
+    "example_de": "Sie nimmt das Glas.",
+    "example_ru": "Она берет стакан."
+  },
+  {
+    "de": "niedergeschlagen sein",
+    "ru": "быть подавленным",
+    "conjugation": {
+      "ich": "bin niedergeschlagen",
+      "du": "bist niedergeschlagen",
+      "er/sie/es": "ist niedergeschlagen",
+      "wir": "sind niedergeschlagen",
+      "ihr": "seid niedergeschlagen",
+      "sie/Sie": "sind niedergeschlagen"
+    },
+    "example_de": "Sie ist niedergeschlagen.",
+    "example_ru": "Она подавлена."
+  },
+  {
+    "de": "reisen",
+    "ru": "путешествовать",
+    "conjugation": {
+      "ich": "reise",
+      "du": "reist",
+      "er/sie/es": "reist",
+      "wir": "reisen",
+      "ihr": "reist",
+      "sie/Sie": "reisen"
+    },
+    "example_de": "Wir reisen nach Italien.",
+    "example_ru": "Мы путешествуем в Италию."
+  },
+  {
+    "de": "rufen",
+    "ru": "кричать",
+    "conjugation": {
+      "ich": "rufe",
+      "du": "rufst",
+      "er/sie/es": "ruft",
+      "wir": "rufen",
+      "ihr": "ruft",
+      "sie/Sie": "rufen"
+    },
+    "example_de": "Ich rufe nach Hilfe.",
+    "example_ru": "Я кричу о помощи."
+  },
+  {
+    "de": "schauen",
+    "ru": "смотреть",
+    "conjugation": {
+      "ich": "schaue",
+      "du": "schaust",
+      "er/sie/es": "schaut",
+      "wir": "schauen",
+      "ihr": "schaut",
+      "sie/Sie": "schauen"
+    },
+    "example_de": "Ich schaue einen Film.",
+    "example_ru": "Я смотрю фильм."
+  },
+  {
+    "de": "scherzen",
+    "ru": "шутить",
+    "conjugation": {
+      "ich": "scherze",
+      "du": "scherzst",
+      "er/sie/es": "scherzt",
+      "wir": "scherzen",
+      "ihr": "scherzt",
+      "sie/Sie": "scherzen"
+    },
+    "example_de": "Ich scherze mit meinen Freunden.",
+    "example_ru": "Я шучу с моими друзьями."
+  },
+  {
+    "de": "schreiben",
+    "ru": "писать",
+    "conjugation": {
+      "ich": "schreibe",
+      "du": "schreibst",
+      "er/sie/es": "schreibt",
+      "wir": "schreiben",
+      "ihr": "schreibt",
+      "sie/Sie": "schreiben"
+    },
+    "example_de": "Sie schreibt einen Brief.",
+    "example_ru": "Она пишет письмо."
+  },
+  {
+    "de": "schreien",
+    "ru": "кричать",
+    "conjugation": {
+      "ich": "schreie",
+      "du": "schreist",
+      "er/sie/es": "schreit",
+      "wir": "schreien",
+      "ihr": "schreit",
+      "sie/Sie": "schreien"
+    },
+    "example_de": "Das Baby schreit laut.",
+    "example_ru": "Малыш громко кричит."
+  },
+  {
+    "de": "schwach sein",
+    "ru": "быть слабым",
+    "conjugation": {
+      "ich": "bin schwach",
+      "du": "bist schwach",
+      "er/sie/es": "ist schwach",
+      "wir": "sind schwach",
+      "ihr": "seid schwach",
+      "sie/Sie": "sind schwach"
+    },
+    "example_de": "Ich bin schwach nach der Krankheit.",
+    "example_ru": "Я слаб после болезни."
+  },
+  {
+    "de": "sehen",
+    "ru": "видеть",
+    "conjugation": {
+      "ich": "sehe",
+      "du": "siehst",
+      "er/sie/es": "sieht",
+      "wir": "sehen",
+      "ihr": "seht",
+      "sie/Sie": "sehen"
+    },
+    "example_de": "Ich sehe den roten Bus.",
+    "example_ru": "Я вижу красный автобус."
+  },
+  {
+    "de": "sein",
+    "ru": "быть",
+    "conjugation": {
+      "ich": "bin",
+      "du": "bist",
+      "er/sie/es": "ist",
+      "wir": "sind",
+      "ihr": "seid",
+      "sie/Sie": "sind"
+    },
+    "example_de": "Er ist Lehrer.",
+    "example_ru": "Он учитель."
+  },
+  {
+    "de": "sich freuen",
+    "ru": "радоваться",
+    "conjugation": {
+      "ich": "freue mich",
+      "du": "freust dich",
+      "er/sie/es": "freut sich",
+      "wir": "freuen uns",
+      "ihr": "freut euch",
+      "sie/Sie": "freuen sich"
+    },
+    "example_de": "Ich freue mich auf den Besuch.",
+    "example_ru": "Я рад приходу гостей."
+  },
+  {
+    "de": "sich quälen",
+    "ru": "мучиться",
+    "conjugation": {
+      "ich": "quäle mich",
+      "du": "quälst dich",
+      "er/sie/es": "quält sich",
+      "wir": "quälen uns",
+      "ihr": "quält euch",
+      "sie/Sie": "quälen sich"
+    },
+    "example_de": "Ich quäle mich mit Gedanken.",
+    "example_ru": "Я мучусь мыслями."
+  },
+  {
+    "de": "sich streiten",
+    "ru": "ссориться",
+    "conjugation": {
+      "ich": "streite mich",
+      "du": "streitest dich",
+      "er/sie/es": "streitet sich",
+      "wir": "streiten uns",
+      "ihr": "streitet euch",
+      "sie/Sie": "streiten sich"
+    },
+    "example_de": "Wir streiten uns nie.",
+    "example_ru": "Мы никогда не ссоримся."
+  },
+  {
+    "de": "sich treffen",
+    "ru": "встречаться",
+    "conjugation": {
+      "ich": "treffe mich",
+      "du": "triffst dich",
+      "er/sie/es": "trifft sich",
+      "wir": "treffen uns",
+      "ihr": "trefft euch",
+      "sie/Sie": "treffen sich"
+    },
+    "example_de": "Wir treffen uns im Park.",
+    "example_ru": "Мы встречаемся в парке."
+  },
+  {
+    "de": "singen",
+    "ru": "петь",
+    "conjugation": {
+      "ich": "singe",
+      "du": "singst",
+      "er/sie/es": "singt",
+      "wir": "singen",
+      "ihr": "singt",
+      "sie/Sie": "singen"
+    },
+    "example_de": "Die Kinder singen im Chor.",
+    "example_ru": "Дети поют в хоре."
+  },
+  {
+    "de": "sollen",
+    "ru": "должен",
+    "conjugation": {
+      "ich": "soll",
+      "du": "sollst",
+      "er/sie/es": "soll",
+      "wir": "sollen",
+      "ihr": "sollt",
+      "sie/Sie": "sollen"
+    },
+    "example_de": "Du sollst das Buch lesen.",
+    "example_ru": "Ты должен читать книгу."
+  },
+  {
+    "de": "spielen",
+    "ru": "играть",
+    "conjugation": {
+      "ich": "spiele",
+      "du": "spielst",
+      "er/sie/es": "spielt",
+      "wir": "spielen",
+      "ihr": "spielt",
+      "sie/Sie": "spielen"
+    },
+    "example_de": "Die Kinder spielen draußen.",
+    "example_ru": "Дети играют на улице."
+  },
+  {
+    "de": "sprechen",
+    "ru": "говорить",
+    "conjugation": {
+      "ich": "spreche",
+      "du": "sprichst",
+      "er/sie/es": "spricht",
+      "wir": "sprechen",
+      "ihr": "sprecht",
+      "sie/Sie": "sprechen"
+    },
+    "example_de": "Wir sprechen mit dem Lehrer.",
+    "example_ru": "Мы говорим с учителем."
+  },
+  {
+    "de": "stark sein",
+    "ru": "быть сильным",
+    "conjugation": {
+      "ich": "bin stark",
+      "du": "bist stark",
+      "er/sie/es": "ist stark",
+      "wir": "sind stark",
+      "ihr": "seid stark",
+      "sie/Sie": "sind stark"
+    },
+    "example_de": "Er ist sehr stark.",
+    "example_ru": "Он очень сильный."
+  },
+  {
+    "de": "streicheln",
+    "ru": "гладить",
+    "conjugation": {
+      "ich": "streichele",
+      "du": "streichelst",
+      "er/sie/es": "streichelt",
+      "wir": "streicheln",
+      "ihr": "streichelt",
+      "sie/Sie": "streicheln"
+    },
+    "example_de": "Ich streichele die Katze.",
+    "example_ru": "Я глажу кошку."
+  },
+  {
+    "de": "studieren",
+    "ru": "учиться",
+    "conjugation": {
+      "ich": "studiere",
+      "du": "studierst",
+      "er/sie/es": "studiert",
+      "wir": "studieren",
+      "ihr": "studiert",
+      "sie/Sie": "studieren"
+    },
+    "example_de": "Er studiert Medizin.",
+    "example_ru": "Он изучает медицину."
+  },
+  {
+    "de": "tanzen",
+    "ru": "танцевать",
+    "conjugation": {
+      "ich": "tanze",
+      "du": "tanzt",
+      "er/sie/es": "tanzt",
+      "wir": "tanzen",
+      "ihr": "tanzt",
+      "sie/Sie": "tanzen"
+    },
+    "example_de": "Er tanzt gerne.",
+    "example_ru": "Ему нравится танцевать."
+  },
+  {
+    "de": "trauern",
+    "ru": "печалиться",
+    "conjugation": {
+      "ich": "traure",
+      "du": "trauerst",
+      "er/sie/es": "trauert",
+      "wir": "trauern",
+      "ihr": "trauert",
+      "sie/Sie": "trauern"
+    },
+    "example_de": "Sie trauert um ihren Freund.",
+    "example_ru": "Она печалится о своем друге."
+  },
+  {
+    "de": "traurig sein",
+    "ru": "грустить",
+    "conjugation": {
+      "ich": "bin traurig",
+      "du": "bist traurig",
+      "er/sie/es": "ist traurig",
+      "wir": "sind traurig",
+      "ihr": "seid traurig",
+      "sie/Sie": "sind traurig"
+    },
+    "example_de": "Er ist heute traurig.",
+    "example_ru": "Он сегодня грустит."
+  },
+  {
+    "de": "trinken",
+    "ru": "пить",
+    "conjugation": {
+      "ich": "trinke",
+      "du": "trinkst",
+      "er/sie/es": "trinkt",
+      "wir": "trinken",
+      "ihr": "trinkt",
+      "sie/Sie": "trinken"
+    },
+    "example_de": "Wir trinken Wasser.",
+    "example_ru": "Мы пьем воду."
+  },
+  {
+    "de": "träumen",
+    "ru": "мечтать",
+    "conjugation": {
+      "ich": "träume",
+      "du": "träumst",
+      "er/sie/es": "träumt",
+      "wir": "träumen",
+      "ihr": "träumt",
+      "sie/Sie": "träumen"
+    },
+    "example_de": "Er träumt von Schnee.",
+    "example_ru": "Он мечтает о снеге."
+  },
+  {
+    "de": "umarmen",
+    "ru": "обнимать",
+    "conjugation": {
+      "ich": "umarme",
+      "du": "umarmst",
+      "er/sie/es": "umarmt",
+      "wir": "umarmen",
+      "ihr": "umarmt",
+      "sie/Sie": "umarmen"
+    },
+    "example_de": "Wir umarmen uns freudig.",
+    "example_ru": "Мы обнимаем друг друга радостно."
+  },
+  {
+    "de": "verabschieden",
+    "ru": "провожать",
+    "conjugation": {
+      "ich": "verabschiede",
+      "du": "verabschiedest",
+      "er/sie/es": "verabschiedet",
+      "wir": "verabschieden",
+      "ihr": "verabschiedet",
+      "sie/Sie": "verabschieden"
+    },
+    "example_de": "Ich verabschiede meinen Freund am Flughafen.",
+    "example_ru": "Я прощаюсь со своим другом в аэропорту."
+  },
+  {
+    "de": "vermissen",
+    "ru": "скучать",
+    "conjugation": {
+      "ich": "vermisse",
+      "du": "vermisst",
+      "er/sie/es": "vermisst",
+      "wir": "vermissen",
+      "ihr": "vermisst",
+      "sie/Sie": "vermissen"
+    },
+    "example_de": "Ich vermisse dich sehr.",
+    "example_ru": "Я по тебе очень скучаю."
+  },
+  {
+    "de": "verstehen",
+    "ru": "понимать",
+    "conjugation": {
+      "ich": "verstehe",
+      "du": "verstehst",
+      "er/sie/es": "versteht",
+      "wir": "verstehen",
+      "ihr": "versteht",
+      "sie/Sie": "verstehen"
+    },
+    "example_de": "Sie versteht die Frage.",
+    "example_ru": "Она понимает вопрос."
+  },
+  {
+    "de": "waschen",
+    "ru": "мыть",
+    "conjugation": {
+      "ich": "wasche",
+      "du": "wäschst",
+      "er/sie/es": "wäscht",
+      "wir": "waschen",
+      "ihr": "wascht",
+      "sie/Sie": "waschen"
+    },
+    "example_de": "Sie waschen die Hände.",
+    "example_ru": "Они моют руки."
+  },
+  {
+    "de": "werden",
+    "ru": "становиться, стать",
+    "conjugation": {
+      "ich": "werde",
+      "du": "wirst",
+      "er/sie/es": "wird",
+      "wir": "werden",
+      "ihr": "werdet",
+      "sie/Sie": "werden"
+    },
+    "example_de": "Der Tag wird lang.",
+    "example_ru": "День становится длинным."
+  },
+  {
+    "de": "wissen",
+    "ru": "знать (факт)",
+    "conjugation": {
+      "ich": "weiß",
+      "du": "weißt",
+      "er/sie/es": "weiß",
+      "wir": "wissen",
+      "ihr": "wisst",
+      "sie/Sie": "wissen"
+    },
+    "example_de": "Du weißt die Antwort.",
+    "example_ru": "Ты знаешь ответ."
+  },
+  {
+    "de": "wohnen",
+    "ru": "жить, проживать",
+    "conjugation": {
+      "ich": "wohne",
+      "du": "wohnst",
+      "er/sie/es": "wohnt",
+      "wir": "wohnen",
+      "ihr": "wohnt",
+      "sie/Sie": "wohnen"
+    },
+    "example_de": "Sie wohnt in einer kleinen Wohnung.",
+    "example_ru": "Она живет в небольшой квартире."
+  },
+  {
+    "de": "wollen",
+    "ru": "хотеть",
+    "conjugation": {
+      "ich": "will",
+      "du": "willst",
+      "er/sie/es": "will",
+      "wir": "wollen",
+      "ihr": "wollt",
+      "sie/Sie": "wollen"
+    },
+    "example_de": "Wir wollen ins Kino gehen.",
+    "example_ru": "Мы хотим пойти в кино."
+  },
+  {
+    "de": "wütend sein",
+    "ru": "злиться",
+    "conjugation": {
+      "ich": "bin wütend",
+      "du": "bist wütend",
+      "er/sie/es": "ist wütend",
+      "wir": "sind wütend",
+      "ihr": "seid wütend",
+      "sie/Sie": "sind wütend"
+    },
+    "example_de": "Er ist wütend auf mich.",
+    "example_ru": "Он злится на меня."
+  },
+  {
+    "de": "zeichnen",
+    "ru": "рисовать",
+    "conjugation": {
+      "ich": "zeichne",
+      "du": "zeichnest",
+      "er/sie/es": "zeichnet",
+      "wir": "zeichnen",
+      "ihr": "zeichnet",
+      "sie/Sie": "zeichnen"
+    },
+    "example_de": "Das Kind zeichnet Blumen.",
+    "example_ru": "Ребенок рисует цветы."
+  }
 ]
