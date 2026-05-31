@@ -325,6 +325,25 @@
     "example_ru": "Я еду в Берлин."
   },
   {
+    "de": "fernsehen",
+    "infinitive": "fernsehen",
+    "ru": "смотреть телевизор",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "sehe fern",
+      "du": "siehst fern",
+      "er/sie/es": "sieht fern",
+      "wir": "sehen fern",
+      "ihr": "seht fern",
+      "sie/Sie": "sehen fern"
+    },
+    "example_de": "Ich sehe abends gern fern.",
+    "example_ru": "Я люблю смотреть телевизор по вечерам."
+  },
+  {
     "de": "finden",
     "infinitive": "finden",
     "ru": "находить, считать",
