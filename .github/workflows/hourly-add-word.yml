@@ -22,9 +22,6 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Sync with latest main
-        run: git pull --rebase origin main
-
       - name: Run hourly word script
         run: python hourly_add_word.py
 
