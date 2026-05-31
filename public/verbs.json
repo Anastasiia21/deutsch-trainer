@@ -1093,6 +1093,23 @@
     ]
   },
   {
+    "de": "stehen",
+    "ru": "стоять",
+    "cases": [
+      "Nominativ"
+    ],
+    "conjugation": {
+      "ich": "stehe",
+      "du": "stehst",
+      "er/sie/es": "steht",
+      "wir": "stehen",
+      "ihr": "steht",
+      "sie/Sie": "stehen"
+    },
+    "example_de": "Ich stehe am Fenster.",
+    "example_ru": "Я стою у окна."
+  },
+  {
     "de": "streicheln",
     "ru": "гладить",
     "conjugation": {
