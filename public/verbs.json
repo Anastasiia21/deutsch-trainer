@@ -14,7 +14,8 @@
     "example_ru": "Поезд уезжает в 10 часов.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A2"
   },
   {
     "de": "abholen",
@@ -31,7 +32,8 @@
     "example_ru": "Я встречу тебя на вокзале.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A2"
   },
   {
     "de": "ankommen",
@@ -48,7 +50,8 @@
     "example_ru": "Мы приезжаем в 8 часов.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "arbeiten",
@@ -65,7 +68,8 @@
     "example_ru": "Она работает в офисе.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "aufräumen",
@@ -82,7 +86,8 @@
     "example_ru": "Я убираю свою комнату.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "begleiten",
@@ -99,7 +104,8 @@
     "example_ru": "Я провожу тебя домой.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "B1"
   },
   {
     "de": "benutzen",
@@ -116,7 +122,8 @@
     "example_ru": "Я использую компьютер.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A2"
   },
   {
     "de": "besuchen",
@@ -133,7 +140,8 @@
     "example_ru": "Она посещает свою подругу.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "bleiben",
@@ -150,7 +158,8 @@
     "example_ru": "Я остаюсь здесь.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A2"
   },
   {
     "de": "bringen",
@@ -168,7 +177,8 @@
     "cases": [
       "Akkusativ",
       "Dativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "denken",
@@ -185,7 +195,8 @@
     "example_ru": "Я думаю о книге.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "dürfen",
@@ -202,7 +213,8 @@
     "example_ru": "Нам разрешено здесь оставаться.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "empfangen",
@@ -219,7 +231,8 @@
     "example_ru": "Мы встречаем наших гостей сердечно.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "B1"
   },
   {
     "de": "energiegeladen sein",
@@ -236,7 +249,8 @@
     "example_ru": "Дети энергичны.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "B1"
   },
   {
     "de": "erzählen",
@@ -254,7 +268,8 @@
     "cases": [
       "Akkusativ",
       "Dativ"
-    ]
+    ],
+    "level": "A2"
   },
   {
     "de": "essen",
@@ -271,7 +286,8 @@
     "example_ru": "Он ест пиццу.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "fahren",
@@ -288,7 +304,8 @@
     "example_ru": "Я еду в Берлин.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "finden",
@@ -305,7 +322,8 @@
     "example_ru": "Мы находим ключ.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "fliegen",
@@ -322,7 +340,8 @@
     "example_ru": "Птица летит высоко.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "frei sein",
@@ -339,7 +358,8 @@
     "example_ru": "Я наконец свободен.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A2"
   },
   {
     "de": "geben",
@@ -357,7 +377,8 @@
     "cases": [
       "Akkusativ",
       "Dativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "gehen",
@@ -374,7 +395,8 @@
     "example_ru": "Я иду домой.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "geliebt werden",
@@ -391,7 +413,8 @@
     "example_ru": "Я любим своей семьей.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "B1"
   },
   {
     "de": "glücklich sein",
@@ -408,7 +431,8 @@
     "example_ru": "Мы очень счастливы.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "haben",
@@ -425,7 +449,8 @@
     "example_ru": "У меня есть ручка.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "heißen",
@@ -442,7 +467,8 @@
     "example_ru": "Меня зовут Анна.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "helfen",
@@ -459,7 +485,8 @@
     "example_ru": "Я помогаю тебе с домашним заданием.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "hoffen",
@@ -476,7 +503,8 @@
     "example_ru": "Я надеюсь на успех.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A2"
   },
   {
     "de": "hören",
@@ -493,7 +521,8 @@
     "example_ru": "Мы слушаем радио.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "kaufen",
@@ -510,7 +539,8 @@
     "example_ru": "Я покупаю хлеб в супермаркете.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "kennen",
@@ -527,7 +557,8 @@
     "example_ru": "Я знаю этого человека.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "kommen",
@@ -544,7 +575,8 @@
     "example_ru": "Мы приходим из города.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "können",
@@ -561,7 +593,8 @@
     "example_ru": "Я уже могу плавать.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "küssen",
@@ -578,7 +611,8 @@
     "example_ru": "Я целую свою маму.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A2"
   },
   {
     "de": "lachen",
@@ -595,7 +629,8 @@
     "example_ru": "Они смеются над шуткой.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "langweilig sein",
@@ -612,7 +647,8 @@
     "example_ru": "Фильм скучный.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A2"
   },
   {
     "de": "leben",
@@ -629,7 +665,8 @@
     "example_ru": "Я живу в Берлине.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "leiden",
@@ -646,7 +683,8 @@
     "example_ru": "Он страдает от головной боли.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "B1"
   },
   {
     "de": "lernen",
@@ -663,7 +701,8 @@
     "example_ru": "Он учит новые слова.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A2"
   },
   {
     "de": "lesen",
@@ -680,7 +719,8 @@
     "example_ru": "Ты читаешь книгу.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "lieben",
@@ -697,7 +737,8 @@
     "example_ru": "Она любит своего мужа.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "machen",
@@ -714,7 +755,8 @@
     "example_ru": "Я делаю пирог.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "mögen",
@@ -731,7 +773,8 @@
     "example_ru": "Мне нравится эта музыка.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "müssen",
@@ -748,7 +791,8 @@
     "example_ru": "Он должен сегодня работать.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "nehmen",
@@ -765,7 +809,8 @@
     "example_ru": "Она берет стакан.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "niedergeschlagen sein",
@@ -782,7 +827,8 @@
     "example_ru": "Она подавлена.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "B1"
   },
   {
     "de": "reisen",
@@ -799,7 +845,8 @@
     "example_ru": "Мы путешествуем в Италию.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "rufen",
@@ -816,7 +863,8 @@
     "example_ru": "Я кричу о помощи.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A2"
   },
   {
     "de": "schauen",
@@ -833,7 +881,8 @@
     "example_ru": "Я смотрю фильм.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "scherzen",
@@ -850,7 +899,8 @@
     "example_ru": "Я шучу с моими друзьями.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "B1"
   },
   {
     "de": "schreiben",
@@ -867,7 +917,8 @@
     "example_ru": "Она пишет письмо.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "schreien",
@@ -884,7 +935,8 @@
     "example_ru": "Малыш громко кричит.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A2"
   },
   {
     "de": "schwach sein",
@@ -901,7 +953,8 @@
     "example_ru": "Я слаб после болезни.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A2"
   },
   {
     "de": "sehen",
@@ -918,7 +971,8 @@
     "example_ru": "Я вижу красный автобус.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "sein",
@@ -935,7 +989,8 @@
     "example_ru": "Он учитель.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A2"
   },
   {
     "de": "sich freuen",
@@ -952,7 +1007,8 @@
     "example_ru": "Я рад приходу гостей.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "sich quälen",
@@ -969,7 +1025,8 @@
     "example_ru": "Я мучусь мыслями.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "B2"
   },
   {
     "de": "sich streiten",
@@ -986,7 +1043,8 @@
     "example_ru": "Мы никогда не ссоримся.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A2"
   },
   {
     "de": "sich treffen",
@@ -1003,7 +1061,8 @@
     "example_ru": "Мы встречаемся в парке.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "singen",
@@ -1021,7 +1080,8 @@
     "cases": [
       "Akkusativ",
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "sollen",
@@ -1038,7 +1098,8 @@
     "example_ru": "Ты должен читать книгу.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "spielen",
@@ -1056,7 +1117,8 @@
     "cases": [
       "Akkusativ",
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "sprechen",
@@ -1073,7 +1135,8 @@
     "example_ru": "Мы говорим с учителем.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "stark sein",
@@ -1090,7 +1153,8 @@
     "example_ru": "Он очень сильный.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "stehen",
@@ -1107,7 +1171,8 @@
       "sie/Sie": "stehen"
     },
     "example_de": "Ich stehe am Fenster.",
-    "example_ru": "Я стою у окна."
+    "example_ru": "Я стою у окна.",
+    "level": "A1"
   },
   {
     "de": "streicheln",
@@ -1124,7 +1189,8 @@
     "example_ru": "Я глажу кошку.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A2"
   },
   {
     "de": "studieren",
@@ -1141,7 +1207,8 @@
     "example_ru": "Он изучает медицину.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A2"
   },
   {
     "de": "tanzen",
@@ -1158,7 +1225,8 @@
     "example_ru": "Ему нравится танцевать.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "trauern",
@@ -1175,7 +1243,8 @@
     "example_ru": "Она печалится о своем друге.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "B1"
   },
   {
     "de": "traurig sein",
@@ -1192,7 +1261,8 @@
     "example_ru": "Он сегодня грустит.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "trinken",
@@ -1209,7 +1279,8 @@
     "example_ru": "Мы пьем воду.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "träumen",
@@ -1226,7 +1297,8 @@
     "example_ru": "Он мечтает о снеге.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "umarmen",
@@ -1243,7 +1315,8 @@
     "example_ru": "Мы обнимаем друг друга радостно.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A2"
   },
   {
     "de": "verabschieden",
@@ -1260,7 +1333,8 @@
     "example_ru": "Я прощаюсь со своим другом в аэропорту.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "B1"
   },
   {
     "de": "vermissen",
@@ -1277,7 +1351,8 @@
     "example_ru": "Я по тебе очень скучаю.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A2"
   },
   {
     "de": "verstehen",
@@ -1294,7 +1369,8 @@
     "example_ru": "Она понимает вопрос.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A2"
   },
   {
     "de": "waschen",
@@ -1311,7 +1387,8 @@
     "example_ru": "Они моют руки.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "werden",
@@ -1328,7 +1405,8 @@
     "example_ru": "День становится длинным.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "wissen",
@@ -1345,7 +1423,8 @@
     "example_ru": "Ты знаешь ответ.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "wohnen",
@@ -1362,7 +1441,8 @@
     "example_ru": "Она живет в небольшой квартире.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "wollen",
@@ -1379,7 +1459,8 @@
     "example_ru": "Мы хотим пойти в кино.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A2"
   },
   {
     "de": "wütend sein",
@@ -1396,7 +1477,8 @@
     "example_ru": "Он злится на меня.",
     "cases": [
       "Nominativ"
-    ]
+    ],
+    "level": "A1"
   },
   {
     "de": "zeichnen",
@@ -1413,6 +1495,7 @@
     "example_ru": "Ребенок рисует цветы.",
     "cases": [
       "Akkusativ"
-    ]
+    ],
+    "level": "A1"
   }
 ]
