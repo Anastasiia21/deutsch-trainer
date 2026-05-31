@@ -2,7 +2,7 @@ name: Hourly add daily word
 
 on:
   schedule:
-    - cron: '0 10-23 * * *'
+    - cron: '0 * * * *'
   workflow_dispatch: {}
 
 jobs:
