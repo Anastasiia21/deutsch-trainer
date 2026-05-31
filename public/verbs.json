@@ -953,6 +953,26 @@
     "example_ru": "Я шучу с моими друзьями."
   },
   {
+    "de": "schicken",
+    "infinitive": "schicken",
+    "ru": "отправлять, посылать",
+    "cases": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "schicke",
+      "du": "schickst",
+      "er/sie/es": "schickt",
+      "wir": "schicken",
+      "ihr": "schickt",
+      "sie/Sie": "schicken"
+    },
+    "example_de": "Ich schicke dir einen Brief.",
+    "example_ru": "Я отправляю тебе письмо."
+  },
+  {
     "de": "schreiben",
     "infinitive": "schreiben",
     "ru": "писать",
