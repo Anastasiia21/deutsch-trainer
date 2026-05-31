@@ -22,6 +22,7 @@ export default function App() {
   const [show, setShow] = useState(false);
 
   const [selectedArticle, setSelectedArticle] = useState("all");
+  const [selectedLevel, setSelectedLevel] = useState("all");
 
   useEffect(() => {
     fetch("/words.json")
@@ -41,10 +42,13 @@ export default function App() {
     return selectedArticle === "all" || word.article === selectedArticle;
   });
 
+  const filteredVerbs = verbs.filter((verb) => {
+  return selectedLevel === "all" || verb.level === selectedLevel;
+  });
+
+
   const currentList =
-  mode === "words"
-    ? filteredWords
-    : mode === "verbs"
+  mode === "words" ? filteredWords : filteredVerbs;
     ? verbs
     : phrases; 
 
@@ -65,10 +69,18 @@ export default function App() {
   }
 
   function changeMode(newMode) {
-    setMode(newMode);
-    setIndex(0);
-    setShow(false);
+  setMode(newMode);
+  setIndex(0);
+  setShow(false);
+
+  if (newMode === "words") {
+    setSelectedLevel("all");
   }
+
+  if (newMode === "verbs") {
+    setSelectedArticle("all");
+  }
+ }
 
   return (
     <div style={styles.page}>
@@ -138,6 +150,28 @@ export default function App() {
           ))}
         </div>
       )}
+
+      {mode === "verbs" && (
+  <div style={styles.levelButtons}>
+    {["all", "A1", "A2", "B1", "B2", "C1"].map((level) => (
+      <button
+        key={level}
+        style={
+          selectedLevel === level
+            ? styles.activeLevelButton
+            : styles.levelButton
+        }
+        onClick={() => {
+          setSelectedLevel(level);
+          setIndex(0);
+          setShow(false);
+        }}
+      >
+        {level === "all" ? "Все" : level}
+      </button>
+    ))}
+  </div>
+)}
 
       <div style={styles.progressOuter}>
         <div
@@ -490,5 +524,35 @@ caseBox: {
   color: "#0f172a",
   fontSize: 16,
   fontWeight: 700,
+},
+
+levelButtons: {
+  maxWidth: 700,
+  margin: "0 auto 24px",
+  display: "flex",
+  gap: 10,
+  flexWrap: "wrap",
+  justifyContent: "center",
+},
+
+levelButton: {
+  padding: "10px 16px",
+  borderRadius: 999,
+  border: "1px solid #cbd5e1",
+  background: "white",
+  color: "#111",
+  fontSize: 16,
+  cursor: "pointer",
+},
+
+activeLevelButton: {
+  padding: "10px 16px",
+  borderRadius: 999,
+  border: "1px solid #38bdf8",
+  background: "#38bdf8",
+  color: "#0f172a",
+  fontSize: 16,
+  fontWeight: 700,
+  cursor: "pointer",
 },
 };
