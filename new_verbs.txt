@@ -1,4 +1,2 @@
-# Put one new German verb per line.
-# Optional translation after a separator, e.g. "laufen - бегать" or "schreiben: писать".
-# Lines starting with # are ignored.
-
+verstehen 
+aufstehen 
