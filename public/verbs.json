@@ -1693,5 +1693,24 @@
     },
     "example_de": "Das Kind zeichnet Blumen.",
     "example_ru": "Ребенок рисует цветы."
+  },
+  {
+    "de": "öffnen",
+    "infinitive": "öffnen",
+    "ru": "открывать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "öffne",
+      "du": "öffnest",
+      "er/sie/es": "öffnet",
+      "wir": "öffnen",
+      "ihr": "öffnet",
+      "sie/Sie": "öffnen"
+    },
+    "example_de": "Sie öffnet das Fenster.",
+    "example_ru": "Она открывает окно."
   }
 ]

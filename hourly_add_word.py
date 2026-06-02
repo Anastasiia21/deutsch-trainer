@@ -1,6 +1,8 @@
 import json
 from pathlib import Path
 
+from import_new_verbs import import_new_verbs
+
 path = Path('public/verbs.json')
 verbs = json.loads(path.read_text(encoding='utf8'))
 existing = {v['de'].lower() for v in verbs}
@@ -172,20 +174,26 @@ word_data = {
     }
 }
 
-for infinitive in daily_verbs:
-    if infinitive not in existing:
-        data = word_data[infinitive]
-        verbs.append({
-            'de': infinitive,
-            'ru': data['ru'],
-            'cases': data['cases'],
-            'conjugation': data['conjugation'],
-            'example_de': data['example_de'],
-            'example_ru': data['example_ru']
-        })
-        verbs.sort(key=lambda v: v['de'].lower())
-        path.write_text(json.dumps(verbs, ensure_ascii=False, indent=2), encoding='utf8')
-        print(f'Added word: {infinitive}')
-        break
+added_new = import_new_verbs()
+if added_new:
+    print('Imported new verbs from new_verbs.txt:', added_new)
 else:
-    print('No new daily word to add.')
+    for infinitive in daily_verbs:
+        if infinitive not in existing:
+            data = word_data[infinitive]
+            verbs.append({
+                'de': infinitive,
+                'infinitive': infinitive,
+                'ru': data['ru'],
+                'cases': data['cases'],
+                'level': 'A1',
+                'conjugation': data['conjugation'],
+                'example_de': data['example_de'],
+                'example_ru': data['example_ru']
+            })
+            verbs.sort(key=lambda v: v['de'].lower())
+            path.write_text(json.dumps(verbs, ensure_ascii=False, indent=2), encoding='utf8')
+            print(f'Added word: {infinitive}')
+            break
+    else:
+        print('No new daily word to add.')
