@@ -95,6 +95,25 @@
     "example_ru": "Я убираю свою комнату."
   },
   {
+    "de": "ausschlafen",
+    "infinitive": "ausschlafen",
+    "ru": "высыпаться",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "schlafe aus",
+      "du": "schläfst aus",
+      "er/sie/es": "schläft aus",
+      "wir": "schlafen aus",
+      "ihr": "schlaft aus",
+      "sie/Sie": "schlafen aus"
+    },
+    "example_de": "Am Sonntag kann ich ausschlafen.",
+    "example_ru": "В воскресенье я могу выспаться."
+  },
+  {
     "de": "begleiten",
     "infinitive": "begleiten",
     "ru": "провожать",
@@ -992,6 +1011,25 @@
     "example_ru": "Я отправляю тебе письмо."
   },
   {
+    "de": "schlafen",
+    "infinitive": "schlafen",
+    "ru": "спать",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "schlafe",
+      "du": "schläfst",
+      "er/sie/es": "schläft",
+      "wir": "schlafen",
+      "ihr": "schlaft",
+      "sie/Sie": "schlafen"
+    },
+    "example_de": "Ich schlafe am Wochenende lange.",
+    "example_ru": "Я сплю долго на выходных."
+  },
+  {
     "de": "schreiben",
     "infinitive": "schreiben",
     "ru": "писать",
@@ -1389,6 +1427,25 @@
     },
     "example_de": "Er ist heute traurig.",
     "example_ru": "Он сегодня грустит."
+  },
+  {
+    "de": "treffen",
+    "infinitive": "treffen",
+    "ru": "встречать, встречаться",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "treffe",
+      "du": "triffst",
+      "er/sie/es": "trifft",
+      "wir": "treffen",
+      "ihr": "trefft",
+      "sie/Sie": "treffen"
+    },
+    "example_de": "Wir treffen uns um acht.",
+    "example_ru": "Мы встречаемся в восемь."
   },
   {
     "de": "trinken",
