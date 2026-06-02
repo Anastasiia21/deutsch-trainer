@@ -1030,6 +1030,25 @@
     "example_ru": "Я сплю долго на выходных."
   },
   {
+    "de": "schließen",
+    "infinitive": "schließen",
+    "ru": "закрывать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "schließe",
+      "du": "schließt",
+      "er/sie/es": "schließt",
+      "wir": "schließen",
+      "ihr": "schließt",
+      "sie/Sie": "schließen"
+    },
+    "example_de": "Ich schließe die Tür.",
+    "example_ru": "Я закрываю дверь."
+  },
+  {
     "de": "schreiben",
     "infinitive": "schreiben",
     "ru": "писать",
