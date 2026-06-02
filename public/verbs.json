@@ -95,6 +95,25 @@
     "example_ru": "Я убираю свою комнату."
   },
   {
+    "de": "aufstehen",
+    "infinitive": "aufstehen",
+    "ru": "",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "aufstehen",
+      "du": "aufstehen",
+      "er/sie/es": "aufstehen",
+      "wir": "aufstehen",
+      "ihr": "aufstehen",
+      "sie/Sie": "aufstehen"
+    },
+    "example_de": "",
+    "example_ru": ""
+  },
+  {
     "de": "ausschlafen",
     "infinitive": "ausschlafen",
     "ru": "высыпаться",
