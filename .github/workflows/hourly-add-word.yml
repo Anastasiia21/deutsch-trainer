@@ -31,7 +31,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           if [ -n "$(git status --porcelain)" ]; then
-            git add public/verbs.json
+            git add public/verbs.json new_verbs.txt
             git commit -m "Hourly add daily word"
             git pull --rebase origin main
             git push
