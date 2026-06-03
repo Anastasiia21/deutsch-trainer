@@ -1486,6 +1486,25 @@
     "example_ru": "Он изучает медицину."
   },
   {
+    "de": "suchen",
+    "infinitive": "suchen",
+    "ru": "искать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "suche",
+      "du": "suchst",
+      "er/sie/es": "sucht",
+      "wir": "suchen",
+      "ihr": "sucht",
+      "sie/Sie": "suchen"
+    },
+    "example_de": "Ich suche meine Schlüssel.",
+    "example_ru": "Я ищу свои ключи."
+  },
+  {
     "de": "tanzen",
     "infinitive": "tanzen",
     "ru": "танцевать",
