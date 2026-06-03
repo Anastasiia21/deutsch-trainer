@@ -668,6 +668,25 @@
     "example_ru": "Я знаю этого человека."
   },
   {
+    "de": "kochen",
+    "infinitive": "kochen",
+    "ru": "готовить",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "koche",
+      "du": "kochst",
+      "er/sie/es": "kocht",
+      "wir": "kochen",
+      "ihr": "kocht",
+      "sie/Sie": "kochen"
+    },
+    "example_de": "Sie kocht das Abendessen.",
+    "example_ru": "Она готовит ужин."
+  },
+  {
     "de": "kommen",
     "infinitive": "kommen",
     "ru": "приходить",
