@@ -190,6 +190,25 @@
     "example_ru": "Она посещает свою подругу."
   },
   {
+    "de": "bezahlen",
+    "infinitive": "bezahlen",
+    "ru": "платить",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "bezahle",
+      "du": "bezahlst",
+      "er/sie/es": "bezahlt",
+      "wir": "bezahlen",
+      "ihr": "bezahlt",
+      "sie/Sie": "bezahlen"
+    },
+    "example_de": "Ich bezahle die Rechnung.",
+    "example_ru": "Я оплачиваю счет."
+  },
+  {
     "de": "bleiben",
     "infinitive": "bleiben",
     "ru": "оставаться",
