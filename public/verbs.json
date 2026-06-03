@@ -972,6 +972,25 @@
     "example_ru": "Она подавлена."
   },
   {
+    "de": "putzen",
+    "infinitive": "putzen",
+    "ru": "убирать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "putze",
+      "du": "putzt",
+      "er/sie/es": "putzt",
+      "wir": "putzen",
+      "ihr": "putzt",
+      "sie/Sie": "putzen"
+    },
+    "example_de": "Ich putze das Fenster.",
+    "example_ru": "Я мою окно."
+  },
+  {
     "de": "reisen",
     "infinitive": "reisen",
     "ru": "путешествовать",
