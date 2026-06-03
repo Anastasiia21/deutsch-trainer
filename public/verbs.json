@@ -782,6 +782,25 @@
     "example_ru": "Фильм скучный."
   },
   {
+    "de": "laufen",
+    "infinitive": "laufen",
+    "ru": "бежать",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "laufe",
+      "du": "läufst",
+      "er/sie/es": "läuft",
+      "wir": "laufen",
+      "ihr": "lauft",
+      "sie/Sie": "laufen"
+    },
+    "example_de": "Wir laufen im Park.",
+    "example_ru": "Мы бегаем в парке."
+  },
+  {
     "de": "leben",
     "infinitive": "leben",
     "ru": "жить",
