@@ -1600,6 +1600,25 @@
     "example_ru": "Она понимает вопрос."
   },
   {
+    "de": "warten",
+    "infinitive": "warten",
+    "ru": "ждать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "warte",
+      "du": "wartest",
+      "er/sie/es": "wartet",
+      "wir": "warten",
+      "ihr": "wartet",
+      "sie/Sie": "warten"
+    },
+    "example_de": "Wir warten auf den Bus.",
+    "example_ru": "Мы ждем автобус."
+  },
+  {
     "de": "waschen",
     "infinitive": "waschen",
     "ru": "мыть",
