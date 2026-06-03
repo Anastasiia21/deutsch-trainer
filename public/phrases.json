@@ -5,5 +5,523 @@
     "ru": "У меня нет времени.",
     "example_de": "Heute habe ich keine Zeit.",
     "example_ru": "Сегодня у меня нет времени."
+  },
+  {
+    "id": "mir_ist_schlecht",
+    "de": "Mir ist schlecht.",
+    "ru": "Мне плохо.",
+    "example_de": "Heute ist mir schlecht.",
+    "example_ru": "Сегодня мне плохо."
+  },
+  {
+    "id": "ich_bin_muede",
+    "de": "Ich bin müde.",
+    "ru": "Я устала / устал.",
+    "example_de": "Ich bin sehr müde.",
+    "example_ru": "Я очень устала / устал."
+  },
+  {
+    "id": "ich_habe_schmerzen",
+    "de": "Ich habe Schmerzen.",
+    "ru": "Мне больно.",
+    "example_de": "Ich habe heute Schmerzen.",
+    "example_ru": "Сегодня мне больно."
+  },
+  {
+    "id": "ich_habe_schlecht_geschlafen",
+    "de": "Ich habe schlecht geschlafen.",
+    "ru": "Я плохо спала / спал.",
+    "example_de": "Heute Nacht habe ich schlecht geschlafen.",
+    "example_ru": "Сегодня ночью я плохо спала / спал."
+  },
+  {
+    "id": "ich_bin_krank",
+    "de": "Ich bin krank.",
+    "ru": "Я болею.",
+    "example_de": "Heute bin ich krank.",
+    "example_ru": "Сегодня я болею."
+  },
+  {
+    "id": "ich_habe_kopfschmerzen",
+    "de": "Ich habe Kopfschmerzen.",
+    "ru": "У меня болит голова.",
+    "example_de": "Ich habe starke Kopfschmerzen.",
+    "example_ru": "У меня сильно болит голова."
+  },
+  {
+    "id": "mein_bauch_tut_weh",
+    "de": "Mein Bauch tut weh.",
+    "ru": "У меня болит живот.",
+    "example_de": "Heute tut mein Bauch weh.",
+    "example_ru": "Сегодня у меня болит живот."
+  },
+  {
+    "id": "mein_hals_tut_weh",
+    "de": "Mein Hals tut weh.",
+    "ru": "У меня болит горло.",
+    "example_de": "Mein Hals tut weh, ich trinke Tee.",
+    "example_ru": "У меня болит горло, я пью чай."
+  },
+  {
+    "id": "ich_habe_fieber",
+    "de": "Ich habe Fieber.",
+    "ru": "У меня температура.",
+    "example_de": "Ich habe Fieber und bleibe zu Hause.",
+    "example_ru": "У меня температура, и я остаюсь дома."
+  },
+  {
+    "id": "ich_bleibe_zu_hause",
+    "de": "Ich bleibe zu Hause.",
+    "ru": "Я остаюсь дома.",
+    "example_de": "Heute bleibe ich zu Hause.",
+    "example_ru": "Сегодня я остаюсь дома."
+  },
+  {
+    "id": "ich_brauche_ruhre",
+    "de": "Ich brauche Ruhe.",
+    "ru": "Мне нужен покой / отдых.",
+    "example_de": "Ich brauche heute Ruhe.",
+    "example_ru": "Сегодня мне нужен покой / отдых."
+  },
+  {
+    "id": "ich_brauche_hilfe",
+    "de": "Ich brauche Hilfe.",
+    "ru": "Мне нужна помощь.",
+    "example_de": "Bitte, ich brauche Hilfe.",
+    "example_ru": "Пожалуйста, мне нужна помощь."
+  },
+  {
+    "id": "ich_habe_hunger",
+    "de": "Ich habe Hunger.",
+    "ru": "Я голодна / голоден.",
+    "example_de": "Ich habe Hunger und esse Brot.",
+    "example_ru": "Я голодна / голоден и ем хлеб."
+  },
+  {
+    "id": "ich_habe_durst",
+    "de": "Ich habe Durst.",
+    "ru": "Я хочу пить.",
+    "example_de": "Ich habe Durst und trinke Wasser.",
+    "example_ru": "Я хочу пить и пью воду."
+  },
+  {
+    "id": "ich_trinke_kaffee",
+    "de": "Ich trinke Kaffee.",
+    "ru": "Я пью кофе.",
+    "example_de": "Am Morgen trinke ich Kaffee.",
+    "example_ru": "Утром я пью кофе."
+  },
+  {
+    "id": "ich_trinke_tee",
+    "de": "Ich trinke Tee.",
+    "ru": "Я пью чай.",
+    "example_de": "Am Abend trinke ich Tee.",
+    "example_ru": "Вечером я пью чай."
+  },
+  {
+    "id": "ich_esse_fruehstueck",
+    "de": "Ich esse Frühstück.",
+    "ru": "Я завтракаю.",
+    "example_de": "Um acht Uhr esse ich Frühstück.",
+    "example_ru": "В восемь часов я завтракаю."
+  },
+  {
+    "id": "ich_koche_essen",
+    "de": "Ich koche Essen.",
+    "ru": "Я готовлю еду.",
+    "example_de": "Heute koche ich Essen zu Hause.",
+    "example_ru": "Сегодня я готовлю еду дома."
+  },
+  {
+    "id": "ich_gehe_einkaufen",
+    "de": "Ich gehe einkaufen.",
+    "ru": "Я иду за покупками.",
+    "example_de": "Nach der Arbeit gehe ich einkaufen.",
+    "example_ru": "После работы я иду за покупками."
+  },
+  {
+    "id": "ich_kaufe_brot",
+    "de": "Ich kaufe Brot.",
+    "ru": "Я покупаю хлеб.",
+    "example_de": "Ich kaufe Brot im Supermarkt.",
+    "example_ru": "Я покупаю хлеб в супермаркете."
+  },
+  {
+    "id": "ich_kaufe_ein_buch",
+    "de": "Ich kaufe ein Buch.",
+    "ru": "Я покупаю книгу.",
+    "example_de": "Ich kaufe ein Buch für mich.",
+    "example_ru": "Я покупаю книгу для себя."
+  },
+  {
+    "id": "ich_kaufe_ein_buch_in_der_buchhandlung",
+    "de": "Ich kaufe ein Buch in der Buchhandlung.",
+    "ru": "Я покупаю книгу в книжном магазине.",
+    "example_de": "Heute kaufe ich ein Buch in der Buchhandlung.",
+    "example_ru": "Сегодня я покупаю книгу в книжном магазине."
+  },
+  {
+    "id": "ich_lese_ein_buch",
+    "de": "Ich lese ein Buch.",
+    "ru": "Я читаю книгу.",
+    "example_de": "Am Abend lese ich ein Buch.",
+    "example_ru": "Вечером я читаю книгу."
+  },
+  {
+    "id": "ich_hoere_musik",
+    "de": "Ich höre Musik.",
+    "ru": "Я слушаю музыку.",
+    "example_de": "Zu Hause höre ich Musik.",
+    "example_ru": "Дома я слушаю музыку."
+  },
+  {
+    "id": "ich_sehe_einen_film",
+    "de": "Ich sehe einen Film.",
+    "ru": "Я смотрю фильм.",
+    "example_de": "Heute Abend sehe ich einen Film.",
+    "example_ru": "Сегодня вечером я смотрю фильм."
+  },
+  {
+    "id": "ich_sehe_eine_serie",
+    "de": "Ich sehe eine Serie.",
+    "ru": "Я смотрю сериал.",
+    "example_de": "Nach dem Essen sehe ich eine Serie.",
+    "example_ru": "После еды я смотрю сериал."
+  },
+  {
+    "id": "ich_schlafe",
+    "de": "Ich schlafe.",
+    "ru": "Я сплю.",
+    "example_de": "Ich schlafe heute früh.",
+    "example_ru": "Сегодня я ложусь спать рано."
+  },
+  {
+    "id": "ich_gehe_ins_bett",
+    "de": "Ich gehe ins Bett.",
+    "ru": "Я иду спать.",
+    "example_de": "Um zehn Uhr gehe ich ins Bett.",
+    "example_ru": "В десять часов я иду спать."
+  },
+  {
+    "id": "ich_stehe_frueh_auf",
+    "de": "Ich stehe früh auf.",
+    "ru": "Я рано встаю.",
+    "example_de": "Morgen stehe ich früh auf.",
+    "example_ru": "Завтра я рано встаю."
+  },
+  {
+    "id": "ich_dusche",
+    "de": "Ich dusche.",
+    "ru": "Я принимаю душ.",
+    "example_de": "Am Morgen dusche ich.",
+    "example_ru": "Утром я принимаю душ."
+  },
+  {
+    "id": "ich_putze_mir_die_zaehne",
+    "de": "Ich putze mir die Zähne.",
+    "ru": "Я чищу зубы.",
+    "example_de": "Am Morgen putze ich mir die Zähne.",
+    "example_ru": "Утром я чищу зубы."
+  },
+  {
+    "id": "ich_ziehe_mich_an",
+    "de": "Ich ziehe mich an.",
+    "ru": "Я одеваюсь.",
+    "example_de": "Ich ziehe mich schnell an.",
+    "example_ru": "Я быстро одеваюсь."
+  },
+  {
+    "id": "ich_gehe_zur_arbeit",
+    "de": "Ich gehe zur Arbeit.",
+    "ru": "Я иду на работу.",
+    "example_de": "Am Montag gehe ich zur Arbeit.",
+    "example_ru": "В понедельник я иду на работу."
+  },
+  {
+    "id": "ich_arbeite_heute",
+    "de": "Ich arbeite heute.",
+    "ru": "Я сегодня работаю.",
+    "example_de": "Ich arbeite heute bis fünf Uhr.",
+    "example_ru": "Сегодня я работаю до пяти часов."
+  },
+  {
+    "id": "ich_lerne_deutsch",
+    "de": "Ich lerne Deutsch.",
+    "ru": "Я учу немецкий.",
+    "example_de": "Jeden Tag lerne ich Deutsch.",
+    "example_ru": "Каждый день я учу немецкий."
+  },
+  {
+    "id": "ich_mache_eine_pause",
+    "de": "Ich mache eine Pause.",
+    "ru": "Я делаю перерыв.",
+    "example_de": "Jetzt mache ich eine Pause.",
+    "example_ru": "Сейчас я делаю перерыв."
+  },
+  {
+    "id": "ich_habe_keine_lust",
+    "de": "Ich habe keine Lust.",
+    "ru": "У меня нет желания / не хочется.",
+    "example_de": "Heute habe ich keine Lust zu kochen.",
+    "example_ru": "Сегодня мне не хочется готовить."
+  },
+  {
+    "id": "ich_habe_stress",
+    "de": "Ich habe Stress.",
+    "ru": "У меня стресс.",
+    "example_de": "Heute habe ich viel Stress.",
+    "example_ru": "Сегодня у меня много стресса."
+  },
+  {
+    "id": "ich_habe_angst",
+    "de": "Ich habe Angst.",
+    "ru": "Мне страшно.",
+    "example_de": "Ich habe ein bisschen Angst.",
+    "example_ru": "Мне немного страшно."
+  },
+  {
+    "id": "ich_bin_gluecklich",
+    "de": "Ich bin glücklich.",
+    "ru": "Я счастлива / счастлив.",
+    "example_de": "Heute bin ich sehr glücklich.",
+    "example_ru": "Сегодня я очень счастлива / счастлив."
+  },
+  {
+    "id": "ich_bin_traurig",
+    "de": "Ich bin traurig.",
+    "ru": "Я грустная / грустный.",
+    "example_de": "Heute bin ich traurig.",
+    "example_ru": "Сегодня я грустная / грустный."
+  },
+  {
+    "id": "ich_bin_froh",
+    "de": "Ich bin froh.",
+    "ru": "Я рада / рад.",
+    "example_de": "Ich bin froh, dich zu sehen.",
+    "example_ru": "Я рада / рад тебя видеть."
+  },
+  {
+    "id": "ich_bin_nervoes",
+    "de": "Ich bin nervös.",
+    "ru": "Я нервничаю.",
+    "example_de": "Vor dem Termin bin ich nervös.",
+    "example_ru": "Перед встречей я нервничаю."
+  },
+  {
+    "id": "ich_bin_allein",
+    "de": "Ich bin allein.",
+    "ru": "Я одна / один.",
+    "example_de": "Heute Abend bin ich allein zu Hause.",
+    "example_ru": "Сегодня вечером я одна / один дома."
+  },
+  {
+    "id": "ich_vermisse_dich",
+    "de": "Ich vermisse dich.",
+    "ru": "Я скучаю по тебе.",
+    "example_de": "Ich vermisse dich sehr.",
+    "example_ru": "Я очень скучаю по тебе."
+  },
+  {
+    "id": "ich_liebe_dich",
+    "de": "Ich liebe dich.",
+    "ru": "Я люблю тебя.",
+    "example_de": "Ich liebe dich sehr.",
+    "example_ru": "Я очень люблю тебя."
+  },
+  {
+    "id": "ich_traeume_von_liebe",
+    "de": "Ich träume von Liebe.",
+    "ru": "Я мечтаю о любви.",
+    "example_de": "Manchmal träume ich von Liebe.",
+    "example_ru": "Иногда я мечтаю о любви."
+  },
+  {
+    "id": "ich_moechte_eine_beziehung",
+    "de": "Ich möchte eine Beziehung.",
+    "ru": "Я хочу отношений.",
+    "example_de": "Ich möchte eine gute Beziehung.",
+    "example_ru": "Я хочу хорошие отношения."
+  },
+  {
+    "id": "ich_moechte_einen_freund",
+    "de": "Ich möchte einen Freund.",
+    "ru": "Я хочу парня / друга.",
+    "example_de": "Ich möchte einen lieben Freund.",
+    "example_ru": "Я хочу хорошего парня / друга."
+  },
+  {
+    "id": "ich_moechte_eine_freundin",
+    "de": "Ich möchte eine Freundin.",
+    "ru": "Я хочу девушку / подругу.",
+    "example_de": "Ich möchte eine liebe Freundin.",
+    "example_ru": "Я хочу хорошую девушку / подругу."
+  },
+  {
+    "id": "ich_habe_einen_termin",
+    "de": "Ich habe einen Termin.",
+    "ru": "У меня встреча / запись.",
+    "example_de": "Heute habe ich einen Termin beim Arzt.",
+    "example_ru": "Сегодня у меня запись к врачу."
+  },
+  {
+    "id": "ich_gehe_zum_arzt",
+    "de": "Ich gehe zum Arzt.",
+    "ru": "Я иду к врачу.",
+    "example_de": "Morgen gehe ich zum Arzt.",
+    "example_ru": "Завтра я иду к врачу."
+  },
+  {
+    "id": "ich_bin_spaet_dran",
+    "de": "Ich bin spät dran.",
+    "ru": "Я опаздываю.",
+    "example_de": "Ich bin spät dran und muss gehen.",
+    "example_ru": "Я опаздываю и должна / должен идти."
+  },
+  {
+    "id": "ich_muss_gehen",
+    "de": "Ich muss gehen.",
+    "ru": "Мне нужно идти.",
+    "example_de": "Entschuldigung, ich muss gehen.",
+    "example_ru": "Извините, мне нужно идти."
+  },
+  {
+    "id": "ich_komme_spaeter",
+    "de": "Ich komme später.",
+    "ru": "Я приду позже.",
+    "example_de": "Ich komme heute später.",
+    "example_ru": "Сегодня я приду позже."
+  },
+  {
+    "id": "ich_bin_zu_hause",
+    "de": "Ich bin zu Hause.",
+    "ru": "Я дома.",
+    "example_de": "Heute Abend bin ich zu Hause.",
+    "example_ru": "Сегодня вечером я дома."
+  },
+  {
+    "id": "ich_gehe_spazieren",
+    "de": "Ich gehe spazieren.",
+    "ru": "Я иду гулять.",
+    "example_de": "Am Abend gehe ich spazieren.",
+    "example_ru": "Вечером я иду гулять."
+  },
+  {
+    "id": "ich_rufe_dich_an",
+    "de": "Ich rufe dich an.",
+    "ru": "Я тебе позвоню.",
+    "example_de": "Später rufe ich dich an.",
+    "example_ru": "Позже я тебе позвоню."
+  },
+  {
+    "id": "ich_schreibe_dir",
+    "de": "Ich schreibe dir.",
+    "ru": "Я тебе напишу.",
+    "example_de": "Heute Abend schreibe ich dir.",
+    "example_ru": "Сегодня вечером я тебе напишу."
+  },
+  {
+    "id": "ich_verstehe_nicht",
+    "de": "Ich verstehe nicht.",
+    "ru": "Я не понимаю.",
+    "example_de": "Entschuldigung, ich verstehe nicht.",
+    "example_ru": "Извините, я не понимаю."
+  },
+  {
+    "id": "bitte_langsam",
+    "de": "Bitte langsam.",
+    "ru": "Пожалуйста, медленно.",
+    "example_de": "Bitte langsam, ich lerne Deutsch.",
+    "example_ru": "Пожалуйста, медленно, я учу немецкий."
+  },
+  {
+    "id": "wiederholen_sie_bitte",
+    "de": "Wiederholen Sie bitte.",
+    "ru": "Повторите, пожалуйста.",
+    "example_de": "Entschuldigung, wiederholen Sie bitte.",
+    "example_ru": "Извините, повторите, пожалуйста."
+  },
+  {
+    "id": "bitte_wiederholen_sie_langsamer",
+    "de": "Bitte wiederholen Sie langsamer.",
+    "ru": "Повторите медленнее, пожалуйста.",
+    "example_de": "Bitte wiederholen Sie langsamer, ich lerne Deutsch.",
+    "example_ru": "Повторите медленнее, пожалуйста, я учу немецкий."
+  },
+  {
+    "id": "wiederholen_sie_noch_einmal",
+    "de": "Wiederholen Sie noch einmal.",
+    "ru": "Повторите ещё раз.",
+    "example_de": "Entschuldigung, wiederholen Sie noch einmal.",
+    "example_ru": "Извините, повторите ещё раз."
+  },
+  {
+    "id": "ich_liebe_es",
+    "de": "Ich liebe es.",
+    "ru": "Я это люблю.",
+    "example_de": "Ich liebe es, zu lesen.",
+    "example_ru": "Я люблю читать."
+  },
+  {
+    "id": "mir_geht_es_gut",
+    "de": "Mir geht es gut.",
+    "ru": "Мне хорошо.",
+    "example_de": "Heute geht es mir gut.",
+    "example_ru": "Сегодня мне хорошо."
+  },
+  {
+    "id": "es_ist_schwer_fuer_mich",
+    "de": "Es ist schwer für mich.",
+    "ru": "Мне тяжело.",
+    "example_de": "Heute ist es schwer für mich.",
+    "example_ru": "Сегодня мне тяжело."
+  },
+  {
+    "id": "ich_habe_starke_schmerzen",
+    "de": "Ich habe starke Schmerzen.",
+    "ru": "У меня сильная боль.",
+    "example_de": "Ich habe starke Schmerzen und brauche Hilfe.",
+    "example_ru": "У меня сильная боль, и мне нужна помощь."
+  },
+  {
+    "id": "ich_vermisse_mein_zuhause",
+    "de": "Ich vermisse mein Zuhause.",
+    "ru": "Я скучаю по дому.",
+    "example_de": "Auf Reisen vermisse ich mein Zuhause.",
+    "example_ru": "В поездке я скучаю по дому."
+  },
+  {
+    "id": "ich_lese_gern_autobiografien",
+    "de": "Ich lese gern Autobiografien.",
+    "ru": "Я люблю читать автобиографии.",
+    "example_de": "Am Abend lese ich gern Autobiografien.",
+    "example_ru": "Вечером я люблю читать автобиографии."
+  },
+  {
+    "id": "ich_liebe_das_meer",
+    "de": "Ich liebe das Meer.",
+    "ru": "Я люблю море.",
+    "example_de": "Im Sommer liebe ich das Meer.",
+    "example_ru": "Летом я люблю море."
+  },
+  {
+    "id": "ich_reise_gern_allein",
+    "de": "Ich reise gern allein.",
+    "ru": "Я люблю путешествовать одна / один.",
+    "example_de": "Ich reise gern allein ans Meer.",
+    "example_ru": "Я люблю путешествовать одна / один к морю."
+  },
+  {
+    "id": "ich_gehe_sehr_gern_in_galerien",
+    "de": "Ich gehe sehr gern in Galerien.",
+    "ru": "Я обожаю ходить по галереям.",
+    "example_de": "Am Wochenende gehe ich sehr gern in Galerien.",
+    "example_ru": "На выходных я очень люблю ходить по галереям."
+  },
+  {
+    "id": "ich_sehe_mir_gern_bilder_an",
+    "de": "Ich sehe mir gern Bilder an.",
+    "ru": "Люблю рассматривать картины.",
+    "example_de": "In Galerien sehe ich mir gern Bilder an.",
+    "example_ru": "В галереях я люблю рассматривать картины."
   }
 ]
