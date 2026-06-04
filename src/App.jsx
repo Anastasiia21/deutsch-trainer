@@ -423,7 +423,7 @@ mainWord: {
 },
 
 frontMainWord: {
-  fontSize: "clamp(42px, 7vw, 58px)",
+  fontSize: "clamp(34px, 5.6vw, 46px)",
   letterSpacing: "0.01em",
 },
 
