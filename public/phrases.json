@@ -523,5 +523,404 @@
     "ru": "Люблю рассматривать картины.",
     "example_de": "In Galerien sehe ich mir gern Bilder an.",
     "example_ru": "В галереях я люблю рассматривать картины."
+  },
+  {
+    "id": "ich_denke_an_die_zukunft",
+    "de": "Ich denke an die Zukunft.",
+    "ru": "Я думаю о будущем.",
+    "example_de": "Heute denke ich an die Zukunft.",
+    "example_ru": "Сегодня я думаю о будущем."
+  },
+  {
+    "id": "der_fortschritt_ist_wichtig",
+    "de": "Der Fortschritt ist wichtig.",
+    "ru": "Прогресс важен.",
+    "example_de": "Für unsere Arbeit ist der Fortschritt wichtig.",
+    "example_ru": "Для нашей работы прогресс важен."
+  },
+  {
+    "id": "die_entwicklung_ist_gut",
+    "de": "Die Entwicklung ist gut.",
+    "ru": "Развитие хорошее.",
+    "example_de": "Die Entwicklung von meinem Deutsch ist gut.",
+    "example_ru": "Развитие моего немецкого хорошее."
+  },
+  {
+    "id": "ich_habe_das_buch_geschenkt_bekommen",
+    "de": "Ich habe das Buch geschenkt bekommen.",
+    "ru": "Мне подарили эту книгу.",
+    "example_de": "Gestern habe ich das Buch geschenkt bekommen.",
+    "example_ru": "Вчера мне подарили эту книгу."
+  },
+  {
+    "id": "ich_schneide_eine_zwiebel",
+    "de": "Ich schneide eine Zwiebel.",
+    "ru": "Я режу луковицу.",
+    "example_de": "Für die Suppe schneide ich eine Zwiebel.",
+    "example_ru": "Для супа я режу луковицу."
+  },
+  {
+    "id": "das_ist_wirklich_schoen",
+    "de": "Das ist wirklich schön.",
+    "ru": "Это действительно красиво.",
+    "example_de": "Dein Zimmer ist wirklich schön.",
+    "example_ru": "Твоя комната действительно красивая."
+  },
+  {
+    "id": "das_ist_richtig",
+    "de": "Das ist richtig.",
+    "ru": "Это правильно.",
+    "example_de": "Ja, das ist richtig.",
+    "example_ru": "Да, это правильно."
+  },
+  {
+    "id": "ich_lebe_mit_mehr_bewusstsein",
+    "de": "Ich lebe mit mehr Bewusstsein.",
+    "ru": "Я живу более осознанно.",
+    "example_de": "Jetzt lebe ich mit mehr Bewusstsein.",
+    "example_ru": "Теперь я живу более осознанно."
+  },
+  {
+    "id": "sie_ist_sehr_scharfsinnig",
+    "de": "Sie ist sehr scharfsinnig.",
+    "ru": "Она очень проницательная.",
+    "example_de": "Meine Freundin ist sehr scharfsinnig.",
+    "example_ru": "Моя подруга очень проницательная."
+  },
+  {
+    "id": "das_ist_einfach",
+    "de": "Das ist einfach.",
+    "ru": "Это просто.",
+    "example_de": "Die Aufgabe ist einfach.",
+    "example_ru": "Задание простое."
+  },
+  {
+    "id": "sag_die_wahrheit",
+    "de": "Sag die Wahrheit.",
+    "ru": "Скажи правду.",
+    "example_de": "Bitte sag die Wahrheit.",
+    "example_ru": "Пожалуйста, скажи правду."
+  },
+  {
+    "id": "eigentlich_bin_ich_muede",
+    "de": "Eigentlich bin ich müde.",
+    "ru": "Вообще-то я устала / устал.",
+    "example_de": "Eigentlich bin ich heute müde.",
+    "example_ru": "Вообще-то сегодня я устала / устал."
+  },
+  {
+    "id": "ich_bleibe_heute_daheim",
+    "de": "Ich bleibe heute daheim.",
+    "ru": "Сегодня я остаюсь дома.",
+    "example_de": "Ich bin müde und bleibe heute daheim.",
+    "example_ru": "Я устала / устал и сегодня остаюсь дома."
+  },
+  {
+    "id": "bist_du_schon_daheim",
+    "de": "Bist du schon daheim?",
+    "ru": "Ты уже дома?",
+    "example_de": "Bist du schon daheim oder noch unterwegs?",
+    "example_ru": "Ты уже дома или ещё в пути?"
+  },
+  {
+    "id": "ich_mag_diese_leichtigkeit",
+    "de": "Ich mag diese Leichtigkeit.",
+    "ru": "Мне нравится эта лёгкость.",
+    "example_de": "Im Urlaub mag ich diese Leichtigkeit.",
+    "example_ru": "В отпуске мне нравится эта лёгкость."
+  },
+  {
+    "id": "fast_geschafft",
+    "de": "Fast geschafft!",
+    "ru": "Почти готово! / Почти сделали! / Ещё чуть-чуть — и готово!",
+    "example_de": "Nur noch eine Aufgabe — fast geschafft!",
+    "example_ru": "Осталось только одно задание — почти готово!"
+  },
+  {
+    "id": "schon_fertig",
+    "de": "Schon fertig?",
+    "ru": "Уже готово? / Уже сделано?",
+    "example_de": "Schon fertig? Das ging aber schnell!",
+    "example_ru": "Уже готово? Вот это быстро!"
+  },
+  {
+    "id": "ich_habe_es_schon_gemacht",
+    "de": "Ich habe es schon gemacht.",
+    "ru": "Я уже это сделала / сделал.",
+    "example_de": "Keine Sorge, ich habe es schon gemacht.",
+    "example_ru": "Не волнуйся, я уже это сделала / сделал."
+  },
+  {
+    "id": "das_ist_schon_gut",
+    "de": "Das ist schon gut.",
+    "ru": "Это уже хорошо. / Это ведь хорошо.",
+    "example_de": "Für den Anfang ist das schon gut.",
+    "example_ru": "Для начала это уже хорошо."
+  },
+  {
+    "id": "das_ist_schon_viel",
+    "de": "Das ist schon viel.",
+    "ru": "Это уже довольно много.",
+    "example_de": "Drei Stunden Lernen am Tag — das ist schon viel.",
+    "example_ru": "Три часа учёбы в день — это уже довольно много."
+  },
+  {
+    "id": "eine_grosse_tat",
+    "de": "Eine große Tat.",
+    "ru": "Большой поступок. / Подвиг.",
+    "example_de": "Das war eine große Tat.",
+    "example_ru": "Это был большой поступок. / Это был подвиг."
+  },
+  {
+    "id": "in_der_tat",
+    "de": "In der Tat.",
+    "ru": "Действительно. / На самом деле.",
+    "example_de": "In der Tat, du hast recht.",
+    "example_ru": "Действительно, ты права / прав."
+  },
+  {
+    "id": "zur_tat_schreiten",
+    "de": "Zur Tat schreiten.",
+    "ru": "Перейти к делу. / Перейти к действиям.",
+    "example_de": "Wir haben lange geredet, jetzt müssen wir zur Tat schreiten.",
+    "example_ru": "Мы долго говорили, теперь нужно перейти к делу."
+  },
+  {
+    "id": "jemanden_auf_frischer_tat_ertappen",
+    "de": "Jemanden auf frischer Tat ertappen.",
+    "ru": "Поймать кого-то с поличным.",
+    "example_de": "Die Polizei hat ihn auf frischer Tat ertappt.",
+    "example_ru": "Полиция поймала его с поличным."
+  },
+  {
+    "id": "was_ist_dein_sternzeichen",
+    "de": "Was ist dein Sternzeichen?",
+    "ru": "Какой у тебя знак зодиака?",
+    "example_de": "Was ist dein Sternzeichen? Ich bin Widder.",
+    "example_ru": "Какой у тебя знак зодиака? Я Овен."
+  },
+  {
+    "id": "mein_sternzeichen_ist_widder",
+    "de": "Mein Sternzeichen ist Widder.",
+    "ru": "Мой знак зодиака — Овен.",
+    "example_de": "Mein Sternzeichen ist Widder, und deins?",
+    "example_ru": "Мой знак зодиака — Овен, а твой?"
+  },
+  {
+    "id": "er_ist_bald_fertig",
+    "de": "Er ist bald fertig.",
+    "ru": "Он скоро будет готов / закончит.",
+    "example_de": "Warte kurz, er ist bald fertig.",
+    "example_ru": "Подожди немного, он скоро будет готов / закончит."
+  },
+  {
+    "id": "er_geht_dann_zurueck",
+    "de": "Er geht dann zurück.",
+    "ru": "Потом он возвращается / идёт обратно.",
+    "example_de": "Er holt die Tasche und geht dann zurück.",
+    "example_ru": "Он берёт сумку и потом возвращается / идёт обратно."
+  },
+  {
+    "id": "er_kommt_spaet",
+    "de": "Er kommt spät.",
+    "ru": "Он приходит поздно.",
+    "example_de": "Er kommt heute spät.",
+    "example_ru": "Сегодня он приходит поздно."
+  },
+  {
+    "id": "peter_kuesst_anna",
+    "de": "Peter küsst Anna.",
+    "ru": "Петер целует Анну.",
+    "example_de": "Peter küsst Anna zum Abschied.",
+    "example_ru": "Петер целует Анну на прощание."
+  },
+  {
+    "id": "peter_kuesst_anna_fluechtig",
+    "de": "Peter küsst Anna flüchtig.",
+    "ru": "Петер мимолётно целует Анну.",
+    "example_de": "Peter küsst Anna flüchtig und geht.",
+    "example_ru": "Петер мимолётно целует Анну и уходит."
+  },
+  {
+    "id": "um_11_uhr_ausgemacht",
+    "de": "Um 11 Uhr? Ausgemacht.",
+    "ru": "В 11? Договорились.",
+    "example_de": "Treffen wir uns um 11 Uhr? Ausgemacht.",
+    "example_ru": "Встретимся в 11? Договорились."
+  },
+  {
+    "id": "dann_sehen_wir_uns_morgen_ausgemacht",
+    "de": "Dann sehen wir uns morgen. Ausgemacht!",
+    "ru": "Тогда увидимся завтра. Договорились!",
+    "example_de": "Dann sehen wir uns morgen. Ausgemacht!",
+    "example_ru": "Тогда увидимся завтра. Договорились!"
+  },
+  {
+    "id": "ich_vergebe_dir",
+    "de": "Ich vergebe dir.",
+    "ru": "Я тебя прощаю.",
+    "example_de": "Nach dem Streit vergebe ich dir.",
+    "example_ru": "После ссоры я тебя прощаю."
+  },
+  {
+    "id": "ich_habe_es_vergessen",
+    "de": "Ich habe es vergessen.",
+    "ru": "Я это забыла / забыл.",
+    "example_de": "Entschuldigung, ich habe es vergessen.",
+    "example_ru": "Извини, я это забыла / забыл."
+  },
+  {
+    "id": "ich_vertraue_dir_wieder",
+    "de": "Ich vertraue dir wieder.",
+    "ru": "Я снова тебе доверяю.",
+    "example_de": "Nach dem Gespräch vertraue ich dir wieder.",
+    "example_ru": "После разговора я снова тебе доверяю."
+  },
+  {
+    "id": "guten_appetit",
+    "de": "Guten Appetit!",
+    "ru": "Приятного аппетита!",
+    "example_de": "Guten Appetit! Das Essen ist fertig.",
+    "example_ru": "Приятного аппетита! Еда готова."
+  },
+  {
+    "id": "ich_kaufe_brot_in_der_baeckerei",
+    "de": "Ich kaufe Brot in der Bäckerei.",
+    "ru": "Я покупаю хлеб в пекарне.",
+    "example_de": "Heute kaufe ich Brot in der Bäckerei.",
+    "example_ru": "Сегодня я покупаю хлеб в пекарне."
+  },
+  {
+    "id": "kaffee_und_kuchen",
+    "de": "Kaffee und Kuchen.",
+    "ru": "Кофе и пирог / кофе с выпечкой.",
+    "example_de": "Am Nachmittag gibt es Kaffee und Kuchen.",
+    "example_ru": "Днём будет кофе с выпечкой."
+  },
+  {
+    "id": "mit_leichtigkeit",
+    "de": "Mit Leichtigkeit.",
+    "ru": "С лёгкостью / легко, без усилий.",
+    "example_de": "Sie macht die Aufgabe mit Leichtigkeit.",
+    "example_ru": "Она делает задание с лёгкостью."
+  },
+  {
+    "id": "er_spricht_mit_leichtigkeit",
+    "de": "Er spricht mit Leichtigkeit.",
+    "ru": "Он говорит непринуждённо / легко.",
+    "example_de": "Er spricht mit Leichtigkeit über seine Arbeit.",
+    "example_ru": "Он легко говорит о своей работе."
+  },
+  {
+    "id": "ein_gefuehl_von_leichtigkeit",
+    "de": "Ein Gefühl von Leichtigkeit.",
+    "ru": "Чувство лёгкости.",
+    "example_de": "Nach dem Spaziergang habe ich ein Gefühl von Leichtigkeit.",
+    "example_ru": "После прогулки у меня чувство лёгкости."
+  },
+  {
+    "id": "entweder_heute_oder_morgen",
+    "de": "Entweder heute oder morgen.",
+    "ru": "Либо сегодня, либо завтра.",
+    "example_de": "Wir treffen uns entweder heute oder morgen.",
+    "example_ru": "Мы встретимся либо сегодня, либо завтра."
+  },
+  {
+    "id": "entweder_mit_dem_auto_oder_mit_der_bahn",
+    "de": "Entweder mit dem Auto oder mit der Bahn.",
+    "ru": "Либо на машине, либо на поезде.",
+    "example_de": "Ich fahre entweder mit dem Auto oder mit der Bahn.",
+    "example_ru": "Я поеду либо на машине, либо на поезде."
+  },
+  {
+    "id": "ich_kann_entweder_morgens_oder_abends",
+    "de": "Ich kann entweder morgens oder abends.",
+    "ru": "Я могу либо утром, либо вечером.",
+    "example_de": "Ich kann entweder morgens oder abends kommen.",
+    "example_ru": "Я могу прийти либо утром, либо вечером."
+  },
+  {
+    "id": "entweder_von_10_bis_13_oder_von_16_bis_21_uhr",
+    "de": "Entweder von 10 bis 13 Uhr oder von 16 bis 21 Uhr.",
+    "ru": "Либо с 10 до 13, либо с 16 до 21.",
+    "example_de": "Der Termin ist entweder von 10 bis 13 Uhr oder von 16 bis 21 Uhr.",
+    "example_ru": "Встреча будет либо с 10 до 13, либо с 16 до 21."
+  },
+  {
+    "id": "ich_arbeite_im_informatikbereich",
+    "de": "Ich arbeite im Informatikbereich.",
+    "ru": "Я работаю в сфере информатики / IT.",
+    "example_de": "Seit zwei Jahren arbeite ich im Informatikbereich.",
+    "example_ru": "Уже два года я работаю в сфере информатики / IT."
+  },
+  {
+    "id": "sie_arbeitet_in_der_informatikbranche",
+    "de": "Sie arbeitet in der Informatikbranche.",
+    "ru": "Она работает в IT-отрасли.",
+    "example_de": "Meine Freundin arbeitet in der Informatikbranche.",
+    "example_ru": "Моя подруга работает в IT-отрасли."
+  },
+  {
+    "id": "meine_eltern_sind_geschieden",
+    "de": "Meine Eltern sind geschieden.",
+    "ru": "Мои родители разведены.",
+    "example_de": "Meine Eltern sind seit vielen Jahren geschieden.",
+    "example_ru": "Мои родители уже много лет разведены."
+  },
+  {
+    "id": "vielleicht_komme_ich_spaeter",
+    "de": "Vielleicht komme ich später.",
+    "ru": "Возможно, я приду позже.",
+    "example_de": "Vielleicht komme ich heute etwas später.",
+    "example_ru": "Возможно, сегодня я приду немного позже."
+  },
+  {
+    "id": "ich_interessiere_mich_fuer_psychologie",
+    "de": "Ich interessiere mich für Psychologie.",
+    "ru": "Я интересуюсь психологией.",
+    "example_de": "Ich lese viel über Psychologie.",
+    "example_ru": "Я много читаю о психологии."
+  },
+  {
+    "id": "ich_habe_ein_paar_fragen",
+    "de": "Ich habe ein paar Fragen.",
+    "ru": "У меня есть несколько вопросов.",
+    "example_de": "Entschuldigung, ich habe ein paar Fragen.",
+    "example_ru": "Извините, у меня есть несколько вопросов."
+  },
+  {
+    "id": "ich_lese_gern",
+    "de": "Ich lese gern.",
+    "ru": "Я люблю читать.",
+    "example_de": "Abends lese ich gern.",
+    "example_ru": "По вечерам я люблю читать."
+  },
+  {
+    "id": "ich_schaue_gern_filme",
+    "de": "Ich schaue gern Filme.",
+    "ru": "Я люблю смотреть фильмы.",
+    "example_de": "Am Wochenende schaue ich gern Filme.",
+    "example_ru": "На выходных я люблю смотреть фильмы."
+  },
+  {
+    "id": "ich_spreche_ein_bisschen_deutsch",
+    "de": "Ich spreche ein bisschen Deutsch.",
+    "ru": "Я немного говорю по-немецки.",
+    "example_de": "Ich spreche ein bisschen Deutsch, aber ich lerne noch.",
+    "example_ru": "Я немного говорю по-немецки, но ещё учусь."
+  },
+  {
+    "id": "wie_viel_kostet_das",
+    "de": "Wie viel kostet das?",
+    "ru": "Сколько это стоит?",
+    "example_de": "Entschuldigung, wie viel kostet das?",
+    "example_ru": "Извините, сколько это стоит?"
+  },
+  {
+    "id": "wie_viele_aepfel_brauchst_du",
+    "de": "Wie viele Äpfel brauchst du?",
+    "ru": "Сколько яблок тебе нужно?",
+    "example_de": "Wie viele Äpfel brauchst du für den Kuchen?",
+    "example_ru": "Сколько яблок тебе нужно для пирога?"
   }
 ]

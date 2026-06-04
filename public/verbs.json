@@ -114,6 +114,25 @@
     "example_ru": ""
   },
   {
+    "de": "ausmachen",
+    "infinitive": "ausmachen",
+    "ru": "договариваться; выключать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "mache aus",
+      "du": "machst aus",
+      "er/sie/es": "macht aus",
+      "wir": "machen aus",
+      "ihr": "macht aus",
+      "sie/Sie": "machen aus"
+    },
+    "example_de": "Wir machen eine Zeit aus.",
+    "example_ru": "Мы договариваемся о времени."
+  },
+  {
     "de": "ausschlafen",
     "infinitive": "ausschlafen",
     "ru": "высыпаться",
@@ -171,6 +190,25 @@
     "example_ru": "Я использую компьютер."
   },
   {
+    "de": "bestellen",
+    "infinitive": "bestellen",
+    "ru": "заказывать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "bestelle",
+      "du": "bestellst",
+      "er/sie/es": "bestellt",
+      "wir": "bestellen",
+      "ihr": "bestellt",
+      "sie/Sie": "bestellen"
+    },
+    "example_de": "Ich bestelle einen Kaffee.",
+    "example_ru": "Я заказываю кофе."
+  },
+  {
     "de": "besuchen",
     "infinitive": "besuchen",
     "ru": "посещать",
@@ -226,6 +264,25 @@
     },
     "example_de": "Ich bleibe hier.",
     "example_ru": "Я остаюсь здесь."
+  },
+  {
+    "de": "brauchen",
+    "infinitive": "brauchen",
+    "ru": "нуждаться / нуждаться в чём-то / быть нужным",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "brauche",
+      "du": "brauchst",
+      "er/sie/es": "braucht",
+      "wir": "brauchen",
+      "ihr": "braucht",
+      "sie/Sie": "brauchen"
+    },
+    "example_de": "Ich brauche Hilfe.",
+    "example_ru": "Мне нужна помощь."
   },
   {
     "de": "bringen",
@@ -420,6 +477,25 @@
     "example_ru": "Я люблю смотреть телевизор по вечерам."
   },
   {
+    "de": "fertig sein",
+    "infinitive": "fertig sein",
+    "ru": "быть готовым / закончить",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "bin fertig",
+      "du": "bist fertig",
+      "er/sie/es": "ist fertig",
+      "wir": "sind fertig",
+      "ihr": "seid fertig",
+      "sie/Sie": "sind fertig"
+    },
+    "example_de": "Er ist bald fertig.",
+    "example_ru": "Он скоро будет готов / закончит."
+  },
+  {
     "de": "finden",
     "infinitive": "finden",
     "ru": "находить, считать",
@@ -456,6 +532,25 @@
     },
     "example_de": "Der Vogel fliegt hoch.",
     "example_ru": "Птица летит высоко."
+  },
+  {
+    "de": "fordern",
+    "infinitive": "fordern",
+    "ru": "требовать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "B1",
+    "conjugation": {
+      "ich": "fordere",
+      "du": "forderst",
+      "er/sie/es": "fordert",
+      "wir": "fordern",
+      "ihr": "fordert",
+      "sie/Sie": "fordern"
+    },
+    "example_de": "Ich fordere eine Erklärung.",
+    "example_ru": "Я требую объяснения."
   },
   {
     "de": "frei sein",
@@ -495,6 +590,25 @@
     },
     "example_de": "Er gibt dem Kind ein Buch.",
     "example_ru": "Он дает ребенку книгу."
+  },
+  {
+    "de": "gebrauchen",
+    "infinitive": "gebrauchen",
+    "ru": "использовать / употреблять",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "gebrauche",
+      "du": "gebrauchst",
+      "er/sie/es": "gebraucht",
+      "wir": "gebrauchen",
+      "ihr": "gebraucht",
+      "sie/Sie": "gebrauchen"
+    },
+    "example_de": "Ich gebrauche dieses Wort oft.",
+    "example_ru": "Я часто использую это слово."
   },
   {
     "de": "gehen",
@@ -1012,7 +1126,7 @@
   {
     "de": "putzen",
     "infinitive": "putzen",
-    "ru": "убирать",
+    "ru": "чистить / убирать"
     "cases": [
       "Akkusativ"
     ],
@@ -1025,8 +1139,8 @@
       "ihr": "putzt",
       "sie/Sie": "putzen"
     },
-    "example_de": "Ich putze das Fenster.",
-    "example_ru": "Я мою окно."
+    "example_de": "Ich putze die Küche.",
+    "example_ru": "Я убираю кухню."
   },
   {
     "de": "reisen",
@@ -1355,10 +1469,12 @@
   },
   {
     "de": "sitzen",
+    "infinitive": "sitzen",
     "ru": "сидеть",
     "cases": [
       "Nominativ"
     ],
+    "level": "A1",
     "conjugation": {
       "ich": "sitze",
       "du": "sitzt",
@@ -1465,6 +1581,25 @@
     },
     "example_de": "Ich stehe am Fenster.",
     "example_ru": "Я стою у окна."
+  },
+  {
+    "de": "stellen",
+    "infinitive": "stellen",
+    "ru": "ставить / класть",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "stelle",
+      "du": "stellst",
+      "er/sie/es": "stellt",
+      "wir": "stellen",
+      "ihr": "stellt",
+      "sie/Sie": "stellen"
+    },
+    "example_de": "Ich stelle die Tasche auf den Stuhl.",
+    "example_ru": "Я ставлю сумку на стул."
   },
   {
     "de": "streicheln",
@@ -1676,6 +1811,83 @@
     "example_ru": "Я прощаюсь со своим другом в аэропорту."
   },
   {
+    "de": "vergeben",
+    "infinitive": "vergeben",
+    "ru": "прощать",
+    "cases": [
+      "Dativ",
+      "Akkusativ"
+    ],
+    "level": "B1",
+    "conjugation": {
+      "ich": "vergebe",
+      "du": "vergibst",
+      "er/sie/es": "vergibt",
+      "wir": "vergeben",
+      "ihr": "vergebt",
+      "sie/Sie": "vergeben"
+    },
+    "example_de": "Ich vergebe dir.",
+    "example_ru": "Я тебя прощаю."
+  },
+  {
+    "de": "vergessen",
+    "infinitive": "vergessen",
+    "ru": "забывать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "vergesse",
+      "du": "vergisst",
+      "er/sie/es": "vergisst",
+      "wir": "vergessen",
+      "ihr": "vergesst",
+      "sie/Sie": "vergessen"
+    },
+    "example_de": "Ich vergesse den Termin nicht.",
+    "example_ru": "Я не забываю о встрече / записи."
+  },
+  {
+    "de": "verkaufen",
+    "infinitive": "verkaufen",
+    "ru": "продавать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "verkaufe",
+      "du": "verkaufst",
+      "er/sie/es": "verkauft",
+      "wir": "verkaufen",
+      "ihr": "verkauft",
+      "sie/Sie": "verkaufen"
+    },
+    "example_de": "Ich verkaufe mein Fahrrad.",
+    "example_ru": "Я продаю свой велосипед."
+  },
+  {
+    "de": "verletzen",
+    "infinitive": "verletzen",
+    "ru": "ранить / травмировать / нарушать / оскорблять",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "B1",
+    "conjugation": {
+      "ich": "verletze",
+      "du": "verletzt",
+      "er/sie/es": "verletzt",
+      "wir": "verletzen",
+      "ihr": "verletzt",
+      "sie/Sie": "verletzen"
+    },
+    "example_de": "Ich habe mich verletzt.",
+    "example_ru": "Я поранилась / поранился."
+  },
+  {
     "de": "vermissen",
     "infinitive": "vermissen",
     "ru": "скучать",
@@ -1712,6 +1924,44 @@
     },
     "example_de": "Sie versteht die Frage.",
     "example_ru": "Она понимает вопрос."
+  },
+  {
+    "de": "versuchen",
+    "infinitive": "versuchen",
+    "ru": "стараться / пытаться / пробовать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "versuche",
+      "du": "versuchst",
+      "er/sie/es": "versucht",
+      "wir": "versuchen",
+      "ihr": "versucht",
+      "sie/Sie": "versuchen"
+    },
+    "example_de": "Ich versuche Deutsch zu sprechen.",
+    "example_ru": "Я стараюсь говорить по-немецки."
+  },
+  {
+    "de": "vertrauen",
+    "infinitive": "vertrauen",
+    "ru": "доверять",
+    "cases": [
+      "Dativ"
+    ],
+    "level": "B1",
+    "conjugation": {
+      "ich": "vertraue",
+      "du": "vertraust",
+      "er/sie/es": "vertraut",
+      "wir": "vertrauen",
+      "ihr": "vertraut",
+      "sie/Sie": "vertrauen"
+    },
+    "example_de": "Ich vertraue dir.",
+    "example_ru": "Я тебе доверяю."
   },
   {
     "de": "warten",
@@ -1864,6 +2114,25 @@
     },
     "example_de": "Das Kind zeichnet Blumen.",
     "example_ru": "Ребенок рисует цветы."
+  },
+  {
+    "de": "zurückgehen",
+    "infinitive": "zurückgehen",
+    "ru": "возвращаться / идти обратно",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "gehe zurück",
+      "du": "gehst zurück",
+      "er/sie/es": "geht zurück",
+      "wir": "gehen zurück",
+      "ihr": "geht zurück",
+      "sie/Sie": "gehen zurück"
+    },
+    "example_de": "Er geht dann zurück.",
+    "example_ru": "Потом он возвращается / идёт обратно."
   },
   {
     "de": "öffnen",
