@@ -1277,6 +1277,25 @@
     "example_ru": "Я закрываю дверь."
   },
   {
+    "de": "schmerzen",
+    "infinitive": "schmerzen",
+    "ru": "болеть / причинять боль",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "schmerze",
+      "du": "schmerzst",
+      "er/sie/es": "schmerzt",
+      "wir": "schmerzen",
+      "ihr": "schmerzt",
+      "sie/Sie": "schmerzen"
+    },
+    "example_de": "Mein Rücken schmerzt.",
+    "example_ru": "У меня болит спина."
+  },
+  {
     "de": "schreiben",
     "infinitive": "schreiben",
     "ru": "писать",
