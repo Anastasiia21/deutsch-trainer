@@ -592,12 +592,12 @@ activeLevelButton: {
 
 phonePage: {
   minHeight: "100dvh",
-  padding: "8px 8px 10px",
+  padding: "14px 8px 18px",
   overflowY: "hidden",
 },
 
 phoneHeader: {
-  margin: "0 auto 8px",
+  margin: "0 auto 12px",
 },
 
 phoneTitle: {
@@ -610,7 +610,7 @@ phoneCounter: {
 },
 
 phoneModeButtons: {
-  margin: "8px auto 10px",
+  margin: "10px auto 14px",
   gap: 8,
 },
 
@@ -621,12 +621,12 @@ phoneModeButton: {
 },
 
 phoneArticleButtons: {
-  margin: "0 auto 8px",
+  margin: "0 auto 12px",
   gap: 6,
 },
 
 phoneLevelButtons: {
-  margin: "0 auto 8px",
+  margin: "0 auto 12px",
   gap: 6,
   flexWrap: "nowrap",
 },
@@ -697,7 +697,7 @@ phoneExampleRu: {
 },
 
 phoneButtons: {
-  margin: "10px auto 0",
+  margin: "14px auto 0",
   gap: 8,
 },
 
