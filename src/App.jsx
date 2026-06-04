@@ -59,6 +59,7 @@ export default function App() {
   }
 
   const item = currentList[index];
+  const isPhone = typeof window !== "undefined" && window.innerWidth <= 480;
 
   function next() {
     setShow(false);
@@ -85,22 +86,22 @@ export default function App() {
  }
 
   return (
-    <div style={styles.page}>
-      <div style={styles.header}>
-        <h1 style={styles.title}>Deutsch Trainer</h1>
+    <div style={{ ...styles.page, ...(isPhone ? styles.phonePage : {}) }}>
+      <div style={{ ...styles.header, ...(isPhone ? styles.phoneHeader : {}) }}>
+        <h1 style={{ ...styles.title, ...(isPhone ? styles.phoneTitle : {}) }}>Deutsch Trainer</h1>
 
-        <p style={styles.counter}>
+        <p style={{ ...styles.counter, ...(isPhone ? styles.phoneCounter : {}) }}>
           {index + 1} / {currentList.length}
         </p>
       </div>
 
 <div style={styles.content}>
-      <div style={styles.modeButtons}>
+      <div style={{ ...styles.modeButtons, ...(isPhone ? styles.phoneModeButtons : {}) }}>
         <button
           style={
             mode === "words"
-              ? styles.activeModeButton
-              : styles.modeButton
+              ? { ...styles.activeModeButton, ...(isPhone ? styles.phoneModeButton : {}) }
+              : { ...styles.modeButton, ...(isPhone ? styles.phoneModeButton : {}) }
           }
           onClick={() => changeMode("words")}
         >
@@ -110,8 +111,8 @@ export default function App() {
         <button
           style={
             mode === "verbs"
-              ? styles.activeModeButton
-              : styles.modeButton
+              ? { ...styles.activeModeButton, ...(isPhone ? styles.phoneModeButton : {}) }
+              : { ...styles.modeButton, ...(isPhone ? styles.phoneModeButton : {}) }
           }
           onClick={() => changeMode("verbs")}
         >
@@ -122,8 +123,8 @@ export default function App() {
         <button
          style={
           mode === "phrases"
-           ? styles.activeModeButton
-           : styles.modeButton
+           ? { ...styles.activeModeButton, ...(isPhone ? styles.phoneModeButton : {}) }
+           : { ...styles.modeButton, ...(isPhone ? styles.phoneModeButton : {}) }
           }
           onClick={() => changeMode("phrases")}
         >
@@ -132,14 +133,14 @@ export default function App() {
           </div>
 
       {mode === "words" && (
-        <div style={styles.articleButtons}>
+        <div style={{ ...styles.articleButtons, ...(isPhone ? styles.phoneArticleButtons : {}) }}>
           {["all", "der", "die", "das"].map((article) => (
             <button
               key={article}
               style={
                 selectedArticle === article
-                  ? styles.activeArticleButton
-                  : styles.articleButton
+                  ? { ...styles.activeArticleButton, ...(isPhone ? styles.phoneFilterButton : {}) }
+                  : { ...styles.articleButton, ...(isPhone ? styles.phoneFilterButton : {}) }
               }
               onClick={() => {
                 setSelectedArticle(article);
@@ -154,14 +155,14 @@ export default function App() {
       )}
 
       {mode === "verbs" && (
-  <div style={styles.levelButtons}>
+  <div style={{ ...styles.levelButtons, ...(isPhone ? styles.phoneLevelButtons : {}) }}>
     {["all", "A1", "A2", "B1", "B2", "C1"].map((level) => (
       <button
         key={level}
         style={
           selectedLevel === level
-            ? styles.activeLevelButton
-            : styles.levelButton
+            ? { ...styles.activeLevelButton, ...(isPhone ? styles.phoneFilterButton : {}) }
+            : { ...styles.levelButton, ...(isPhone ? styles.phoneFilterButton : {}) }
         }
         onClick={() => {
           setSelectedLevel(level);
@@ -188,13 +189,16 @@ export default function App() {
         <div
           style={{
             ...styles.card,
+            ...(isPhone ? styles.phoneCard : {}),
             ...(!show ? styles.frontCard : styles.backCard),
+            ...(isPhone && !show ? styles.phoneFrontCard : {}),
+            ...(isPhone && show ? styles.phoneBackCard : {}),
           }}
           onClick={() => setShow(!show)}
         >
           {!show ? (
            <>
-  <div style={{ ...styles.mainWord, ...styles.frontMainWord }}>
+  <div style={{ ...styles.mainWord, ...styles.frontMainWord, ...(isPhone ? styles.phoneFrontMainWord : {}) }}>
     {mode === "words"
       ? item.de
       : mode === "verbs"
@@ -203,16 +207,16 @@ export default function App() {
   </div>
 
   {mode === "verbs" && item.cases && (
-    <div style={styles.frontCaseBox}>
+    <div style={{ ...styles.frontCaseBox, ...(isPhone ? styles.phoneFrontCaseBox : {}) }}>
       Падеж: {Array.isArray(item.cases) ? item.cases.join(", ") : item.cases}
     </div>
   )}
 </>
           ) : mode === "words" ? (
             <>
-              <div style={styles.mainWord}>{item.ru}</div>
+              <div style={{ ...styles.mainWord, ...(isPhone ? styles.phoneMainWord : {}) }}>{item.ru}</div>
 
-              <div style={styles.infoBox}>
+              <div style={{ ...styles.infoBox, ...(isPhone ? styles.phoneInfoBox : {}) }}>
                 <div>
                   <p style={styles.smallLabel}>Артикль</p>
                   <p style={styles.infoText}>{item.article}</p>
@@ -226,44 +230,44 @@ export default function App() {
             </>
           ) : mode === "verbs" ? (
             <>
-              <div style={styles.mainWord}>{item.ru}</div>
+              <div style={{ ...styles.mainWord, ...(isPhone ? styles.phoneMainWord : {}) }}>{item.ru}</div>
 
-              <div style={styles.verbBox}>
+              <div style={{ ...styles.verbBox, ...(isPhone ? styles.phoneVerbBox : {}) }}>
                 {Object.entries(item.conjugation).map(([person, form]) => (
-                  <div key={person} style={styles.verbRow}>
+                  <div key={person} style={{ ...styles.verbRow, ...(isPhone ? styles.phoneVerbRow : {}) }}>
                     <span style={styles.person}>{person}</span>
                     <span style={styles.form}>{form}</span>
                   </div>
                 ))}
               </div>
 
-              <div style={styles.exampleBox}>
-                <p style={styles.exampleDe}>{item.example_de}</p>
-                <p style={styles.exampleRu}>{item.example_ru}</p>
+              <div style={{ ...styles.exampleBox, ...(isPhone ? styles.phoneExampleBox : {}) }}>
+                <p style={{ ...styles.exampleDe, ...(isPhone ? styles.phoneExampleDe : {}) }}>{item.example_de}</p>
+                <p style={{ ...styles.exampleRu, ...(isPhone ? styles.phoneExampleRu : {}) }}>{item.example_ru}</p>
               </div>
             </>
           ) : (
             <>
-              <div style={styles.mainWord}>{item.de}</div>
+              <div style={{ ...styles.mainWord, ...(isPhone ? styles.phoneMainWord : {}) }}>{item.de}</div>
 
-              <div style={styles.exampleBox}>
-                <p style={styles.exampleDe}>{item.example_de}</p>
-                <p style={styles.exampleRu}>{item.example_ru}</p>
+              <div style={{ ...styles.exampleBox, ...(isPhone ? styles.phoneExampleBox : {}) }}>
+                <p style={{ ...styles.exampleDe, ...(isPhone ? styles.phoneExampleDe : {}) }}>{item.example_de}</p>
+                <p style={{ ...styles.exampleRu, ...(isPhone ? styles.phoneExampleRu : {}) }}>{item.example_ru}</p>
               </div>
             </>
           )}
         </div>
 
-        <div style={styles.buttons}>
-          <button style={styles.secondaryButton} onClick={prev}>
+        <div style={{ ...styles.buttons, ...(isPhone ? styles.phoneButtons : {}) }}>
+          <button style={{ ...styles.secondaryButton, ...(isPhone ? styles.phoneNavButton : {}) }} onClick={prev}>
             Назад
           </button>
 
-          <button style={styles.mainButton} onClick={() => setShow(!show)}>
+          <button style={{ ...styles.mainButton, ...(isPhone ? styles.phoneNavButton : {}) }} onClick={() => setShow(!show)}>
             Перевернуть
           </button>
 
-          <button style={styles.secondaryButton} onClick={next}>
+          <button style={{ ...styles.secondaryButton, ...(isPhone ? styles.phoneNavButton : {}) }} onClick={next}>
             Дальше
           </button>
         </div>
@@ -584,5 +588,122 @@ activeLevelButton: {
   fontSize: 16,
   fontWeight: 700,
   cursor: "pointer",
+},
+
+phonePage: {
+  minHeight: "100dvh",
+  padding: "8px 8px 10px",
+  overflowY: "hidden",
+},
+
+phoneHeader: {
+  margin: "0 auto 8px",
+},
+
+phoneTitle: {
+  fontSize: 22,
+  lineHeight: 1.1,
+},
+
+phoneCounter: {
+  fontSize: 15,
+},
+
+phoneModeButtons: {
+  margin: "8px auto 10px",
+  gap: 8,
+},
+
+phoneModeButton: {
+  padding: "11px 8px",
+  borderRadius: 16,
+  fontSize: 22,
+},
+
+phoneArticleButtons: {
+  margin: "0 auto 8px",
+  gap: 6,
+},
+
+phoneLevelButtons: {
+  margin: "0 auto 8px",
+  gap: 6,
+  flexWrap: "nowrap",
+},
+
+phoneFilterButton: {
+  padding: "7px 13px",
+  fontSize: 20,
+},
+
+phoneCard: {
+  maxWidth: "100%",
+  borderRadius: 24,
+},
+
+phoneFrontCard: {
+  minHeight: "clamp(160px, 24dvh, 210px)",
+  padding: "22px 14px",
+},
+
+phoneBackCard: {
+  padding: 10,
+},
+
+phoneMainWord: {
+  fontSize: 27,
+},
+
+phoneFrontMainWord: {
+  fontSize: "clamp(30px, 8vw, 38px)",
+},
+
+phoneFrontCaseBox: {
+  marginTop: 18,
+  padding: "9px 16px",
+  fontSize: 16,
+},
+
+phoneInfoBox: {
+  marginTop: 16,
+  gap: 12,
+},
+
+phoneVerbBox: {
+  marginTop: 10,
+  maxWidth: "100%",
+  gap: 5,
+},
+
+phoneVerbRow: {
+  padding: "6px 14px",
+  fontSize: 16,
+  borderRadius: 12,
+},
+
+phoneExampleBox: {
+  marginTop: 10,
+  padding: 10,
+  borderRadius: 16,
+},
+
+phoneExampleDe: {
+  fontSize: 16,
+  margin: "0 0 6px",
+},
+
+phoneExampleRu: {
+  fontSize: 15,
+},
+
+phoneButtons: {
+  margin: "10px auto 0",
+  gap: 8,
+},
+
+phoneNavButton: {
+  padding: "11px 6px",
+  borderRadius: 16,
+  fontSize: 16,
 },
 };
