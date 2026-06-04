@@ -273,11 +273,11 @@ const styles = {
   background: "#8888ab",
   color: "white",
   fontFamily: "Arial, sans-serif",
-  padding: "18px 14px 18px",
+  padding: "14px 14px 14px",
   boxSizing: "border-box",
   display: "flex",
   flexDirection: "column",
-  overflow: "hidden",
+  overflowY: "auto",
 },
 
 content: {
@@ -301,19 +301,19 @@ content: {
   header: {
   width: "100%",
   maxWidth: 700,
-  margin: "0 auto 20px",
+  margin: "0 auto 12px",
   display: "flex",
   justifyContent: "space-between",
   alignItems: "center",
 },
 
   title: {
-    fontSize: "clamp(24px, 5vw, 52px)",
+    fontSize: "clamp(24px, 4.5vw, 46px)",
     margin: 0,
   },
 
   counter: {
-    fontSize: 18,
+    fontSize: 16,
     color: "#cbd5e1",
     margin: 0,
   },
@@ -321,14 +321,14 @@ content: {
   modeButtons: {
   width: "100%",
   maxWidth: 700,
-  margin: "20px auto 24px",
+  margin: "14px auto 18px",
   display: "grid",
   gridTemplateColumns: "1fr 1fr 1fr",
   gap: 10,
 },
 
 modeButton: {
-   padding: "16px 18px",
+   padding: "14px 16px",
   borderRadius: 18,
   border: "1px solid #cbd5e1",
   background: "white",
@@ -340,7 +340,7 @@ modeButton: {
 },
 
 activeModeButton: {
-  padding: "16px 18px",
+  padding: "14px 16px",
   borderRadius: 18,
   border: "1px solid #38bdf8",
   background: "#38bdf8",
@@ -354,7 +354,7 @@ activeModeButton: {
 articleButtons: {
   width: "100%",
   maxWidth: 700,
-  margin: "0 auto 28px",
+  margin: "0 auto 18px",
   display: "flex",
   gap: 10,
   flexWrap: "wrap",
@@ -386,7 +386,7 @@ activeArticleButton: {
   card: {
   width: "100%",
   maxWidth: 700,
-  minHeight: "42svh",
+  minHeight: "auto",
   margin: "0 auto",
   background: "#78aee1",
   borderRadius: 28,
@@ -396,14 +396,14 @@ activeArticleButton: {
   justifyContent: "center",
   alignItems: "center",
   textAlign: "center",
-  padding: 20,
+  padding: 14,
   cursor: "pointer",
   boxSizing: "border-box",
 },
 
 
 mainWord: {
-  fontSize: "clamp(32px, 6vw, 44px)",
+  fontSize: "clamp(26px, 5vw, 36px)",
   fontWeight: 800,
   lineHeight: 1.1,
   color: "white",
@@ -411,12 +411,12 @@ mainWord: {
 
 hint: {
   marginTop: 14,
-  fontSize: 20,
+  fontSize: 17,
   color: "#4b515a",
 },
 
 infoBox: {
-  marginTop: 40,
+  marginTop: 28,
   display: "grid",
   gridTemplateColumns: "1fr 1fr",
   gap: 20,
@@ -430,18 +430,18 @@ smallLabel: {
 },
 
 infoText: {
-  fontSize: 30,
+  fontSize: 24,
   fontWeight: 700,
   margin: 0,
   color: "white",
 },
 
 verbBox: {
-  marginTop: 26,
+  marginTop: 18,
   width: "100%",
   maxWidth: 420,
   display: "grid",
-  gap: 8,
+  gap: 6,
 },
 
 verbRow: {
@@ -449,8 +449,8 @@ verbRow: {
   justifyContent: "space-between",
   background: "rgba(255,255,255,0.35)",
   borderRadius: 14,
-  padding: "8px 14px",
-  fontSize: 20,
+  padding: "7px 14px",
+  fontSize: 17,
 },
 
 person: {
@@ -464,23 +464,23 @@ form: {
 },
 
 exampleBox: {
-  marginTop: 24,
+  marginTop: 18,
   background: "rgba(255,255,255,0.35)",
   borderRadius: 18,
-  padding: 16,
+  padding: 14,
   width: "100%",
   maxWidth: 520,
 },
 
 exampleDe: {
-  fontSize: 22,
+  fontSize: 16,
   fontWeight: 800,
   margin: "0 0 8px",
   color: "#0f172a",
 },
 
 exampleRu: {
-  fontSize: 18,
+  fontSize: 16,
   margin: 0,
   color: "#1f2937",
 },
@@ -488,7 +488,7 @@ exampleRu: {
 buttons: {
   width: "100%",
   maxWidth: 700,
-  margin: "22px auto 0",
+  margin: "16px auto 0",
   display: "grid",
   gridTemplateColumns: "1fr 1.35fr 1fr",
   gap: 10,
@@ -530,7 +530,7 @@ caseBox: {
 
 levelButtons: {
   maxWidth: 700,
-  margin: "0 auto 24px",
+  margin: "0 auto 16px",
   display: "flex",
   gap: 10,
   flexWrap: "wrap",
