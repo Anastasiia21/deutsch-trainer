@@ -267,6 +267,25 @@
     "example_ru": "Я думаю о книге."
   },
   {
+    "de": "duschen",
+    "infinitive": "duschen",
+    "ru": "принимать душ",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "dusche",
+      "du": "duschst",
+      "er/sie/es": "duscht",
+      "wir": "duschen",
+      "ihr": "duscht",
+      "sie/Sie": "duschen"
+    },
+    "example_de": "Ich dusche am Morgen.",
+    "example_ru": "Я принимаю душ утром."
+  },
+  {
     "de": "dürfen",
     "infinitive": "dürfen",
     "ru": "иметь разрешение",
