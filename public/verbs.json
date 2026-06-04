@@ -1983,6 +1983,25 @@
     "example_ru": "Я тебе доверяю."
   },
   {
+    "de": "verurteilen",
+    "infinitive": "verurteilen",
+    "ru": "осуждать / приговаривать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "B1",
+    "conjugation": {
+      "ich": "verurteile",
+      "du": "verurteilst",
+      "er/sie/es": "verurteilt",
+      "wir": "verurteilen",
+      "ihr": "verurteilt",
+      "sie/Sie": "verurteilen"
+    },
+    "example_de": "Ich verurteile Gewalt.",
+    "example_ru": "Я осуждаю насилие."
+  },
+  {
     "de": "warten",
     "infinitive": "warten",
     "ru": "ждать",
