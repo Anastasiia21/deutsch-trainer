@@ -1411,6 +1411,25 @@
     "example_ru": "Я слаб после болезни."
   },
   {
+    "de": "schützen",
+    "infinitive": "schützen",
+    "ru": "защищать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "schütze",
+      "du": "schützt",
+      "er/sie/es": "schützt",
+      "wir": "schützen",
+      "ihr": "schützt",
+      "sie/Sie": "schützen"
+    },
+    "example_de": "Eine Jacke schützt mich vor Kälte.",
+    "example_ru": "Куртка защищает меня от холода."
+  },
+  {
     "de": "sehen",
     "infinitive": "sehen",
     "ru": "видеть",
