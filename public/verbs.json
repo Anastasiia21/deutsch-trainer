@@ -171,6 +171,25 @@
     "example_ru": "В воскресенье я могу выспаться."
   },
   {
+    "de": "backen",
+    "infinitive": "backen",
+    "ru": "печь / выпекать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "backe",
+      "du": "backst",
+      "er/sie/es": "backt",
+      "wir": "backen",
+      "ihr": "backt",
+      "sie/Sie": "backen"
+    },
+    "example_de": "Ich backe einen Kuchen.",
+    "example_ru": "Я пеку пирог."
+  },
+  {
     "de": "befehlen",
     "infinitive": "befehlen",
     "ru": "приказывать",
