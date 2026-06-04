@@ -97,21 +97,21 @@
   {
     "de": "aufstehen",
     "infinitive": "aufstehen",
-    "ru": "",
+    "ru": "вставать",
     "cases": [
       "Nominativ"
     ],
-    "level": "A2",
+    "level": "A1",
     "conjugation": {
-      "ich": "aufstehen",
-      "du": "aufstehen",
-      "er/sie/es": "aufstehen",
-      "wir": "aufstehen",
-      "ihr": "aufstehen",
-      "sie/Sie": "aufstehen"
+      "ich": "stehe auf",
+      "du": "stehst auf",
+      "er/sie/es": "steht auf",
+      "wir": "stehen auf",
+      "ihr": "steht auf",
+      "sie/Sie": "stehen auf"
     },
-    "example_de": "",
-    "example_ru": ""
+    "example_de": "Ich stehe um sieben Uhr auf.",
+    "example_ru": "Я встаю в семь часов."
   },
   {
     "de": "ausmachen",
@@ -2000,6 +2000,25 @@
     },
     "example_de": "Sie waschen die Hände.",
     "example_ru": "Они моют руки."
+  },
+  {
+    "de": "wehtun",
+    "infinitive": "wehtun",
+    "ru": "болеть / причинять боль",
+    "cases": [
+      "Dativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "tue weh",
+      "du": "tust weh",
+      "er/sie/es": "tut weh",
+      "wir": "tun weh",
+      "ihr": "tut weh",
+      "sie/Sie": "tun weh"
+    },
+    "example_de": "Mir tut der Kopf weh.",
+    "example_ru": "У меня болит голова."
   },
   {
     "de": "werden",
