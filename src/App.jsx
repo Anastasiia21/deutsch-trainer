@@ -185,10 +185,16 @@ export default function App() {
       </div>
 
       
-        <div style={styles.card} onClick={() => setShow(!show)}>
+        <div
+          style={{
+            ...styles.card,
+            ...(!show ? styles.frontCard : styles.backCard),
+          }}
+          onClick={() => setShow(!show)}
+        >
           {!show ? (
            <>
-  <div style={styles.mainWord}>
+  <div style={{ ...styles.mainWord, ...styles.frontMainWord }}>
     {mode === "words"
       ? item.de
       : mode === "verbs"
@@ -197,7 +203,7 @@ export default function App() {
   </div>
 
   {mode === "verbs" && item.cases && (
-    <div style={styles.caseBox}>
+    <div style={styles.frontCaseBox}>
       Падеж: {Array.isArray(item.cases) ? item.cases.join(", ") : item.cases}
     </div>
   )}
@@ -386,7 +392,6 @@ activeArticleButton: {
   card: {
   width: "100%",
   maxWidth: 700,
-  minHeight: "auto",
   margin: "0 auto",
   background: "#78aee1",
   borderRadius: 28,
@@ -396,17 +401,30 @@ activeArticleButton: {
   justifyContent: "center",
   alignItems: "center",
   textAlign: "center",
-  padding: 14,
   cursor: "pointer",
   boxSizing: "border-box",
 },
 
+frontCard: {
+  minHeight: "clamp(200px, 27svh, 260px)",
+  padding: "28px 20px",
+},
+
+backCard: {
+  minHeight: "auto",
+  padding: 14,
+},
 
 mainWord: {
   fontSize: "clamp(26px, 5vw, 36px)",
   fontWeight: 800,
   lineHeight: 1.1,
   color: "white",
+},
+
+frontMainWord: {
+  fontSize: "clamp(42px, 7vw, 58px)",
+  letterSpacing: "0.01em",
 },
 
 hint: {
@@ -526,6 +544,16 @@ caseBox: {
   color: "#0f172a",
   fontSize: 16,
   fontWeight: 700,
+},
+
+frontCaseBox: {
+  marginTop: 28,
+  padding: "12px 22px",
+  borderRadius: 999,
+  background: "rgba(255,255,255,0.35)",
+  color: "#0f172a",
+  fontSize: "clamp(16px, 2.8vw, 19px)",
+  fontWeight: 800,
 },
 
 levelButtons: {
