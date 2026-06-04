@@ -2,13 +2,11 @@
 # Optional translation after a separator, e.g. "laufen - бегать" or "schreiben: писать".
 # Lines starting with # are ignored.
 
-befehlen
 aushalten
 schützen
 
 backen
 bedürfen
-befehlen
 beginnen
 bergen
 betrügen

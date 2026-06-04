@@ -152,6 +152,25 @@
     "example_ru": "В воскресенье я могу выспаться."
   },
   {
+    "de": "befehlen",
+    "infinitive": "befehlen",
+    "ru": "приказывать",
+    "cases": [
+      "Dativ"
+    ],
+    "level": "B1",
+    "conjugation": {
+      "ich": "befehle",
+      "du": "befiehlst",
+      "er/sie/es": "befiehlt",
+      "wir": "befehlen",
+      "ihr": "befehlt",
+      "sie/Sie": "befehlen"
+    },
+    "example_de": "Der Chef befiehlt es nicht.",
+    "example_ru": "Начальник этого не приказывает."
+  },
+  {
     "de": "begleiten",
     "infinitive": "begleiten",
     "ru": "провожать",
