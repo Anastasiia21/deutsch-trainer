@@ -114,6 +114,25 @@
     "example_ru": "Я встаю в семь часов."
   },
   {
+    "de": "aushalten",
+    "infinitive": "aushalten",
+    "ru": "выдерживать / терпеть",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "B1",
+    "conjugation": {
+      "ich": "halte aus",
+      "du": "hältst aus",
+      "er/sie/es": "hält aus",
+      "wir": "halten aus",
+      "ihr": "haltet aus",
+      "sie/Sie": "halten aus"
+    },
+    "example_de": "Ich halte den Lärm nicht aus.",
+    "example_ru": "Я не выдерживаю этот шум."
+  },
+  {
     "de": "ausmachen",
     "infinitive": "ausmachen",
     "ru": "договариваться; выключать",
