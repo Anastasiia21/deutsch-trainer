@@ -2,7 +2,6 @@
 # Optional translation after a separator, e.g. "laufen - бегать" or "schreiben: писать".
 # Lines starting with # are ignored.
 
-erklären
 befehlen
 aushalten
 schützen

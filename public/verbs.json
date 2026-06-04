@@ -400,6 +400,26 @@
     "example_ru": "Дети энергичны."
   },
   {
+    "de": "erklären",
+    "infinitive": "erklären",
+    "ru": "объяснять",
+    "cases": [
+      "Dativ",
+      "Akkusativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "erkläre",
+      "du": "erklärst",
+      "er/sie/es": "erklärt",
+      "wir": "erklären",
+      "ihr": "erklärt",
+      "sie/Sie": "erklären"
+    },
+    "example_de": "Kannst du mir das erklären?",
+    "example_ru": "Ты можешь мне это объяснить?"
+  },
+  {
     "de": "erzählen",
     "infinitive": "erzählen",
     "ru": "рассказывать",
