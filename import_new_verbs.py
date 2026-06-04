@@ -10,9 +10,12 @@ MAX_IMPORTS_PER_RUN = 1
 
 
 def regular_conjugation(stem, infinitive):
+    # After sibilant sounds (s/ß/z/x), German uses du ...t, not ...st:
+    # du tanzt, du heißt, du schützt.
+    du_ending = 't' if stem.endswith(('s', 'ß', 'z', 'x')) else 'st'
     return {
         'ich': f'{stem}e',
-        'du': f'{stem}st',
+        'du': f'{stem}{du_ending}',
         'er/sie/es': f'{stem}t',
         'wir': infinitive,
         'ihr': f'{stem}t',
