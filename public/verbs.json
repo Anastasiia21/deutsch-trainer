@@ -190,6 +190,25 @@
     "example_ru": "Я пеку пирог."
   },
   {
+    "de": "bedürfen",
+    "infinitive": "bedürfen",
+    "ru": "нуждаться / требовать",
+    "cases": [
+      "Genitiv"
+    ],
+    "level": "B2",
+    "conjugation": {
+      "ich": "bedarf",
+      "du": "bedarfst",
+      "er/sie/es": "bedarf",
+      "wir": "bedürfen",
+      "ihr": "bedürft",
+      "sie/Sie": "bedürfen"
+    },
+    "example_de": "Das bedarf keiner Erklärung.",
+    "example_ru": "Это не требует объяснения."
+  },
+  {
     "de": "befehlen",
     "infinitive": "befehlen",
     "ru": "приказывать",
