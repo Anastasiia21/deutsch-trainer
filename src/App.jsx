@@ -11,6 +11,29 @@ function shuffleArray(array) {
   return arr;
 }
 
+const WORD_TOPICS = [
+  { value: "Familie", label: "Familie (Семья)" },
+  { value: "Haus und Möbel", label: "Haus und Möbel (Дом и мебель)" },
+  { value: "Essen und Trinken", label: "Essen und Trinken (Еда и напитки)" },
+  { value: "Kleidung und Schuhe", label: "Kleidung und Schuhe (Одежда и обувь)" },
+  { value: "Körper und Gesundheit", label: "Körper und Gesundheit (Тело и здоровье)" },
+  { value: "Arbeit und Berufe", label: "Arbeit und Berufe (Работа и профессии)" },
+  { value: "Schule und Bildung", label: "Schule und Bildung (Учёба и образование)" },
+  { value: "Einkaufen und Geld", label: "Einkaufen und Geld (Покупки и деньги)" },
+  { value: "Verkehr", label: "Verkehr (Транспорт)" },
+  { value: "Reisen", label: "Reisen (Путешествия)" },
+  { value: "Stadt und Infrastruktur", label: "Stadt und Infrastruktur (Город и инфраструктура)" },
+  { value: "Natur und Umwelt", label: "Natur und Umwelt (Природа и окружающий мир)" },
+  { value: "Tiere", label: "Tiere (Животные)" },
+  { value: "Zeit und Datum", label: "Zeit und Datum (Время и даты)" },
+  { value: "Wetter und Jahreszeiten", label: "Wetter und Jahreszeiten (Погода и сезоны)" },
+  { value: "Hobbys und Freizeit", label: "Hobbys und Freizeit (Хобби и свободное время)" },
+  { value: "Sport und Bewegung", label: "Sport und Bewegung (Спорт и активность)" },
+  { value: "Gefühle und Emotionen", label: "Gefühle und Emotionen (Чувства и эмоции)" },
+  { value: "Kommunikation und Beziehungen", label: "Kommunikation und Beziehungen (Общение и отношения)" },
+  { value: "Technik und Technologie", label: "Technik und Technologie (Технологии и техника)" },
+];
+
 export default function App() {
   const [words, setWords] = useState([]);
   const [verbs, setVerbs] = useState([]);
@@ -23,6 +46,7 @@ export default function App() {
 
   const [selectedArticle, setSelectedArticle] = useState("all");
   const [selectedLevel, setSelectedLevel] = useState("all");
+  const [selectedTopic, setSelectedTopic] = useState("all");
 
   useEffect(() => {
     fetch("/words.json")
@@ -39,7 +63,10 @@ export default function App() {
   }, []);
 
   const filteredWords = words.filter((word) => {
-    return selectedArticle === "all" || word.article === selectedArticle;
+    const matchesArticle = selectedArticle === "all" || word.article === selectedArticle;
+    const matchesTopic = selectedTopic === "all" || word.topic === selectedTopic;
+
+    return matchesArticle && matchesTopic;
   });
 
   const filteredVerbs = verbs.filter((verb) => {
@@ -54,7 +81,12 @@ export default function App() {
     ? filteredVerbs
     : phrases;
 
-  if (currentList.length === 0) {
+  const isLoading =
+    (mode === "words" && words.length === 0) ||
+    (mode === "verbs" && verbs.length === 0) ||
+    (mode === "phrases" && phrases.length === 0);
+
+  if (isLoading) {
     return <div style={styles.loading}>Загрузка...</div>;
   }
 
@@ -82,6 +114,7 @@ export default function App() {
 
   if (newMode === "verbs") {
     setSelectedArticle("all");
+    setSelectedTopic("all");
   }
  }
 
@@ -91,7 +124,7 @@ export default function App() {
         <h1 style={{ ...styles.title, ...(isPhone ? styles.phoneTitle : {}) }}>Deutsch Trainer</h1>
 
         <p style={{ ...styles.counter, ...(isPhone ? styles.phoneCounter : {}) }}>
-          {index + 1} / {currentList.length}
+          {currentList.length > 0 ? index + 1 : 0} / {currentList.length}
         </p>
       </div>
 
@@ -134,6 +167,24 @@ export default function App() {
 
       {mode === "words" && (
         <div style={{ ...styles.articleButtons, ...(isPhone ? styles.phoneArticleButtons : {}) }}>
+          <select
+            value={selectedTopic}
+            style={{ ...styles.topicSelect, ...(isPhone ? styles.phoneTopicSelect : {}) }}
+            onChange={(event) => {
+              setSelectedTopic(event.target.value);
+              setIndex(0);
+              setShow(false);
+            }}
+            aria-label="Темы"
+          >
+            <option value="all">Темы</option>
+            {WORD_TOPICS.map((topic) => (
+              <option key={topic.value} value={topic.value}>
+                {topic.label}
+              </option>
+            ))}
+          </select>
+
           {["all", "der", "die", "das"].map((article) => (
             <button
               key={article}
@@ -180,12 +231,18 @@ export default function App() {
         <div
           style={{
             ...styles.progressInner,
-            width: `${((index + 1) / currentList.length) * 100}%`,
+            width: currentList.length > 0 ? `${((index + 1) / currentList.length) * 100}%` : "0%",
           }}
         />
       </div>
 
-      
+      {currentList.length === 0 ? (
+        <div style={{ ...styles.card, ...styles.frontCard, ...(isPhone ? styles.phoneCard : {}) }}>
+          <div style={{ ...styles.emptyText, ...(isPhone ? styles.phoneEmptyText : {}) }}>
+            Нет слов по выбранным фильтрам
+          </div>
+        </div>
+      ) : (
         <div
           style={{
             ...styles.card,
@@ -257,8 +314,10 @@ export default function App() {
             </>
           )}
         </div>
+      )}
 
-        <div style={{ ...styles.buttons, ...(isPhone ? styles.phoneButtons : {}) }}>
+        {currentList.length > 0 && (
+          <div style={{ ...styles.buttons, ...(isPhone ? styles.phoneButtons : {}) }}>
           <button style={{ ...styles.secondaryButton, ...(isPhone ? styles.phoneNavButton : {}) }} onClick={prev}>
             Назад
           </button>
@@ -271,6 +330,7 @@ export default function App() {
             Дальше
           </button>
         </div>
+        )}
       </div>
     </div>
   );
@@ -393,6 +453,19 @@ activeArticleButton: {
   cursor: "pointer",
 },
 
+topicSelect: {
+  minHeight: 42,
+  maxWidth: 260,
+  padding: "10px 38px 10px 18px",
+  borderRadius: 999,
+  border: "1px solid #cbd5e1",
+  background: "white",
+  color: "#111",
+  fontSize: 16,
+  fontWeight: 700,
+  cursor: "pointer",
+},
+
   card: {
   width: "100%",
   maxWidth: 700,
@@ -455,6 +528,12 @@ infoText: {
   fontSize: 24,
   fontWeight: 700,
   margin: 0,
+  color: "white",
+},
+
+emptyText: {
+  fontSize: 24,
+  fontWeight: 800,
   color: "white",
 },
 
