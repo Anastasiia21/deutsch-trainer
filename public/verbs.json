@@ -228,6 +228,25 @@
     "example_ru": "Начальник этого не приказывает."
   },
   {
+    "de": "beginnen",
+    "infinitive": "beginnen",
+    "ru": "начинать / начинаться",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "beginne",
+      "du": "beginnst",
+      "er/sie/es": "beginnt",
+      "wir": "beginnen",
+      "ihr": "beginnt",
+      "sie/Sie": "beginnen"
+    },
+    "example_de": "Der Kurs beginnt heute.",
+    "example_ru": "Курс начинается сегодня."
+  },
+  {
     "de": "begleiten",
     "infinitive": "begleiten",
     "ru": "провожать",
