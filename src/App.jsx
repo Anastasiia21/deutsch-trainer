@@ -372,19 +372,24 @@ content: {
   width: "100%",
   maxWidth: 700,
   margin: "0 auto 12px",
-  display: "flex",
-  justifyContent: "space-between",
+  display: "grid",
+  gridTemplateColumns: "1fr auto 1fr",
   alignItems: "center",
 },
 
   title: {
     fontSize: "clamp(24px, 4.5vw, 46px)",
+    gridColumn: 2,
     margin: 0,
+    fontWeight: 900,
+    textAlign: "center",
   },
 
   counter: {
     fontSize: 16,
     color: "#6B7280",
+    gridColumn: 3,
+    justifySelf: "end",
     margin: 0,
   },
 
