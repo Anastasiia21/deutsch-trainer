@@ -1583,6 +1583,25 @@
     "example_ru": "Он учитель."
   },
   {
+    "de": "sich bewerben",
+    "infinitive": "sich bewerben",
+    "ru": "подавать заявление / откликаться на вакансию",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "B1",
+    "conjugation": {
+      "ich": "bewerbe mich",
+      "du": "bewirbst dich",
+      "er/sie/es": "bewirbt sich",
+      "wir": "bewerben uns",
+      "ihr": "bewerbt euch",
+      "sie/Sie": "bewerben sich"
+    },
+    "example_de": "Ich bewerbe mich um eine Stelle.",
+    "example_ru": "Я откликаюсь на вакансию."
+  },
+  {
     "de": "sich freuen",
     "infinitive": "sich freuen",
     "ru": "радоваться",
