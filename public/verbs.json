@@ -400,6 +400,25 @@
     "example_ru": "Я оплачиваю счет."
   },
   {
+    "de": "biegen",
+    "infinitive": "biegen",
+    "ru": "сгибать / поворачивать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "B1",
+    "conjugation": {
+      "ich": "biege",
+      "du": "biegst",
+      "er/sie/es": "biegt",
+      "wir": "biegen",
+      "ihr": "biegt",
+      "sie/Sie": "biegen"
+    },
+    "example_de": "Bieg links ab.",
+    "example_ru": "Поверни налево."
+  },
+  {
     "de": "bleiben",
     "infinitive": "bleiben",
     "ru": "оставаться",
