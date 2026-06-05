@@ -3,7 +3,6 @@
 # Lines starting with # are ignored.
 
 
-betrügen
 beweisen
 bewerben
 biegen

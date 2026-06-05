@@ -342,6 +342,25 @@
     "example_ru": "Она посещает свою подругу."
   },
   {
+    "de": "betrügen",
+    "infinitive": "betrügen",
+    "ru": "обманывать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "B1",
+    "conjugation": {
+      "ich": "betrüge",
+      "du": "betrügst",
+      "er/sie/es": "betrügt",
+      "wir": "betrügen",
+      "ihr": "betrügt",
+      "sie/Sie": "betrügen"
+    },
+    "example_de": "Er betrügt seine Freundin nicht.",
+    "example_ru": "Он не обманывает свою девушку."
+  },
+  {
     "de": "bezahlen",
     "infinitive": "bezahlen",
     "ru": "платить",
