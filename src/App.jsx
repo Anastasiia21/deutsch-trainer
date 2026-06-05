@@ -470,7 +470,7 @@ topicSelect: {
   width: "100%",
   maxWidth: 700,
   margin: "0 auto",
-  background: "#ABABAB",
+  background: "#B8B8B8",
   borderRadius: 28,
   boxShadow: "0 20px 60px rgba(31,41,55,0.22)",
   display: "flex",
