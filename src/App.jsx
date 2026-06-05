@@ -47,6 +47,7 @@ export default function App() {
   const [selectedArticle, setSelectedArticle] = useState("all");
   const [selectedLevel, setSelectedLevel] = useState("all");
   const [selectedTopic, setSelectedTopic] = useState("all");
+  const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
     fetch("/words.json")
@@ -62,16 +63,38 @@ export default function App() {
       .then((data) => setPhrases(shuffleArray(data))); 
   }, []);
 
-  const filteredWords = words.filter((word) => {
+  const filteredWordsByControls = words.filter((word) => {
     const matchesArticle = selectedArticle === "all" || word.article === selectedArticle;
     const matchesTopic = selectedTopic === "all" || word.topic === selectedTopic;
 
     return matchesArticle && matchesTopic;
   });
 
-  const filteredVerbs = verbs.filter((verb) => {
+  const filteredVerbsByControls = verbs.filter((verb) => {
   return selectedLevel === "all" || verb.level === selectedLevel;
   });
+
+  const normalizedSearchQuery = searchQuery.trim().toLowerCase();
+
+  function matchesSearch(item, fields) {
+    if (!normalizedSearchQuery) {
+      return true;
+    }
+
+    return fields.some((field) => String(item[field] || "").toLowerCase().includes(normalizedSearchQuery));
+  }
+
+  const filteredWords = filteredWordsByControls.filter((word) =>
+    matchesSearch(word, ["de", "ru", "plural", "article", "topic"]),
+  );
+
+  const filteredVerbs = filteredVerbsByControls.filter((verb) =>
+    matchesSearch(verb, ["de", "infinitive", "ru", "level", "example_de", "example_ru"]),
+  );
+
+  const filteredPhrases = phrases.filter((phrase) =>
+    matchesSearch(phrase, ["de", "ru", "example_de", "example_ru"]),
+  );
 
 
   const currentList =
@@ -79,7 +102,7 @@ export default function App() {
     ? filteredWords
     : mode === "verbs"
     ? filteredVerbs
-    : phrases;
+    : filteredPhrases;
 
   const isLoading =
     (mode === "words" && words.length === 0) ||
@@ -94,11 +117,19 @@ export default function App() {
   const isPhone = typeof window !== "undefined" && window.innerWidth <= 480;
 
   function next() {
+    if (currentList.length === 0) {
+      return;
+    }
+
     setShow(false);
     setIndex((prev) => (prev + 1) % currentList.length);
   }
 
   function prev() {
+    if (currentList.length === 0) {
+      return;
+    }
+
     setShow(false);
     setIndex((prev) => (prev - 1 + currentList.length) % currentList.length);
   }
@@ -107,6 +138,7 @@ export default function App() {
   setMode(newMode);
   setIndex(0);
   setShow(false);
+  setSearchQuery("");
 
   if (newMode === "words") {
     setSelectedLevel("all");
@@ -235,6 +267,24 @@ export default function App() {
           }}
         />
       </div>
+
+      <form
+        style={{ ...styles.searchForm, ...(isPhone ? styles.phoneSearchForm : {}) }}
+        onSubmit={(event) => event.preventDefault()}
+      >
+        <input
+          type="search"
+          value={searchQuery}
+          placeholder="Search words..."
+          aria-label="Search words"
+          style={{ ...styles.searchInput, ...(isPhone ? styles.phoneSearchInput : {}) }}
+          onChange={(event) => {
+            setSearchQuery(event.target.value);
+            setIndex(0);
+            setShow(false);
+          }}
+        />
+      </form>
 
       {currentList.length === 0 ? (
         <div style={{ ...styles.card, ...styles.frontCard, ...(isPhone ? styles.phoneCard : {}) }}>
@@ -469,6 +519,28 @@ topicSelect: {
   fontSize: 16,
   fontWeight: 700,
   cursor: "pointer",
+},
+
+searchForm: {
+  width: "100%",
+  maxWidth: 700,
+  margin: "0 auto 14px",
+  display: "flex",
+  justifyContent: "center",
+},
+
+searchInput: {
+  width: "min(100%, 300px)",
+  minHeight: 42,
+  padding: "10px 18px",
+  borderRadius: 999,
+  border: "1px solid #ABABAB",
+  background: "#EBE0E0",
+  color: "#203142",
+  fontSize: 16,
+  fontWeight: 700,
+  outline: "none",
+  boxSizing: "border-box",
 },
 
   card: {
@@ -718,6 +790,18 @@ phoneLevelButtons: {
 phoneFilterButton: {
   padding: "7px 13px",
   fontSize: 20,
+},
+
+phoneSearchForm: {
+  margin: "0 auto 10px",
+  padding: "0 4px",
+},
+
+phoneSearchInput: {
+  width: "min(100%, 240px)",
+  minHeight: 38,
+  padding: "8px 14px",
+  fontSize: 16,
 },
 
 phoneCard: {
