@@ -341,7 +341,7 @@ const styles = {
   page: {
   minHeight: "100svh",
   background: "#D6D6D6",
-  color: "#1F2937",
+  color: "#203142",
   fontFamily: "Arial, sans-serif",
   padding: "14px 14px 14px",
   boxSizing: "border-box",
@@ -360,7 +360,7 @@ content: {
   loading: {
     minHeight: "100vh",
     background: "#D6D6D6",
-    color: "#1F2937",
+    color: "#203142",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
@@ -407,7 +407,7 @@ modeButton: {
   borderRadius: 18,
   border: "1px solid #ABABAB",
   background: "#EBE0E0",
-  color: "#1F2937",
+  color: "#203142",
   fontSize: "clamp(18px, 3vw, 22px)",
   fontWeight: 700,
   cursor: "pointer",
@@ -441,7 +441,7 @@ articleButton: {
   borderRadius: 999,
   border: "1px solid #ABABAB",
   background: "#EBE0E0",
-  color: "#1F2937",
+  color: "#203142",
   fontSize: 16,
   fontWeight: 500,
   cursor: "pointer",
@@ -465,7 +465,7 @@ topicSelect: {
   borderRadius: 999,
   border: "1px solid #ABABAB",
   background: "#EBE0E0",
-  color: "#1F2937",
+  color: "#203142",
   fontSize: 16,
   fontWeight: 700,
   cursor: "pointer",
@@ -501,7 +501,7 @@ mainWord: {
   fontSize: "clamp(26px, 5vw, 36px)",
   fontWeight: 800,
   lineHeight: 1.1,
-  color: "#1F2937",
+  color: "#203142",
 },
 
 frontMainWord: {
@@ -533,13 +533,13 @@ infoText: {
   fontSize: 24,
   fontWeight: 700,
   margin: 0,
-  color: "#1F2937",
+  color: "#203142",
 },
 
 emptyText: {
   fontSize: 24,
   fontWeight: 800,
-  color: "#1F2937",
+  color: "#203142",
 },
 
 verbBox: {
@@ -566,7 +566,7 @@ person: {
 
 form: {
   fontWeight: 800,
-  color: "#1F2937",
+  color: "#203142",
 },
 
 exampleBox: {
@@ -582,7 +582,7 @@ exampleDe: {
   fontSize: 16,
   fontWeight: 800,
   margin: "0 0 8px",
-  color: "#1F2937",
+  color: "#203142",
 },
 
 exampleRu: {
@@ -605,7 +605,7 @@ mainButton: {
   borderRadius: 18,
   border: "1px solid #777777",
   background: "#EBE0E0",
-  color: "#1F2937",
+  color: "#203142",
   fontSize: "clamp(14px, 3.5vw, 20px)",
   fontWeight: 700,
   cursor: "pointer",
@@ -617,7 +617,7 @@ secondaryButton: {
   borderRadius: 18,
   border: "1px solid #ABABAB",
   background: "#EBE0E0",
-  color: "#1F2937",
+  color: "#203142",
   fontSize: "clamp(14px, 3.5vw, 20px)",
   fontWeight: 700,
   cursor: "pointer",
@@ -629,7 +629,7 @@ caseBox: {
   padding: "10px 16px",
   borderRadius: 999,
   background: "rgba(255,255,255,0.45)",
-  color: "#1F2937",
+  color: "#203142",
   fontSize: 16,
   fontWeight: 700,
 },
@@ -639,7 +639,7 @@ frontCaseBox: {
   padding: "12px 22px",
   borderRadius: 999,
   background: "rgba(255,255,255,0.45)",
-  color: "#1F2937",
+  color: "#203142",
   fontSize: "clamp(16px, 2.8vw, 19px)",
   fontWeight: 800,
 },
@@ -658,7 +658,7 @@ levelButton: {
   borderRadius: 999,
   border: "1px solid #ABABAB",
   background: "#EBE0E0",
-  color: "#1F2937",
+  color: "#203142",
   fontSize: 16,
   cursor: "pointer",
 },
