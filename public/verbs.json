@@ -361,6 +361,26 @@
     "example_ru": "Он не обманывает свою девушку."
   },
   {
+    "de": "beweisen",
+    "infinitive": "beweisen",
+    "ru": "доказывать",
+    "cases": [
+      "Dativ",
+      "Akkusativ"
+    ],
+    "level": "B1",
+    "conjugation": {
+      "ich": "beweise",
+      "du": "beweist",
+      "er/sie/es": "beweist",
+      "wir": "beweisen",
+      "ihr": "beweist",
+      "sie/Sie": "beweisen"
+    },
+    "example_de": "Ich beweise dir das.",
+    "example_ru": "Я докажу тебе это."
+  },
+  {
     "de": "bezahlen",
     "infinitive": "bezahlen",
     "ru": "платить",
