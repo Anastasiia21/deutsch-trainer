@@ -285,6 +285,25 @@
     "example_ru": "Я использую компьютер."
   },
   {
+    "de": "bergen",
+    "infinitive": "bergen",
+    "ru": "спасать / таить в себе",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "B2",
+    "conjugation": {
+      "ich": "berge",
+      "du": "birgst",
+      "er/sie/es": "birgt",
+      "wir": "bergen",
+      "ihr": "bergt",
+      "sie/Sie": "bergen"
+    },
+    "example_de": "Die Situation birgt ein Risiko.",
+    "example_ru": "Ситуация таит в себе риск."
+  },
+  {
     "de": "bestellen",
     "infinitive": "bestellen",
     "ru": "заказывать",
