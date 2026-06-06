@@ -549,7 +549,7 @@ searchInput: {
   margin: "0 auto",
   background: "#B8B8B8",
   borderRadius: 28,
-  boxShadow: "0 12px 24px rgba(31,41,55,0.18)",
+  boxShadow: "0 2px 8px rgba(0,0,0,0.05)",
   display: "flex",
   flexDirection: "column",
   justifyContent: "center",
