@@ -419,6 +419,26 @@
     "example_ru": "Поверни налево."
   },
   {
+    "de": "bieten",
+    "infinitive": "bieten",
+    "ru": "предлагать",
+    "cases": [
+      "Dativ",
+      "Akkusativ"
+    ],
+    "level": "B1",
+    "conjugation": {
+      "ich": "biete",
+      "du": "bietest",
+      "er/sie/es": "bietet",
+      "wir": "bieten",
+      "ihr": "bietet",
+      "sie/Sie": "bieten"
+    },
+    "example_de": "Das Hotel bietet Frühstück an.",
+    "example_ru": "Отель предлагает завтрак."
+  },
+  {
     "de": "binden",
     "infinitive": "binden",
     "ru": "завязывать / связывать",
