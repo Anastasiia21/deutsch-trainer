@@ -534,6 +534,25 @@
     "example_ru": "Он нарушает правило."
   },
   {
+    "de": "brennen",
+    "infinitive": "brennen",
+    "ru": "гореть / жечь",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "brenne",
+      "du": "brennst",
+      "er/sie/es": "brennt",
+      "wir": "brennen",
+      "ihr": "brennt",
+      "sie/Sie": "brennen"
+    },
+    "example_de": "Das Licht brennt noch.",
+    "example_ru": "Свет ещё горит."
+  },
+  {
     "de": "bringen",
     "infinitive": "bringen",
     "ru": "приносить",
