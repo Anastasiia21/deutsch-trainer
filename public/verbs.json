@@ -649,6 +649,26 @@
     "example_ru": "Мы встречаем наших гостей сердечно."
   },
   {
+    "de": "empfehlen",
+    "infinitive": "empfehlen",
+    "ru": "рекомендовать",
+    "cases": [
+      "Dativ",
+      "Akkusativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "empfehle",
+      "du": "empfiehlst",
+      "er/sie/es": "empfiehlt",
+      "wir": "empfehlen",
+      "ihr": "empfehlt",
+      "sie/Sie": "empfehlen"
+    },
+    "example_de": "Ich empfehle dir diesen Film.",
+    "example_ru": "Я рекомендую тебе этот фильм."
+  },
+  {
     "de": "energiegeladen sein",
     "infinitive": "energiegeladen sein",
     "ru": "быть энергичным",
