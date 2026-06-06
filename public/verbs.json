@@ -515,6 +515,25 @@
     "example_ru": "Мне нужна помощь."
   },
   {
+    "de": "brechen",
+    "infinitive": "brechen",
+    "ru": "ломать / нарушать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "B1",
+    "conjugation": {
+      "ich": "breche",
+      "du": "brichst",
+      "er/sie/es": "bricht",
+      "wir": "brechen",
+      "ihr": "brecht",
+      "sie/Sie": "brechen"
+    },
+    "example_de": "Er bricht die Regel.",
+    "example_ru": "Он нарушает правило."
+  },
+  {
     "de": "bringen",
     "infinitive": "bringen",
     "ru": "приносить",

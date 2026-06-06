@@ -3,7 +3,6 @@
 # Lines starting with # are ignored.
 
 
-brechen
 brennen
 empfehlen
 erscheinen
