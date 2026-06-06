@@ -458,6 +458,25 @@
     "example_ru": "Я завязываю обувь."
   },
   {
+    "de": "bitten",
+    "infinitive": "bitten",
+    "ru": "просить",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "bitte",
+      "du": "bittest",
+      "er/sie/es": "bittet",
+      "wir": "bitten",
+      "ihr": "bittet",
+      "sie/Sie": "bitten"
+    },
+    "example_de": "Ich bitte dich um Hilfe.",
+    "example_ru": "Я прошу тебя о помощи."
+  },
+  {
     "de": "bleiben",
     "infinitive": "bleiben",
     "ru": "оставаться",
