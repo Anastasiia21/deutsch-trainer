@@ -32,6 +32,7 @@ const WORD_TOPICS = [
   { value: "Gefühle und Emotionen", label: "Gefühle und Emotionen (Чувства и эмоции)" },
   { value: "Kommunikation und Beziehungen", label: "Kommunikation und Beziehungen (Общение и отношения)" },
   { value: "Technik und Technologie", label: "Technik und Technologie (Технологии и техника)" },
+  { value: "Предлоги", label: "Предлоги" },
 ];
 
 export default function App() {
@@ -85,7 +86,7 @@ export default function App() {
   }
 
   const filteredWords = filteredWordsByControls.filter((word) =>
-    matchesSearch(word, ["de", "ru", "plural", "article", "topic"]),
+    matchesSearch(word, ["de", "ru", "plural", "article", "topic", "case", "note", "example_de", "example_ru"]),
   );
 
   const filteredVerbs = filteredVerbsByControls.filter((verb) =>
@@ -325,15 +326,22 @@ export default function App() {
 
               <div style={{ ...styles.infoBox, ...(isPhone ? styles.phoneInfoBox : {}) }}>
                 <div>
-                  <p style={styles.smallLabel}>Артикль</p>
-                  <p style={styles.infoText}>{item.article}</p>
+                  <p style={styles.smallLabel}>{item.case ? "Падеж / вопрос" : "Артикль"}</p>
+                  <p style={styles.infoText}>{item.case || item.article}</p>
                 </div>
 
                 <div>
-                  <p style={styles.smallLabel}>Мн. число</p>
-                  <p style={styles.infoText}>{item.plural}</p>
+                  <p style={styles.smallLabel}>{item.note ? "Важно" : "Мн. число"}</p>
+                  <p style={styles.infoText}>{item.note || item.plural}</p>
                 </div>
               </div>
+
+              {item.example_de && (
+                <div style={{ ...styles.exampleBox, ...(isPhone ? styles.phoneExampleBox : {}) }}>
+                  <p style={{ ...styles.exampleDe, ...(isPhone ? styles.phoneExampleDe : {}) }}>{item.example_de}</p>
+                  <p style={{ ...styles.exampleRu, ...(isPhone ? styles.phoneExampleRu : {}) }}>{item.example_ru}</p>
+                </div>
+              )}
             </>
           ) : mode === "verbs" ? (
             <>
