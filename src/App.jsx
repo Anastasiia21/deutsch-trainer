@@ -758,7 +758,7 @@ phoneHeader: {
 },
 
 phoneTitle: {
-  fontSize: 44,
+  fontSize: 33,
   lineHeight: 1.1,
 },
 
