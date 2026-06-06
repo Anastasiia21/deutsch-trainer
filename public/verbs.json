@@ -2081,6 +2081,25 @@
     "example_ru": "Ему нравится танцевать."
   },
   {
+    "de": "telefonieren",
+    "infinitive": "telefonieren",
+    "ru": "звонить",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "telefoniere",
+      "du": "telefonierst",
+      "er/sie/es": "telefoniert",
+      "wir": "telefonieren",
+      "ihr": "telefoniert",
+      "sie/Sie": "telefonieren"
+    },
+    "example_de": "Ich telefoniere mit meiner Mutter.",
+    "example_ru": "Я звоню маме."
+  },
+  {
     "de": "trauern",
     "infinitive": "trauern",
     "ru": "печалиться",
