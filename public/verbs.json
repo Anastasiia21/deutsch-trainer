@@ -649,6 +649,25 @@
     "example_ru": "Нам разрешено здесь оставаться."
   },
   {
+    "de": "einkaufen",
+    "infinitive": "einkaufen",
+    "ru": "покупать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "kaufe ein",
+      "du": "kaufst ein",
+      "er/sie/es": "kauft ein",
+      "wir": "kaufen ein",
+      "ihr": "kauft ein",
+      "sie/Sie": "kaufen ein"
+    },
+    "example_de": "Wir kaufen Lebensmittel ein.",
+    "example_ru": "Мы покупаем продукты."
+  },
+  {
     "de": "empfangen",
     "infinitive": "empfangen",
     "ru": "встречать",
