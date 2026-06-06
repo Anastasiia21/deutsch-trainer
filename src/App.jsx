@@ -390,7 +390,7 @@ export default function App() {
 const styles = {
   page: {
   minHeight: "100svh",
-  background: "#D6D6D6",
+  background: "#F5F6F8",
   color: "#203142",
   fontFamily: "Arial, sans-serif",
   padding: "14px 14px 14px",
@@ -409,7 +409,7 @@ content: {
 
   loading: {
     minHeight: "100vh",
-    background: "#D6D6D6",
+    background: "#F5F6F8",
     color: "#203142",
     display: "flex",
     alignItems: "center",
@@ -433,6 +433,7 @@ content: {
     margin: 0,
     fontWeight: 900,
     textAlign: "center",
+    color: "#6B7280",
   },
 
   counter: {
@@ -547,7 +548,7 @@ searchInput: {
   width: "100%",
   maxWidth: 700,
   margin: "0 auto",
-  background: "#B8B8B8",
+  background: "#FCFCFC",
   borderRadius: 28,
   boxShadow: "0 2px 8px rgba(0,0,0,0.05)",
   display: "flex",
@@ -675,9 +676,9 @@ buttons: {
 mainButton: {
   padding: "13px 8px",
   borderRadius: 18,
-  border: "1px solid #777777",
-  background: "#EBE0E0",
-  color: "#203142",
+  border: "1px solid #4F6D8A",
+  background: "#4F6D8A",
+  color: "#FFFFFF",
   fontSize: "clamp(14px, 3.5vw, 20px)",
   fontWeight: 700,
   cursor: "pointer",
