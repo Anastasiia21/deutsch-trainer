@@ -38,6 +38,25 @@
     "example_ru": "Я встречу тебя на вокзале."
   },
   {
+    "de": "ankleiden",
+    "infinitive": "ankleiden",
+    "ru": "одеваться",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "kleide an",
+      "du": "kleidest an",
+      "er/sie/es": "kleidet an",
+      "wir": "kleiden an",
+      "ihr": "kleidet an",
+      "sie/Sie": "kleiden an"
+    },
+    "example_de": "Ich kleide mein Kind an.",
+    "example_ru": "Я одеваю своего ребенка."
+  },
+  {
     "de": "ankommen",
     "infinitive": "ankommen",
     "ru": "приезжать",
