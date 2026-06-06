@@ -419,6 +419,25 @@
     "example_ru": "Поверни налево."
   },
   {
+    "de": "binden",
+    "infinitive": "binden",
+    "ru": "завязывать / связывать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "B1",
+    "conjugation": {
+      "ich": "binde",
+      "du": "bindest",
+      "er/sie/es": "bindet",
+      "wir": "binden",
+      "ihr": "bindet",
+      "sie/Sie": "binden"
+    },
+    "example_de": "Ich binde meine Schuhe.",
+    "example_ru": "Я завязываю обувь."
+  },
+  {
     "de": "bleiben",
     "infinitive": "bleiben",
     "ru": "оставаться",
