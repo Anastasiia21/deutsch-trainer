@@ -468,8 +468,8 @@ modeButton: {
 activeModeButton: {
   padding: "14px 16px",
   borderRadius: 18,
-  border: "1px solid #777777",
-  background: "#777777",
+  border: "1px solid #4F6D8A",
+  background: "#4F6D8A",
   color: "#FFFFFF",
   fontSize: "clamp(18px, 3vw, 22px)",
   fontWeight: 700,
@@ -501,8 +501,8 @@ articleButton: {
 activeArticleButton: {
   padding: "10px 18px",
   borderRadius: 999,
-  border: "1px solid #777777",
-  background: "#777777",
+  border: "1px solid #4F6D8A",
+  background: "#4F6D8A",
   color: "#FFFFFF",
   fontSize: 16,
   fontWeight: 700,
@@ -739,8 +739,8 @@ levelButton: {
 activeLevelButton: {
   padding: "10px 16px",
   borderRadius: 999,
-  border: "1px solid #777777",
-  background: "#777777",
+  border: "1px solid #4F6D8A",
+  background: "#4F6D8A",
   color: "#FFFFFF",
   fontSize: 16,
   fontWeight: 700,
