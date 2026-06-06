@@ -779,7 +779,10 @@ phoneModeButton: {
 
 phoneArticleButtons: {
   margin: "0 auto 12px",
-  gap: 6,
+  gap: 4,
+  flexWrap: "nowrap",
+  alignItems: "center",
+  justifyContent: "center",
 },
 
 phoneLevelButtons: {
@@ -789,8 +792,19 @@ phoneLevelButtons: {
 },
 
 phoneFilterButton: {
-  padding: "7px 13px",
-  fontSize: 20,
+  padding: "7px 10px",
+  fontSize: 18,
+  flex: "0 0 auto",
+},
+
+phoneTopicSelect: {
+  width: 122,
+  minWidth: 122,
+  maxWidth: 122,
+  minHeight: 38,
+  padding: "7px 28px 7px 12px",
+  fontSize: 18,
+  flex: "0 0 auto",
 },
 
 phoneSearchForm: {
