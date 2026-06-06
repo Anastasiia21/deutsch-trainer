@@ -454,24 +454,24 @@ content: {
 },
 
 modeButton: {
-   padding: "14px 16px",
+  padding: "13px 8px",
   borderRadius: 18,
   border: "1px solid #D8DCE3",
   background: "#F7F7F8",
   color: "#374151",
-  fontSize: "clamp(18px, 3vw, 22px)",
+  fontSize: "clamp(14px, 3.5vw, 20px)",
   fontWeight: 700,
   cursor: "pointer",
   whiteSpace: "nowrap",
 },
 
 activeModeButton: {
-  padding: "14px 16px",
+  padding: "13px 8px",
   borderRadius: 18,
   border: "1px solid #4F6D8A",
   background: "#4F6D8A",
   color: "#FFFFFF",
-  fontSize: "clamp(18px, 3vw, 22px)",
+  fontSize: "clamp(14px, 3.5vw, 20px)",
   fontWeight: 700,
   cursor: "pointer",
   whiteSpace: "nowrap",
@@ -772,9 +772,9 @@ phoneModeButtons: {
 },
 
 phoneModeButton: {
-  padding: "11px 8px",
+  padding: "11px 6px",
   borderRadius: 16,
-  fontSize: 22,
+  fontSize: 16,
 },
 
 phoneArticleButtons: {
