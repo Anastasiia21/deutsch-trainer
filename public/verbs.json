@@ -2386,6 +2386,25 @@
     "example_ru": "Я осуждаю насилие."
   },
   {
+    "de": "vorbereiten",
+    "infinitive": "vorbereiten",
+    "ru": "готовить",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "bereite vor",
+      "du": "bereitest vor",
+      "er/sie/es": "bereitet vor",
+      "wir": "bereiten vor",
+      "ihr": "bereitet vor",
+      "sie/Sie": "bereiten vor"
+    },
+    "example_de": "Sie bereitet das Frühstück vor.",
+    "example_ru": "Она готовит завтрак."
+  },
+  {
     "de": "warten",
     "infinitive": "warten",
     "ru": "ждать",
