@@ -781,5 +781,14 @@
   {"de": "die Giraffe", "ru": "жираф", "plural": "die Giraffen", "article": "die", "topic": "Tiere"},
   {"de": "das Zebra", "ru": "зебра", "plural": "die Zebras", "article": "das", "topic": "Tiere"},
   {"de": "der Affe", "ru": "обезьяна", "plural": "die Affen", "article": "der", "topic": "Tiere"},
-  {"de": "das Krokodil", "ru": "крокодил", "plural": "die Krokodile", "article": "das", "topic": "Tiere"}
+  {"de": "das Krokodil", "ru": "крокодил", "plural": "die Krokodile", "article": "das", "topic": "Tiere"},
+  {"de": "der Seebär", "ru": "морской котик", "plural": "die Seebären", "article": "der", "topic": "Tiere"},
+  {"de": "der Pinguin", "ru": "пингвин", "plural": "die Pinguine", "article": "der", "topic": "Tiere"},
+  {"de": "das Nilpferd", "ru": "гиппопотам", "plural": "die Nilpferde", "article": "das", "topic": "Tiere"},
+  {"de": "der Flamingo", "ru": "фламинго", "plural": "die Flamingos", "article": "der", "topic": "Tiere"},
+  {"de": "der Strauß", "ru": "страус", "plural": "die Strauße", "article": "der", "topic": "Tiere"},
+  {"de": "die Schildkröte", "ru": "черепаха", "plural": "die Schildkröten", "article": "die", "topic": "Tiere"},
+  {"de": "der Frosch", "ru": "лягушка", "plural": "die Frösche", "article": "der", "topic": "Tiere"},
+  {"de": "die Ratte", "ru": "крыса", "plural": "die Ratten", "article": "die", "topic": "Tiere"},
+  {"de": "der Hamster", "ru": "хомяк", "plural": "die Hamster", "article": "der", "topic": "Tiere"}
 ]
