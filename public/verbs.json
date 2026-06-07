@@ -38,6 +38,25 @@
     "example_ru": "Я встречу тебя на вокзале."
   },
   {
+    "de": "abwaschen",
+    "infinitive": "abwaschen",
+    "ru": "мыть посуду",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "wasche ab",
+      "du": "wäschst ab",
+      "er/sie/es": "wäscht ab",
+      "wir": "waschen ab",
+      "ihr": "wascht ab",
+      "sie/Sie": "waschen ab"
+    },
+    "example_de": "Ich wasche das Geschirr ab.",
+    "example_ru": "Я мою посуду."
+  },
+  {
     "de": "ankleiden",
     "infinitive": "ankleiden",
     "ru": "одеваться",
