@@ -1394,6 +1394,25 @@
     "example_ru": "Я делаю пирог."
   },
   {
+    "de": "mitnehmen",
+    "infinitive": "mitnehmen",
+    "ru": "взять с собой",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "nehme mit",
+      "du": "nimmst mit",
+      "er/sie/es": "nimmt mit",
+      "wir": "nehmen mit",
+      "ihr": "nehmt mit",
+      "sie/Sie": "nehmen mit"
+    },
+    "example_de": "Ich nehme meinen Kaffee mit.",
+    "example_ru": "Я беру с собой кофе."
+  },
+  {
     "de": "mögen",
     "infinitive": "mögen",
     "ru": "нравиться",
