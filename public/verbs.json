@@ -745,6 +745,25 @@
     "example_ru": "Дети энергичны."
   },
   {
+    "de": "entspannen",
+    "infinitive": "entspannen",
+    "ru": "отдыхать",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "entspanne",
+      "du": "entspannst",
+      "er/sie/es": "entspannt",
+      "wir": "entspannen",
+      "ihr": "entspannt",
+      "sie/Sie": "entspannen"
+    },
+    "example_de": "Wir entspannen uns am Abend.",
+    "example_ru": "Мы отдыхаем вечером."
+  },
+  {
     "de": "erklären",
     "infinitive": "erklären",
     "ru": "объяснять",
