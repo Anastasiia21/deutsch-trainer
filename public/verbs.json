@@ -2764,5 +2764,139 @@
     },
     "example_de": "Ich lerne weiter Deutsch.",
     "example_ru": "Я продолжаю учить немецкий."
+  },
+  {
+    "de": "weiterarbeiten",
+    "infinitive": "weiterarbeiten",
+    "ru": "продолжать работать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "arbeite weiter",
+      "du": "arbeitest weiter",
+      "er/sie/es": "arbeitet weiter",
+      "wir": "arbeiten weiter",
+      "ihr": "arbeitet weiter",
+      "sie/Sie": "arbeiten weiter"
+    },
+    "example_de": "Er arbeitet weiter.",
+    "example_ru": "Он продолжает работать."
+  },
+  {
+    "de": "weiterlesen",
+    "infinitive": "weiterlesen",
+    "ru": "читать дальше",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "lese weiter",
+      "du": "liest weiter",
+      "er/sie/es": "liest weiter",
+      "wir": "lesen weiter",
+      "ihr": "lest weiter",
+      "sie/Sie": "lesen weiter"
+    },
+    "example_de": "Du liest weiter.",
+    "example_ru": "Ты читаешь дальше."
+  },
+  {
+    "de": "abmelden",
+    "infinitive": "abmelden",
+    "ru": "отписаться / выйти из системы / снять с регистрации",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "melde ab",
+      "du": "meldest ab",
+      "er/sie/es": "meldet ab",
+      "wir": "melden ab",
+      "ihr": "meldet ab",
+      "sie/Sie": "melden ab"
+    },
+    "example_de": "Ich melde mich ab.",
+    "example_ru": "Я выхожу из системы."
+  },
+  {
+    "de": "diskutieren",
+    "infinitive": "diskutieren",
+    "ru": "обсуждать / дискутировать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "diskutiere",
+      "du": "diskutierst",
+      "er/sie/es": "diskutiert",
+      "wir": "diskutieren",
+      "ihr": "diskutiert",
+      "sie/Sie": "diskutieren"
+    },
+    "example_de": "Wir diskutieren über das Problem.",
+    "example_ru": "Мы обсуждаем проблему."
+  },
+  {
+    "de": "streiten",
+    "infinitive": "streiten",
+    "ru": "спорить / ссориться",
+    "cases": [
+      "mit + Dativ",
+      "über + Akkusativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "streite",
+      "du": "streitest",
+      "er/sie/es": "streitet",
+      "wir": "streiten",
+      "ihr": "streitet",
+      "sie/Sie": "streiten"
+    },
+    "example_de": "Wir streiten oft.",
+    "example_ru": "Мы часто спорим."
+  },
+  {
+    "de": "weitergeben",
+    "infinitive": "weitergeben",
+    "ru": "передавать дальше",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "gebe weiter",
+      "du": "gibst weiter",
+      "er/sie/es": "gibt weiter",
+      "wir": "geben weiter",
+      "ihr": "gebt weiter",
+      "sie/Sie": "geben weiter"
+    },
+    "example_de": "Bitte gib die Information weiter.",
+    "example_ru": "Пожалуйста, передай информацию дальше."
+  },
+  {
+    "de": "weitersprechen",
+    "infinitive": "weitersprechen",
+    "ru": "продолжать говорить",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "spreche weiter",
+      "du": "sprichst weiter",
+      "er/sie/es": "spricht weiter",
+      "wir": "sprechen weiter",
+      "ihr": "sprecht weiter",
+      "sie/Sie": "sprechen weiter"
+    },
+    "example_de": "Er spricht weiter.",
+    "example_ru": "Он продолжает говорить."
   }
 ]

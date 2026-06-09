@@ -1174,5 +1174,257 @@
     "ru": "Это было правда очень плохо.",
     "example_de": "Das war echt schlimm, aber jetzt ist alles gut.",
     "example_ru": "Это было правда очень плохо, но теперь всё хорошо."
-  }
+  },
+  {
+    "id": "er_arbeitet_weiter",
+    "de": "Er arbeitet weiter.",
+    "ru": "Он продолжает работать.",
+    "example_de": "Er arbeitet weiter, obwohl es spät ist.",
+    "example_ru": "Он продолжает работать, хотя уже поздно."
+  },
+  {
+    "id": "ich_arbeite_weiter_hier",
+    "de": "Ich arbeite weiter hier.",
+    "ru": "Я продолжаю работать здесь.",
+    "example_de": "Ich arbeite weiter hier und lerne Deutsch.",
+    "example_ru": "Я продолжаю работать здесь и учу немецкий."
+  },
+  {
+    "id": "ich_habe_ein_gefuehl",
+    "de": "Ich habe ein Gefühl.",
+    "ru": "У меня есть чувство.",
+    "example_de": "Ich habe ein gutes Gefühl.",
+    "example_ru": "У меня хорошее чувство."
+  },
+  {
+    "id": "er_zeigt_seine_gefuehle",
+    "de": "Er zeigt seine Gefühle.",
+    "ru": "Он показывает свои чувства.",
+    "example_de": "Er zeigt seine Gefühle nicht gern.",
+    "example_ru": "Он не любит показывать свои чувства."
+  },
+  {
+    "id": "meine_gefuehle_sind_stark",
+    "de": "Meine Gefühle sind stark.",
+    "ru": "Мои чувства сильные.",
+    "example_de": "Meine Gefühle sind stark, aber ich bleibe ruhig.",
+    "example_ru": "Мои чувства сильные, но я остаюсь спокойной."
+  },
+  {
+    "id": "wir_diskutieren_ueber_das_problem",
+    "de": "Wir diskutieren über das Problem.",
+    "ru": "Мы обсуждаем проблему.",
+    "example_de": "Wir diskutieren über das Problem in der Gruppe.",
+    "example_ru": "Мы обсуждаем проблему в группе."
+  },
+  {
+    "id": "sie_diskutiert_gern",
+    "de": "Sie diskutiert gern.",
+    "ru": "Она любит дискутировать.",
+    "example_de": "Sie diskutiert gern über Bücher.",
+    "example_ru": "Она любит обсуждать книги."
+  },
+  {
+    "id": "komm_jetzt_sonst_gehen_wir_ohne_dich",
+    "de": "Komm jetzt, sonst gehen wir ohne dich.",
+    "ru": "Иди сейчас, иначе мы пойдём без тебя.",
+    "example_de": "Komm jetzt, sonst gehen wir ohne dich zum Bahnhof.",
+    "example_ru": "Иди сейчас, иначе мы пойдём без тебя на вокзал."
+  },
+  {
+    "id": "dann_wieder",
+    "de": "Dann wieder.",
+    "ru": "Потом снова.",
+    "example_de": "Wir sehen uns dann wieder.",
+    "example_ru": "Тогда мы снова увидимся."
+  },
+  {
+    "id": "ich_melde_mich_ab",
+    "de": "Ich melde mich ab.",
+    "ru": "Я выхожу из системы.",
+    "example_de": "Ich melde mich ab und gehe nach Hause.",
+    "example_ru": "Я выхожу из системы и иду домой."
+  },
+  {
+    "id": "du_meldest_dich_ab",
+    "de": "Du meldest dich ab.",
+    "ru": "Ты выходишь из системы.",
+    "example_de": "Du meldest dich ab, wenn du fertig bist.",
+    "example_ru": "Ты выходишь из системы, когда закончишь."
+  },
+  {
+    "id": "wir_melden_das_auto_ab",
+    "de": "Wir melden das Auto ab.",
+    "ru": "Мы снимаем машину с регистрации.",
+    "example_de": "Wir melden das Auto morgen ab.",
+    "example_ru": "Мы завтра снимаем машину с регистрации."
+  },
+  {
+    "id": "wir_haben_einen_streit",
+    "de": "Wir haben einen Streit.",
+    "ru": "У нас спор / ссора.",
+    "example_de": "Wir haben einen Streit, aber wir sprechen ruhig.",
+    "example_ru": "У нас спор, но мы говорим спокойно."
+  },
+  {
+    "id": "sie_streiten_ueber_politik",
+    "de": "Sie streiten über Politik.",
+    "ru": "Они спорят о политике.",
+    "example_de": "Sie streiten oft über Politik.",
+    "example_ru": "Они часто спорят о политике."
+  },
+  {
+    "id": "das_ist_eine_lange_diskussion",
+    "de": "Das ist eine lange Diskussion.",
+    "ru": "Это долгая дискуссия.",
+    "example_de": "Das ist eine lange Diskussion über Arbeit.",
+    "example_ru": "Это долгая дискуссия о работе."
+  },
+  {
+    "id": "geh_weiter",
+    "de": "Geh weiter!",
+    "ru": "Иди дальше!",
+    "example_de": "Geh weiter, ich komme gleich.",
+    "example_ru": "Иди дальше, я сейчас подойду."
+  },
+  {
+    "id": "lies_bitte_weiter",
+    "de": "Lies bitte weiter.",
+    "ru": "Пожалуйста, читай дальше.",
+    "example_de": "Lies bitte weiter, die Geschichte ist interessant.",
+    "example_ru": "Пожалуйста, читай дальше, история интересная."
+  },
+  {
+    "id": "mach_weiter",
+    "de": "Mach weiter!",
+    "ru": "Продолжай!",
+    "example_de": "Mach weiter, du machst das gut.",
+    "example_ru": "Продолжай, у тебя хорошо получается."
+  },
+  {
+    "id": "nicht_weiter",
+    "de": "Nicht weiter.",
+    "ru": "Не дальше / больше не надо.",
+    "example_de": "Nicht weiter, hier ist der Eingang.",
+    "example_ru": "Не дальше, здесь вход."
+  },
+  {
+    "id": "und_so_weiter",
+    "de": "Und so weiter.",
+    "ru": "И так далее.",
+    "example_de": "Wir brauchen Brot, Milch und so weiter.",
+    "example_ru": "Нам нужны хлеб, молоко и так далее."
+  },
+  {
+    "id": "bitte_gib_die_information_weiter",
+    "de": "Bitte gib die Information weiter.",
+    "ru": "Пожалуйста, передай информацию дальше.",
+    "example_de": "Bitte gib die Information an das Team weiter.",
+    "example_ru": "Пожалуйста, передай информацию команде."
+  },
+  {
+    "id": "er_spricht_weiter",
+    "de": "Er spricht weiter.",
+    "ru": "Он продолжает говорить.",
+    "example_de": "Er spricht weiter, obwohl alle müde sind.",
+    "example_ru": "Он продолжает говорить, хотя все устали."
+  },
+  {
+    "id": "du_liest_weiter",
+    "de": "Du liest weiter.",
+    "ru": "Ты читаешь дальше.",
+    "example_de": "Du liest weiter und ich höre zu.",
+    "example_ru": "Ты читаешь дальше, а я слушаю."
+  },
+  {
+    "id": "ein_langer_weg",
+    "de": "Ein langer Weg.",
+    "ru": "Длинный путь.",
+    "example_de": "Das ist ein langer Weg nach Hause.",
+    "example_ru": "Это длинный путь домой."
+  },
+  {
+    "id": "ein_kurzes_kleid",
+    "de": "Ein kurzes Kleid.",
+    "ru": "Короткое платье.",
+    "example_de": "Sie trägt ein kurzes Kleid.",
+    "example_ru": "Она носит короткое платье."
+  },
+  {
+    "id": "er_spricht_lang",
+    "de": "Er spricht lang.",
+    "ru": "Он говорит долго.",
+    "example_de": "Er spricht lang über seine Arbeit.",
+    "example_ru": "Он долго говорит о своей работе."
+  },
+  {
+    "id": "er_antwortet_kurz",
+    "de": "Er antwortet kurz.",
+    "ru": "Он отвечает коротко.",
+    "example_de": "Er antwortet kurz auf die Frage.",
+    "example_ru": "Он коротко отвечает на вопрос."
+  },
+  {
+    "id": "sie_holen_das_auto_ab",
+    "de": "Sie holen das Auto ab.",
+    "ru": "Они забирают машину.",
+    "example_de": "Sie holen das Auto heute ab.",
+    "example_ru": "Они забирают машину сегодня."
+  },
+  {
+    "id": "ich_hole_das_paket_ab",
+    "de": "Ich hole das Paket ab.",
+    "ru": "Я забираю посылку.",
+    "example_de": "Ich hole das Paket am Abend ab.",
+    "example_ru": "Я забираю посылку вечером."
+  },
+  {
+    "id": "wir_holen_die_kinder_ab",
+    "de": "Wir holen die Kinder ab.",
+    "ru": "Мы забираем детей.",
+    "example_de": "Wir holen die Kinder von der Schule ab.",
+    "example_ru": "Мы забираем детей из школы."
+  },
+  {
+    "id": "wir_streiten_oft",
+    "de": "Wir streiten oft.",
+    "ru": "Мы часто спорим.",
+    "example_de": "Wir streiten oft über kleine Dinge.",
+    "example_ru": "Мы часто спорим о мелочах."
+  },
+  {
+    "id": "er_streitet_mit_seinem_bruder",
+    "de": "Er streitet mit seinem Bruder.",
+    "ru": "Он ссорится со своим братом.",
+    "example_de": "Er streitet mit seinem Bruder über das Spiel.",
+    "example_ru": "Он спорит со своим братом об игре."
+  },
+  {
+    "id": "derzeit_arbeite_ich_in_berlin",
+    "de": "Derzeit arbeite ich in Berlin.",
+    "ru": "Сейчас я работаю в Берлине.",
+    "example_de": "Derzeit arbeite ich in Berlin und wohne dort.",
+    "example_ru": "Сейчас я работаю в Берлине и живу там."
+  },
+  {
+    "id": "das_projekt_ist_derzeit_pausiert",
+    "de": "Das Projekt ist derzeit pausiert.",
+    "ru": "Проект сейчас приостановлен.",
+    "example_de": "Das Projekt ist derzeit pausiert, aber es geht bald weiter.",
+    "example_ru": "Проект сейчас приостановлен, но скоро продолжится."
+  },
+  {
+    "id": "ich_arbeite_derzeit_mit_daten_in_echtzeit",
+    "de": "Ich arbeite derzeit mit Daten in Echtzeit.",
+    "ru": "Сейчас я работаю с данными в реальном времени.",
+    "example_de": "Ich arbeite derzeit mit Daten in Echtzeit für ein Projekt.",
+    "example_ru": "Сейчас я работаю с данными в реальном времени для проекта."
+  },
+  {
+  "id": "ich_lerne_deutsch_weiter",
+  "de": "Ich lerne Deutsch weiter.",
+  "ru": "Я продолжаю учить немецкий.",
+  "example_de": "Ich lerne Deutsch weiter, weil ich besser sprechen möchte.",
+  "example_ru": "Я продолжаю учить немецкий, потому что хочу лучше говорить."
+}
 ]

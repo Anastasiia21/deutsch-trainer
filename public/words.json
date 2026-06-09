@@ -921,5 +921,17 @@
   {"de": "die moderne Welt", "ru": "современный мир", "plural": "die modernen Welten", "article": "die", "topic": "Stadt und Infrastruktur"},
   {"de": "die digitale Welt", "ru": "цифровой мир", "plural": "die digitalen Welten", "article": "die", "topic": "Technik und Technologie"},
   {"de": "Leben und Tod", "ru": "жизнь и смерть", "plural": "—", "article": "—", "topic": "Gefühle und Emotionen"},
-  {"de": "ein schlechter Tag", "ru": "плохой день", "plural": "schlechte Tage", "article": "—", "topic": "Gefühle und Emotionen"}
+  {"de": "ein schlechter Tag", "ru": "плохой день", "plural": "schlechte Tage", "article": "—", "topic": "Gefühle und Emotionen"},
+  {"de": "das Gefühl", "ru": "чувство", "plural": "die Gefühle", "article": "das", "topic": "Gefühle und Emotionen"},
+  {"de": "weiter", "ru": "дальше / далее", "plural": "—", "article": "—", "topic": "Zeit und Datum"},
+  {"de": "der Selbstmord", "ru": "самоубийство", "plural": "die Selbstmorde", "article": "der", "topic": "Menschen und Gesellschaft"},
+  {"de": "zuerst", "ru": "сначала / сперва", "plural": "—", "article": "—", "topic": "Zeit und Datum"},
+  {"de": "sonst", "ru": "иначе / в противном случае", "plural": "—", "article": "—", "topic": "Kommunikation und Beziehungen"},
+  {"de": "lang", "ru": "длинный / долго", "plural": "—", "article": "—", "topic": "Описание и свойства"},
+  {"de": "kurz", "ru": "короткий / коротко", "plural": "—", "article": "—", "topic": "Описание и свойства"},
+  {"de": "der Streit", "ru": "спор / ссора", "plural": "die Streite", "article": "der", "topic": "Kommunikation und Beziehungen"},
+  {"de": "der Mord", "ru": "убийство", "plural": "die Morde", "article": "der", "topic": "Menschen und Gesellschaft"},
+  {"de": "noch", "ru": "ещё / всё ещё", "plural": "—", "article": "—", "topic": "Zeit und Datum"},
+  {"de": "noch nicht", "ru": "ещё нет / ещё не", "plural": "—", "article": "—", "topic": "Zeit und Datum"},
+  {"de": "in Echtzeit", "ru": "в реальном времени", "plural": "—", "article": "—", "topic": "Zeit und Datum"}
 ]

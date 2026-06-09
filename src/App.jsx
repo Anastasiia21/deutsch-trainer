@@ -311,7 +311,7 @@ export default function App() {
       ? item.de
       : mode === "verbs"
       ? item.infinitive || item.de
-      : item.ru}
+      : item.de}
   </div>
 
   {mode === "verbs" && item.cases && (
@@ -363,7 +363,7 @@ export default function App() {
             </>
           ) : (
             <>
-              <div style={{ ...styles.mainWord, ...(isPhone ? styles.phoneMainWord : {}) }}>{item.de}</div>
+              <div style={{ ...styles.mainWord, ...(isPhone ? styles.phoneMainWord : {}) }}>{item.ru}</div>
 
               <div style={{ ...styles.exampleBox, ...(isPhone ? styles.phoneExampleBox : {}) }}>
                 <p style={{ ...styles.exampleDe, ...(isPhone ? styles.phoneExampleDe : {}) }}>{item.example_de}</p>
