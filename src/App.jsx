@@ -32,8 +32,8 @@ const WORD_TOPICS = [
   { value: "Gefühle und Emotionen", label: "Gefühle und Emotionen (Чувства и эмоции)" },
   { value: "Kommunikation und Beziehungen", label: "Kommunikation und Beziehungen (Общение и отношения)" },
   { value: "Technik und Technologie", label: "Technik und Technologie (Технологии и техника)" },
-  { value: "Парные слова", label: "Парные слова" },
-  { value: "Предлоги", label: "Предлоги" },
+  { value: "Парные слова", label: "Парные слова (Wortpaare)" },
+  { value: "Предлоги", label: "Предлоги (Präpositionen)" },
 ];
 
 export default function App() {
