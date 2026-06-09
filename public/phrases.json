@@ -922,5 +922,124 @@
     "ru": "Сколько яблок тебе нужно?",
     "example_de": "Wie viele Äpfel brauchst du für den Kuchen?",
     "example_ru": "Сколько яблок тебе нужно для пирога?"
+  },
+  {
+    "id": "moment_bitte",
+    "de": "Moment bitte.",
+    "ru": "Момент, пожалуйста.",
+    "example_de": "Moment bitte, ich komme gleich.",
+    "example_ru": "Момент, пожалуйста, я сейчас подойду."
+  },
+  {
+    "id": "ja_genau",
+    "de": "Ja, genau.",
+    "ru": "Да, именно так.",
+    "example_de": "Ja, genau, das ist richtig.",
+    "example_ru": "Да, именно так, это правильно."
+  },
+  {
+    "id": "wir_sind_zufrieden",
+    "de": "Wir sind zufrieden.",
+    "ru": "Мы довольны.",
+    "example_de": "Wir sind mit dem Essen zufrieden.",
+    "example_ru": "Мы довольны едой."
+  },
+  {
+    "id": "nicht_so_gut",
+    "de": "Nicht so gut.",
+    "ru": "Не очень хорошо.",
+    "example_de": "Heute geht es mir nicht so gut.",
+    "example_ru": "Сегодня я чувствую себя не очень хорошо."
+  },
+  {
+    "id": "hier_ist_auch_nichts",
+    "de": "Hier ist auch nichts.",
+    "ru": "Здесь тоже ничего нет.",
+    "example_de": "Hier ist auch nichts, wir suchen weiter.",
+    "example_ru": "Здесь тоже ничего нет, ищем дальше."
+  },
+  {
+    "id": "ja_natuerlich",
+    "de": "Ja, natürlich.",
+    "ru": "Да, конечно.",
+    "example_de": "Ja, natürlich, ich helfe dir.",
+    "example_ru": "Да, конечно, я помогу тебе."
+  },
+  {
+    "id": "wie_viel",
+    "de": "Wie viel?",
+    "ru": "Сколько? / как много?",
+    "example_de": "Wie viel Wasser brauchst du?",
+    "example_ru": "Сколько воды тебе нужно?"
+  },
+  {
+    "id": "wie_viele",
+    "de": "Wie viele?",
+    "ru": "Сколько? / как много?",
+    "example_de": "Wie viele Freunde kommen?",
+    "example_ru": "Сколько друзей придёт?"
+  },
+  {
+    "id": "was_macht_sie_von_beruf",
+    "de": "Was macht sie von Beruf?",
+    "ru": "Кем она работает? / кто она по профессии?",
+    "example_de": "Was macht sie von Beruf? Sie ist Ärztin.",
+    "example_ru": "Кем она работает? Она врач."
+  },
+  {
+    "id": "wie_alt_ist_sie",
+    "de": "Wie alt ist sie?",
+    "ru": "Сколько ей лет?",
+    "example_de": "Wie alt ist sie? Sie ist dreißig Jahre alt.",
+    "example_ru": "Сколько ей лет? Ей тридцать лет."
+  },
+  {
+    "id": "wie_heisst_sie",
+    "de": "Wie heißt sie?",
+    "ru": "Как её зовут?",
+    "example_de": "Wie heißt sie? Sie heißt Anna.",
+    "example_ru": "Как её зовут? Её зовут Анна."
+  },
+  {
+    "id": "kein_problem",
+    "de": "Kein Problem.",
+    "ru": "Нет проблем.",
+    "example_de": "Kein Problem, ich mache das.",
+    "example_ru": "Нет проблем, я это сделаю."
+  },
+  {
+    "id": "alles_gut",
+    "de": "Alles gut.",
+    "ru": "Всё хорошо.",
+    "example_de": "Alles gut, mach dir keine Sorgen.",
+    "example_ru": "Всё хорошо, не волнуйся."
+  },
+  {
+    "id": "schon_gut_kein_problem",
+    "de": "Schon gut, kein Problem.",
+    "ru": "Всё нормально, нет проблем.",
+    "example_de": "Schon gut, kein Problem, ich warte.",
+    "example_ru": "Всё нормально, нет проблем, я подожду."
+  },
+  {
+    "id": "passt_schon",
+    "de": "Passt schon.",
+    "ru": "Нормально / подойдёт.",
+    "example_de": "Passt schon, danke.",
+    "example_ru": "Нормально, спасибо."
+  },
+  {
+    "id": "kein_problem_alles_gut",
+    "de": "Kein Problem, alles gut.",
+    "ru": "Нет проблем, всё хорошо.",
+    "example_de": "Kein Problem, alles gut, wir schaffen das.",
+    "example_ru": "Нет проблем, всё хорошо, мы справимся."
+  },
+  {
+    "id": "ich_muss_noch_kurz_tanken",
+    "de": "Ich muss noch kurz tanken.",
+    "ru": "Мне нужно ещё быстро заправиться.",
+    "example_de": "Ich muss noch kurz tanken, dann fahren wir weiter.",
+    "example_ru": "Мне нужно ещё быстро заправиться, потом поедем дальше."
   }
 ]
