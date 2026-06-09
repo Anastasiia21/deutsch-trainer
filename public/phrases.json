@@ -1041,5 +1041,26 @@
     "ru": "Мне нужно ещё быстро заправиться.",
     "example_de": "Ich muss noch kurz tanken, dann fahren wir weiter.",
     "example_ru": "Мне нужно ещё быстро заправиться, потом поедем дальше."
+  },
+  {
+    "id": "das_ist_ausgeschlossen",
+    "de": "Das ist ausgeschlossen.",
+    "ru": "Это исключено.",
+    "example_de": "Eine Verspätung ist ausgeschlossen.",
+    "example_ru": "Опоздание исключено."
+  },
+  {
+    "id": "mahlzeit",
+    "de": "Mahlzeit!",
+    "ru": "Приятного аппетита! / обеденный привет",
+    "example_de": "Mahlzeit! Lass es dir schmecken.",
+    "example_ru": "Приятного аппетита! Пусть тебе будет вкусно."
+  },
+  {
+    "id": "nicht_gefunden",
+    "de": "Nicht gefunden.",
+    "ru": "Не найдено.",
+    "example_de": "Die Datei wurde nicht gefunden.",
+    "example_ru": "Файл не найден."
   }
 ]
