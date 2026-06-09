@@ -790,5 +790,9 @@
   {"de": "die Schildkröte", "ru": "черепаха", "plural": "die Schildkröten", "article": "die", "topic": "Tiere"},
   {"de": "der Frosch", "ru": "лягушка", "plural": "die Frösche", "article": "der", "topic": "Tiere"},
   {"de": "die Ratte", "ru": "крыса", "plural": "die Ratten", "article": "die", "topic": "Tiere"},
-  {"de": "der Hamster", "ru": "хомяк", "plural": "die Hamster", "article": "der", "topic": "Tiere"}
+  {"de": "der Hamster", "ru": "хомяк", "plural": "die Hamster", "article": "der", "topic": "Tiere"},
+  {"de": "die Erdbeere", "ru": "клубника", "plural": "die Erdbeeren", "article": "die", "topic": "Essen und Trinken"},
+  {"de": "die Himbeere", "ru": "малина", "plural": "die Himbeeren", "article": "die", "topic": "Essen und Trinken"},
+  {"de": "die Heidelbeere", "ru": "черника", "plural": "die Heidelbeeren", "article": "die", "topic": "Essen und Trinken"},
+  {"de": "die Blaubeere", "ru": "голубика", "plural": "die Blaubeeren", "article": "die", "topic": "Essen und Trinken"}
 ]
