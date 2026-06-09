@@ -838,8 +838,8 @@
       "ihr": "fahrt",
       "sie/Sie": "fahren"
     },
-    "example_de": "Ich fahre nach Berlin.",
-    "example_ru": "Я еду в Берлин."
+    "example_de": "Der Zug fährt nicht weiter.",
+    "example_ru": "Поезд дальше не едет."
   },
   {
     "de": "fernsehen",
@@ -2572,8 +2572,8 @@
       "ihr": "wisst",
       "sie/Sie": "wissen"
     },
-    "example_de": "Du weißt die Antwort.",
-    "example_ru": "Ты знаешь ответ."
+    "example_de": "Wir wissen das nicht.",
+    "example_ru": "Мы этого не знаем."
   },
   {
     "de": "wohnen",
@@ -2688,5 +2688,81 @@
     },
     "example_de": "Sie öffnet das Fenster.",
     "example_ru": "Она открывает окно."
+  },
+  {
+    "de": "weitergehen",
+    "infinitive": "weitergehen",
+    "ru": "идти дальше / продолжаться",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "gehe weiter",
+      "du": "gehst weiter",
+      "er/sie/es": "geht weiter",
+      "wir": "gehen weiter",
+      "ihr": "geht weiter",
+      "sie/Sie": "gehen weiter"
+    },
+    "example_de": "Die Geschichte geht weiter.",
+    "example_ru": "История продолжается."
+  },
+  {
+    "de": "weitermachen",
+    "infinitive": "weitermachen",
+    "ru": "продолжать делать / продолжать",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "mache weiter",
+      "du": "machst weiter",
+      "er/sie/es": "macht weiter",
+      "wir": "machen weiter",
+      "ihr": "macht weiter",
+      "sie/Sie": "machen weiter"
+    },
+    "example_de": "Wir machen morgen weiter.",
+    "example_ru": "Мы продолжим завтра."
+  },
+  {
+    "de": "weiterfahren",
+    "infinitive": "weiterfahren",
+    "ru": "ехать дальше",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "fahre weiter",
+      "du": "fährst weiter",
+      "er/sie/es": "fährt weiter",
+      "wir": "fahren weiter",
+      "ihr": "fahrt weiter",
+      "sie/Sie": "fahren weiter"
+    },
+    "example_de": "Der Zug fährt nicht weiter.",
+    "example_ru": "Поезд дальше не едет."
+  },
+  {
+    "de": "weiterlernen",
+    "infinitive": "weiterlernen",
+    "ru": "продолжать учить / учиться дальше",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "lerne weiter",
+      "du": "lernst weiter",
+      "er/sie/es": "lernt weiter",
+      "wir": "lernen weiter",
+      "ihr": "lernt weiter",
+      "sie/Sie": "lernen weiter"
+    },
+    "example_de": "Ich lerne weiter Deutsch.",
+    "example_ru": "Я продолжаю учить немецкий."
   }
 ]

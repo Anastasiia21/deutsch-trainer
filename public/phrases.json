@@ -1062,5 +1062,117 @@
     "ru": "Не найдено.",
     "example_de": "Die Datei wurde nicht gefunden.",
     "example_ru": "Файл не найден."
+  },
+  {
+    "id": "wir_gehen_weiter",
+    "de": "Wir gehen weiter.",
+    "ru": "Мы идём дальше.",
+    "example_de": "Wir gehen weiter, der Weg ist lang.",
+    "example_ru": "Мы идём дальше, путь длинный."
+  },
+  {
+    "id": "die_geschichte_geht_weiter",
+    "de": "Die Geschichte geht weiter.",
+    "ru": "История продолжается.",
+    "example_de": "Morgen geht die Geschichte weiter.",
+    "example_ru": "Завтра история продолжится."
+  },
+  {
+    "id": "wir_machen_morgen_weiter",
+    "de": "Wir machen morgen weiter.",
+    "ru": "Мы продолжим завтра.",
+    "example_de": "Wir machen morgen weiter, heute ist es spät.",
+    "example_ru": "Мы продолжим завтра, сегодня уже поздно."
+  },
+  {
+    "id": "wir_machen_weiter",
+    "de": "Wir machen weiter.",
+    "ru": "Мы продолжаем.",
+    "example_de": "Nach der Pause machen wir weiter.",
+    "example_ru": "После паузы мы продолжаем."
+  },
+  {
+    "id": "der_zug_faehrt_nicht_weiter",
+    "de": "Der Zug fährt nicht weiter.",
+    "ru": "Поезд дальше не едет.",
+    "example_de": "Der Zug fährt nicht weiter, wir müssen warten.",
+    "example_ru": "Поезд дальше не едет, нам нужно ждать."
+  },
+  {
+    "id": "ich_lerne_weiter_deutsch",
+    "de": "Ich lerne weiter Deutsch.",
+    "ru": "Я продолжаю учить немецкий.",
+    "example_de": "Ich lerne jeden Tag weiter Deutsch.",
+    "example_ru": "Я каждый день продолжаю учить немецкий."
+  },
+  {
+    "id": "lernst_du_englisch_oder_deutsch",
+    "de": "Lernst du Englisch oder Deutsch?",
+    "ru": "Ты учишь английский или немецкий?",
+    "example_de": "Lernst du Englisch oder Deutsch in der Schule?",
+    "example_ru": "Ты учишь английский или немецкий в школе?"
+  },
+  {
+    "id": "ich_weiss_die_antwort",
+    "de": "Ich weiß die Antwort.",
+    "ru": "Я знаю ответ.",
+    "example_de": "Ich weiß die Antwort auf die Frage.",
+    "example_ru": "Я знаю ответ на вопрос."
+  },
+  {
+    "id": "du_weisst_es_schon",
+    "de": "Du weißt es schon.",
+    "ru": "Ты уже это знаешь.",
+    "example_de": "Du weißt es schon, ich muss es nicht erklären.",
+    "example_ru": "Ты уже это знаешь, мне не нужно это объяснять."
+  },
+  {
+    "id": "wir_wissen_das_nicht",
+    "de": "Wir wissen das nicht.",
+    "ru": "Мы этого не знаем.",
+    "example_de": "Wir wissen das nicht, aber wir fragen nach.",
+    "example_ru": "Мы этого не знаем, но уточним."
+  },
+  {
+    "id": "noch_ein_kaffee_bitte",
+    "de": "Noch ein Kaffee, bitte.",
+    "ru": "Ещё один кофе, пожалуйста.",
+    "example_de": "Noch ein Kaffee, bitte, und ein Wasser.",
+    "example_ru": "Ещё один кофе, пожалуйста, и воду."
+  },
+  {
+    "id": "noch_einmal",
+    "de": "Noch einmal.",
+    "ru": "Ещё раз.",
+    "example_de": "Bitte sagen Sie das noch einmal.",
+    "example_ru": "Пожалуйста, скажите это ещё раз."
+  },
+  {
+    "id": "das_ist_echt",
+    "de": "Das ist echt.",
+    "ru": "Это правда / это настоящее.",
+    "example_de": "Das ist echt, kein Witz.",
+    "example_ru": "Это правда, не шутка."
+  },
+  {
+    "id": "er_ist_ein_echter_freund",
+    "de": "Er ist ein echter Freund.",
+    "ru": "Он настоящий друг.",
+    "example_de": "Er hilft immer, er ist ein echter Freund.",
+    "example_ru": "Он всегда помогает, он настоящий друг."
+  },
+  {
+    "id": "ich_bin_echt_muede",
+    "de": "Ich bin echt müde.",
+    "ru": "Я правда очень устала / устал.",
+    "example_de": "Ich bin echt müde und gehe ins Bett.",
+    "example_ru": "Я правда очень устала / устал и иду спать."
+  },
+  {
+    "id": "das_war_echt_schlimm",
+    "de": "Das war echt schlimm.",
+    "ru": "Это было правда очень плохо.",
+    "example_de": "Das war echt schlimm, aber jetzt ist alles gut.",
+    "example_ru": "Это было правда очень плохо, но теперь всё хорошо."
   }
 ]
