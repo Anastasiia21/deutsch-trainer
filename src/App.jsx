@@ -182,7 +182,7 @@ export default function App() {
   }
 
   function getSpeechText(card) {
-    if (!card || mode === "phrases") {
+    if (!card) {
       return "";
     }
 
@@ -191,6 +191,10 @@ export default function App() {
       const alreadyHasArticle = /^(der|die|das)\s/i.test(word);
 
       return alreadyHasArticle ? word : [card.article, word].filter(Boolean).join(" ");
+    }
+
+    if (mode === "phrases") {
+      return card.de || "";
     }
 
     return card.infinitive || card.de || "";
@@ -390,8 +394,7 @@ export default function App() {
           }}
           onClick={() => setShow(!show)}
         >
-          {(mode === "words" || mode === "verbs") && (
-            <button
+          <button
               type="button"
               style={{ ...styles.soundButton, ...(isPhone ? styles.phoneSoundButton : {}) }}
               onClick={speakGerman}
@@ -400,7 +403,6 @@ export default function App() {
             >
               🔊
             </button>
-          )}
 
           {!show ? (
            <>
