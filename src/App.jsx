@@ -211,7 +211,7 @@ export default function App() {
     const germanVoice = getBestGermanVoice(speechVoices);
 
     utterance.lang = germanVoice?.lang || "de-DE";
-    utterance.rate = 0.82;
+    utterance.rate = 0.9;
     utterance.pitch = 1;
 
     if (germanVoice) {
