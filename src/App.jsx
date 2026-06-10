@@ -11,6 +11,33 @@ function shuffleArray(array) {
   return arr;
 }
 
+const GERMAN_VOICE_PREFERENCES = [
+  "Google Deutsch",
+  "Anna",
+  "Markus",
+  "Yannick",
+  "Petra",
+  "Siri",
+  "Microsoft Katja",
+  "Microsoft Conrad",
+];
+
+function getBestGermanVoice(voices) {
+  const germanVoices = voices.filter((voice) => voice.lang?.toLowerCase().startsWith("de"));
+
+  if (germanVoices.length === 0) {
+    return null;
+  }
+
+  return (
+    GERMAN_VOICE_PREFERENCES
+      .map((preferredName) =>
+        germanVoices.find((voice) => voice.name.toLowerCase().includes(preferredName.toLowerCase())),
+      )
+      .find(Boolean) || germanVoices.find((voice) => voice.lang === "de-DE") || germanVoices[0]
+  );
+}
+
 const WORD_TOPICS = [
   { value: "Familie", label: "Familie (Семья)" },
   { value: "Haus und Möbel", label: "Haus und Möbel (Дом и мебель)" },
@@ -50,6 +77,7 @@ export default function App() {
   const [selectedLevel, setSelectedLevel] = useState("all");
   const [selectedTopic, setSelectedTopic] = useState("all");
   const [searchQuery, setSearchQuery] = useState("");
+  const [speechVoices, setSpeechVoices] = useState([]);
 
   useEffect(() => {
     fetch("/words.json")
@@ -63,6 +91,23 @@ export default function App() {
     fetch("/phrases.json")
       .then((res) => res.json())
       .then((data) => setPhrases(shuffleArray(data))); 
+  }, []);
+
+  useEffect(() => {
+    if (typeof window === "undefined" || !("speechSynthesis" in window)) {
+      return undefined;
+    }
+
+    const loadVoices = () => {
+      setSpeechVoices(window.speechSynthesis.getVoices());
+    };
+
+    loadVoices();
+    window.speechSynthesis.addEventListener("voiceschanged", loadVoices);
+
+    return () => {
+      window.speechSynthesis.removeEventListener("voiceschanged", loadVoices);
+    };
   }, []);
 
   const filteredWordsByControls = words.filter((word) => {
@@ -163,8 +208,15 @@ export default function App() {
     window.speechSynthesis.cancel();
 
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "de-DE";
-    utterance.rate = 0.85;
+    const germanVoice = getBestGermanVoice(speechVoices);
+
+    utterance.lang = germanVoice?.lang || "de-DE";
+    utterance.rate = 0.82;
+    utterance.pitch = 1;
+
+    if (germanVoice) {
+      utterance.voice = germanVoice;
+    }
 
     window.speechSynthesis.speak(utterance);
   }
