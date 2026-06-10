@@ -194,7 +194,7 @@ export default function App() {
     }
 
     if (mode === "phrases") {
-      return card.de || "";
+      return show ? card.example_de || card.de || "" : card.de || "";
     }
 
     return card.infinitive || card.de || "";
