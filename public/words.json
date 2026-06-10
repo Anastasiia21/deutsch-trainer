@@ -946,5 +946,6 @@
   {"de": "die Träne", "ru": "слеза", "plural": "die Tränen", "article": "die", "topic": "Gefühle und Emotionen"},
   {"de": "eifersüchtig", "ru": "ревнивый", "plural": "—", "article": "—", "topic": "Gefühle und Emotionen"},
   {"de": "verletzt", "ru": "раненый / обиженный", "plural": "—", "article": "—", "topic": "Körper und Gesundheit"},
-  {"de": "die Kinder", "ru": "дети", "plural": "—", "article": "die", "topic": "Familie"}
+  {"de": "die Kinder", "ru": "дети", "plural": "—", "article": "die", "topic": "Familie"},
+  {"de": "das Heft", "ru": "тетрадь", "plural": "die Hefte", "article": "das", "topic": "Schule und Bildung"}
 ]
