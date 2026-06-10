@@ -187,6 +187,12 @@ export default function App() {
     }
 
     if (mode === "words") {
+      const plural = String(card.plural || "").trim();
+
+      if (show && plural && plural !== "—" && plural !== "-") {
+        return plural;
+      }
+
       const word = card.de || "";
       const alreadyHasArticle = /^(der|die|das)\s/i.test(word);
 
