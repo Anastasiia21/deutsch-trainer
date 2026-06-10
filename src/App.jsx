@@ -12,11 +12,11 @@ function shuffleArray(array) {
 }
 
 const GERMAN_VOICE_PREFERENCES = [
+  "Petra",
   "Google Deutsch",
   "Anna",
   "Markus",
   "Yannick",
-  "Petra",
   "Siri",
   "Microsoft Katja",
   "Microsoft Conrad",
