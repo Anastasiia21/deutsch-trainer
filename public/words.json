@@ -933,5 +933,17 @@
   {"de": "der Mord", "ru": "убийство", "plural": "die Morde", "article": "der", "topic": "Menschen und Gesellschaft"},
   {"de": "noch", "ru": "ещё / всё ещё", "plural": "—", "article": "—", "topic": "Zeit und Datum"},
   {"de": "noch nicht", "ru": "ещё нет / ещё не", "plural": "—", "article": "—", "topic": "Zeit und Datum"},
-  {"de": "in Echtzeit", "ru": "в реальном времени", "plural": "—", "article": "—", "topic": "Zeit und Datum"}
+  {"de": "in Echtzeit", "ru": "в реальном времени", "plural": "—", "article": "—", "topic": "Zeit und Datum"},
+  {"de": "insgesamt", "ru": "в целом / всего", "plural": "—", "article": "—", "topic": "Описание и свойства"},
+  {"de": "die Gesellschaft", "ru": "общество / компания", "plural": "die Gesellschaften", "article": "die", "topic": "Menschen und Gesellschaft"},
+  {"de": "inakzeptabel", "ru": "неприемлемый", "plural": "—", "article": "—", "topic": "Описание и свойства"},
+  {"de": "die Außenwelt", "ru": "внешний мир", "plural": "—", "article": "die", "topic": "Menschen und Gesellschaft"},
+  {"de": "die Innenwelt", "ru": "внутренний мир", "plural": "—", "article": "die", "topic": "Menschen und Gesellschaft"},
+  {"de": "die Bedingung", "ru": "условие", "plural": "die Bedingungen", "article": "die", "topic": "Schule und Bildung"},
+  {"de": "die Beziehung", "ru": "отношение / связь", "plural": "die Beziehungen", "article": "die", "topic": "Kommunikation und Beziehungen"},
+  {"de": "die Sehnsucht", "ru": "тоска / сильное желание", "plural": "die Sehnsüchte", "article": "die", "topic": "Gefühle und Emotionen"},
+  {"de": "die Zärtlichkeit", "ru": "нежность", "plural": "die Zärtlichkeiten", "article": "die", "topic": "Gefühle und Emotionen"},
+  {"de": "die Träne", "ru": "слеза", "plural": "die Tränen", "article": "die", "topic": "Gefühle und Emotionen"},
+  {"de": "eifersüchtig", "ru": "ревнивый", "plural": "—", "article": "—", "topic": "Gefühle und Emotionen"},
+  {"de": "verletzt", "ru": "раненый / обиженный", "plural": "—", "article": "—", "topic": "Körper und Gesundheit"}
 ]

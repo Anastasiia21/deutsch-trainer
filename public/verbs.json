@@ -2898,5 +2898,120 @@
     },
     "example_de": "Er spricht weiter.",
     "example_ru": "Он продолжает говорить."
+  },
+  {
+    "de": "behandeln",
+    "infinitive": "behandeln",
+    "ru": "обращаться с кем-то / лечить",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "behandle",
+      "du": "behandelst",
+      "er/sie/es": "behandelt",
+      "wir": "behandeln",
+      "ihr": "behandelt",
+      "sie/Sie": "behandeln"
+    },
+    "example_de": "Der Arzt behandelt den Patienten.",
+    "example_ru": "Врач лечит пациента."
+  },
+  {
+    "de": "einschlafen",
+    "infinitive": "einschlafen",
+    "ru": "засыпать",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "schlafe ein",
+      "du": "schläfst ein",
+      "er/sie/es": "schläft ein",
+      "wir": "schlafen ein",
+      "ihr": "schlaft ein",
+      "sie/Sie": "schlafen ein"
+    },
+    "example_de": "Ich schlafe schnell ein.",
+    "example_ru": "Я быстро засыпаю."
+  },
+  {
+    "de": "wünschen",
+    "infinitive": "wünschen",
+    "ru": "желать",
+    "cases": [
+      "Dativ",
+      "Akkusativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "wünsche",
+      "du": "wünschst",
+      "er/sie/es": "wünscht",
+      "wir": "wünschen",
+      "ihr": "wünscht",
+      "sie/Sie": "wünschen"
+    },
+    "example_de": "Ich wünsche dir alles Gute.",
+    "example_ru": "Я желаю тебе всего хорошего."
+  },
+  {
+    "de": "reden",
+    "infinitive": "reden",
+    "ru": "говорить / разговаривать",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "rede",
+      "du": "redest",
+      "er/sie/es": "redet",
+      "wir": "reden",
+      "ihr": "redet",
+      "sie/Sie": "reden"
+    },
+    "example_de": "Sie redet wenig.",
+    "example_ru": "Она мало говорит."
+  },
+  {
+    "de": "schweigen",
+    "infinitive": "schweigen",
+    "ru": "молчать",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "schweige",
+      "du": "schweigst",
+      "er/sie/es": "schweigt",
+      "wir": "schweigen",
+      "ihr": "schweigt",
+      "sie/Sie": "schweigen"
+    },
+    "example_de": "Wir schweigen immer.",
+    "example_ru": "Мы всегда молчим."
+  },
+  {
+    "de": "glauben",
+    "infinitive": "glauben",
+    "ru": "верить / думать",
+    "cases": [
+      "Dativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "glaube",
+      "du": "glaubst",
+      "er/sie/es": "glaubt",
+      "wir": "glauben",
+      "ihr": "glaubt",
+      "sie/Sie": "glauben"
+    },
+    "example_de": "Ich glaube, er ist intelligent.",
+    "example_ru": "Я думаю, что он умный."
   }
 ]

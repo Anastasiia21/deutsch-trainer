@@ -1421,10 +1421,94 @@
     "example_ru": "Сейчас я работаю с данными в реальном времени для проекта."
   },
   {
-  "id": "ich_lerne_deutsch_weiter",
-  "de": "Ich lerne Deutsch weiter.",
-  "ru": "Я продолжаю учить немецкий.",
-  "example_de": "Ich lerne Deutsch weiter, weil ich besser sprechen möchte.",
-  "example_ru": "Я продолжаю учить немецкий, потому что хочу лучше говорить."
-}
+    "id": "ich_lerne_deutsch_weiter",
+    "de": "Ich lerne Deutsch weiter.",
+    "ru": "Я продолжаю учить немецкий.",
+    "example_de": "Ich lerne Deutsch weiter, weil ich besser sprechen möchte.",
+    "example_ru": "Я продолжаю учить немецкий, потому что хочу лучше говорить."
+  },
+  {
+    "id": "das_verstehe_ich_nicht",
+    "de": "Das verstehe ich nicht.",
+    "ru": "Я этого не понимаю.",
+    "example_de": "Entschuldigung, das verstehe ich nicht.",
+    "example_ru": "Извините, я этого не понимаю."
+  },
+  {
+    "id": "bitte_ein_bisschen_langsamer",
+    "de": "Bitte ein bisschen langsamer.",
+    "ru": "Пожалуйста, немного медленнее.",
+    "example_de": "Bitte sprechen Sie ein bisschen langsamer.",
+    "example_ru": "Пожалуйста, говорите немного медленнее."
+  },
+  {
+    "id": "eines_tages",
+    "de": "Eines Tages.",
+    "ru": "Однажды.",
+    "example_de": "Eines Tages möchte ich nach Berlin fahren.",
+    "example_ru": "Однажды я хочу поехать в Берлин."
+  },
+  {
+    "id": "er_schlaeft_lange",
+    "de": "Er schläft lange.",
+    "ru": "Он долго спит.",
+    "example_de": "Am Wochenende schläft er lange.",
+    "example_ru": "На выходных он долго спит."
+  },
+  {
+    "id": "anna_vertraut_peter",
+    "de": "Anna vertraut Peter.",
+    "ru": "Анна доверяет Петеру.",
+    "example_de": "Anna vertraut Peter, weil er ehrlich ist.",
+    "example_ru": "Анна доверяет Петеру, потому что он честный."
+  },
+  {
+    "id": "anna_vergisst_woerter",
+    "de": "Anna vergisst Wörter.",
+    "ru": "Анна забывает слова.",
+    "example_de": "Beim Sprechen vergisst Anna manchmal Wörter.",
+    "example_ru": "Во время разговора Анна иногда забывает слова."
+  },
+  {
+    "id": "peter_vergibt_anna_alles",
+    "de": "Peter vergibt Anna alles.",
+    "ru": "Петер прощает Анне всё.",
+    "example_de": "Peter vergibt Anna alles, weil er sie liebt.",
+    "example_ru": "Петер прощает Анне всё, потому что любит её."
+  },
+  {
+    "id": "sie_redet_wenig",
+    "de": "Sie redet wenig.",
+    "ru": "Она мало говорит.",
+    "example_de": "In der Gruppe redet sie wenig.",
+    "example_ru": "В группе она мало говорит."
+  },
+  {
+    "id": "wir_schweigen_immer",
+    "de": "Wir schweigen immer.",
+    "ru": "Мы всегда молчим.",
+    "example_de": "Bei diesem Thema schweigen wir immer.",
+    "example_ru": "На эту тему мы всегда молчим."
+  },
+  {
+    "id": "ich_glaube_er_ist_intelligent",
+    "de": "Ich glaube, er ist intelligent.",
+    "ru": "Я думаю, что он умный.",
+    "example_de": "Ich glaube, er ist sehr intelligent.",
+    "example_ru": "Я думаю, что он очень умный."
+  },
+  {
+    "id": "sie_ist_eifersuechtig",
+    "de": "Sie ist eifersüchtig.",
+    "ru": "Она ревнует.",
+    "example_de": "Sie ist manchmal eifersüchtig.",
+    "example_ru": "Она иногда ревнует."
+  },
+  {
+    "id": "ich_bin_verletzt",
+    "de": "Ich bin verletzt.",
+    "ru": "Я ранен / мне обидно.",
+    "example_de": "Nach dem Sturz bin ich verletzt.",
+    "example_ru": "После падения я ранен."
+  }
 ]
