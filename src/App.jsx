@@ -136,6 +136,39 @@ export default function App() {
     setIndex((prev) => (prev - 1 + currentList.length) % currentList.length);
   }
 
+  function getSpeechText(card) {
+    if (!card || mode === "phrases") {
+      return "";
+    }
+
+    if (mode === "words") {
+      const word = card.de || "";
+      const alreadyHasArticle = /^(der|die|das)\s/i.test(word);
+
+      return alreadyHasArticle ? word : [card.article, word].filter(Boolean).join(" ");
+    }
+
+    return card.infinitive || card.de || "";
+  }
+
+  function speakGerman(event) {
+    event.stopPropagation();
+
+    const text = getSpeechText(item);
+
+    if (!text || typeof window === "undefined" || !("speechSynthesis" in window)) {
+      return;
+    }
+
+    window.speechSynthesis.cancel();
+
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = "de-DE";
+    utterance.rate = 0.85;
+
+    window.speechSynthesis.speak(utterance);
+  }
+
   function changeMode(newMode) {
   setMode(newMode);
   setIndex(0);
@@ -305,6 +338,18 @@ export default function App() {
           }}
           onClick={() => setShow(!show)}
         >
+          {(mode === "words" || mode === "verbs") && (
+            <button
+              type="button"
+              style={{ ...styles.soundButton, ...(isPhone ? styles.phoneSoundButton : {}) }}
+              onClick={speakGerman}
+              aria-label="Озвучить по-немецки"
+              title="Озвучить по-немецки"
+            >
+              🔊
+            </button>
+          )}
+
           {!show ? (
            <>
   <div style={{ ...styles.mainWord, ...styles.frontMainWord, ...(isPhone ? styles.phoneFrontMainWord : {}) }}>
@@ -567,6 +612,25 @@ searchInput: {
   textAlign: "center",
   cursor: "pointer",
   boxSizing: "border-box",
+  position: "relative",
+},
+
+soundButton: {
+  position: "absolute",
+  top: 14,
+  right: 14,
+  width: 44,
+  height: 44,
+  borderRadius: 999,
+  border: "1px solid #D8DCE3",
+  background: "#F7F7F8",
+  color: "#203142",
+  fontSize: 20,
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  cursor: "pointer",
+  boxShadow: "0 2px 6px rgba(0,0,0,0.06)",
 },
 
 frontCard: {
@@ -831,6 +895,14 @@ phoneSearchInput: {
 phoneCard: {
   maxWidth: "100%",
   borderRadius: 24,
+},
+
+phoneSoundButton: {
+  top: 10,
+  right: 10,
+  width: 40,
+  height: 40,
+  fontSize: 18,
 },
 
 phoneFrontCard: {
