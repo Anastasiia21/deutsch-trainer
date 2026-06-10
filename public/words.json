@@ -945,5 +945,6 @@
   {"de": "die Zärtlichkeit", "ru": "нежность", "plural": "die Zärtlichkeiten", "article": "die", "topic": "Gefühle und Emotionen"},
   {"de": "die Träne", "ru": "слеза", "plural": "die Tränen", "article": "die", "topic": "Gefühle und Emotionen"},
   {"de": "eifersüchtig", "ru": "ревнивый", "plural": "—", "article": "—", "topic": "Gefühle und Emotionen"},
-  {"de": "verletzt", "ru": "раненый / обиженный", "plural": "—", "article": "—", "topic": "Körper und Gesundheit"}
+  {"de": "verletzt", "ru": "раненый / обиженный", "plural": "—", "article": "—", "topic": "Körper und Gesundheit"},
+  {"de": "die Kinder", "ru": "дети", "plural": "—", "article": "die", "topic": "Familie"}
 ]
