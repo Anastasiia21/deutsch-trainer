@@ -1510,5 +1510,1202 @@
     "ru": "Я ранен / мне обидно.",
     "example_de": "Nach dem Sturz bin ich verletzt.",
     "example_ru": "После падения я ранен."
+  },
+  {
+    "id": "die_veranstaltung_beginnt_um_18_uhr",
+    "de": "Die Veranstaltung beginnt um 18 Uhr.",
+    "ru": "Мероприятие начинается в 18:00.",
+    "example_de": "Die Veranstaltung beginnt um 18 Uhr.",
+    "example_ru": "Мероприятие начинается в 18:00."
+  },
+  {
+    "id": "ich_gehe_zu_einer_veranstaltung",
+    "de": "Ich gehe zu einer Veranstaltung.",
+    "ru": "Я иду на мероприятие.",
+    "example_de": "Heute gehe ich zu einer Veranstaltung.",
+    "example_ru": "Сегодня я иду на мероприятие."
+  },
+  {
+    "id": "diese_veranstaltung_ist_kostenlos",
+    "de": "Diese Veranstaltung ist kostenlos.",
+    "ru": "Это мероприятие бесплатное.",
+    "example_de": "Diese Veranstaltung ist kostenlos.",
+    "example_ru": "Это мероприятие бесплатное."
+  },
+  {
+    "id": "geht_es_auch_um_15_uhr",
+    "de": "Geht es auch um 15 Uhr?",
+    "ru": "А в 15:00 тоже можно?",
+    "example_de": "Geht es auch um 15 Uhr?",
+    "example_ru": "А в 15:00 тоже можно?"
+  },
+  {
+    "id": "geht_es_auch_morgen",
+    "de": "Geht es auch morgen?",
+    "ru": "А завтра тоже подойдёт?",
+    "example_de": "Geht es auch morgen?",
+    "example_ru": "А завтра тоже подойдёт?"
+  },
+  {
+    "id": "geht_es_auch_ohne_termin",
+    "de": "Geht es auch ohne Termin?",
+    "ru": "А без записи тоже можно?",
+    "example_de": "Geht es auch ohne Termin?",
+    "example_ru": "А без записи тоже можно?"
+  },
+  {
+    "id": "geht_es_auch_ab_dienstag",
+    "de": "Geht es auch ab Dienstag?",
+    "ru": "А начиная со вторника тоже можно?",
+    "example_de": "Geht es auch ab Dienstag?",
+    "example_ru": "А начиная со вторника тоже можно?"
+  },
+  {
+    "id": "ich_moechte_kommen_aber_ich_habe_keine_zeit",
+    "de": "Ich möchte kommen, aber ich habe keine Zeit.",
+    "ru": "Я хочу прийти, но у меня нет времени.",
+    "example_de": "Ich möchte kommen, aber ich habe keine Zeit.",
+    "example_ru": "Я хочу прийти, но у меня нет времени."
+  },
+  {
+    "id": "er_ist_muede_aber_gluecklich",
+    "de": "Er ist müde, aber glücklich.",
+    "ru": "Он устал, но счастлив.",
+    "example_de": "Er ist müde, aber glücklich.",
+    "example_ru": "Он устал, но счастлив."
+  },
+  {
+    "id": "moechtest_du_tee_oder_kaffee",
+    "de": "Möchtest du Tee oder Kaffee?",
+    "ru": "Ты хочешь чай или кофе?",
+    "example_de": "Möchtest du Tee oder Kaffee?",
+    "example_ru": "Ты хочешь чай или кофе?"
+  },
+  {
+    "id": "gehst_du_heute_oder_morgen",
+    "de": "Gehst du heute oder morgen?",
+    "ru": "Ты идёшь сегодня или завтра?",
+    "example_de": "Gehst du heute oder morgen?",
+    "example_ru": "Ты идёшь сегодня или завтра?"
+  },
+  {
+    "id": "ich_moechte_ein_ei_kaufen",
+    "de": "Ich möchte ein Ei kaufen.",
+    "ru": "Я хотела бы купить яйцо.",
+    "example_de": "Ich möchte ein Ei kaufen.",
+    "example_ru": "Я хотела бы купить яйцо."
+  },
+  {
+    "id": "ich_muss_das_abendessen_kochen",
+    "de": "Ich muss das Abendessen kochen.",
+    "ru": "Я должна приготовить ужин.",
+    "example_de": "Ich muss das Abendessen kochen.",
+    "example_ru": "Я должна приготовить ужин."
+  },
+  {
+    "id": "kannst_du_das_abendessen_kochen",
+    "de": "Kannst du das Abendessen kochen?",
+    "ru": "Ты можешь приготовить ужин?",
+    "example_de": "Kannst du das Abendessen kochen?",
+    "example_ru": "Ты можешь приготовить ужин?"
+  },
+  {
+    "id": "kannst_du_deutsch",
+    "de": "Kannst du Deutsch?",
+    "ru": "Ты знаешь немецкий?",
+    "example_de": "Kannst du Deutsch?",
+    "example_ru": "Ты знаешь немецкий?"
+  },
+  {
+    "id": "kannst_du_deutsch_sprechen",
+    "de": "Kannst du Deutsch sprechen?",
+    "ru": "Ты можешь говорить по-немецки?",
+    "example_de": "Kannst du Deutsch sprechen?",
+    "example_ru": "Ты можешь говорить по-немецки?"
+  },
+  {
+    "id": "man_kann_heute_das_mittagessen_kaufen",
+    "de": "Man kann heute das Mittagessen kaufen.",
+    "ru": "Сегодня можно купить обед.",
+    "example_de": "Man kann heute das Mittagessen kaufen.",
+    "example_ru": "Сегодня можно купить обед."
+  },
+  {
+    "id": "heute_kann_man_das_mittagessen_kaufen",
+    "de": "Heute kann man das Mittagessen kaufen.",
+    "ru": "Сегодня можно купить обед.",
+    "example_de": "Heute kann man das Mittagessen kaufen.",
+    "example_ru": "Сегодня можно купить обед."
+  },
+  {
+    "id": "hier_darf_man_nicht_fotografieren",
+    "de": "Hier darf man nicht fotografieren.",
+    "ru": "Здесь нельзя фотографировать.",
+    "example_de": "Hier darf man nicht fotografieren.",
+    "example_ru": "Здесь нельзя фотографировать."
+  },
+  {
+    "id": "hier_darf_man_laut_sprechen",
+    "de": "Hier darf man laut sprechen.",
+    "ru": "Здесь можно громко говорить.",
+    "example_de": "Hier darf man laut sprechen.",
+    "example_ru": "Здесь можно громко говорить."
+  },
+  {
+    "id": "man_muss_brot_kaufen",
+    "de": "Man muss Brot kaufen.",
+    "ru": "Нужно купить хлеб.",
+    "example_de": "Man muss Brot kaufen.",
+    "example_ru": "Нужно купить хлеб."
+  },
+  {
+    "id": "peter_sagt_man_soll_nach_hause_fahren",
+    "de": "Peter sagt, man soll nach Hause fahren.",
+    "ru": "Петер говорит, что нужно ехать домой.",
+    "example_de": "Peter sagt, man soll nach Hause fahren.",
+    "example_ru": "Петер говорит, что нужно ехать домой."
+  },
+  {
+    "id": "man_moechte_morgen_zu_hause_bleiben",
+    "de": "Man möchte morgen zu Hause bleiben.",
+    "ru": "Завтра хочется остаться дома.",
+    "example_de": "Man möchte morgen zu Hause bleiben.",
+    "example_ru": "Завтра хочется остаться дома."
+  },
+  {
+    "id": "diese_schauspielerin_ist_bekannt",
+    "de": "Diese Schauspielerin ist bekannt.",
+    "ru": "Эта актриса известная.",
+    "example_de": "Diese Schauspielerin ist bekannt.",
+    "example_ru": "Эта актриса известная."
+  },
+  {
+    "id": "das_gericht_ist_einfach",
+    "de": "Das Gericht ist einfach.",
+    "ru": "Блюдо простое.",
+    "example_de": "Das Gericht ist einfach.",
+    "example_ru": "Блюдо простое."
+  },
+  {
+    "id": "die_bratwurst_ist_traditionell",
+    "de": "Die Bratwurst ist traditionell.",
+    "ru": "Жареная колбаска традиционная.",
+    "example_de": "Die Bratwurst ist traditionell.",
+    "example_ru": "Жареная колбаска традиционная."
+  },
+  {
+    "id": "musst_du_in_der_nacht_arbeiten",
+    "de": "Musst du in der Nacht arbeiten?",
+    "ru": "Ты должен работать ночью?",
+    "example_de": "Musst du in der Nacht arbeiten?",
+    "example_ru": "Ты должен работать ночью?"
+  },
+  {
+    "id": "ich_muss_morgen_in_die_schule_gehen",
+    "de": "Ich muss morgen in die Schule gehen.",
+    "ru": "Я должна завтра идти в школу.",
+    "example_de": "Ich muss morgen in die Schule gehen.",
+    "example_ru": "Я должна завтра идти в школу."
+  },
+  {
+    "id": "wir_muessen_heute_nachmittag_dem_vater_helfen",
+    "de": "Wir müssen heute Nachmittag dem Vater helfen.",
+    "ru": "Сегодня после обеда мы должны помочь отцу.",
+    "example_de": "Wir müssen heute Nachmittag dem Vater helfen.",
+    "example_ru": "Сегодня после обеда мы должны помочь отцу."
+  },
+  {
+    "id": "mein_kind_muss_morgen_zum_arzt_gehen",
+    "de": "Mein Kind muss morgen zum Arzt gehen.",
+    "ru": "Мой ребёнок должен завтра пойти к врачу.",
+    "example_de": "Mein Kind muss morgen zum Arzt gehen.",
+    "example_ru": "Мой ребёнок должен завтра пойти к врачу."
+  },
+  {
+    "id": "muesst_ihr_dem_opa_im_garten_helfen",
+    "de": "Müsst ihr dem Opa im Garten helfen?",
+    "ru": "Вы должны помочь дедушке в саду?",
+    "example_de": "Müsst ihr dem Opa im Garten helfen?",
+    "example_ru": "Вы должны помочь дедушке в саду?"
+  },
+  {
+    "id": "sie_muessen_den_brief_schicken",
+    "de": "Sie müssen den Brief schicken.",
+    "ru": "Они должны отправить письмо.",
+    "example_de": "Sie müssen den Brief schicken.",
+    "example_ru": "Они должны отправить письмо."
+  },
+  {
+    "id": "die_schueler_muessen_die_hausaufgaben_machen",
+    "de": "Die Schüler müssen die Hausaufgaben machen.",
+    "ru": "Ученики должны сделать домашнее задание.",
+    "example_de": "Die Schüler müssen die Hausaufgaben machen.",
+    "example_ru": "Ученики должны сделать домашнее задание."
+  },
+  {
+    "id": "meine_eltern_muessen_viel_arbeiten",
+    "de": "Meine Eltern müssen viel arbeiten.",
+    "ru": "Мои родители должны много работать.",
+    "example_de": "Meine Eltern müssen viel arbeiten.",
+    "example_ru": "Мои родители должны много работать."
+  },
+  {
+    "id": "was_soll_ich_nach_dem_mittagessen_tun_mutter",
+    "de": "Was soll ich nach dem Mittagessen tun, Mutter?",
+    "ru": "Что мне делать после обеда, мама?",
+    "example_de": "Was soll ich nach dem Mittagessen tun, Mutter?",
+    "example_ru": "Что мне делать после обеда, мама?"
+  },
+  {
+    "id": "du_sollst_einkaeufe_machen",
+    "de": "Du sollst Einkäufe machen.",
+    "ru": "Ты должен сделать покупки.",
+    "example_de": "Du sollst Einkäufe machen.",
+    "example_ru": "Ты должен сделать покупки."
+  },
+  {
+    "id": "ihr_sollt_immer_puenktlich_sein",
+    "de": "Ihr sollt immer pünktlich sein.",
+    "ru": "Вы должны всегда быть пунктуальными.",
+    "example_de": "Ihr sollt immer pünktlich sein.",
+    "example_ru": "Вы должны всегда быть пунктуальными."
+  },
+  {
+    "id": "er_soll_keinen_kaffee_trinken",
+    "de": "Er soll keinen Kaffee trinken.",
+    "ru": "Он не должен пить кофе.",
+    "example_de": "Er soll keinen Kaffee trinken.",
+    "example_ru": "Он не должен пить кофе."
+  },
+  {
+    "id": "die_schueler_sollen_mathe_lernen",
+    "de": "Die Schüler sollen Mathe lernen.",
+    "ru": "Ученики должны учить математику.",
+    "example_de": "Die Schüler sollen Mathe lernen.",
+    "example_ru": "Ученики должны учить математику."
+  },
+  {
+    "id": "frau_schulz_soll_zur_post_gehen",
+    "de": "Frau Schulz soll zur Post gehen.",
+    "ru": "Госпожа Шульц должна пойти на почту.",
+    "example_de": "Frau Schulz soll zur Post gehen.",
+    "example_ru": "Госпожа Шульц должна пойти на почту."
+  },
+  {
+    "id": "die_kinder_sollen_viel_milch_trinken",
+    "de": "Die Kinder sollen viel Milch trinken.",
+    "ru": "Дети должны пить много молока.",
+    "example_de": "Die Kinder sollen viel Milch trinken.",
+    "example_ru": "Дети должны пить много молока."
+  },
+  {
+    "id": "wir_sollen_am_nachmittag_das_zimmer_aufraeumen",
+    "de": "Wir sollen am Nachmittag das Zimmer aufräumen.",
+    "ru": "После обеда мы должны убрать комнату.",
+    "example_de": "Wir sollen am Nachmittag das Zimmer aufräumen.",
+    "example_ru": "После обеда мы должны убрать комнату."
+  },
+  {
+    "id": "kann_ich_das_fenster_oeffnen",
+    "de": "Kann ich das Fenster öffnen?",
+    "ru": "Можно я открою окно?",
+    "example_de": "Kann ich das Fenster öffnen?",
+    "example_ru": "Можно я открою окно?"
+  },
+  {
+    "id": "kannst_du_schon_deutsch_sprechen",
+    "de": "Kannst du schon Deutsch sprechen?",
+    "ru": "Ты уже можешь говорить по-немецки?",
+    "example_de": "Kannst du schon Deutsch sprechen?",
+    "example_ru": "Ты уже можешь говорить по-немецки?"
+  },
+  {
+    "id": "wir_koennen_dich_morgen_besuchen",
+    "de": "Wir können dich morgen besuchen.",
+    "ru": "Мы можем завтра тебя навестить.",
+    "example_de": "Wir können dich morgen besuchen.",
+    "example_ru": "Мы можем завтра тебя навестить."
+  },
+  {
+    "id": "koennt_ihr_schon_lesen",
+    "de": "Könnt ihr schon lesen?",
+    "ru": "Вы уже умеете читать?",
+    "example_de": "Könnt ihr schon lesen?",
+    "example_ru": "Вы уже умеете читать?"
+  },
+  {
+    "id": "kann_jenny_gut_schwimmen",
+    "de": "Kann Jenny gut schwimmen?",
+    "ru": "Дженни хорошо умеет плавать?",
+    "example_de": "Kann Jenny gut schwimmen?",
+    "example_ru": "Дженни хорошо умеет плавать?"
+  },
+  {
+    "id": "ich_kann_schnell_sprechen",
+    "de": "Ich kann schnell sprechen.",
+    "ru": "Я могу быстро говорить.",
+    "example_de": "Ich kann schnell sprechen.",
+    "example_ru": "Я могу быстро говорить."
+  },
+  {
+    "id": "er_kann_gut_handball_spielen",
+    "de": "Er kann gut Handball spielen.",
+    "ru": "Он хорошо умеет играть в гандбол.",
+    "example_de": "Er kann gut Handball spielen.",
+    "example_ru": "Он хорошо умеет играть в гандбол."
+  },
+  {
+    "id": "das_kind_darf_kein_eis_essen",
+    "de": "Das Kind darf kein Eis essen.",
+    "ru": "Ребёнку нельзя есть мороженое.",
+    "example_de": "Das Kind darf kein Eis essen.",
+    "example_ru": "Ребёнку нельзя есть мороженое."
+  },
+  {
+    "id": "darf_ich_ins_kino_gehen",
+    "de": "Darf ich ins Kino gehen?",
+    "ru": "Можно мне пойти в кино?",
+    "example_de": "Darf ich ins Kino gehen?",
+    "example_ru": "Можно мне пойти в кино?"
+  },
+  {
+    "id": "ihr_duerft_heute_nicht_fernsehen",
+    "de": "Ihr dürft heute nicht fernsehen.",
+    "ru": "Сегодня вам нельзя смотреть телевизор.",
+    "example_de": "Ihr dürft heute nicht fernsehen.",
+    "example_ru": "Сегодня вам нельзя смотреть телевизор."
+  },
+  {
+    "id": "wir_duerfen_kein_auto_fahren",
+    "de": "Wir dürfen kein Auto fahren.",
+    "ru": "Нам нельзя водить машину.",
+    "example_de": "Wir dürfen kein Auto fahren.",
+    "example_ru": "Нам нельзя водить машину."
+  },
+  {
+    "id": "tobias_darf_seine_schwester_besuchen",
+    "de": "Tobias darf seine Schwester besuchen.",
+    "ru": "Тобиас может навестить свою сестру.",
+    "example_de": "Tobias darf seine Schwester besuchen.",
+    "example_ru": "Тобиас может навестить свою сестру."
+  },
+  {
+    "id": "die_kinder_duerfen_keinen_kaffee_trinken",
+    "de": "Die Kinder dürfen keinen Kaffee trinken.",
+    "ru": "Детям нельзя пить кофе.",
+    "example_de": "Die Kinder dürfen keinen Kaffee trinken.",
+    "example_ru": "Детям нельзя пить кофе."
+  },
+  {
+    "id": "hier_darf_man_nicht_parken",
+    "de": "Hier darf man nicht parken.",
+    "ru": "Здесь нельзя парковаться.",
+    "example_de": "Hier darf man nicht parken.",
+    "example_ru": "Здесь нельзя парковаться."
+  },
+  {
+    "id": "darf_ich_dich_heute_besuchen",
+    "de": "Darf ich dich heute besuchen?",
+    "ru": "Можно я навещу тебя сегодня?",
+    "example_de": "Darf ich dich heute besuchen?",
+    "example_ru": "Можно я навещу тебя сегодня?"
+  },
+  {
+    "id": "ich_will_heute_in_den_zoo_gehen",
+    "de": "Ich will heute in den Zoo gehen.",
+    "ru": "Я хочу сегодня пойти в зоопарк.",
+    "example_de": "Ich will heute in den Zoo gehen.",
+    "example_ru": "Я хочу сегодня пойти в зоопарк."
+  },
+  {
+    "id": "wollt_ihr_mitkommen",
+    "de": "Wollt ihr mitkommen?",
+    "ru": "Вы хотите пойти с нами?",
+    "example_de": "Wollt ihr mitkommen?",
+    "example_ru": "Вы хотите пойти с нами?"
+  },
+  {
+    "id": "wollen_sie_mir_helfen",
+    "de": "Wollen Sie mir helfen?",
+    "ru": "Вы хотите мне помочь?",
+    "example_de": "Wollen Sie mir helfen?",
+    "example_ru": "Вы хотите мне помочь?"
+  },
+  {
+    "id": "was_willst_du",
+    "de": "Was willst du?",
+    "ru": "Что ты хочешь?",
+    "example_de": "Was willst du?",
+    "example_ru": "Что ты хочешь?"
+  },
+  {
+    "id": "hans_was_willst_du_machen",
+    "de": "Hans, was willst du machen?",
+    "ru": "Ханс, что ты хочешь делать?",
+    "example_de": "Hans, was willst du machen?",
+    "example_ru": "Ханс, что ты хочешь делать?"
+  },
+  {
+    "id": "ich_will_fussball_spielen",
+    "de": "Ich will Fußball spielen.",
+    "ru": "Я хочу играть в футбол.",
+    "example_de": "Ich will Fußball spielen.",
+    "example_ru": "Я хочу играть в футбол."
+  },
+  {
+    "id": "meine_eltern_wollen_ins_theater_gehen",
+    "de": "Meine Eltern wollen ins Theater gehen.",
+    "ru": "Мои родители хотят пойти в театр.",
+    "example_de": "Meine Eltern wollen ins Theater gehen.",
+    "example_ru": "Мои родители хотят пойти в театр."
+  },
+  {
+    "id": "wir_wollen_nach_hause_gehen",
+    "de": "Wir wollen nach Hause gehen.",
+    "ru": "Мы хотим пойти домой.",
+    "example_de": "Wir wollen nach Hause gehen.",
+    "example_ru": "Мы хотим пойти домой."
+  },
+  {
+    "id": "das_maedchen_mag_keine_schokolade_essen",
+    "de": "Das Mädchen mag keine Schokolade essen.",
+    "ru": "Девочка не любит есть шоколад.",
+    "example_de": "Das Mädchen mag keine Schokolade essen.",
+    "example_ru": "Девочка не любит есть шоколад."
+  },
+  {
+    "id": "moegt_ihr_obstkuchen",
+    "de": "Mögt ihr Obstkuchen?",
+    "ru": "Вы любите фруктовый пирог?",
+    "example_de": "Mögt ihr Obstkuchen?",
+    "example_ru": "Вы любите фруктовый пирог?"
+  },
+  {
+    "id": "die_schueler_moegen_die_schule_nicht",
+    "de": "Die Schüler mögen die Schule nicht.",
+    "ru": "Ученикам не нравится школа.",
+    "example_de": "Die Schüler mögen die Schule nicht.",
+    "example_ru": "Ученикам не нравится школа."
+  },
+  {
+    "id": "wer_mag_tomatensuppe",
+    "de": "Wer mag Tomatensuppe?",
+    "ru": "Кому нравится томатный суп?",
+    "example_de": "Wer mag Tomatensuppe?",
+    "example_ru": "Кому нравится томатный суп?"
+  },
+  {
+    "id": "magst_du_einen_kaffee_trinken",
+    "de": "Magst du einen Kaffee trinken?",
+    "ru": "Хочешь выпить кофе?",
+    "example_de": "Magst du einen Kaffee trinken?",
+    "example_ru": "Хочешь выпить кофе?"
+  },
+  {
+    "id": "sie_moegen_keine_krimifilme",
+    "de": "Sie mögen keine Krimifilme.",
+    "ru": "Им не нравятся детективные фильмы.",
+    "example_de": "Sie mögen keine Krimifilme.",
+    "example_ru": "Им не нравятся детективные фильмы."
+  },
+  {
+    "id": "er_mag_kaesekuchen_essen",
+    "de": "Er mag Käsekuchen essen.",
+    "ru": "Он любит есть чизкейк.",
+    "example_de": "Er mag Käsekuchen essen.",
+    "example_ru": "Он любит есть чизкейк."
+  },
+  {
+    "id": "magst_du_lolo",
+    "de": "Magst du Lolo?",
+    "ru": "Тебе нравится Лоло?",
+    "example_de": "Magst du Lolo?",
+    "example_ru": "Тебе нравится Лоло?"
+  },
+  {
+    "id": "ich_moechte_keinen_kaffee_trinken",
+    "de": "Ich möchte keinen Kaffee trinken.",
+    "ru": "Я не хотела бы пить кофе.",
+    "example_de": "Ich möchte keinen Kaffee trinken.",
+    "example_ru": "Я не хотела бы пить кофе."
+  },
+  {
+    "id": "du_moechtest_pizza_essen",
+    "de": "Du möchtest Pizza essen.",
+    "ru": "Ты хотела бы есть пиццу.",
+    "example_de": "Du möchtest Pizza essen.",
+    "example_ru": "Ты хотела бы есть пиццу."
+  },
+  {
+    "id": "er_moechte_lieber_rotwein_trinken",
+    "de": "Er möchte lieber Rotwein trinken.",
+    "ru": "Он предпочёл бы пить красное вино.",
+    "example_de": "Er möchte lieber Rotwein trinken.",
+    "example_ru": "Он предпочёл бы пить красное вино."
+  },
+  {
+    "id": "wir_moechten_ins_theater_gehen",
+    "de": "Wir möchten ins Theater gehen.",
+    "ru": "Мы хотели бы пойти в театр.",
+    "example_de": "Wir möchten ins Theater gehen.",
+    "example_ru": "Мы хотели бы пойти в театр."
+  },
+  {
+    "id": "ihr_moechtet_ein_buch_lesen",
+    "de": "Ihr möchtet ein Buch lesen.",
+    "ru": "Вы хотели бы читать книгу.",
+    "example_de": "Ihr möchtet ein Buch lesen.",
+    "example_ru": "Вы хотели бы читать книгу."
+  },
+  {
+    "id": "sie_moechten_fuer_den_test_lernen",
+    "de": "Sie möchten für den Test lernen.",
+    "ru": "Они хотели бы подготовиться к тесту.",
+    "example_de": "Sie möchten für den Test lernen.",
+    "example_ru": "Они хотели бы подготовиться к тесту."
+  },
+  {
+    "id": "ich_schicke_eine_e_mail",
+    "de": "Ich schicke eine E-Mail.",
+    "ru": "Я отправляю электронное письмо.",
+    "example_de": "Ich schicke eine E-Mail.",
+    "example_ru": "Я отправляю электронное письмо."
+  },
+  {
+    "id": "du_schickst_eine_nachricht",
+    "de": "Du schickst eine Nachricht.",
+    "ru": "Ты отправляешь сообщение.",
+    "example_de": "Du schickst eine Nachricht.",
+    "example_ru": "Ты отправляешь сообщение."
+  },
+  {
+    "id": "er_schickt_einen_brief",
+    "de": "Er schickt einen Brief.",
+    "ru": "Он отправляет письмо.",
+    "example_de": "Er schickt einen Brief.",
+    "example_ru": "Он отправляет письмо."
+  },
+  {
+    "id": "wir_schicken_ein_paket",
+    "de": "Wir schicken ein Paket.",
+    "ru": "Мы отправляем посылку.",
+    "example_de": "Wir schicken ein Paket.",
+    "example_ru": "Мы отправляем посылку."
+  },
+  {
+    "id": "ihr_schickt_fotos",
+    "de": "Ihr schickt Fotos.",
+    "ru": "Вы отправляете фотографии.",
+    "example_de": "Ihr schickt Fotos.",
+    "example_ru": "Вы отправляете фотографии."
+  },
+  {
+    "id": "die_schueler_schicken_die_dokumente",
+    "de": "Die Schüler schicken die Dokumente.",
+    "ru": "Ученики отправляют документы.",
+    "example_de": "Die Schüler schicken die Dokumente.",
+    "example_ru": "Ученики отправляют документы."
+  },
+  {
+    "id": "wem_schickst_du_die_e_mail",
+    "de": "Wem schickst du die E-Mail?",
+    "ru": "Кому ты отправляешь письмо?",
+    "example_de": "Wem schickst du die E-Mail?",
+    "example_ru": "Кому ты отправляешь письмо?"
+  },
+  {
+    "id": "wessen_buch_ist_das",
+    "de": "Wessen Buch ist das?",
+    "ru": "Чья это книга?",
+    "example_de": "Wessen Buch ist das?",
+    "example_ru": "Чья это книга?"
+  },
+  {
+    "id": "die_schueler_sollen_deutsch_lernen",
+    "de": "Die Schüler sollen Deutsch lernen.",
+    "ru": "Ученики должны учить немецкий.",
+    "example_de": "Die Schüler sollen Deutsch lernen.",
+    "example_ru": "Ученики должны учить немецкий."
+  },
+  {
+    "id": "raeum_bitte_dein_zimmer_auf",
+    "de": "Räum bitte dein Zimmer auf!",
+    "ru": "Убери, пожалуйста, свою комнату!",
+    "example_de": "Räum bitte dein Zimmer auf!",
+    "example_ru": "Убери, пожалуйста, свою комнату!"
+  },
+  {
+    "id": "wir_raeumen_heute_auf",
+    "de": "Wir räumen heute auf.",
+    "ru": "Сегодня мы убираемся.",
+    "example_de": "Wir räumen heute auf.",
+    "example_ru": "Сегодня мы убираемся."
+  },
+  {
+    "id": "nach_der_party_raeumen_wir_auf",
+    "de": "Nach der Party räumen wir auf.",
+    "ru": "После вечеринки мы убираемся.",
+    "example_de": "Nach der Party räumen wir auf.",
+    "example_ru": "После вечеринки мы убираемся."
+  },
+  {
+    "id": "ich_benutze_einen_computer",
+    "de": "Ich benutze einen Computer.",
+    "ru": "Я пользуюсь компьютером.",
+    "example_de": "Ich benutze einen Computer.",
+    "example_ru": "Я пользуюсь компьютером."
+  },
+  {
+    "id": "du_benutzt_dein_handy",
+    "de": "Du benutzt dein Handy.",
+    "ru": "Ты пользуешься своим телефоном.",
+    "example_de": "Du benutzt dein Handy.",
+    "example_ru": "Ты пользуешься своим телефоном."
+  },
+  {
+    "id": "er_benutzt_ein_woerterbuch",
+    "de": "Er benutzt ein Wörterbuch.",
+    "ru": "Он пользуется словарём.",
+    "example_de": "Er benutzt ein Wörterbuch.",
+    "example_ru": "Он пользуется словарём."
+  },
+  {
+    "id": "wir_benutzen_das_internet",
+    "de": "Wir benutzen das Internet.",
+    "ru": "Мы пользуемся интернетом.",
+    "example_de": "Wir benutzen das Internet.",
+    "example_ru": "Мы пользуемся интернетом."
+  },
+  {
+    "id": "ihr_benutzt_die_app",
+    "de": "Ihr benutzt die App.",
+    "ru": "Вы пользуетесь приложением.",
+    "example_de": "Ihr benutzt die App.",
+    "example_ru": "Вы пользуетесь приложением."
+  },
+  {
+    "id": "sie_benutzen_ein_auto",
+    "de": "Sie benutzen ein Auto.",
+    "ru": "Они пользуются машиной.",
+    "example_de": "Sie benutzen ein Auto.",
+    "example_ru": "Они пользуются машиной."
+  },
+  {
+    "id": "das_radio_ist_lauter_als_der_fernseher",
+    "de": "Das Radio ist lauter als der Fernseher.",
+    "ru": "Радио громче, чем телевизор.",
+    "example_de": "Das Radio ist lauter als der Fernseher.",
+    "example_ru": "Радио громче, чем телевизор."
+  },
+  {
+    "id": "ich_bin_groesser_als_du",
+    "de": "Ich bin größer als du.",
+    "ru": "Я выше тебя.",
+    "example_de": "Ich bin größer als du.",
+    "example_ru": "Я выше тебя."
+  },
+  {
+    "id": "bitte_nicht_so_laut_sprechen",
+    "de": "Bitte nicht so laut sprechen.",
+    "ru": "Пожалуйста, не говорите так громко.",
+    "example_de": "Bitte nicht so laut sprechen.",
+    "example_ru": "Пожалуйста, не говорите так громко."
+  },
+  {
+    "id": "ich_schlafe_am_wochenende_aus",
+    "de": "Ich schlafe am Wochenende aus.",
+    "ru": "Я высыпаюсь на выходных.",
+    "example_de": "Ich schlafe am Wochenende aus.",
+    "example_ru": "Я высыпаюсь на выходных."
+  },
+  {
+    "id": "du_schlaefst_heute_aus",
+    "de": "Du schläfst heute aus.",
+    "ru": "Ты сегодня высыпаешься.",
+    "example_de": "Du schläfst heute aus.",
+    "example_ru": "Ты сегодня высыпаешься."
+  },
+  {
+    "id": "er_schlaeft_lange_aus",
+    "de": "Er schläft lange aus.",
+    "ru": "Он долго спит и высыпается.",
+    "example_de": "Er schläft lange aus.",
+    "example_ru": "Он долго спит и высыпается."
+  },
+  {
+    "id": "wir_schlafen_am_sonntag_aus",
+    "de": "Wir schlafen am Sonntag aus.",
+    "ru": "Мы высыпаемся в воскресенье.",
+    "example_de": "Wir schlafen am Sonntag aus.",
+    "example_ru": "Мы высыпаемся в воскресенье."
+  },
+  {
+    "id": "ihr_schlaft_morgen_aus",
+    "de": "Ihr schlaft morgen aus.",
+    "ru": "Вы завтра выспитесь.",
+    "example_de": "Ihr schlaft morgen aus.",
+    "example_ru": "Вы завтра выспитесь."
+  },
+  {
+    "id": "sie_schlafen_nach_dem_urlaub_aus",
+    "de": "Sie schlafen nach dem Urlaub aus.",
+    "ru": "Они высыпаются после отпуска.",
+    "example_de": "Sie schlafen nach dem Urlaub aus.",
+    "example_ru": "Они высыпаются после отпуска."
+  },
+  {
+    "id": "heute_nachmittag_gehe_ich_ins_kino",
+    "de": "Heute Nachmittag gehe ich ins Kino.",
+    "ru": "Сегодня днём я иду в кино.",
+    "example_de": "Heute Nachmittag gehe ich ins Kino.",
+    "example_ru": "Сегодня днём я иду в кино."
+  },
+  {
+    "id": "ich_arbeite_heute_nachmittag",
+    "de": "Ich arbeite heute Nachmittag.",
+    "ru": "Я работаю сегодня после обеда.",
+    "example_de": "Ich arbeite heute Nachmittag.",
+    "example_ru": "Я работаю сегодня после обеда."
+  },
+  {
+    "id": "heute_nachmittag_habe_ich_zeit",
+    "de": "Heute Nachmittag habe ich Zeit.",
+    "ru": "Сегодня после обеда у меня есть время.",
+    "example_de": "Heute Nachmittag habe ich Zeit.",
+    "example_ru": "Сегодня после обеда у меня есть время."
+  },
+  {
+    "id": "was_machst_du_heute_nachmittag",
+    "de": "Was machst du heute Nachmittag?",
+    "ru": "Что ты делаешь сегодня после обеда?",
+    "example_de": "Was machst du heute Nachmittag?",
+    "example_ru": "Что ты делаешь сегодня после обеда?"
+  },
+  {
+    "id": "heute_nachmittag_lerne_ich_deutsch",
+    "de": "Heute Nachmittag lerne ich Deutsch.",
+    "ru": "Сегодня после обеда я учу немецкий.",
+    "example_de": "Heute Nachmittag lerne ich Deutsch.",
+    "example_ru": "Сегодня после обеда я учу немецкий."
+  },
+  {
+    "id": "wir_treffen_uns_heute_nachmittag",
+    "de": "Wir treffen uns heute Nachmittag.",
+    "ru": "Мы встречаемся сегодня после обеда.",
+    "example_de": "Wir treffen uns heute Nachmittag.",
+    "example_ru": "Мы встречаемся сегодня после обеда."
+  },
+  {
+    "id": "die_schueler_sind_puenktlich",
+    "de": "Die Schüler sind pünktlich.",
+    "ru": "Ученики пунктуальны.",
+    "example_de": "Die Schüler sind pünktlich.",
+    "example_ru": "Ученики пунктуальны."
+  },
+  {
+    "id": "komm_bitte_puenktlich",
+    "de": "Komm bitte pünktlich!",
+    "ru": "Приходи, пожалуйста, вовремя!",
+    "example_de": "Komm bitte pünktlich!",
+    "example_ru": "Приходи, пожалуйста, вовремя!"
+  },
+  {
+    "id": "zeig_es_auch",
+    "de": "Zeig es auch!",
+    "ru": "Покажи это тоже!",
+    "example_de": "Zeig es auch!",
+    "example_ru": "Покажи это тоже!"
+  },
+  {
+    "id": "und_dieses_dort",
+    "de": "Und dieses dort?",
+    "ru": "А это там?",
+    "example_de": "Und dieses dort?",
+    "example_ru": "А это там?"
+  },
+  {
+    "id": "er_ist_zu_teuer",
+    "de": "Er ist zu teuer.",
+    "ru": "Он слишком дорогой.",
+    "example_de": "Er ist zu teuer.",
+    "example_ru": "Он слишком дорогой."
+  },
+  {
+    "id": "er_ist_zu_kurz",
+    "de": "Er ist zu kurz.",
+    "ru": "Он слишком короткий.",
+    "example_de": "Er ist zu kurz.",
+    "example_ru": "Он слишком короткий."
+  },
+  {
+    "id": "er_ist_zu_lang",
+    "de": "Er ist zu lang.",
+    "ru": "Он слишком длинный.",
+    "example_de": "Er ist zu lang.",
+    "example_ru": "Он слишком длинный."
+  },
+  {
+    "id": "er_kann_weder_sprechen_noch_zuhoeren",
+    "de": "Er kann weder sprechen noch zuhören.",
+    "ru": "Он не умеет ни говорить, ни слушать.",
+    "example_de": "Er kann weder sprechen noch zuhören.",
+    "example_ru": "Он не умеет ни говорить, ни слушать."
+  },
+  {
+    "id": "man_muss_sprechen",
+    "de": "Man muss sprechen.",
+    "ru": "Надо разговаривать.",
+    "example_de": "Man muss sprechen.",
+    "example_ru": "Надо разговаривать."
+  },
+  {
+    "id": "sie_haben_recht",
+    "de": "Sie haben recht.",
+    "ru": "Вы правы.",
+    "example_de": "Sie haben recht.",
+    "example_ru": "Вы правы."
+  },
+  {
+    "id": "sie_haben_nicht_recht",
+    "de": "Sie haben nicht recht.",
+    "ru": "Вы не правы.",
+    "example_de": "Sie haben nicht recht.",
+    "example_ru": "Вы не правы."
+  },
+  {
+    "id": "ich_glaube_da_haben_sie_nicht_recht",
+    "de": "Ich glaube, da haben Sie nicht recht.",
+    "ru": "Думаю, здесь вы не правы.",
+    "example_de": "Ich glaube, da haben Sie nicht recht.",
+    "example_ru": "Думаю, здесь вы не правы."
+  },
+  {
+    "id": "was_fuer_ein_tolles_buefett",
+    "de": "Was für ein tolles Büfett!",
+    "ru": "Какой прекрасный буфет!",
+    "example_de": "Was für ein tolles Büfett!",
+    "example_ru": "Какой прекрасный буфет!"
+  },
+  {
+    "id": "gekochtes_ei",
+    "de": "Ein gekochtes Ei.",
+    "ru": "Варёное яйцо.",
+    "example_de": "Ein gekochtes Ei.",
+    "example_ru": "Варёное яйцо."
+  },
+  {
+    "id": "du_lebst_wirklich_gesund",
+    "de": "Du lebst wirklich gesund!",
+    "ru": "Ты действительно ведёшь здоровый образ жизни!",
+    "example_de": "Du lebst wirklich gesund!",
+    "example_ru": "Ты действительно ведёшь здоровый образ жизни!"
+  },
+  {
+    "id": "du_lebst_sehr_gesund",
+    "de": "Du lebst sehr gesund.",
+    "ru": "Ты живёшь очень здорово.",
+    "example_de": "Du lebst sehr gesund.",
+    "example_ru": "Ты живёшь очень здорово."
+  },
+  {
+    "id": "lassen_sie_uns_diesen_dialog_vorlesen",
+    "de": "Lassen Sie uns diesen Dialog vorlesen.",
+    "ru": "Давайте прочитаем этот диалог вслух.",
+    "example_de": "Lassen Sie uns diesen Dialog vorlesen.",
+    "example_ru": "Давайте прочитаем этот диалог вслух."
+  },
+  {
+    "id": "ich_denke",
+    "de": "Ich denke.",
+    "ru": "Я думаю.",
+    "example_de": "Ich denke.",
+    "example_ru": "Я думаю."
+  },
+  {
+    "id": "ich_glaube",
+    "de": "Ich glaube.",
+    "ru": "Я думаю / я верю.",
+    "example_de": "Ich glaube.",
+    "example_ru": "Я думаю / я верю."
+  },
+  {
+    "id": "ich_weiss",
+    "de": "Ich weiß.",
+    "ru": "Я знаю.",
+    "example_de": "Ich weiß.",
+    "example_ru": "Я знаю."
+  },
+  {
+    "id": "ich_schenke_dir_ein_buch",
+    "de": "Ich schenke dir ein Buch.",
+    "ru": "Я дарю тебе книгу.",
+    "example_de": "Ich schenke dir ein Buch.",
+    "example_ru": "Я дарю тебе книгу."
+  },
+  {
+    "id": "er_schenkt_seiner_mutter_blumen",
+    "de": "Er schenkt seiner Mutter Blumen.",
+    "ru": "Он дарит своей маме цветы.",
+    "example_de": "Er schenkt seiner Mutter Blumen.",
+    "example_ru": "Он дарит своей маме цветы."
+  },
+  {
+    "id": "was_schenkst_du_zum_geburtstag",
+    "de": "Was schenkst du zum Geburtstag?",
+    "ru": "Что ты даришь на день рождения?",
+    "example_de": "Was schenkst du zum Geburtstag?",
+    "example_ru": "Что ты даришь на день рождения?"
+  },
+  {
+    "id": "gib_mir_deine_hand",
+    "de": "Gib mir deine Hand!",
+    "ru": "Дай мне руку!",
+    "example_de": "Gib mir deine Hand!",
+    "example_ru": "Дай мне руку!"
+  },
+  {
+    "id": "der_lehrer_gibt_hausaufgaben",
+    "de": "Der Lehrer gibt Hausaufgaben.",
+    "ru": "Учитель задаёт домашнее задание.",
+    "example_de": "Der Lehrer gibt Hausaufgaben.",
+    "example_ru": "Учитель задаёт домашнее задание."
+  },
+  {
+    "id": "die_firma_gibt_informationen",
+    "de": "Die Firma gibt Informationen.",
+    "ru": "Фирма даёт информацию.",
+    "example_de": "Die Firma gibt Informationen.",
+    "example_ru": "Фирма даёт информацию."
+  },
+  {
+    "id": "es_gibt_viele_caf_s_in_wien",
+    "de": "Es gibt viele Cafés in Wien.",
+    "ru": "В Вене много кафе.",
+    "example_de": "Es gibt viele Cafés in Wien.",
+    "example_ru": "В Вене много кафе."
+  },
+  {
+    "id": "gibt_es_hier_einen_supermarkt",
+    "de": "Gibt es hier einen Supermarkt?",
+    "ru": "Здесь есть супермаркет?",
+    "example_de": "Gibt es hier einen Supermarkt?",
+    "example_ru": "Здесь есть супермаркет?"
+  },
+  {
+    "id": "ich_gebe_dir_meinen_stift",
+    "de": "Ich gebe dir meinen Stift.",
+    "ru": "Я даю тебе свою ручку.",
+    "example_de": "Ich gebe dir meinen Stift.",
+    "example_ru": "Я даю тебе свою ручку."
+  },
+  {
+    "id": "hier_gibt_es_alles_was_man_braucht",
+    "de": "Hier gibt es alles, was man braucht.",
+    "ru": "Здесь есть всё, что нужно.",
+    "example_de": "Hier gibt es alles, was man braucht.",
+    "example_ru": "Здесь есть всё, что нужно."
+  },
+  {
+    "id": "hier_gibt_es_alles_was_du_brauchst",
+    "de": "Hier gibt es alles, was du brauchst.",
+    "ru": "Здесь есть всё, что тебе нужно.",
+    "example_de": "Hier gibt es alles, was du brauchst.",
+    "example_ru": "Здесь есть всё, что тебе нужно."
+  },
+  {
+    "id": "ich_kenne_ihn",
+    "de": "Ich kenne ihn.",
+    "ru": "Я его знаю.",
+    "example_de": "Ich kenne ihn.",
+    "example_ru": "Я его знаю."
+  },
+  {
+    "id": "kennst_du_berlin",
+    "de": "Kennst du Berlin?",
+    "ru": "Ты знаешь Берлин?",
+    "example_de": "Kennst du Berlin?",
+    "example_ru": "Ты знаешь Берлин?"
+  },
+  {
+    "id": "kennst_du_wien",
+    "de": "Kennst du Wien?",
+    "ru": "Ты знаешь Вену?",
+    "example_de": "Kennst du Wien?",
+    "example_ru": "Ты знаешь Вену?"
+  },
+  {
+    "id": "er_spricht_lange_weiter",
+    "de": "Er spricht lange weiter.",
+    "ru": "Он продолжает долго говорить.",
+    "example_de": "Er spricht lange weiter.",
+    "example_ru": "Он продолжает долго говорить."
+  },
+  {
+    "id": "weiter",
+    "de": "Weiter!",
+    "ru": "Дальше!",
+    "example_de": "Weiter!",
+    "example_ru": "Дальше!"
+  },
+  {
+    "id": "ich_brauche_nichts_mehr",
+    "de": "Ich brauche nichts mehr.",
+    "ru": "Мне больше ничего не нужно.",
+    "example_de": "Ich brauche nichts mehr.",
+    "example_ru": "Мне больше ничего не нужно."
+  },
+  {
+    "id": "ich_will_nichts_mehr",
+    "de": "Ich will nichts mehr.",
+    "ru": "Я больше ничего не хочу.",
+    "example_de": "Ich will nichts mehr.",
+    "example_ru": "Я больше ничего не хочу."
+  },
+  {
+    "id": "ich_moechte_nichts_mehr_essen",
+    "de": "Ich möchte nichts mehr essen.",
+    "ru": "Я больше не хочу ничего есть.",
+    "example_de": "Ich möchte nichts mehr essen.",
+    "example_ru": "Я больше не хочу ничего есть."
+  },
+  {
+    "id": "moechten_sie_noch_etwas",
+    "de": "Möchten Sie noch etwas?",
+    "ru": "Хотите ещё что-нибудь?",
+    "example_de": "Möchten Sie noch etwas?",
+    "example_ru": "Хотите ещё что-нибудь?"
+  },
+  {
+    "id": "brauchen_sie_noch_etwas",
+    "de": "Brauchen Sie noch etwas?",
+    "ru": "Вам нужно ещё что-нибудь?",
+    "example_de": "Brauchen Sie noch etwas?",
+    "example_ru": "Вам нужно ещё что-нибудь?"
+  },
+  {
+    "id": "darf_es_sonst_noch_etwas_sein",
+    "de": "Darf es sonst noch etwas sein?",
+    "ru": "Что-нибудь ещё?",
+    "example_de": "Darf es sonst noch etwas sein?",
+    "example_ru": "Что-нибудь ещё?"
+  },
+  {
+    "id": "moechtest_du_noch_etwas",
+    "de": "Möchtest du noch etwas?",
+    "ru": "Ты хочешь ещё что-нибудь?",
+    "example_de": "Möchtest du noch etwas?",
+    "example_ru": "Ты хочешь ещё что-нибудь?"
+  },
+  {
+    "id": "brauchst_du_noch_etwas",
+    "de": "Brauchst du noch etwas?",
+    "ru": "Тебе нужно ещё что-нибудь?",
+    "example_de": "Brauchst du noch etwas?",
+    "example_ru": "Тебе нужно ещё что-нибудь?"
+  },
+  {
+    "id": "ich_trinke_auch_gruenen_tee",
+    "de": "Ich trinke auch grünen Tee.",
+    "ru": "Я тоже пью зелёный чай.",
+    "example_de": "Ich trinke auch grünen Tee.",
+    "example_ru": "Я тоже пью зелёный чай."
+  },
+  {
+    "id": "ich_kann_circa_zwei_tassen_kaffee_am_tag_trinken",
+    "de": "Ich kann circa zwei Tassen Kaffee am Tag trinken.",
+    "ru": "Я могу выпить примерно две чашки кофе в день.",
+    "example_de": "Ich kann circa zwei Tassen Kaffee am Tag trinken.",
+    "example_ru": "Я могу выпить примерно две чашки кофе в день."
+  },
+  {
+    "id": "es_passiert_selten",
+    "de": "Es passiert selten.",
+    "ru": "Это случается редко.",
+    "example_de": "Es passiert selten.",
+    "example_ru": "Это случается редко."
+  },
+  {
+    "id": "koennten_sie_erzaehlen",
+    "de": "Könnten Sie erzählen?",
+    "ru": "Вы могли бы рассказать?",
+    "example_de": "Könnten Sie erzählen?",
+    "example_ru": "Вы могли бы рассказать?"
+  },
+  {
+    "id": "koenntest_du_mir_bitte_eine_tasse_machen",
+    "de": "Könntest du mir bitte eine Tasse machen?",
+    "ru": "Ты мог бы сделать мне чашку чая?",
+    "example_de": "Könntest du mir bitte eine Tasse machen?",
+    "example_ru": "Ты мог бы сделать мне чашку чая?"
+  },
+  {
+    "id": "koenntest_du_sagen",
+    "de": "Könntest du sagen?",
+    "ru": "Ты мог бы сказать?",
+    "example_de": "Könntest du sagen?",
+    "example_ru": "Ты мог бы сказать?"
+  },
+  {
+    "id": "koenntest_du_bitte_bestellen",
+    "de": "Könntest du bitte bestellen?",
+    "ru": "Ты мог бы, пожалуйста, заказать?",
+    "example_de": "Könntest du bitte bestellen?",
+    "example_ru": "Ты мог бы, пожалуйста, заказать?"
+  },
+  {
+    "id": "zum_fruehstueck",
+    "de": "Zum Frühstück.",
+    "ru": "На завтрак.",
+    "example_de": "Zum Frühstück.",
+    "example_ru": "На завтрак."
+  },
+  {
+    "id": "zum_mittagessen",
+    "de": "Zum Mittagessen.",
+    "ru": "На обед.",
+    "example_de": "Zum Mittagessen.",
+    "example_ru": "На обед."
+  },
+  {
+    "id": "zum_abendessen",
+    "de": "Zum Abendessen.",
+    "ru": "На ужин.",
+    "example_de": "Zum Abendessen.",
+    "example_ru": "На ужин."
+  },
+  {
+    "id": "am_nachmittag_esse_ich",
+    "de": "Am Nachmittag esse ich.",
+    "ru": "Днём я ем.",
+    "example_de": "Am Nachmittag esse ich.",
+    "example_ru": "Днём я ем."
+  },
+  {
+    "id": "er_ist_am_meisten",
+    "de": "Er isst am meisten.",
+    "ru": "Он ест больше всех.",
+    "example_de": "Er isst am meisten.",
+    "example_ru": "Он ест больше всех."
+  },
+  {
+    "id": "ich_gebrauche_weder_cola_noch_burger",
+    "de": "Ich nehme weder Cola noch Burger.",
+    "ru": "Я не беру ни колу, ни бургер.",
+    "example_de": "Ich nehme weder Cola noch Burger.",
+    "example_ru": "Я не беру ни колу, ни бургер."
+  },
+  {
+    "id": "ja_stimmt",
+    "de": "Ja, stimmt.",
+    "ru": "Да, верно.",
+    "example_de": "Ja, stimmt.",
+    "example_ru": "Да, верно."
+  },
+  {
+    "id": "hals_und_beinbruch",
+    "de": "Hals- und Beinbruch!",
+    "ru": "Ни пуха ни пера!",
+    "example_de": "Hals- und Beinbruch!",
+    "example_ru": "Ни пуха ни пера!"
   }
 ]

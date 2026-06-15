@@ -3013,5 +3013,140 @@
     },
     "example_de": "Ich glaube, er ist intelligent.",
     "example_ru": "Я думаю, что он умный."
+  },
+  {
+    "de": "zubereiten",
+    "infinitive": "zubereiten",
+    "ru": "готовить / приготавливать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "bereite zu",
+      "du": "bereitest zu",
+      "er/sie/es": "bereitet zu",
+      "wir": "bereiten zu",
+      "ihr": "bereitet zu",
+      "sie/Sie": "bereiten zu"
+    },
+    "example_de": "Ich bereite das Abendessen zu.",
+    "example_ru": "Я готовлю ужин."
+  },
+  {
+    "de": "vorlesen",
+    "infinitive": "vorlesen",
+    "ru": "читать вслух",
+    "cases": [
+      "Dativ",
+      "Akkusativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "lese vor",
+      "du": "liest vor",
+      "er/sie/es": "liest vor",
+      "wir": "lesen vor",
+      "ihr": "lest vor",
+      "sie/Sie": "lesen vor"
+    },
+    "example_de": "Ich lese dem Kind ein Buch vor.",
+    "example_ru": "Я читаю ребёнку книгу вслух."
+  },
+  {
+    "de": "durchlesen",
+    "infinitive": "durchlesen",
+    "ru": "прочитать полностью / внимательно",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "lese durch",
+      "du": "liest durch",
+      "er/sie/es": "liest durch",
+      "wir": "lesen durch",
+      "ihr": "lest durch",
+      "sie/Sie": "lesen durch"
+    },
+    "example_de": "Ich lese den Text noch einmal durch.",
+    "example_ru": "Я ещё раз внимательно читаю текст."
+  },
+  {
+    "de": "schenken",
+    "infinitive": "schenken",
+    "ru": "дарить",
+    "cases": [
+      "Dativ",
+      "Akkusativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "schenke",
+      "du": "schenkst",
+      "er/sie/es": "schenkt",
+      "wir": "schenken",
+      "ihr": "schenkt",
+      "sie/Sie": "schenken"
+    },
+    "example_de": "Ich schenke dir ein Buch.",
+    "example_ru": "Я дарю тебе книгу."
+  },
+  {
+    "de": "anmelden",
+    "infinitive": "anmelden",
+    "ru": "регистрировать / записывать",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "melde an",
+      "du": "meldest an",
+      "er/sie/es": "meldet an",
+      "wir": "melden an",
+      "ihr": "meldet an",
+      "sie/Sie": "melden an"
+    },
+    "example_de": "Ich melde mich für den Kurs an.",
+    "example_ru": "Я записываюсь на курс."
+  },
+  {
+    "de": "nutzen",
+    "infinitive": "nutzen",
+    "ru": "использовать / пользоваться",
+    "cases": [
+      "Akkusativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "nutze",
+      "du": "nutzt",
+      "er/sie/es": "nutzt",
+      "wir": "nutzen",
+      "ihr": "nutzt",
+      "sie/Sie": "nutzen"
+    },
+    "example_de": "Ich nutze diese App jeden Tag.",
+    "example_ru": "Я использую это приложение каждый день."
+  },
+  {
+    "de": "gefallen",
+    "infinitive": "gefallen",
+    "ru": "нравиться",
+    "cases": [
+      "Dativ"
+    ],
+    "level": "A1",
+    "conjugation": {
+      "ich": "gefalle",
+      "du": "gefällst",
+      "er/sie/es": "gefällt",
+      "wir": "gefallen",
+      "ihr": "gefallt",
+      "sie/Sie": "gefallen"
+    },
+    "example_de": "Das Buch gefällt mir.",
+    "example_ru": "Мне нравится эта книга."
   }
 ]
