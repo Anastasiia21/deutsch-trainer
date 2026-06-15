@@ -213,11 +213,19 @@ The workflow:
 .github/workflows/hourly-add-word.yml
 ```
 
-runs:
+runs every hour at minute 7 UTC and can also be started manually from GitHub Actions.
+
+It runs:
 
 ```bash
 python hourly_add_word.py
 ```
+
+Automation behavior:
+
+1. Try to import one curated verb from `new_verbs.txt` via `import_new_verbs.py`.
+2. If nothing importable is available there, add one curated fallback A1/A2 verb.
+3. If `new_verbs.txt` is empty and all fallback A1/A2 verbs are already present, create no commit and write an explanation in the GitHub Actions run summary.
 
 It can update:
 

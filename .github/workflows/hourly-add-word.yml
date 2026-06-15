@@ -1,8 +1,8 @@
-name: Hourly add daily word
+name: Hourly add verb
 
 on:
   schedule:
-    - cron: '7 7 * * 2'
+    - cron: '7 * * * *'
   workflow_dispatch: {}
 
 permissions:
@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Run hourly word script
+      - name: Run hourly verb script
         run: python hourly_add_word.py
 
       - name: Commit and push if changed
@@ -32,9 +32,10 @@ jobs:
 
           if [ -n "$(git status --porcelain)" ]; then
             git add public/verbs.json new_verbs.txt
-            git commit -m "Hourly add daily word"
+            git commit -m "Hourly add verb"
             git pull --rebase origin main
             git push
           else
             echo "No changes to commit"
+            echo "No commit was created because there was no new importable verb or fallback A1/A2 verb to add." >> "$GITHUB_STEP_SUMMARY"
           fi
