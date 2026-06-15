@@ -3148,5 +3148,43 @@
     },
     "example_de": "Das Buch gefällt mir.",
     "example_ru": "Мне нравится эта книга."
+  },
+  {
+    "de": "passieren",
+    "infinitive": "passieren",
+    "ru": "случаться / происходить",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "passiere",
+      "du": "passierst",
+      "er/sie/es": "passiert",
+      "wir": "passieren",
+      "ihr": "passiert",
+      "sie/Sie": "passieren"
+    },
+    "example_de": "Es passiert selten.",
+    "example_ru": "Это случается редко."
+  },
+  {
+    "de": "stimmen",
+    "infinitive": "stimmen",
+    "ru": "быть верным / соответствовать / сходиться",
+    "cases": [
+      "Nominativ"
+    ],
+    "level": "A2",
+    "conjugation": {
+      "ich": "stimme",
+      "du": "stimmst",
+      "er/sie/es": "stimmt",
+      "wir": "stimmen",
+      "ihr": "stimmt",
+      "sie/Sie": "stimmen"
+    },
+    "example_de": "Ja, das stimmt.",
+    "example_ru": "Да, это верно."
   }
 ]

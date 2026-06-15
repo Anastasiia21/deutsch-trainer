@@ -1004,5 +1004,9 @@
   {"de": "überhaupt", "ru": "вообще / совсем", "plural": "—", "article": "—", "topic": "Kommunikation und Beziehungen"},
   {"de": "entweder", "ru": "либо / или", "plural": "—", "article": "—", "topic": "Kommunikation und Beziehungen"},
   {"de": "weder", "ru": "ни", "plural": "—", "article": "—", "topic": "Kommunikation und Beziehungen"},
-  {"de": "denn", "ru": "ведь / же", "plural": "—", "article": "—", "topic": "Kommunikation und Beziehungen"}
+  {"de": "denn", "ru": "ведь / же", "plural": "—", "article": "—", "topic": "Kommunikation und Beziehungen"},
+  {"de": "pfui", "ru": "фу / тьфу", "plural": "—", "article": "—", "topic": "Kommunikation und Beziehungen"},
+  {"de": "morgens", "ru": "по утрам / утром", "plural": "—", "article": "—", "topic": "Zeit und Datum"},
+  {"de": "die Tellersuppe", "ru": "суп в тарелке / порция супа", "plural": "die Tellersuppen", "article": "die", "topic": "Essen und Trinken"},
+  {"de": "das Vertrauen", "ru": "доверие", "plural": "—", "article": "das", "topic": "Kommunikation und Beziehungen"}
 ]

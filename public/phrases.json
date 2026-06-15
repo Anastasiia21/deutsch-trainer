@@ -2707,5 +2707,131 @@
     "ru": "Ни пуха ни пера!",
     "example_de": "Hals- und Beinbruch!",
     "example_ru": "Ни пуха ни пера!"
+  },
+  {
+    "id": "pfui",
+    "de": "Pfui!",
+    "ru": "Фу! / Тьфу!",
+    "example_de": "Pfui!",
+    "example_ru": "Фу! / Тьфу!"
+  },
+  {
+    "id": "pfui_pfui",
+    "de": "Pfui, pfui!",
+    "ru": "Фу-фу! / Тьфу-тьфу!",
+    "example_de": "Pfui, pfui!",
+    "example_ru": "Фу-фу! / Тьфу-тьфу!"
+  },
+  {
+    "id": "ein_glas_milch",
+    "de": "Ein Glas Milch.",
+    "ru": "Стакан молока.",
+    "example_de": "Ein Glas Milch.",
+    "example_ru": "Стакан молока."
+  },
+  {
+    "id": "eine_tellersuppe",
+    "de": "Eine Tellersuppe.",
+    "ru": "Порция супа / суп в тарелке.",
+    "example_de": "Eine Tellersuppe.",
+    "example_ru": "Порция супа / суп в тарелке."
+  },
+  {
+    "id": "ein_glas_weisswein",
+    "de": "Ein Glas Weißwein.",
+    "ru": "Бокал белого вина.",
+    "example_de": "Ein Glas Weißwein.",
+    "example_ru": "Бокал белого вина."
+  },
+  {
+    "id": "am_tag",
+    "de": "Am Tag.",
+    "ru": "В день.",
+    "example_de": "Am Tag.",
+    "example_ru": "В день."
+  },
+  {
+    "id": "morgens",
+    "de": "Morgens.",
+    "ru": "По утрам / утром.",
+    "example_de": "Morgens.",
+    "example_ru": "По утрам / утром."
+  },
+  {
+    "id": "ich_gehe_nach_hause_denn_ich_bin_muede",
+    "de": "Ich gehe nach Hause, denn ich bin müde.",
+    "ru": "Я иду домой, потому что я устала / устал.",
+    "example_de": "Ich gehe nach Hause, denn ich bin müde.",
+    "example_ru": "Я иду домой, потому что я устала / устал."
+  },
+  {
+    "id": "warum_bist_du_denn_hier",
+    "de": "Warum bist du denn hier?",
+    "ru": "Почему же ты здесь?",
+    "example_de": "Warum bist du denn hier?",
+    "example_ru": "Почему же ты здесь?"
+  },
+  {
+    "id": "ich_melde_mich_an",
+    "de": "Ich melde mich an.",
+    "ru": "Я регистрируюсь / записываюсь.",
+    "example_de": "Ich melde mich an.",
+    "example_ru": "Я регистрируюсь / записываюсь."
+  },
+  {
+    "id": "du_meldest_dich_an",
+    "de": "Du meldest dich an.",
+    "ru": "Ты регистрируешься / записываешься.",
+    "example_de": "Du meldest dich an.",
+    "example_ru": "Ты регистрируешься / записываешься."
+  },
+  {
+    "id": "wir_melden_uns_an",
+    "de": "Wir melden uns an.",
+    "ru": "Мы регистрируемся / записываемся.",
+    "example_de": "Wir melden uns an.",
+    "example_ru": "Мы регистрируемся / записываемся."
+  },
+  {
+    "id": "koenntest_du_das_bitte_bestellen",
+    "de": "Könntest du das bitte bestellen?",
+    "ru": "Ты мог бы, пожалуйста, это заказать?",
+    "example_de": "Könntest du das bitte bestellen?",
+    "example_ru": "Ты мог бы, пожалуйста, это заказать?"
+  },
+  {
+    "id": "ein_geschenk_schenken",
+    "de": "Ein Geschenk schenken.",
+    "ru": "Подарить подарок.",
+    "example_de": "Ein Geschenk schenken.",
+    "example_ru": "Подарить подарок."
+  },
+  {
+    "id": "zeit_schenken",
+    "de": "Zeit schenken.",
+    "ru": "Подарить время / уделить время.",
+    "example_de": "Zeit schenken.",
+    "example_ru": "Подарить время / уделить время."
+  },
+  {
+    "id": "vertrauen_schenken",
+    "de": "Vertrauen schenken.",
+    "ru": "Оказать доверие / довериться.",
+    "example_de": "Vertrauen schenken.",
+    "example_ru": "Оказать доверие / довериться."
+  },
+  {
+    "id": "das_stimmt",
+    "de": "Das stimmt.",
+    "ru": "Это верно.",
+    "example_de": "Das stimmt.",
+    "example_ru": "Это верно."
+  },
+  {
+    "id": "ja_das_stimmt",
+    "de": "Ja, das stimmt.",
+    "ru": "Да, это верно.",
+    "example_de": "Ja, das stimmt.",
+    "example_ru": "Да, это верно."
   }
 ]
