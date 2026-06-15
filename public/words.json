@@ -967,5 +967,10 @@
   {"de": "die Walnuss", "ru": "грецкий орех", "plural": "die Walnüsse", "article": "die", "topic": "Essen und Trinken"},
   {"de": "das Toastbrot", "ru": "тостовый хлеб", "plural": "die Toastbrote", "article": "das", "topic": "Essen und Trinken"},
   {"de": "der Pfannkuchen", "ru": "блин / панкейк", "plural": "die Pfannkuchen", "article": "der", "topic": "Essen und Trinken"},
-  {"de": "der Brei", "ru": "каша / пюре", "plural": "die Breie", "article": "der", "topic": "Essen und Trinken"}
+  {"de": "der Brei", "ru": "каша / пюре", "plural": "die Breie", "article": "der", "topic": "Essen und Trinken"},
+  {"de": "der Hafer", "ru": "овёс", "plural": "—", "article": "der", "topic": "Essen und Trinken"},
+  {"de": "der Zimt", "ru": "корица", "plural": "—", "article": "der", "topic": "Essen und Trinken"},
+  {"de": "die Vanille", "ru": "ваниль", "plural": "—", "article": "die", "topic": "Essen und Trinken"},
+  {"de": "die Gurkenscheibe", "ru": "ломтик огурца", "plural": "die Gurkenscheiben", "article": "die", "topic": "Essen und Trinken"},
+  {"de": "der Aufstrich", "ru": "намазка", "plural": "die Aufstriche", "article": "der", "topic": "Essen und Trinken"}
 ]
