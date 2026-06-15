@@ -36,7 +36,6 @@ schieben
 schießen
 schlagen
 schneiden
-schweigen
 schwimmen
 senden
 sinken
