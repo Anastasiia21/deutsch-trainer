@@ -1008,5 +1008,11 @@
   {"de": "pfui", "ru": "фу / тьфу", "plural": "—", "article": "—", "topic": "Kommunikation und Beziehungen"},
   {"de": "morgens", "ru": "по утрам / утром", "plural": "—", "article": "—", "topic": "Zeit und Datum"},
   {"de": "die Tellersuppe", "ru": "суп в тарелке / порция супа", "plural": "die Tellersuppen", "article": "die", "topic": "Essen und Trinken"},
-  {"de": "das Vertrauen", "ru": "доверие", "plural": "—", "article": "das", "topic": "Kommunikation und Beziehungen"}
+  {"de": "das Vertrauen", "ru": "доверие", "plural": "—", "article": "das", "topic": "Kommunikation und Beziehungen"},
+  {"de": "der Bratfisch", "ru": "жареная рыба", "plural": "die Bratfische", "article": "der", "topic": "Essen und Trinken"},
+  {"de": "nichts", "ru": "ничего", "plural": "—", "article": "—", "topic": "Kommunikation und Beziehungen"},
+  {"de": "nix", "ru": "ничего (разговорно)", "plural": "—", "article": "—", "topic": "Kommunikation und Beziehungen"},
+  {"de": "selten", "ru": "редко", "plural": "—", "article": "—", "topic": "Zeit und Datum"},
+  {"de": "doch", "ru": "же / всё-таки / наоборот", "plural": "—", "article": "—", "topic": "Kommunikation und Beziehungen"},
+  {"de": "am meisten", "ru": "больше всего", "plural": "—", "article": "—", "topic": "Kommunikation und Beziehungen"}
 ]

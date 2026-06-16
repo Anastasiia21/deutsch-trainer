@@ -2833,5 +2833,40 @@
     "ru": "Да, это верно.",
     "example_de": "Ja, das stimmt.",
     "example_ru": "Да, это верно."
+  },
+  {
+    "id": "koenntest_du_mir_bitte_eine_tasse_tee_machen",
+    "de": "Könntest du mir bitte eine Tasse Tee machen?",
+    "ru": "Ты мог бы, пожалуйста, сделать мне чашку чая?",
+    "example_de": "Könntest du mir bitte eine Tasse Tee machen?",
+    "example_ru": "Ты мог бы, пожалуйста, сделать мне чашку чая?"
+  },
+  {
+    "id": "ein_teller_suppe",
+    "de": "Ein Teller Suppe.",
+    "ru": "Тарелка супа.",
+    "example_de": "Ich nehme einen Teller Suppe.",
+    "example_ru": "Я возьму тарелку супа."
+  },
+  {
+    "id": "ein_stueck_torte",
+    "de": "Ein Stück Torte.",
+    "ru": "Кусок торта.",
+    "example_de": "Ich möchte ein Stück Torte.",
+    "example_ru": "Я хочу кусок торта."
+  },
+  {
+    "id": "doch",
+    "de": "Doch!",
+    "ru": "Нет же! / Да нет, наоборот!",
+    "example_de": "Doch, ich komme.",
+    "example_ru": "Нет же, я приду."
+  },
+  {
+    "id": "ist_doch_gut_oder",
+    "de": "Ist doch gut, oder?",
+    "ru": "Это же хорошо, правда?",
+    "example_de": "Ist doch gut, oder?",
+    "example_ru": "Это же хорошо, правда?"
   }
 ]
