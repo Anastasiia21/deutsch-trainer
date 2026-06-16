@@ -1014,5 +1014,13 @@
   {"de": "nix", "ru": "ничего (разговорно)", "plural": "—", "article": "—", "topic": "Kommunikation und Beziehungen"},
   {"de": "selten", "ru": "редко", "plural": "—", "article": "—", "topic": "Zeit und Datum"},
   {"de": "doch", "ru": "же / всё-таки / наоборот", "plural": "—", "article": "—", "topic": "Kommunikation und Beziehungen"},
-  {"de": "am meisten", "ru": "больше всего", "plural": "—", "article": "—", "topic": "Kommunikation und Beziehungen"}
+  {"de": "am meisten", "ru": "больше всего", "plural": "—", "article": "—", "topic": "Kommunikation und Beziehungen"},
+  {"de": "die Schinkenplatte", "ru": "тарелка с ветчиной", "plural": "die Schinkenplatten", "article": "die", "topic": "Essen und Trinken"},
+  {"de": "die Gemüsesuppe", "ru": "овощной суп", "plural": "die Gemüsesuppen", "article": "die", "topic": "Essen und Trinken"},
+  {"de": "das Rindersteak", "ru": "говяжий стейк", "plural": "die Rindersteaks", "article": "das", "topic": "Essen und Trinken"},
+  {"de": "der Obstkuchen", "ru": "фруктовый пирог", "plural": "die Obstkuchen", "article": "der", "topic": "Essen und Trinken"},
+  {"de": "der Apfelkuchen", "ru": "яблочный пирог", "plural": "die Apfelkuchen", "article": "der", "topic": "Essen und Trinken"},
+  {"de": "die Zwiebelsuppe", "ru": "луковый суп", "plural": "die Zwiebelsuppen", "article": "die", "topic": "Essen und Trinken"},
+  {"de": "der Schweinebraten", "ru": "жаркое из свинины", "plural": "die Schweinebraten", "article": "der", "topic": "Essen und Trinken"},
+  {"de": "der Gasthof", "ru": "трактир / гостевой дом", "plural": "die Gasthöfe", "article": "der", "topic": "Reisen"}
 ]
