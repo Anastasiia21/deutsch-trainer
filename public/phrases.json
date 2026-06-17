@@ -2868,5 +2868,89 @@
     "ru": "Это же хорошо, правда?",
     "example_de": "Ist doch gut, oder?",
     "example_ru": "Это же хорошо, правда?"
+  },
+  {
+    "id": "das_kleid_ist_sauber",
+    "de": "Das Kleid ist sauber.",
+    "ru": "Платье чистое.",
+    "example_de": "Das Kleid ist sauber.",
+    "example_ru": "Платье чистое."
+  },
+  {
+    "id": "das_kleid_ist_schmutzig",
+    "de": "Das Kleid ist schmutzig.",
+    "ru": "Платье грязное.",
+    "example_de": "Das Kleid ist schmutzig.",
+    "example_ru": "Платье грязное."
+  },
+  {
+    "id": "die_haende_sind_sauber",
+    "de": "Die Hände sind sauber.",
+    "ru": "Руки чистые.",
+    "example_de": "Die Hände sind sauber.",
+    "example_ru": "Руки чистые."
+  },
+  {
+    "id": "die_schuhe_sind_schmutzig",
+    "de": "Die Schuhe sind schmutzig.",
+    "ru": "Обувь грязная.",
+    "example_de": "Die Schuhe sind schmutzig.",
+    "example_ru": "Обувь грязная."
+  },
+  {
+    "id": "ich_habe_das_kleid_gewaschen",
+    "de": "Ich habe das Kleid gewaschen.",
+    "ru": "Я постирала платье.",
+    "example_de": "Ich habe das Kleid gewaschen.",
+    "example_ru": "Я постирала платье."
+  },
+  {
+    "id": "ich_habe_das_kleid_gewaschen_und_es_ist_jetzt_sauber",
+    "de": "Ich habe das Kleid gewaschen und es ist jetzt sauber.",
+    "ru": "Я постирала платье, и теперь оно чистое.",
+    "example_de": "Ich habe das Kleid gewaschen und es ist jetzt sauber.",
+    "example_ru": "Я постирала платье, и теперь оно чистое."
+  },
+  {
+    "id": "ich_arbeite_heute_den_ganzen_tag",
+    "de": "Ich arbeite heute den ganzen Tag.",
+    "ru": "Я сегодня работаю весь день.",
+    "example_de": "Ich arbeite heute den ganzen Tag.",
+    "example_ru": "Я сегодня работаю весь день."
+  },
+  {
+    "id": "ich_muss_heute_den_ganzen_tag_arbeiten",
+    "de": "Ich muss heute den ganzen Tag arbeiten.",
+    "ru": "Мне сегодня нужно работать весь день.",
+    "example_de": "Ich muss heute den ganzen Tag arbeiten.",
+    "example_ru": "Мне сегодня нужно работать весь день."
+  },
+  {
+    "id": "ich_arbeite_von_9_uhr_bis_17_uhr",
+    "de": "Ich arbeite von 9 Uhr bis 17 Uhr.",
+    "ru": "Я работаю с 9 до 17 часов.",
+    "example_de": "Ich arbeite von 9 Uhr bis 17 Uhr.",
+    "example_ru": "Я работаю с 9 до 17 часов."
+  },
+  {
+    "id": "das_geschaeft_ist_von_montag_bis_freitag_geoeffnet",
+    "de": "Das Geschäft ist von Montag bis Freitag geöffnet.",
+    "ru": "Магазин открыт с понедельника по пятницу.",
+    "example_de": "Das Geschäft ist von Montag bis Freitag geöffnet.",
+    "example_ru": "Магазин открыт с понедельника по пятницу."
+  },
+  {
+    "id": "wir_sind_von_10_bis_12_uhr_da",
+    "de": "Wir sind von 10 bis 12 Uhr da.",
+    "ru": "Мы там с 10 до 12.",
+    "example_de": "Wir sind von 10 bis 12 Uhr da.",
+    "example_ru": "Мы там с 10 до 12."
+  },
+  {
+    "id": "ich_fahre_von_wien_nach_salzburg",
+    "de": "Ich fahre von Wien nach Salzburg.",
+    "ru": "Я еду из Вены в Зальцбург.",
+    "example_de": "Ich fahre von Wien nach Salzburg.",
+    "example_ru": "Я еду из Вены в Зальцбург."
   }
 ]

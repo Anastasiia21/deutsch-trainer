@@ -1046,5 +1046,13 @@
   {"de": "der Absatz", "ru": "каблук", "plural": "die Absätze", "article": "der", "topic": "Kleidung und Schuhe"},
   {"de": "die Sohle", "ru": "подошва", "plural": "die Sohlen", "article": "die", "topic": "Kleidung und Schuhe"},
   {"de": "der Schnürsenkel", "ru": "шнурок", "plural": "die Schnürsenkel", "article": "der", "topic": "Kleidung und Schuhe"},
-  {"de": "die Schuhgröße", "ru": "размер обуви", "plural": "die Schuhgrößen", "article": "die", "topic": "Kleidung und Schuhe"}
+  {"de": "die Schuhgröße", "ru": "размер обуви", "plural": "die Schuhgrößen", "article": "die", "topic": "Kleidung und Schuhe"},
+  {"de": "sauber", "ru": "чистый", "plural": "—", "article": "—", "topic": "Описание и свойства"},
+  {"de": "schmutzig", "ru": "грязный", "plural": "—", "article": "—", "topic": "Описание и свойства"},
+  {"de": "heute Morgen", "ru": "сегодня утром", "plural": "—", "article": "—", "topic": "Zeit und Datum"},
+  {"de": "heute Vormittag", "ru": "сегодня в первой половине дня", "plural": "—", "article": "—", "topic": "Zeit und Datum"},
+  {"de": "heute Nachmittag", "ru": "сегодня после обеда", "plural": "—", "article": "—", "topic": "Zeit und Datum"},
+  {"de": "heute Abend", "ru": "сегодня вечером", "plural": "—", "article": "—", "topic": "Zeit und Datum"},
+  {"de": "heute Nacht", "ru": "сегодня ночью", "plural": "—", "article": "—", "topic": "Zeit und Datum"},
+  {"de": "den ganzen Tag", "ru": "весь день", "plural": "—", "article": "—", "topic": "Zeit und Datum"}
 ]
