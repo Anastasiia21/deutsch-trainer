@@ -1054,5 +1054,12 @@
   {"de": "heute Nachmittag", "ru": "сегодня после обеда", "plural": "—", "article": "—", "topic": "Zeit und Datum"},
   {"de": "heute Abend", "ru": "сегодня вечером", "plural": "—", "article": "—", "topic": "Zeit und Datum"},
   {"de": "heute Nacht", "ru": "сегодня ночью", "plural": "—", "article": "—", "topic": "Zeit und Datum"},
-  {"de": "den ganzen Tag", "ru": "весь день", "plural": "—", "article": "—", "topic": "Zeit und Datum"}
+  {"de": "den ganzen Tag", "ru": "весь день", "plural": "—", "article": "—", "topic": "Zeit und Datum"},
+  {"de": "ursprünglich", "ru": "первоначально, изначально", "plural": "—", "article": "—", "topic": "Описание и свойства"},
+  {"de": "im Gegensatz zu", "ru": "в отличие от", "plural": "—", "article": "—", "topic": "Kommunikation und Beziehungen"},
+  {"de": "reichhaltig", "ru": "обильный, разнообразный (о еде)", "plural": "—", "article": "—", "topic": "Описание и свойства"},
+  {"de": "manchmal", "ru": "иногда", "plural": "—", "article": "—", "topic": "Zeit und Datum"},
+  {"de": "unfreundlich", "ru": "недружелюбный, неприветливый", "plural": "—", "article": "—", "topic": "Описание и свойства"},
+  {"de": "kalt", "ru": "холодный", "plural": "—", "article": "—", "topic": "Описание и свойства"},
+  {"de": "alt", "ru": "старый", "plural": "—", "article": "—", "topic": "Описание и свойства"}
 ]
