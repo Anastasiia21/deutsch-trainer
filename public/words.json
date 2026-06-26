@@ -1061,5 +1061,10 @@
   {"de": "manchmal", "ru": "иногда", "plural": "—", "article": "—", "topic": "Zeit und Datum"},
   {"de": "unfreundlich", "ru": "недружелюбный, неприветливый", "plural": "—", "article": "—", "topic": "Описание и свойства"},
   {"de": "kalt", "ru": "холодный", "plural": "—", "article": "—", "topic": "Описание и свойства"},
-  {"de": "alt", "ru": "старый", "plural": "—", "article": "—", "topic": "Описание и свойства"}
+  {"de": "alt", "ru": "старый", "plural": "—", "article": "—", "topic": "Описание и свойства"},
+  {"de": "der Kartoffelsalat", "ru": "картофельный салат", "plural": "die Kartoffelsalate", "article": "der", "topic": "Essen und Trinken"},
+  {"de": "die Platte", "ru": "большое блюдо (для подачи)", "plural": "die Platten", "article": "die", "topic": "Haus und Möbel"},
+  {"de": "die Speise", "ru": "кушанье, еда", "plural": "die Speisen", "article": "die", "topic": "Essen und Trinken"},
+  {"de": "verschieden", "ru": "различный, разнообразный", "plural": "—", "article": "—", "topic": "Описание и свойства"},
+  {"de": "der Bäcker", "ru": "пекарь", "plural": "die Bäcker", "article": "der", "topic": "Arbeit und Berufe"}
 ]

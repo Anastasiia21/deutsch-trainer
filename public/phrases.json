@@ -2952,5 +2952,68 @@
     "ru": "Я еду из Вены в Зальцбург.",
     "example_de": "Ich fahre von Wien nach Salzburg.",
     "example_ru": "Я еду из Вены в Зальцбург."
+  },
+  {
+    "id": "das_beruehmte_wiener_schnitzel",
+    "de": "Das berühmte Wiener Schnitzel isst man in Österreich gern mit Kartoffelsalat.",
+    "ru": "Знаменитый венский шницель в Австрии любят есть с картофельным салатом.",
+    "example_de": "Das berühmte Wiener Schnitzel isst man in Österreich gern mit Kartoffelsalat.",
+    "example_ru": "Знаменитый венский шницель в Австрии любят есть с картофельным салатом."
+  },
+  {
+    "id": "ich_mag_kaese_nicht",
+    "de": "Ich mag Käse nicht, denn er ist zu salzig.",
+    "ru": "Я не люблю сыр, потому что он слишком солёный.",
+    "example_de": "Ich mag Käse nicht, denn er ist zu salzig.",
+    "example_ru": "Я не люблю сыр, потому что он слишком солёный."
+  },
+  {
+    "id": "ich_esse_kaese_selten",
+    "de": "Ich esse Käse selten.",
+    "ru": "Я редко ем сыр.",
+    "example_de": "Ich esse Käse selten.",
+    "example_ru": "Я редко ем сыр."
+  },
+  {
+    "id": "mittags_essen_die_schweizer",
+    "de": "Mittags essen die Schweizer einfache und schnelle Gerichte, zum Beispiel Rösti mit Bratwurst.",
+    "ru": "На обед швейцарцы едят простые и быстрые блюда, например рёшти с жареной колбасой.",
+    "example_de": "Mittags essen die Schweizer einfache und schnelle Gerichte, zum Beispiel Rösti mit Bratwurst.",
+    "example_ru": "На обед швейцарцы едят простые и быстрые блюда, например рёшти с жареной колбасой."
+  },
+  {
+    "id": "ich_hoere_das_erste_wort_nicht",
+    "de": "Ich höre das erste Wort nicht.",
+    "ru": "Я не слышу первое слово.",
+    "example_de": "Ich höre das erste Wort nicht.",
+    "example_ru": "Я не слышу первое слово."
+  },
+  {
+    "id": "die_ukraine_ist_fuer_speck_bekannt",
+    "de": "Die Ukraine ist für Speck und Borschtsch bekannt.",
+    "ru": "Украина известна салом и борщом.",
+    "example_de": "Die Ukraine ist für Speck und Borschtsch bekannt.",
+    "example_ru": "Украина известна салом и борщом."
+  },
+  {
+    "id": "die_schweiz_ist_fuer_kaese_bekannt",
+    "de": "Die Schweiz ist für Käse und Schokolade bekannt.",
+    "ru": "Швейцария известна сыром и шоколадом.",
+    "example_de": "Die Schweiz ist für Käse und Schokolade bekannt.",
+    "example_ru": "Швейцария известна сыром и шоколадом."
+  },
+  {
+    "id": "ich_gehe_lieber_zu_fuss",
+    "de": "Ich gehe lieber zu Fuß.",
+    "ru": "Я лучше пойду пешком.",
+    "example_de": "Ich gehe lieber zu Fuß.",
+    "example_ru": "Я лучше пойду пешком."
+  },
+  {
+    "id": "ich_trinke_lieber_tee_als_kaffee",
+    "de": "Ich trinke lieber Tee als Kaffee.",
+    "ru": "Я предпочитаю чай кофе.",
+    "example_de": "Ich trinke lieber Tee als Kaffee.",
+    "example_ru": "Я предпочитаю чай кофе."
   }
 ]
