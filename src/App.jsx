@@ -79,6 +79,31 @@ export default function App() {
   const [searchQuery, setSearchQuery] = useState("");
   const [speechVoices, setSpeechVoices] = useState([]);
 
+  // Article-check (Проверки) state
+  const ARTICLE_MISTAKES_KEY = "deutschTrainer.articleMistakes.v1";
+  const [articleMistakes, setArticleMistakes] = useState(() => {
+    if (typeof window === "undefined") return [];
+    try {
+      const raw = window.localStorage.getItem(ARTICLE_MISTAKES_KEY);
+      const parsed = raw ? JSON.parse(raw) : [];
+      return Array.isArray(parsed) ? parsed.filter((x) => typeof x === "string") : [];
+    } catch (error) {
+      return [];
+    }
+  });
+  const [articleIndex, setArticleIndex] = useState(0);
+  const [articlePhase, setArticlePhase] = useState("quiz");
+  const [articlePicked, setArticlePicked] = useState(null);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    try {
+      window.localStorage.setItem(ARTICLE_MISTAKES_KEY, JSON.stringify(articleMistakes));
+    } catch (error) {
+      // ignore
+    }
+  }, [articleMistakes]);
+
   useEffect(() => {
     fetch("/words.json")
       .then((res) => res.json())
@@ -142,6 +167,26 @@ export default function App() {
   const filteredPhrases = phrases.filter((phrase) =>
     matchesSearch(phrase, ["de", "ru", "example_de", "example_ru"]),
   );
+
+
+  // Article-check (Проверки) list: only words with a real article (der/die/das).
+  const articleEligibleWords = words.filter((word) => {
+    const a = String(word.article || "").trim().toLowerCase();
+    return a === "der" || a === "die" || a === "das";
+  });
+
+  // Strip leading article from a word's `de` field (e.g. "der Apfel" -> "Apfel").
+  function stripArticle(de) {
+    const text = String(de || "").trim();
+    return text.replace(/^(der|die|das)\s+/i, "");
+  }
+
+  // Mistakes first (in saved order), then the rest of the eligible pool in stable order.
+  const mistakeSet = new Set(articleMistakes);
+  const articleList = [
+    ...articleEligibleWords.filter((w) => mistakeSet.has(w.de)),
+    ...articleEligibleWords.filter((w) => !mistakeSet.has(w.de)),
+  ];
 
 
   const currentList =
@@ -245,7 +290,16 @@ export default function App() {
     setSelectedArticle("all");
     setSelectedTopic("all");
   }
- }
+
+  if (newMode === "articles") {
+    setSelectedArticle("all");
+    setSelectedTopic("all");
+    setSelectedLevel("all");
+    setArticleIndex(0);
+    setArticlePhase("quiz");
+    setArticlePicked(null);
+  }
+}
 
   return (
     <div style={{ ...styles.page, ...(isPhone ? styles.phonePage : {}) }}>
@@ -253,7 +307,9 @@ export default function App() {
         <h1 style={{ ...styles.title, ...(isPhone ? styles.phoneTitle : {}) }}>Deutsch Trainer</h1>
 
         <p style={{ ...styles.counter, ...(isPhone ? styles.phoneCounter : {}) }}>
-          {currentList.length > 0 ? index + 1 : 0} / {currentList.length}
+          {mode === "articles"
+            ? "Проверка артиклей"
+            : `${currentList.length > 0 ? index + 1 : 0} / ${currentList.length}`}
         </p>
       </div>
 
@@ -280,7 +336,7 @@ export default function App() {
         >
           Глаголы
         </button>
-    
+
 
         <button
          style={
@@ -291,6 +347,17 @@ export default function App() {
           onClick={() => changeMode("phrases")}
         >
          Фразы
+        </button>
+
+        <button
+          style={
+            mode === "articles"
+              ? { ...styles.activeModeButton, ...(isPhone ? styles.phoneModeButton : {}) }
+              : { ...styles.modeButton, ...(isPhone ? styles.phoneModeButton : {}) }
+          }
+          onClick={() => changeMode("articles")}
+        >
+          Проверки
         </button>
           </div>
 
@@ -356,6 +423,39 @@ export default function App() {
   </div>
 )}
 
+      {mode === "articles" && (
+        <ArticleCheckView
+          list={articleList}
+          index={articleIndex}
+          phase={articlePhase}
+          picked={articlePicked}
+          isPhone={isPhone}
+          mistakesCount={articleMistakes.length}
+          stripArticle={stripArticle}
+          onPick={(article) => {
+            if (articlePhase !== "quiz") return;
+            const word = articleList[articleIndex];
+            if (!word) return;
+            const correct = String(word.article || "").toLowerCase();
+            setArticlePicked(article);
+            if (article !== correct) {
+              setArticleMistakes((prev) =>
+                prev.includes(word.de) ? prev : [...prev, word.de],
+              );
+            }
+            setArticlePhase("reveal");
+          }}
+          onNext={() => {
+            if (articleList.length === 0) return;
+            setArticlePicked(null);
+            setArticlePhase("quiz");
+            setArticleIndex((prev) => (prev + 1) % articleList.length);
+          }}
+          onClearMistakes={() => setArticleMistakes([])}
+        />
+      )}
+
+      <div style={mode === "articles" ? { display: "none" } : undefined}>
       <div style={styles.progressOuter}>
         <div
           style={{
@@ -496,6 +596,7 @@ export default function App() {
         </div>
         )}
       </div>
+      </div>
     </div>
   );
 }
@@ -563,7 +664,7 @@ content: {
   maxWidth: 700,
   margin: "14px auto 18px",
   display: "grid",
-  gridTemplateColumns: "1fr 1fr 1fr",
+  gridTemplateColumns: "1fr 1fr 1fr 1fr",
   gap: 10,
 },
 
@@ -1030,4 +1131,288 @@ phoneNavButton: {
   borderRadius: 16,
   fontSize: 16,
 },
+
+progressOuter: {
+  width: "100%",
+  maxWidth: 700,
+  height: 6,
+  borderRadius: 999,
+  background: "#E3E6EC",
+  overflow: "hidden",
+  margin: "0 auto 14px",
+},
+
+progressInner: {
+  height: "100%",
+  background: "#4F6D8A",
+  borderRadius: 999,
+  transition: "width 0.2s ease",
+},
+
+articleMistakesBar: {
+  width: "100%",
+  maxWidth: 700,
+  margin: "0 auto 14px",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "space-between",
+  gap: 10,
+  color: "#6B7280",
+  fontSize: 15,
+  fontWeight: 700,
+},
+
+articleCard: {
+  width: "100%",
+  maxWidth: 700,
+  margin: "0 auto",
+  minHeight: "clamp(220px, 27svh, 280px)",
+  padding: "28px 22px",
+  background: "#FCFCFC",
+  borderRadius: 28,
+  boxShadow: "0 2px 8px rgba(0,0,0,0.05)",
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "center",
+  alignItems: "stretch",
+  textAlign: "center",
+  boxSizing: "border-box",
+  position: "relative",
+},
+
+phoneArticleCard: {
+  padding: "22px 16px",
+  minHeight: "clamp(180px, 24dvh, 230px)",
+  borderRadius: 24,
+},
+
+articleMistakesClearButton: {
+  padding: "8px 12px",
+  borderRadius: 999,
+  fontSize: 14,
+  whiteSpace: "nowrap",
+},
+
+articleChoiceRow: {
+  marginTop: 22,
+  display: "grid",
+  gridTemplateColumns: "1fr 1fr 1fr",
+  gap: 10,
+  width: "100%",
+},
+
+articleChoiceButton: {
+  padding: "12px 6px",
+  borderRadius: 18,
+  border: "1px solid #4F6D8A",
+  background: "#4F6D8A",
+  color: "#FFFFFF",
+  fontSize: "clamp(18px, 3.5vw, 22px)",
+  fontWeight: 800,
+  cursor: "pointer",
+  whiteSpace: "nowrap",
+},
+
+articleReveal: {
+  marginTop: 18,
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "center",
+  gap: 6,
+},
+
+articleRevealBadge: {
+  display: "inline-block",
+  padding: "8px 16px",
+  borderRadius: 999,
+  fontSize: 16,
+  fontWeight: 800,
+},
+
+articleRevealBadgeWrong: {
+  background: "#FBE3E3",
+  color: "#9B1C1C",
+  border: "1px solid #F2B5B5",
+},
+
+articleRevealBadgeRight: {
+  background: "#DCEFE0",
+  color: "#1F6B3A",
+  border: "1px solid #B7DBC0",
+},
+
+articleRevealHint: {
+  fontSize: 14,
+  color: "#6B7280",
+  textAlign: "center",
+  maxWidth: 420,
+},
+
+phoneProgressOuter: {
+  margin: "0 auto 10px",
+},
+
+phoneArticleMistakesBar: {
+  flexDirection: "column",
+  alignItems: "stretch",
+  gap: 6,
+  fontSize: 14,
+  margin: "0 auto 10px",
+},
+
+phoneArticleHint: {
+  fontSize: 15,
+  marginTop: 10,
+},
+
+phoneArticleChoiceRow: {
+  marginTop: 16,
+  gap: 8,
+},
+
+phoneArticleChoiceButton: {
+  padding: "10px 4px",
+  fontSize: 18,
+  borderRadius: 16,
+},
+
+phoneArticleReveal: {
+  marginTop: 14,
+},
 };
+
+
+function ArticleCheckView({
+  list,
+  index,
+  phase,
+  picked,
+  isPhone,
+  mistakesCount,
+  stripArticle,
+  onPick,
+  onNext,
+  onClearMistakes,
+}) {
+  const ARTICLES = ["der", "die", "das"];
+
+  if (list.length === 0) {
+    return (
+      <div style={{ ...styles.card, ...(isPhone ? styles.phoneCard : {}) }}>
+        <div style={{ ...styles.emptyText, ...(isPhone ? styles.phoneEmptyText : {}) }}>
+          Нет слов с известным артиклем для проверки
+        </div>
+      </div>
+    );
+  }
+
+  const word = list[index];
+  const correct = String(word.article || "").toLowerCase();
+  const isCorrectPick = picked === correct;
+  const isMistake = phase === "reveal" && !isCorrectPick;
+  const bare = stripArticle(word.de);
+
+  return (
+    <>
+      <div style={{ ...styles.progressOuter, ...(isPhone ? styles.phoneProgressOuter : {}) }}>
+        <div
+          style={{
+            ...styles.progressInner,
+            width: list.length > 0 ? `${((index + 1) / list.length) * 100}%` : "0%",
+          }}
+        />
+      </div>
+
+      <div style={{ ...styles.articleMistakesBar, ...(isPhone ? styles.phoneArticleMistakesBar : {}) }}>
+        <span>
+          Слово {list.length > 0 ? index + 1 : 0} / {list.length}
+          {mistakesCount > 0 ? ` · На повторении: ${mistakesCount}` : ""}
+        </span>
+        {mistakesCount > 0 && (
+          <button
+            type="button"
+            style={{ ...styles.secondaryButton, ...styles.articleMistakesClearButton, ...(isPhone ? styles.phoneNavButton : {}) }}
+            onClick={onClearMistakes}
+            title="Убрать все слова из повторения"
+          >
+            Очистить повтор
+          </button>
+        )}
+      </div>
+
+      {phase === "quiz" ? (
+        <div style={{ ...styles.articleCard, ...(isPhone ? styles.phoneArticleCard : {}) }}>
+          <div style={{ ...styles.mainWord, ...styles.frontMainWord, ...(isPhone ? styles.phoneFrontMainWord : {}) }}>
+            {bare}
+          </div>
+          <div style={{ ...styles.hint, ...(isPhone ? styles.phoneArticleHint : {}) }}>
+            Выбери правильный артикль
+          </div>
+          <div style={{ ...styles.articleChoiceRow, ...(isPhone ? styles.phoneArticleChoiceRow : {}) }}>
+            {ARTICLES.map((article) => (
+              <button
+                key={article}
+                type="button"
+                style={{ ...styles.articleChoiceButton, ...(isPhone ? styles.phoneArticleChoiceButton : {}) }}
+                onClick={() => onPick(article)}
+              >
+                {article}
+              </button>
+            ))}
+          </div>
+        </div>
+      ) : (
+        <div
+          style={{
+            ...styles.articleCard,
+            ...(isPhone ? styles.phoneArticleCard : {}),
+          }}
+        >
+          <div style={{ ...styles.mainWord, ...(isPhone ? styles.phoneMainWord : {}) }}>
+            {word.de}
+          </div>
+
+          <div style={{ ...styles.infoBox, ...(isPhone ? styles.phoneInfoBox : {}) }}>
+            <div>
+              <p style={styles.smallLabel}>Артикль</p>
+              <p style={styles.infoText}>{word.article}</p>
+            </div>
+            <div>
+              <p style={styles.smallLabel}>Перевод</p>
+              <p style={styles.infoText}>{word.ru}</p>
+            </div>
+          </div>
+
+          <div style={{ ...styles.articleReveal, ...(isPhone ? styles.phoneArticleReveal : {}) }}>
+            {isMistake ? (
+              <>
+                <span style={{ ...styles.articleRevealBadge, ...styles.articleRevealBadgeWrong }}>
+                  Неверно: «{picked}»
+                </span>
+                <span style={{ ...styles.articleRevealHint }}>
+                  Слово добавлено в повтор — увидишь его снова в начале списка.
+                </span>
+              </>
+            ) : (
+              <span style={{ ...styles.articleRevealBadge, ...styles.articleRevealBadgeRight }}>
+                Верно!
+              </span>
+            )}
+          </div>
+
+          <div style={{ ...styles.buttons, ...(isPhone ? styles.phoneButtons : {}) }}>
+            <span />
+            <button
+              type="button"
+              style={{ ...styles.mainButton, ...(isPhone ? styles.phoneNavButton : {}) }}
+              onClick={onNext}
+            >
+              Дальше
+            </button>
+            <span />
+          </div>
+        </div>
+      )}
+    </>
+  );
+}
